@@ -16,7 +16,7 @@ Language files for the Shopkeepers plugin. Consider contributing!
 
 With every update of Shopkeepers (if there have been changes to the messages) a new folder is created containing the default translations (english, and likely german since I speak that myself), as well a `changelog` file listing the message changes of that version.
 
-To really be of use, **this repository depends on contributions** for languages other than these defaults. So feel encouraged to add new translations, update outdated translations, or suggest changes of existing translations.
+To really be of use **this repository depends on contributions** for languages other than these defaults. Feel encouraged to add new translations, update outdated translations, or suggest changes of existing translations.
 
 Simply fork the project, add or edit a file, and then [create a `Pull Request`](https://help.github.com/en/articles/creating-a-pull-request-from-a-fork). You can [add and edit files directly on github](https://help.github.com/en/articles/managing-files-on-github) inside the browser (no need to know Git commands!). Github will automatically fork the repository and create a Pull Request for your changes.
 
