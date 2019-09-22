@@ -12,6 +12,10 @@ Language files for the Shopkeepers plugin. Consider contributing!
 **Discord Server**: https://discord.gg/d9NKd5z  
 **Source code**: https://github.com/Shopkeepers/Shopkeepers/  
 
+### Using these translations
+
+In order to use these translations, pick the desired language file inside the folder matching your version of Shopkeepers. Create a new language file `language-<languageKey>.yml` inside the plugin's data folder, following the [hints in the corresponding wiki page](https://github.com/Shopkeepers/Shopkeepers-Wiki/wiki/Translations#using-custom-translations). Copy the contents of the selected language file into your language file. Change the `language: <languageKey>` setting inside the config to match the name of your language file and then reload the plugin.
+
 ### Contributing
 
 With every update of Shopkeepers (if there have been changes to the messages) a new folder is created containing the default translations (english, and likely german since I speak that myself), as well a `changelog` file listing the message changes of that version.
