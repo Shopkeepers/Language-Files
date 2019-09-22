@@ -28,3 +28,5 @@ To get your changes incorporated **try to follow these principles**:
 * When adding new files, use UTF8 encoding. For example, the text editor [Notepad++](https://notepad-plus-plus.org/) allows you to easily determine and change the encoding of your file. Try to use UTF8 right from the beginning, because changing the file encoding in retrospect might break special characters.
 
 If you are having questions or suggestions, [join the Discord Server](https://discord.gg/d9NKd5z) or [create an issue](https://github.com/Shopkeepers/Translations/issues/new).
+
+### Thank you to all [contributors](https://github.com/Shopkeepers/Translations/graphs/contributors)!
