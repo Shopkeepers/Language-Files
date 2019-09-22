@@ -14,7 +14,7 @@ Language files for the Shopkeepers plugin. Consider contributing!
 
 ### Using these translations
 
-In order to use these translations, pick the desired language file inside the folder matching your version of Shopkeepers. Create a new language file `language-<languageKey>.yml` inside the plugin's data folder, following the [hints in the corresponding wiki page](https://github.com/Shopkeepers/Shopkeepers-Wiki/wiki/Translations#using-custom-translations). Copy the contents of the selected language file into your language file. Change the `language: <languageKey>` setting inside the config to match the name of your language file and then reload the plugin.
+In order to use these translations, pick the desired language file inside the folder matching your version of Shopkeepers and follow the [instructions in the corresponding wiki page](https://github.com/Shopkeepers/Shopkeepers-Wiki/wiki/Translations#using-custom-translations).
 
 ### Contributing
 
