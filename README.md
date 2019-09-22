@@ -8,6 +8,7 @@ Language files for the Shopkeepers plugin. Consider contributing!
 
 **BukkitDev Page**: https://dev.bukkit.org/projects/shopkeepers  
 **Wiki**: https://github.com/Shopkeepers/Shopkeepers-Wiki/wiki  
+**Translations** : https://github.com/Shopkeepers/Translations/  
 **Issue Tracker**: https://github.com/Shopkeepers/Shopkeepers/issues  
 **Discord Server**: https://discord.gg/d9NKd5z  
 **Source code**: https://github.com/Shopkeepers/Shopkeepers/  
