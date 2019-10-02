@@ -1,0 +1,43 @@
+#################
+## Eclipse
+#################
+
+.project
+.metadata
+bin/
+target/
+tmp/
+*.tmp
+*.bak
+*.swp
+*~.nib
+local.properties
+.classpath
+.settings/
+.loadpath
+.flattened-pom.xml
+
+# Locally stored "Eclipse launch configurations"
+*.launch
+
+#############
+## IntelliJ
+#############
+
+.idea
+*.iml
+
+############
+## OS
+############
+
+# Windows image file caches
+Thumbs.db
+
+# Folder config file
+Desktop.ini
+
+# Mac crap
+.DS_Store
+
+############
