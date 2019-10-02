@@ -1,0 +1,300 @@
+# Language: es
+
+msg-shop-type-admin-regular: "Admin shop"
+msg-shop-type-selling: "Selling shop"
+msg-shop-type-buying: "Buying shop"
+msg-shop-type-trading: "Trading shop"
+msg-shop-type-book: "Book shop"
+
+msg-shop-type-desc-admin-regular: "tiene stock ilimitado"
+msg-shop-type-desc-selling: "vende items a los jugadores"
+msg-shop-type-desc-buying: "compra items de los jugadores"
+msg-shop-type-desc-trading: "tradea items con jugadores"
+msg-shop-type-desc-book: "vende copias de libro"
+
+msg-shop-object-type-living: "{type}"
+msg-shop-object-type-sign: "sign"
+msg-shop-object-type-npc: "npc"
+
+msg-selected-shop-type: "&aTipo de tienda seleccionada: &6{type} &7({description})"
+msg-selected-shop-object-type: "&aTipo de objeto seleccionado: &6{type}"
+
+msg-creation-item-selected: |
+    &aCreación de Tienda:
+    &e  Click izquierdo/derecho para seleccionar el tipo de tienda.
+    &e  Shift + click izquierdo/derecho para seleccionar el tipo de objeto.
+    &e  Click derecho en un cofre para seleccionarlo. 
+    &e  Click derecho en un bloque para spawnear al aldeano.
+msg-button-previous-page: "&6<- Página anterior ({prev_page} de {max_page})"
+msg-button-previous-page-lore: []
+msg-button-next-page: "&6Página siguiente ({next_page} de {max_page}) ->"
+msg-button-next-page-lore: []
+msg-button-current-page: "&6Página {page} de {max_page}"
+msg-button-current-page-lore: []
+
+msg-button-name: "&aEstablacer el nombre de la tienda"
+msg-button-name-lore:
+- Reenombra a
+- tu tienda
+msg-button-chest: "&aVer inventario del cofre"
+msg-button-chest-lore:
+- Lets you view the inventory
+- your shopkeeper is using
+msg-button-delete: "&4Eliminar"
+msg-button-delete-lore:
+- Cierra y elimina
+- esta tienda
+msg-button-hire: "&aContratar"
+msg-button-hire-lore:
+- Compra esta tienda
+
+msg-button-sign-variant: "&aElegir versión del cartel"
+msg-button-sign-variant-lore:
+- "Cambia el tipo de"
+- "madera de los carteles"
+msg-button-baby: "&aAlterna entre aldeano bebé/adulto"
+msg-button-baby-lore:
+- "Cambia entre las versiones"
+- "bebé y adulto del mob"    
+msg-button-sitting: "&aAlternar sentado/parado" 
+msg-button-sitting-lore:
+- "Cambia si el mob" 
+- "está sentado/parado"      
+msg-button-cat-variant: "&aElegir variante del gato"
+msg-button-cat-variant-lore:
+- "Cambia como se ve el gato"
+msg-button-collar-color: "&aElegir color del collar"
+msg-button-collar-color-lore:
+- "Cambia el color"
+- "del collar del mob"
+msg-button-wolf-angry: "&aAlterna ánimo del lobo"
+msg-button-wolf-angry-lore:
+- "Cambia el ánimo" 
+- "del lobo a enojado"
+msg-button-carrying-chest: "&aAlterna el llevar cofre"  
+msg-button-carrying-chest-lore:
+- "Cambia si el mob"  
+- "está llevando un cofre"
+msg-button-horse-color: "&aElegir color del caballo"
+msg-button-horse-color-lore:
+- "Cambia el color"
+- "del caballo"
+msg-button-horse-style: "&aElegir estilo del caballo"
+msg-button-horse-style-lore:
+- "Cambia el patrón"
+- "de pelaje del caballo"
+msg-button-horse-armor: "&aElegir armadura del caballo"
+msg-button-horse-armor-lore:
+- "Cambia la armadura"
+- "del caballo"
+msg-button-llama-variant: "&aElegir variante de la llama"
+msg-button-llama-variant-lore:
+- "Cambia como se ve la llama"
+msg-button-llama-carpet-color: "&aAlfombra de la llama"
+msg-button-llama-carpet-color-lore:
+- "Cambia el color de"
+- "la alfombra de la llamar"
+msg-button-creeper-charged: "&aAlternar creeper recargado"
+msg-button-creeper-charged-lore:
+- "Cambia el estado"
+- "del creeper normal/recargado"
+msg-button-fox-variant: "&aElegir variante del lobo"
+msg-button-fox-variant-lore:
+- "Cambia como se ve el lobo"
+msg-button-fox-crouching: "&aAlterna parado/sentado lobo "
+msg-button-fox-crouching-lore:
+- "Cambia a la pose"
+- "sentada del lobo"
+msg-button-fox-sleeping: "&aAlterna pose despierto/durmiendo lobo"
+msg-button-fox-sleeping-lore:
+- "Cambia a la pose"
+- "durmiendo del lobo"
+msg-button-mooshroom-variant: "&aElegir variante de la vacaseta"
+msg-button-mooshroom-variant-lore:
+- "Cambia como"
+- "se ve la vacaseta"
+msg-button-panda-variant: "&aElegir variante del panda"
+msg-button-panda-variant-lore:
+- "Cambia como se ve el panda"
+msg-button-parrot-variant: "&aElegir variante del loro"
+msg-button-parrot-variant-lore:
+- "Cambia como se ve el loro"
+msg-button-pig-saddle: "&aAlternar cerdo con/sin montura"
+msg-button-pig-saddle-lore:
+- "Cambia si el cerdo tiene o no montura"
+msg-button-sheep-color: "&aElegir color de la oveja"
+msg-button-sheep-color-lore:
+- "Cambia el color"
+- "del pelo de la oveja"
+msg-button-sheep-sheared: "&aAlternar oveja esquilada"
+msg-button-sheep-sheared-lore:
+- "Cambia si la"
+- "oveja está o no esquilada"
+msg-button-villager-profession: "&aElegir profesión del aldeano"
+msg-button-villager-profession-lore:
+- "Cambia la profesión"
+- "de tu aldeano"
+msg-button-villager-variant: "&aElegir variante del aldeano"
+msg-button-villager-variant-lore:
+- "Cambia como"
+- "se ve tu aldeano"
+msg-button-villager-level: "&aElegir nivel del aldeano"
+msg-button-villager-level-lore:
+- "Cambia el nivel"
+- "del aldeano"
+msg-button-zombie-villager-profession: "&aElegir profesión del aldeano"
+msg-button-zombie-villager-profession-lore:
+- "Cambia la profesión"
+- "del aldeano zombie"
+
+msg-trading-title-prefix: "&2"
+msg-trading-title-default: "Shopkeeper"
+
+msg-selected-chest: "&aCofre seleccionado! Click derecho en un bloque para posicionar tu tienda."
+msg-must-select-chest: "&7Debes hacer click derecho en un cofre antes de colocar tu tienda." 
+msg-no-chest-selected: "&7El bloque seleccionado no es un cofre!"
+msg-chest-too-far: "&7El cofre de la tienda está muy lejos!"
+msg-chest-not-placed: "&7Debes seleccionar un cofre que hayas colocado recientemente!" 
+msg-chest-already-in-use: "&7Otra tienda ya está usando el cofre seleccionado!"
+msg-no-chest-access: "&7No tienes acceso al cofre seleccionado!"
+msg-too-many-shops: "&7Tienes demasiadas tiendas!"
+msg-no-admin-shop-type-selected: "&7Tienes que seleccionar el tipo de la tienda de admin!"
+msg-no-player-shop-type-selected: "&7Tienes que seleccionar el tipo de la tienda de jugador!"
+msg-shop-create-fail: "&7No puedes crear una tienda aquí."
+
+msg-type-new-name: "&aPor favor tipea el nombre de la tienda en el chat.\n  &aTipea guion (-) para remover el nombre."
+msg-name-set: "&aHas cambiado el nombre de la tienda!"
+msg-name-has-not-changed: "&aEl nombre de la tienda no ha cambiado."
+msg-name-invalid: "&aEse nombre no es valido!"
+
+msg-shop-type-disabled: "&7Este tipo de tienda '&6{type}&7' está deshabilitado."
+msg-shop-object-type-disabled: "&7Este tipo de objeto '&6{type}&7' está deshabilitado."
+
+msg-must-target-shop: "&7Tienes que seleccionar una tienda." 
+msg-must-target-admin-shop: "&7Tienes que seleccionar una tienda de admin."
+msg-must-target-player-shop: "&7Tienes que seleccionar una tienda de jugador."
+msg-target-entity-is-no-shop: "&7La entidad seleccionada no es una tienda."
+msg-target-shop-is-no-admin-shop: "&7La tienda seleccionada no es una tienda de admin."
+msg-target-shop-is-no-player-shop: "&7La tienda seleccionada no es una tienda de jugador."
+msg-unused-chest: "&7Ninguna tienda está usando este cofre."
+msg-not-owner: "&7Tu no eres el dueño de esta tienda."
+msg-owner-set: "&aEl nuevo dueño ahora es &e{owner}"
+msg-shop-creation-items-given: "&aEl jugador &e{player}&a recibió &e{amount}&a por la creacion de la tienda!"
+msg-unknown-book-author: "Desconocido"
+
+msg-trade-perm-set: "&aLos permisos de la tienda de trade se establecieron en '&e{perm}&a'!"
+msg-trade-perm-removed: "&aLos permisos de la tienda de trade '&e{perm}&a' fueron removidos!"
+msg-trade-perm-view: "&aLos permisos actuales de la tienda de trade son '&e{perm}&a'."
+
+msg-zombie-villager-curing-disabled: "&7La cura de los aldenos zombies esta deshabilitada."
+msg-must-hold-hire-item: "&7Tienes que tener el item requerido en tu mano para contratar."
+msg-set-for-hire: "&aEl comerciante ha sido contratado."
+msg-hired: "&aHas contratado a este comerciante!"
+msg-missing-hire-perm: "&7No tienes permisos para contratar comerciantes."
+msg-cant-hire: "&7No puedes permitirte contratar a este comerciante."
+msg-cant-hire-shop-type: "&7No tienes permisos para contratar a este tipo de comerciantes."
+msg-villager-for-hire: "&aEl aldeano ofrecio sus servicios como comerciante a cambio de &6{costs}x {hire-item}&a."
+
+msg-missing-trade-perm: "&7No tienes el permiso para tradear con esta tienda."
+msg-missing-custom-trade-perm: "&7No tienes el permiso para tradear con esta tienda."
+msg-cant-trade-while-owner-online: "&7No puedes tradear mientras el dueño de esta tienda ('&e{owner}&7') esté conectado."
+
+msg-shopkeeper-created: "&aTienda creada: &6{type} &7({description})\n{setupDesc}"
+
+msg-shop-setup-desc-selling: |
+    &e  Añade los items que quieras vender a tu cofre, y
+    &e  mientras shifteas haz click derecho en la tienda para modificar los costos.
+msg-shop-setup-desc-buying: |
+    &e  Añade un item de cada cosa que quieras comprar a tu cofre, y
+    &e  mientras shifteas haz click derecho en la tienda para modificar los costos.
+msg-shop-setup-desc-trading: |
+    &e  Añade los items que quieras tradear a tu cofre, y
+    &e  mientras shifteas haz click derecho en la tienda para modificar los costos. 
+msg-shop-setup-desc-book: |
+    &e  Añade libros escritos y en blanco a tu cofre, y
+    &e  mientras shifteas haz click derecho en la tienda para modificar los costos.
+msg-shop-setup-desc-admin-regular: |
+    &e  Mientras shifteas haz click derecho en la tienda para modificar el trade.
+msg-trade-setup-desc-header: '&6{shopType}'
+msg-trade-setup-desc-admin-regular:
+- Tiene stock ilimitado.
+- Coloca los items de tu inventario.
+- Click izquierdo/derecho para ajustar los montos.
+- 'Fila superior: Item'
+- 'Fila inferior: Costo del item'
+msg-trade-setup-desc-selling:
+- Vende items a los jugadores.
+- Coloca los items a vender en el cofre.
+- Click izquierdo/derecho para ajustar los montos.
+- 'Fila superior: Item a vender'
+- 'Fila inferior: Costo del item'
+msg-trade-setup-desc-buying:
+- Compra items de los players.
+- Coloca cada uno de los items que quieras
+- comprar y el monto a pagar por ellos
+- dentro del cofre
+- Click izquierdo/derecho para ajustar los montos.
+- 'Fila superior: Costo del item'
+- 'Fila inferior: Item a vender'
+msg-trade-setup-desc-trading:
+- Tradea items con players.
+- Toma un item de tu inventario
+- y clickea en un slot para colocarlo.
+- Click izquierdo/derecho para ajustar los montos.
+- 'Fila superior: Item'
+- 'Fila inferior: Costo del item'
+msg-trade-setup-desc-book:
+- Vende copias de libros.
+- Colocar libros escritos y en blanco
+- a tu cofre.
+- Click izquierdo/derecho para ajustar los montos.
+- 'Fila superior: Libro a vender'
+- 'Fila inferior: Costo del item'
+
+msg-list-admin-shops-header: "&9Hay &e{shopsCount} &9tiendas de Admin: &e(Page {page} de {maxPage})"
+msg-list-player-shops-header: "&9El jugador '&e{player}&9' tiene &e{shopsCount} &9shops: &e(Page {page} de {maxPage})"
+msg-list-shops-entry: "  &e{shopSessionId}) &7{shopName}&r&8at &7({location})&8, type: &7{shopType}&8, object type: &7{objectType}"
+
+msg-removed-admin-shops: "&e{shopsCount} &atiendas de Admin fueron removidas."
+msg-removed-player-shops: "&e{shopsCount} &atienda del jugador '&e{player}&a' fue removida."
+msg-removed-all-player-shops: "&aFueron removidas &e{shopsCount} &atiendas de jugador."
+
+msg-confirm-remove-admin-shops: "&cEstas a punto de remover permanentemente todas las tiendas de Admin!"
+msg-confirm-remove-own-shops: "&cEstas a punto de remover permanentemente todas tus tiendas!"
+msg-confirm-remove-player-shops: "&cEstas a punto de remover permanentemente todas las tiendas del jugasdor &6{player}&c!"
+msg-confirm-remove-all-player-shops: "&cEstas a punto de remover permanentemente todas las tiendas de todos los jugadores!"
+
+msg-confirmation-required: "&7Confirma esta acción tipeando &6/shopkeepers confirm"
+msg-confirmation-expired: "&cLa confirmación ha expirado."
+msg-nothing-to-confirm: "&cActualmente no hay nada que confirmar."
+
+msg-no-permission: "&cNo tienes permisos para hacer eso."
+
+msg-command-unknown: "&cComando desconocido '&e{command}&c'!"
+msg-command-argument-unexpected: "&cArgumento inesperado '&e{argument}&c'."
+msg-command-argument-missing: "&cArgumento faltante '&e{argumentFormat}&c'."
+msg-command-argument-invalid: "&cArgumento invalido '&e{argument}&c'."
+msg-command-player-argument-missing: "&cNo hay un jugador especificado para '&e{argumentFormat}&c'."
+msg-command-player-argument-invalid: "&cNo se encontró un jugador para '&e{argument}&c'."
+msg-command-shop-type-argument-invalid: "&cTipo de tienda desconocido '&e{argument}&c'."
+msg-command-shop-object-type-argument-invalid: "&cTipo de objeto de tienda desconocido '&e{argument}&c'."
+msg-command-shopkeeper-argument-invalid: "&cNo se encontró tienda para '&e{argument}&c'."
+msg-command-shopkeeper-argument-no-admin-shop: "&cTienda '&e{argument}&c' no es una tienda de Admin."
+msg-command-shopkeeper-argument-no-player-shop: "&cTienda '&e{argument}&c' no es una tienda de jugador."
+
+msg-command-help-title: "&9***** &8[&6Shopkeepers v{version}&8] &9*****"
+msg-command-help-usage-format: "&e{usage}"
+msg-command-help-description-format: "&8 - &3{description}"
+
+msg-command-description-shopkeeper: "Crea una tienda."
+msg-command-description-help: "Muestra esta página de ayuda."
+msg-command-description-reload: "Recarga este plugin."
+msg-command-description-debug: "Alterna entre modo debug on/off."
+msg-command-description-list: "Lista de todas las tiendas de un jugador específico, o todas las tiendas de Admin."
+msg-command-description-remove: "Elimina todas las tiendas de un jugador específico, todos los jugadores, o todas las tiendas de Admin."
+msg-command-description-give: "Entrega los items de creación de una tienda a un jugador específico."
+msg-command-description-remote: "Abre remotamente una tienda."
+msg-command-description-remote-edit: "Edita remotamente una tienda."
+msg-command-description-transfer: "Transfiere la posesión de la tienda."
+msg-command-description-settradeperm: "Establece, remueve (-) o muestra (?) los permisos de trade."
+msg-command-description-setforhire: "Establece en oferta una de tus tiendas."
