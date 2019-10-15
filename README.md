@@ -19,7 +19,7 @@ In order to use these translations, pick the desired language file inside the fo
 
 ### Contributing
 
-With every update of Shopkeepers (if there have been changes to the messages) a new folder is created containing the default translations (english, and likely german since I speak that myself), as well a `changelog` file listing the message changes of that version.
+With every update of Shopkeepers (if there have been changes to the messages) a new folder is created containing the default translations (english, and likely german since I speak that myself), as well as a `changelog` file listing the message changes of that version.
 
 To really be of use **this repository depends on contributions** for languages other than these defaults. Feel encouraged to add new translations, update outdated translations, or suggest changes of existing translations.
 
