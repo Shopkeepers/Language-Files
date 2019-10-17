@@ -25,6 +25,7 @@ msg-creation-item-selected: |
     &e  Shift + Links-/Rechtsklick, um den Objekt-Typ auszuwählen.
     &e  Rechtsklick auf eine Kiste, um diese auszuwählen.
     &e  Dann Rechtsklick auf einen Block, um dort den Händler zu erstellen.
+
 msg-button-previous-page: "&6<- Vorherige Seite ({prev_page} von {max_page})"
 msg-button-previous-page-lore: []
 msg-button-next-page: "&6Nächste Seite ({next_page} von {max_page}) ->"
@@ -47,11 +48,6 @@ msg-button-delete-lore:
 msg-button-hire: "&aAnheuern"
 msg-button-hire-lore:
 - Kaufe diesen Shop
-
-msg-button-type: "&aAussehen ändern"
-msg-button-type-lore:
-- Ändert das Aussehen
-- deines Verkäufers
 
 msg-button-sign-variant: "&aSchild-Variante ändern"
 msg-button-sign-variant-lore:

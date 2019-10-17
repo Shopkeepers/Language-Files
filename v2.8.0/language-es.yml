@@ -25,6 +25,7 @@ msg-creation-item-selected: |
     &e  Shift + click izquierdo/derecho para seleccionar el tipo de objeto.
     &e  Click derecho en un cofre para seleccionarlo. 
     &e  Click derecho en un bloque para spawnear al aldeano.
+
 msg-button-previous-page: "&6<- Página anterior ({prev_page} de {max_page})"
 msg-button-previous-page-lore: []
 msg-button-next-page: "&6Página siguiente ({next_page} de {max_page}) ->"

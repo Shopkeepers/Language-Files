@@ -25,6 +25,7 @@ msg-creation-item-selected: |
     &e  Sneak + left/right-click to select the object type.
     &e  Right-click a chest to select it.
     &e  Then right-click a block to place the shopkeeper.
+
 msg-button-previous-page: "&6<- Previous page ({prev_page} of {max_page})"
 msg-button-previous-page-lore: []
 msg-button-next-page: "&6Next page ({next_page} of {max_page}) ->"
