@@ -1,0 +1,314 @@
+# Language: de
+
+msg-shop-type-admin-regular: "Admin Shop"
+msg-shop-type-selling: "Verkäufer"
+msg-shop-type-buying: "Ankäufer"
+msg-shop-type-trading: "Händler"
+msg-shop-type-book: "Buchhändler"
+
+msg-shop-type-desc-admin-regular: "hat unbegrenzten Vorrat"
+msg-shop-type-desc-selling: "verkauft Items"
+msg-shop-type-desc-buying: "kauft Items"
+msg-shop-type-desc-trading: "tauscht Items für andere Items"
+msg-shop-type-desc-book: "verkauft Kopien von Büchern"
+
+msg-shop-object-type-living: "{type}"
+msg-shop-object-type-sign: "Schild"
+msg-shop-object-type-npc: "NPC"
+
+msg-selected-shop-type: "&aAusgewählter Shop-Typ: &6{type} &7({description})"
+msg-selected-shop-object-type: "&aAusgewählter Objekt-Typ: &6{type}"
+
+msg-creation-item-selected: |-
+  &aShop-Erstellung:
+  &e  Links-/Rechtsklick, um den Shop-Typ auszuwählen.
+  &e  Shift + Links-/Rechtsklick, um den Objekt-Typ auszuwählen.
+  &e  Rechtsklick auf eine Kiste, um diese auszuwählen.
+  &e  Dann Rechtsklick auf einen Block, um dort den Händler zu erstellen.
+
+msg-button-previous-page: "&6<- Vorherige Seite ({prev_page} von {max_page})"
+msg-button-previous-page-lore: []
+msg-button-next-page: "&6Nächste Seite ({next_page} von {max_page}) ->"
+msg-button-next-page-lore: []
+msg-button-current-page: "&6Seite {page} von {max_page}"
+msg-button-current-page-lore: []
+
+msg-button-name: "&aShop Namen ändern"
+msg-button-name-lore:
+- Gib deinem Shop
+- einen Namen
+msg-button-chest: "&aShop-Inventar öffnen"
+msg-button-chest-lore:
+- Zeigt dir das Inventar
+- deines Verkäufers
+msg-button-delete: "&4Entfernen"
+msg-button-delete-lore:
+- Schließt diesen Shop und
+- entfernt den Verkäufer
+msg-button-hire: "&aAnheuern"
+msg-button-hire-lore:
+- Kaufe diesen Shop
+
+msg-button-sign-variant: "&aSchild-Variante ändern"
+msg-button-sign-variant-lore:
+- "Ändert den Holztyp"
+- "des Schildes"
+msg-button-baby: "&aBaby-Variante umschalten"
+msg-button-baby-lore:
+- "Wechselt zwischen der Kind- und"
+- "Erwachsenen-Variante des Mobs"
+msg-button-sitting: "&aSitzhaltung umschalten"
+msg-button-sitting-lore:
+- "Wechselt die Sitzhaltung"
+msg-button-cat-variant: "&aKatzen-Variante ändern"
+msg-button-cat-variant-lore:
+- "Ändert das Aussehen"
+- "der Katze"
+msg-button-rabbit-variant: "&aKaninchen-Variante ändern"
+msg-button-rabbit-variant-lore:
+- "Ändert das Aussehen"
+- "des Kaninchens"
+msg-button-collar-color: "&aHalsband Farbe ändern"
+msg-button-collar-color-lore:
+- "Ändert die Farbe"
+- "des Halsbandes"
+msg-button-wolf-angry: "&aWütender Wolf umschalten"
+msg-button-wolf-angry-lore:
+- "Wechselt zwischen wütendem"
+- "und zahmen Wolf"
+msg-button-carrying-chest: "&aTragetasche umschalten"
+msg-button-carrying-chest-lore:
+- "Schaltet die Tragetasche"
+- "an und aus"
+msg-button-horse-color: "&aFellfarbe ändern"
+msg-button-horse-color-lore:
+- "Ändert die Fellfarbe"
+- "des Pferdes"
+msg-button-horse-style: "&aFellmuster ändern"
+msg-button-horse-style-lore:
+- "Ändert das Fellmuster"
+- "des Pferdes"
+msg-button-horse-armor: "&aPferderüstung ändern"
+msg-button-horse-armor-lore:
+- "Ändert die Pferderüstung"
+msg-button-llama-variant: "&aLama-Variante ändern"
+msg-button-llama-variant-lore:
+- "Ändert das Aussehen"
+- "des Lamas"
+msg-button-llama-carpet-color: "&aTeppich Farbe ändern"
+msg-button-llama-carpet-color-lore:
+- "Ändert die Farbe"
+- "des Teppichs"
+msg-button-creeper-charged: "&aAufladung umschalten"
+msg-button-creeper-charged-lore:
+- "Wechselt zwischen normalem"
+- "und aufgeladenem Creeper"
+msg-button-fox-variant: "&aFuchs-Variante ändern"
+msg-button-fox-variant-lore:
+- "Ändert das Aussehen"
+- "des Fuchses"
+msg-button-fox-crouching: "&aPirschhaltung umschalten"
+msg-button-fox-crouching-lore:
+- "Wechselt zwischen normaler"
+- "und pirschender Haltung"
+msg-button-fox-sleeping: "&aSchlafhaltung umschalten"
+msg-button-fox-sleeping-lore:
+- "Wechselt zwischen normaler"
+- "und Schlafhaltung"
+msg-button-mooshroom-variant: "&aMooshroom-Variante ändern"
+msg-button-mooshroom-variant-lore:
+- "Ändert das Aussehen"
+- "der Mooshroom"
+msg-button-panda-variant: "&aPanda-Variante ändern"
+msg-button-panda-variant-lore:
+- "Ändert das Aussehen"
+- "des Pandas"
+msg-button-parrot-variant: "&aPapagei-Variante ändern"
+msg-button-parrot-variant-lore:
+- "Ändert das Aussehen"
+- "des Papageis"
+msg-button-pig-saddle: "&aSattel umschalten"
+msg-button-pig-saddle-lore:
+- "Schaltet den Sattel"
+- "an oder aus"
+msg-button-sheep-color: "&aWollfarbe ändern"
+msg-button-sheep-color-lore:
+- "Ändert die Wollfarbe"
+- "des Schafs"
+msg-button-sheep-sheared: "&aGeschoren umschalten"
+msg-button-sheep-sheared-lore:
+- "Schaltet zwischen geschorenem"
+- "und ungeschorenem Schaf um"
+msg-button-villager-profession: "&aBeruf ändern"
+msg-button-villager-profession-lore:
+- "Ändert den Beruf"
+- "des Dorfbewohners"
+msg-button-villager-variant: "&aDorfbewohner-Variante ändern"
+msg-button-villager-variant-lore:
+- "Ändert das Aussehen"
+- "des Dorfbewohners"
+msg-button-villager-level: "&aAbzeichenfarbe ändern"
+msg-button-villager-level-lore:
+- "Ändert die Abzeichenfarbe"
+- "des Dorfbewohners"
+msg-button-zombie-villager-profession: "&aBeruf ändern"
+msg-button-zombie-villager-profession-lore:
+- "Ändert den Beruf des"
+- "Dorfbewohner-Zombies"
+
+msg-trading-title-prefix: "&2"
+msg-trading-title-default: "Händler"
+
+msg-selected-chest:  "&aTruhe ausgewählt! Klicke mit rechts auf einen Block, um den Shop zu platzieren."
+msg-must-select-chest: "&7Du musst zuerst eine Truhe mit rechts anklicken, bevor du den Shop platzieren kannst."
+msg-no-chest-selected: "&7Der ausgewählte Block ist keine Truhe!"
+msg-chest-too-far: "&7Die Truhe des Shops ist zu weit entfernt!"
+msg-chest-not-placed: "&7Du musst eine Truhe auswählen, die du kürzlich platziert hast!"
+msg-chest-already-in-use: "&7Ein anderer Shop benutzt bereits die ausgewählte Truhe!"
+msg-no-chest-access: "&7Du hast keinen Zugriff auf die ausgewählte Truhe!"
+msg-too-many-shops: "&7Du hast bereits zu viele Shops!"
+msg-no-admin-shop-type-selected: "&7Du musst einen Admin-Shop Typ auswählen!"
+msg-no-player-shop-type-selected: "&7Du musst einen Spieler-Shop Typ auswählen!"
+msg-shop-create-fail: "&7Du kannst dort keinen Shop erstellen."
+
+msg-type-new-name: "&aBitte gebe den neuen Shop-Namen im Chat ein.\n  &aTippe Minus (-) ein, um den Namen zu entfernen."
+msg-name-set: "&aDer Shop-Name wurde gesetzt!"
+msg-name-has-not-changed: "&aDer Shop-Name hat sich nicht geändert."
+msg-name-invalid: "&aDer Name ist ungültig!"
+
+msg-shop-type-disabled: "&7Der Shop-Typ '&6{type}&7' ist deaktiviert."
+msg-shop-object-type-disabled: "&7Der Shop-Objekt-Typ '&6{type}&7' ist deaktiviert."
+
+msg-must-target-shop: "&7Du musst einen Shop anvisieren."
+msg-must-target-admin-shop: "&7Du musst einen Admin-Shop anvisieren."
+msg-must-target-player-shop: "&7Du musst einen Spieler-Shop anvisieren."
+msg-target-entity-is-no-shop: "&7Das anvisierte Objekt ist kein Shop."
+msg-target-shop-is-no-admin-shop: "&7Der anvisierte Shop ist kein Admin-Shop."
+msg-target-shop-is-no-player-shop: "&7Der anvisierte Shop ist kein Spieler-Shop."
+msg-unused-chest: "&7Kein Shop benutzt diese Truhe."
+msg-not-owner: "&7Du bist nicht der Besitzer von diesem Shop."
+msg-owner-set: "&aDer neue Besitzer ist jetzt: &e{owner}"
+msg-shop-creation-items-given: "&aSpieler &e{player}&a hat &e{amount}&a Shop-Erstellungs Items bekommen!"
+msg-unknown-book-author: "Unbekannt"
+
+msg-trade-perm-set: "&aDie Handel-Permission für den Shop wurde auf '&e{perm}&a' gesetzt!"
+msg-trade-perm-removed: "&aDie Handel-Permission '&e{perm}&a' für den Shop wurde entfernt!"
+msg-trade-perm-view: "&aDie aktuelle Handel-Permission für den Shop ist '&e{perm}&a'."
+
+msg-zombie-villager-curing-disabled: "&7Das Heilen von Dorfbewohnerzombies ist deaktiviert."
+msg-must-hold-hire-item: "&7Du musst das benötigte Shop-Kauf-Item in deiner Hand halten."
+msg-set-for-hire: "&aDieser Shop steht jetzt zum Verkauf."
+msg-hired: "&aDu hast diesen Shop gekauft!"
+msg-missing-hire-perm: "&7Dir fehlt die nötige Berechtigung, um Shops zu kaufen."
+msg-cant-hire: "&7Du kannst es dir nicht leisten, diesen Shop zu kaufen."
+msg-cant-hire-shop-type: "&7Dir fehlt die nötige Berechtigung, um diesen Typ von Shop zu kaufen."
+msg-villager-for-hire: "&aDieser Dorfbewohner bietet dir im Tausch für &6{costs}x {hire-item}&a seine Dienste als Händler an."
+
+msg-missing-trade-perm: "&7Du hast nicht die nötige Befugnis, um mit diesem Shop zu handeln."
+msg-missing-custom-trade-perm: "&7Du hast nicht die nötige Befugnis, um mit diesem Shop zu handeln."
+msg-cant-trade-with-own-shop: "&7Du kannst nicht mit deinem eigenen Shop handeln."
+msg-cant-trade-while-owner-online: "&7Du kannst nicht handeln, während der Besitzer dieses Shops ('&e{owner}&7') online ist."
+msg-cant-trade-with-shop-missing-chest: "&7Du kannst nicht mit diesem Shop handeln, da seine Truhe fehlt."
+
+msg-shopkeeper-created: "&aShop erstellt: &6{type} &7({description})\n{setupDesc}"
+
+msg-shop-setup-desc-selling: |-
+  &e  Lege die zu verkaufenden Items in die Truhe und
+  &e  gib mit Shift+Rechts Klick auf den Shop die Preise an.
+msg-shop-setup-desc-buying: |-
+  &e  Lege von jedem Item, das du ankaufen möchtest, eines in die Truhe.
+  &e  Mit Shift+Rechts Klick auf den Shop legst du die Preise fest.
+msg-shop-setup-desc-trading: |-
+  &e  Lege die Items, die du eintauschen möchtest, in die Truhe.
+  &e  Mit Shift+Rechts Klick auf den Shop legst du die Angebote fest.
+msg-shop-setup-desc-book: |-
+  &e  Lege das signierte Buch und soviele leere Bücher in die Truhe, wie Kopien verkauft werden sollen.
+  &e  Mit Shift+Rechts Klick auf den Shop legst du die Preise fest.
+msg-shop-setup-desc-admin-regular: |-
+  &e  Mit Shift+Rechts Klick auf den Shop legst du die Preise fest.
+
+msg-trade-setup-desc-header: '&6{shopType}'
+msg-trade-setup-desc-admin-regular:
+- Hat unbegrenzten Vorrat.
+- Füge Items aus deinem Inventar ein.
+- 'Obere Reihe: Ergebnis Items'
+- 'Untere Reihen: Kosten'
+msg-trade-setup-desc-selling:
+- Verkauft Items an Spieler.
+- Lege die zu verkaufenden Items in die Truhe.
+- Links/Rechts Klick zum Ändern der Mengen.
+- 'Obere Reihe: Verkaufte Items'
+- 'Untere Reihen: Kosten'
+msg-trade-setup-desc-buying:
+- Kauft Items von Spielern.
+- Lege von jedem anzukaufendem Item eines
+- in die Truhe, sowie reichlich Währung.
+- Links/Rechts Klick zum Ändern der Mengen.
+- 'Obere Reihe: Kosten'
+- 'Untere Reihe: Angekaufte Items'
+msg-trade-setup-desc-trading:
+- Tauscht Items mit Spielern.
+- Wähle ein Item aus deinem Inventar und
+- klicke ein Feld an, um es zu platzieren.
+- Links/Rechts Klick zum Ändern der Mengen.
+- 'Obere Reihe: Ergebnis Items'
+- 'Untere Reihen: Kosten'
+msg-trade-setup-desc-book:
+- Verkauft Kopien von Büchern.
+- Lege signierte und leere Bücher in die Truhe.
+- Links/Rechts Klick zum Ändern der Kosten.
+- 'Obere Reihe: Verkaufte Bücher'
+- 'Untere Reihen: Kosten'
+
+msg-list-admin-shops-header: "&9Es gibt &e{shopsCount} &9Admin-Shops: &e(Seite {page} von {maxPage})"
+msg-list-player-shops-header: "&9Spieler '&e{player}&9' hat &e{shopsCount} &9Shops: &e(Seite {page} von {maxPage})"
+msg-list-shops-entry: "  &e{shopId}) &7{shopName}&r&8an &7({location})&8, Typ: &7{shopType}&8, Objekt: &7{objectType}"
+
+msg-removed-admin-shops: "&aEs wurden &e{shopsCount} &aAdmin-Shops entfernt."
+msg-removed-shops-of-player: "&aEs wurden &e{shopsCount} &aShops von Spieler '&e{player}&a' entfernt."
+msg-removed-player-shops: "&aEs wurden &e{shopsCount} &aSpieler-Shops entfernt."
+
+msg-confirm-remove-all-admin-shops: "&cDu bist dabei alle Admin-Shops (&6{shopsCount}&c) unwiderruflich zu entfernen!"
+msg-confirm-remove-all-own-shops: "&cDu bist dabei alle deine Shops (&6{shopsCount}&c) unwiderruflich zu entfernen!"
+msg-confirm-remove-all-shops-of-player: "&cDu bist dabei alle Shops des Spielers &6{player}&c (&6{shopsCount}&c) unwiderruflich zu entfernen!"
+msg-confirm-remove-all-player-shops: "&cDu bist dabei alle Spieler-Shops sämtlicher Spieler (&6{shopsCount}&c) unwiderruflich zu entfernen!"
+
+msg-confirmation-required: "&7Bitte bestätige diese Aktion mittels &6/shopkeepers confirm"
+msg-confirmation-expired: "&cConfirmation expired."
+msg-nothing-to-confirm: "&cThere is nothing to confirm currently."
+
+msg-no-permission: "&cDafür hast du nicht die nötigen Berechtigungen."
+
+msg-command-unknown: "&cUnbekannter Befehl '&e{command}&c'!"
+msg-command-argument-unexpected: "&cUnerwartetes Argument '&e{argument}&c'."
+msg-command-argument-requires-player: "&cArgument '&e{argumentFormat}&c' benötigt einen Spieler zur Ausführung des Befehls."
+msg-command-argument-missing: "&cFehlendes Argument '&e{argumentFormat}&c'."
+msg-command-argument-invalid: "&cUngültiges Argument '&e{argument}&c'."
+msg-command-player-argument-missing: "&cEs wurde kein Spieler angegeben für '&e{argumentFormat}&c'."
+msg-command-player-argument-invalid: "&cEs wurde kein Spieler gefunden für '&e{argument}&c'."
+msg-command-shop-type-argument-invalid: "&cUnbekannter Shop-Typ '&e{argument}&c'."
+msg-command-shop-object-type-argument-invalid: "&cUnbekannter Shop-Objekt-Typ '&e{argument}&c'."
+msg-command-shopkeeper-argument-invalid: "&cEs wurde kein Shop gefunden für '&e{argument}&c'."
+msg-command-shopkeeper-argument-no-admin-shop: "&cShop '&e{argument}&c' ist kein Admin-Shop."
+msg-command-shopkeeper-argument-no-player-shop: "&cShop '&e{argument}&c' ist kein Spieler-Shop."
+
+msg-ambiguous-player-name: "&cEs gibt mehrere Treffer für den Namen '&e{name}&c'!"
+msg-ambiguous-player-name-entry: "&c  - '&e{name}&r&c' (&6{uuid}&c)"
+msg-ambiguous-player-name-more: "&c  - ...."
+
+msg-command-help-title: "&9***** &8[&6Shopkeepers v{version}&8] &9*****"
+msg-command-help-usage-format: "&e{usage}"
+msg-command-help-description-format: "&8 - &3{description}"
+
+msg-command-description-shopkeeper: "Erstellt einen neuen Shop."
+msg-command-description-help: "Zeigt diese Hilfe."
+msg-command-description-reload: "Lädt das Plugin neu."
+msg-command-description-debug: "Schaltet den Debug-Modus an und aus."
+msg-command-description-list: "Listet alle Shops des ausgewählten Spielers, oder alle Admin-Shops auf."
+msg-command-description-remove: "Entfernt alle Shops des ausgewählten Spielers, aller Spieler, oder alle Admin-Shops."
+msg-command-description-give: "Gibt dem Spieler Items zum Erstellen von Shops."
+msg-command-description-remote: "Öffnet einen Shop aus der Ferne (Optional: Für einen anderen Spieler)."
+msg-command-description-remote-edit: "Editiert einen Shop aus der Ferne."
+msg-command-description-transfer: "Ändert den Besitzer eines Shops."
+msg-command-description-settradeperm: "Setzt, entfernt (-) oder zeigt (?) die Handel-Permission an."
+msg-command-description-setforhire: "Gibt einen deiner Shops zum Verkauf frei."
