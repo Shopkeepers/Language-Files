@@ -356,6 +356,6 @@ msg-command-description-convert-items: "Converte gli elementi trattenuti (o tutt
 msg-command-description-remote: "Apre un negozio da remoto (Opzionalmente: per un altro giocatore)."
 msg-command-description-remote-edit: "Modifica in remoto un negozio."
 msg-command-description-transfer: "Trasferisce la proprietà di un negozio."
-msg-command-description-settradeperm: "Imposta, rimuove(-)o visualizza(?) l'autorizzazione al trading."
+msg-command-description-settradeperm: "Imposta, rimuove(-)o visualizza(?) l'autorizzazione al commercio."
 msg-command-description-setforhire: "Imposta uno dei tuoi negozi in vendita."
 msg-command-description-edit-villager: "Apre l'editor per l'abitante del villaggio di destinazione."
