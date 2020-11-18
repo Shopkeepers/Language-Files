@@ -5,6 +5,7 @@ This document lists the authors of third-party translations found in this reposi
 ## v2.11.0
 
 * es (latam): Nehemek
+* it: Peppe73
 
 ## v2.10.0
 
