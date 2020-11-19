@@ -16,7 +16,7 @@ msg-shop-object-type-living: "{type}"
 msg-shop-object-type-sign: "Cartello"
 msg-shop-object-type-npc: "NPC"
 
-msg-selected-shop-type: "&aTipo di negozio selezionato: &6{genere} &7({descrizione})"
+msg-selected-shop-type: "&aTipo di negozio selezionato: &6{type} &7({description})"
 msg-selected-shop-object-type: "&aTipo di oggetto selezionato: &6{type}"
 
 msg-creation-item-selected: |-
