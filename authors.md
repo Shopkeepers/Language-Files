@@ -6,6 +6,7 @@ This document lists the authors of third-party translations found in this reposi
 
 * es (latam): Nehemek
 * it: Peppe73
+* es2: Direte89
 
 ## v2.10.0
 
