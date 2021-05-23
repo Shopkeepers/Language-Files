@@ -8,6 +8,7 @@ This document lists the authors of third-party translations found in this reposi
 * it: Peppe73
 * es2: Direte89
 * pt-BR: IgorFradi
+* ja: fa0311
 
 ## v2.10.0
 
