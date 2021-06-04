@@ -13,7 +13,7 @@ msg-shop-type-desc-trading: "プレイヤーとアイテムを交換する"
 msg-shop-type-desc-book: "本のコピーを売る"
 
 msg-shop-object-type-living: "{type}"
-msg-shop-object-type-sign: "サイン"
+msg-shop-object-type-sign: "看板"
 msg-shop-object-type-npc: "npc"
 
 msg-selected-shop-type: "&a選択中のショップタイプ: &6{type} &7({description})"
@@ -198,7 +198,7 @@ msg-must-hold-hire-item: "&7必要な採用アイテムを手に持っている�
 msg-set-for-hire: "&a店員が雇われている状態です。"
 msg-hired: "&aあなたはこの店員を雇った！"
 msg-missing-hire-perm: "&7あなたは店員を雇う権限を持っていません。"
-msg-cant-hire: "&7この店員さんを雇う余裕はありません。"
+msg-cant-hire: "&7この店員を雇う余裕はありません。"
 msg-cant-hire-shop-type: "&7このような店員を雇う権限はありません。"
 msg-villager-for-hire: "&a村人は&6{costs}倍の{hire-item}と引き換えに店員としてのサービスを提供した。"
 
@@ -304,7 +304,7 @@ msg-confirm-remove-all-own-shops: "&cあなたはあなたの全てのショッ�
 msg-confirm-remove-all-shops-of-player: "&cあなたはプレーヤー &6{player}&c のすべてのショップを削除しようとしています (&6{shopsCount}&c)！"
 msg-confirm-remove-all-player-shops: "&cあなたは全てのプレイヤーの全てのショップを削除しようとしています (&6{shopsCount}&c)！"
 
-msg-confirmation-required: "&7この動作を確認するために &6/shopkeepers confirm&7 と入力してください。"
+msg-confirmation-required: "&7この動作を決定するために &6/shopkeepers confirm&7 と入力してください。"
 msg-confirmation-expired: "&c確認の期限が切れました。"
 msg-nothing-to-confirm: "&c現在、確認できるものはありません。"
 
@@ -323,7 +323,7 @@ msg-command-shopkeeper-argument-invalid: "&c指定された店員は見つかり
 msg-command-shopkeeper-argument-no-admin-shop: "&c'&e{argument}&c' は管理者ショップではありません。"
 msg-command-shopkeeper-argument-no-player-shop: "&c'&e{argument}&c' はプレイヤーショップではありません。"
 
-msg-ambiguous-player-name: "&c名前には複数の一致があります！ '&e{name}&c'"
+msg-ambiguous-player-name: "'&e{name}&c' に複数の検索候補が存在しています！"
 msg-ambiguous-player-name-entry: "&c  - '&e{name}&r&c' (&6{uuid}&c)"
 msg-ambiguous-player-name-more: "&c  - ...."
 
