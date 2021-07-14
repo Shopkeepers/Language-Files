@@ -15,7 +15,7 @@ Language files for the Shopkeepers plugin. Consider contributing!
 
 ### Using these translations
 
-Pick the desired language file inside the folder matching your version of Shopkeepers and follow the [instructions in the wiki](https://github.com/Shopkeepers/Shopkeepers-Wiki/wiki/Translations#using-custom-translations). Note that some versions of Shopkeepers had no changes to their messages, so there is no separate folder for them. In that case, simply pick the translation of the next lower version.
+Pick the desired language file inside the folder matching your version of Shopkeepers and follow the [instructions in the wiki](https://github.com/Shopkeepers/Shopkeepers-Wiki/wiki/Language-Files##using-custom-language-files). Note that some versions of Shopkeepers had no changes to their messages, so there is no separate folder for them. In that case, simply pick the translation of the next lower version.
 
 ### Contributing
 
