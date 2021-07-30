@@ -1,4 +1,4 @@
-# language: tr
+# Language: tr
 
 msg-shop-type-admin-regular: "Admin Marketi"
 msg-shop-type-selling: "Satış Marketi"
@@ -31,15 +31,15 @@ msg-button-previous-page-lore: []
 msg-button-next-page: "&6Sonraki sayfa ({next_page}/{max_page}) ->"
 msg-button-next-page-lore: []
 msg-button-current-page: "&6Sayfa {page}/{max_page}"
-msg-button-current-page-lore:
-- "Şuanki sayfa/tüm sayfalar"
+msg-button-current-page-lore: []
 
-msg-button-name: "&aMarket ismini değiştir"
+msg-button-name: "&aİsim değiştir"
 msg-button-name-lore:
+- Marketin ismini değiştirir
 msg-button-container: "&aDepolamayı gör"
 msg-button-container-lore:
-- Marketin kullandığı sandık,
-- varil gibi depolamasını gösterir
+- Marketin kullandığı
+- depolamayı gösterir
 msg-button-delete: "&4Sil"
 msg-button-delete-lore:
 - Marketi kapat ve
@@ -50,7 +50,7 @@ msg-button-hire-lore:
 
 msg-button-sign-variant: "&aÇeşiti değiştir"
 msg-button-sign-variant-lore:
-- "Tabelanın kullandığı ağaç türünü değiştirir"
+- "Kullanılan ağaç türünü değiştirir"
 msg-button-baby: "&aBiçimi değiştir"
 msg-button-baby-lore:
 - "Varlığın bebek halini değiştirir"
@@ -138,7 +138,7 @@ msg-button-magma-cube-size-lore:
 - "Magma küpü boyutunu değiştirir."
 - "Şuanki boyut: &e{size}"
 
-msg-trading-title-prefix: "&a"
+msg-trading-title-prefix: "&2"
 msg-trading-title-default: "Market"
 
 msg-container-selected: "&aDepolama seçildi! Marketi yerleştirmek için bir bloğa sağ tıklayın."
@@ -283,7 +283,7 @@ msg-villager-trades-changed: "&e{changedTrades}&a takası değiştirildi."
 msg-list-admin-shops-header: "&9Toplamda &e{shopsCount} &9Admin marketi var: &e(Sayfa {page}/{maxPage})"
 msg-list-all-shops-header: "&9Toplamda &e{shopsCount} &9market var: &e(Sayfa {page}/{maxPage})"
 msg-list-player-shops-header: "'&e{player}&9', &e{shopsCount} &9markete sahip: &e(Sayfa {page}/{maxPage})"
-msg-list-shops-entry: "  %8ID: &e{shopId}) &8İsim: &7{shopName}&r &8Konum: &7({location})&r, %8Tür: &7{shopType}&r, %8Varlık: &7{objectType}"
+msg-list-shops-entry: "  &8ID: &e{shopId}) &8İsim: &7{shopName}&r &8Konum: &7({location})&r, &8Tür: &7{shopType}&r, &8Varlık: &7{objectType}"
 
 msg-removed-admin-shops: "&e{shopsCount} &aAdmin marketi kaldırıldı."
 msg-removed-shops-of-player: "&e{shopsCount} &a'&e{player}&a' oyuncusunun marketleri kaldırıldı."
@@ -294,26 +294,26 @@ msg-confirm-remove-all-own-shops: "&cBütün sahip olduğun marketleri (&6{shops
 msg-confirm-remove-all-shops-of-player: "&6{player}&c oyuncusunun bütün marketlerini (&6{shopsCount}&c) geri dönüşsüz kaldırmak üzeresiniz!"
 msg-confirm-remove-all-player-shops: "&cBütün oyuncuların, oyuncu marketlerini (&6{shopsCount}&c) geri dönüşsüz kaldırmak üzeresiniz!!"
 
-msg-confirmation-required: "&7İşlemi onaylamak için &6/shopkeepers confirm %7yazınız!"
+msg-confirmation-required: "&7İşlemi onaylamak için &6/shopkeepers confirm &7yazınız!"
 msg-confirmation-expired: "&cOnaylama süresi doldu."
 msg-nothing-to-confirm: "&cŞuanda onaylanacak bir şey yok."
 
 msg-no-permission: "&cBunu yapmak için yetkin yok."
 
-msg-command-unknown: "'&e{command}&c' -> Bilinmeyen komut!"
-msg-command-argument-unexpected: "'&e{argument}&c' -> Beklenmeyen arguman."
-msg-command-argument-requires-player: "'&e{argumentFormat}&c' -> yürütülmek için oyuncu gerektirir."
-msg-command-argument-missing: "'&e{argumentFormat}&c' -> Eksik arguman."
-msg-command-argument-invalid: "'&e{argument}&c' -> Geçersiz arguman."
-msg-command-player-argument-missing: "'&e{argumentFormat}&c' -> Oyuncu belirtilmedi."
-msg-command-player-argument-invalid: "'&e{argument}&c' -> Oyuncu geçersiz."
-msg-command-shop-type-argument-invalid: "'&e{argument}&c' -> Bilinmeyen market türü."
-msg-command-shop-object-type-argument-invalid: "'&e{argument}&c' -> Bilinmeyen market varlık türü."
-msg-command-shopkeeper-argument-invalid: "'&e{argument}&c' -> Market bulunamadı."
-msg-command-shopkeeper-argument-no-admin-shop: "'&e{argument}&c' marketi, admin marketi değil."
-msg-command-shopkeeper-argument-no-player-shop: "'&e{argument}&c' marketi, oyuncu marketi değil."
+msg-command-unknown: "&cBilinmeyen komut: '&e{command}&c'"
+msg-command-argument-unexpected: "&cBeklenmeyen arguman: '&e{argument}&c'"
+msg-command-argument-requires-player: "&cYürütülmek için oyuncu gerektirir: '&e{argumentFormat}&c'"
+msg-command-argument-missing: "&cEksik arguman: '&e{argumentFormat}&c'"
+msg-command-argument-invalid: "&cGeçersiz arguman: '&e{argument}&c'"
+msg-command-player-argument-missing: "&cOyuncu belirtilmedi: '&e{argumentFormat}&c'"
+msg-command-player-argument-invalid: "&cOyuncu geçersiz: '&e{argument}&c'"
+msg-command-shop-type-argument-invalid: "&cBilinmeyen market türü: '&e{argument}&c'"
+msg-command-shop-object-type-argument-invalid: "&cBilinmeyen market varlık türü: '&e{argument}&c'"
+msg-command-shopkeeper-argument-invalid: "&cMarket bulunamadı: '&e{argument}&c'"
+msg-command-shopkeeper-argument-no-admin-shop: "&cMarket '&e{argument}&c', admin marketi değil."
+msg-command-shopkeeper-argument-no-player-shop: "&cMarket '&e{argument}&c', oyuncu marketi değil."
 
-msg-ambiguous-player-name: "'&e{name}&c' adı için birden çok eşleşme var!"
+msg-ambiguous-player-name: "&cBu isim için birden çok eşleşme var: '&e{name}&c'"
 msg-ambiguous-player-name-entry: "&c  - '&e{name}&r&c' (&6{uuid}&c)"
 msg-ambiguous-player-name-more: "&c  - ...."
 
