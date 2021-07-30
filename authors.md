@@ -2,6 +2,10 @@
 
 This document lists the authors of third-party translations found in this repository.
 
+## v2.13.2
+
+## v2.13.0
+
 ## v2.11.0
 
 * es (latam): Nehemek
