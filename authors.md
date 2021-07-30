@@ -9,6 +9,7 @@ This document lists the authors of third-party translations found in this reposi
 * es2: Direte89
 * pt-BR: IgorFradi
 * ja: fa0311
+* tr: hhhhckr
 
 ## v2.10.0
 
