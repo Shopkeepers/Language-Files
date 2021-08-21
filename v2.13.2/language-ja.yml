@@ -253,7 +253,7 @@ missing-trade-perm: "&7このショップとの取引は許可されていませ
 missing-custom-trade-perm: "&7このショップとの取引は許可されていません。"
 
 cannot-trade-no-offers: "&7このショップは現在閉店しています。また今度お越しください！"
-no-offers-open-editor-description: "&eこのショップを編集するにはshiftを押しながら右クリックをします。"
+no-offers-open-editor-description: "&eこのショップを編集するにはシフトをしながら右クリックをします。"
 cannot-trade-with-own-shop: "&7自分のショップとの取引はできません。"
 cant-trade-while-owner-online: "&7このショップのオーナー('&e{owner}&7')がオンラインになっている間は取引できません。"
 cant-trade-with-shop-missing-container: "&7このお店は、在庫がないので取引できません。"
