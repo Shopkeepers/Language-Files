@@ -5,6 +5,7 @@ This document lists the authors of third-party translations found in this reposi
 ## v2.13.2
 
 * ru: Naloaty
+* ja: fa0311
 
 ## v2.13.0
 
