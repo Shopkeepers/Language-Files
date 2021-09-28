@@ -20,6 +20,8 @@ This document lists the authors of third-party translations found in this reposi
 
 ## v2.10.0
 
+* cs: Lemafor
+
 ## v2.9.3
 
 * cs: Lemafor
