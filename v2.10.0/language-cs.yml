@@ -33,7 +33,7 @@ msg-button-next-page-lore: []
 msg-button-current-page: "&6Strana {page} z {max_page}"
 msg-button-current-page-lore: []
 
-msg-button-name: "&aNastavit název obchodu "
+msg-button-name: "&aNastavit název obchodu"
 msg-button-name-lore:
 - Můžeš přejmenovat
 - svého kupce
@@ -87,14 +87,14 @@ msg-button-horse-style: "&aVýběr vzoru koně"
 msg-button-horse-style-lore:
 - "Výběr vzoru"
 - "koně"
-msg-button-horse-armor: "&aVýběr zbroje pro koně "
+msg-button-horse-armor: "&aVýběr zbroje pro koně"
 msg-button-horse-armor-lore:
 - "Mění zbroj"
 - "koně"
 msg-button-llama-variant: "&aVýběr odrůdy lamy"
 msg-button-llama-variant-lore:
 - "Mění vzhled lamy"
-msg-button-llama-carpet-color: "&aBarva koberce na lamě "
+msg-button-llama-carpet-color: "&aBarva koberce na lamě"
 msg-button-llama-carpet-color-lore:
 - "Mění u lamy"
 - "barvu koberce"
@@ -197,7 +197,7 @@ msg-hired: "&aPronajal sis tohoto kupce!"
 msg-missing-hire-perm: "&7Nemáš oprávnění k pronajetí kupce."
 msg-cant-hire: "&7Nemůžeš si dovolit pronajmout tohoto kupce."
 msg-cant-hire-shop-type: "&7Nemáš oprávnění k pronajetí tohoto typu kupce."
-msg-villager-for-hire: "&aVesničan nabízel své služby jako kupec výměnou za &6{costs} × {hire-item}&a."
+msg-villager-for-hire: "&aVesničan nabízel své služby jako kupec výměnou za &6{costs}× {hire-item}&a."
 
 msg-missing-trade-perm: "&7Nemáš oprávnění k obchodování s tímto kupcem."
 msg-missing-custom-trade-perm: "&7Nemáš oprávnění k obchodování s tímto kupcem."
