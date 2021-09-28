@@ -22,6 +22,8 @@ This document lists the authors of third-party translations found in this reposi
 
 ## v2.9.3
 
+* cs: Lemafor
+
 ## v2.9.0
 
 * cs: Lemafor
