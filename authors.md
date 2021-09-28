@@ -17,6 +17,7 @@ This document lists the authors of third-party translations found in this reposi
 * pt-BR: IgorFradi
 * ja: fa0311
 * tr: hhhhckr
+* cs: Lemafor
 
 ## v2.10.0
 
