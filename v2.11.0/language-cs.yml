@@ -353,7 +353,7 @@ msg-command-description-remove: "Odstraní všechny kupce určitého hráče, v�
 msg-command-description-give: "Dá předmět(y) vytvářející kupce určitému hráči."
 msg-command-description-give-currency: "Dá předmět(y) platidla zadanému hráči."
 msg-command-description-convert-items: "Převede držené (nebo všechny) předměty tak, aby vyhovovaly datovému formátu Spigotu."
-msg-command-description-remote: "Vzdáleně otevře obchod (volitelně:" jiného hráče)."
+msg-command-description-remote: "Vzdáleně otevře obchod (volitelně: jiného hráče)."
 msg-command-description-remote-edit: "Vzdáleně upravuje obchod."
 msg-command-description-transfer: "Přenos vlastnictví obchodu."
 msg-command-description-settradeperm: "Nastavuje, odstraňuje (-) nebo zobrazuje (?) oprávnění k obchodování."
