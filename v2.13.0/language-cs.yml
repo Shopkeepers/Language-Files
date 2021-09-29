@@ -49,7 +49,7 @@ button-container-lore:
 - svého kupce
 button-trade-notifications: "&aOznámení o obchodování"
 button-trade-notifications-lore:
-- "Přepínání oznámení o obchodování "
+- "Přepínání oznámení o obchodování"
 - "u tohoto kupce zapnuto/vypnuto."
 - "Nyní: {state}"
 button-delete: "&4Smazat"
