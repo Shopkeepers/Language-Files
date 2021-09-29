@@ -6,8 +6,11 @@ This document lists the authors of third-party translations found in this reposi
 
 * ru: Naloaty
 * ja: fa0311
+* cs: Lemafor
 
 ## v2.13.0
+
+* cs: Lemafor
 
 ## v2.11.0
 
