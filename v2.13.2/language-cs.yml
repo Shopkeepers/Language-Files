@@ -475,7 +475,7 @@ command-description-remove-all: "Odstraní všechny kupce určitého hráče, v�
 command-description-give: "Dá předmět(y) vytvářející kupce určitému hráči."
 command-description-give-currency: "Dá předmět(y) platidla zadanému hráči."
 command-description-convert-items: "Převede držené (nebo všechny) předměty tak, aby vyhovovaly datovému formátu Spigotu."
-command-description-remote: "Vzdáleně otevře obchod (volitelně:" jiného hráče)."
+command-description-remote: "Vzdáleně otevře obchod (volitelně: jiného hráče)."
 command-description-remote-edit: "Vzdáleně upravuje obchod."
 command-description-transfer: "Přenos vlastnictví obchodu."
 command-description-settradeperm: "Nastavuje, odstraňuje (-) nebo zobrazuje (?) oprávnění k obchodování."
