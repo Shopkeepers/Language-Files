@@ -8,6 +8,7 @@ This document lists the authors of third-party translations found in this reposi
 * ja: fa0311
 * cs: Lemafor
 * zh-CN: katorly
+* es-419: Cesar Binarity
 
 ## v2.13.0
 
@@ -15,9 +16,9 @@ This document lists the authors of third-party translations found in this reposi
 
 ## v2.11.0
 
-* es (latam): Nehemek
+* es-419: Nehemek
 * it: Peppe73
-* es2: Direte89
+* es-419-2: Direte89
 * pt-BR: IgorFradi
 * ja: fa0311
 * tr: hhhhckr
