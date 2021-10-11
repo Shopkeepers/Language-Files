@@ -1,10 +1,4 @@
-# *~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~*
-# Archivo de idioma predeterminado de Shopkeepers
-# Este archivo actúa como una plantilla para archivos de idioma personalizados y no está destinado a ser
-# modificado. Se sobrescribe cada vez que se inicia un complemento.
-# Traducciones comunitarias: https://github.com/Shopkeepers/Translations
-# *~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~*
-# Language: es-LA
+# Language: es-419
 
 shop-type-admin-regular: "Tienda de Administrador"
 shop-type-selling: "Tienda de Venta"
