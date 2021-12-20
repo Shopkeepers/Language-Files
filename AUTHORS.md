@@ -1,6 +1,6 @@
-# Translation authors
+# Authors
 
-This document lists the authors of third-party translations found in this repository.
+This document lists the authors of language files found in this repository.
 
 ## v2.13.2
 
