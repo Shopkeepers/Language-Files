@@ -59,4 +59,4 @@ Follow these steps and notes to update an already existing language file for a n
 
 If you have questions or suggestions, [join the Discord Server](https://discord.gg/d9NKd5z) or [create an issue](https://github.com/Shopkeepers/Translations/issues/new).
 
-### Thanks to [all contributors](authors.md)!
+### Thanks to [all contributors](AUTHORS.md)!
