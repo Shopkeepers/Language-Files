@@ -271,6 +271,8 @@ villager-for-hire: "&aDieser Dorfbewohner bietet dir im Tausch für &6{costs}x {
 
 missing-trade-perm: "&7Du hast nicht die nötige Befugnis, um mit diesem Shop zu handeln."
 missing-custom-trade-perm: "&7Du hast nicht die nötige Befugnis, um mit diesem Shop zu handeln."
+cannot-trade-no-offers: "&7Dieser Shop hat derzeit keine Angebote. Schaue später nochmal vorbei!"
+no-offers-open-editor-description: "&eDu kannst diesen Shop mit Shift+Rechtsklick bearbeiten."
 cannot-trade-with-own-shop: "&7Du kannst nicht mit deinem eigenen Shop handeln."
 cannot-trade-while-owner-online: "&7Du kannst nicht handeln, während der Besitzer dieses Shops ('&e{owner}&7') online ist."
 cannot-trade-with-shop-missing-container: "&7Du kannst nicht mit diesem Shop handeln, da sein Behälter fehlt."

@@ -264,6 +264,8 @@ villager-for-hire: "&aThe villager offered his services as a shopkeeper in excha
 
 missing-trade-perm: "&7You do not have the permission to trade with this shop."
 missing-custom-trade-perm: "&7You do not have the permission to trade with this shop."
+cannot-trade-no-offers: "&7This shop currently has no offers. Check again later!"
+no-offers-open-editor-description: "&eYou can edit this shop by right clicking it while sneaking."
 cannot-trade-with-own-shop: "&7You cannot trade with your own shop."
 cannot-trade-while-owner-online: "&7You cannot trade while the owner of this shop ('&e{owner}&7') is online."
 cannot-trade-with-shop-missing-container: "&7You cannot trade with this shop, because its container is missing."

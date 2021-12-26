@@ -71,7 +71,7 @@ button-baby-lore:
 - "a dospělou variantou stvoření"
 button-sitting: "&aPřepnout polohu"
 button-sitting-lore:
-- "Přepíná polohu -"
+- "Přepíná"
 - "sezení/stání"
 button-cat-variant: "&aVýběr odrůdy kočky"
 button-cat-variant-lore:
@@ -201,7 +201,7 @@ player-sign-shop-line3: "&7{owner}"
 player-sign-shop-line4: "&ePravý klik!"
 
 for-hire-title: "K pronajetí"
-button-hire: "&aNajmout si"
+button-hire: "&aZaměstnat "
 button-hire-lore:
 - Koupit si tohoto kupce
 
@@ -264,6 +264,8 @@ villager-for-hire: "&aVesničan nabízel své služby jako kupec výměnou za &6
 
 missing-trade-perm: "&7Nemáš oprávnění obchodovat s tímto kupcem."
 missing-custom-trade-perm: "&7Nemáš oprávnění obchodovat s tímto kupcem."
+cannot-trade-no-offers: "&7Tento kupec právě nic nenabízí. Zkus to později!"
+no-offers-open-editor-description: "&eTento obchod můžeš upravit kliknutím pravým tlačítkem myši během plížení."
 cannot-trade-with-own-shop: "&7Nelze obchodovat s vlastním kupcem."
 cannot-trade-while-owner-online: "&7Nemůžeš obchodovat s tímto kupcem, dokud je jeho vlastník ('&e{owner}&7') přihlášen."
 cannot-trade-with-shop-missing-container: "&7Nelze obchodovat s tímto kupcem, neboť schází jeho nádoba."
