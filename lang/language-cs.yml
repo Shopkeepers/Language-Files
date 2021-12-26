@@ -64,6 +64,9 @@ msg-button-sitting-lore:
 msg-button-cat-variant: "&aVýběr odrůdy kočky"
 msg-button-cat-variant-lore:
 - "Mění vzhled kočky"
+msg-button-rabbit-variant: "&aVýběr odrůdy králíka"
+msg-button-rabbit-variant-lore:
+- "Mění vzhled králíka"
 msg-button-collar-color: "&aVýběr barvy obojku"
 msg-button-collar-color-lore:
 - "Přepíná barvu"
@@ -79,19 +82,19 @@ msg-button-carrying-chest-lore:
 msg-button-horse-color: "&aVýběr barvy koně"
 msg-button-horse-color-lore:
 - "Mění barvu"
-- "srsti koně"
+- "koně"
 msg-button-horse-style: "&aVýběr vzoru koně"
 msg-button-horse-style-lore:
-- "Mění odznaky"
+- "Výběr vzoru"
 - "koně"
-msg-button-horse-armor: "&aVýběr zbroje pro koně "
+msg-button-horse-armor: "&aVýběr zbroje pro koně"
 msg-button-horse-armor-lore:
 - "Mění zbroj"
 - "koně"
 msg-button-llama-variant: "&aVýběr odrůdy lamy"
 msg-button-llama-variant-lore:
 - "Mění vzhled lamy"
-msg-button-llama-carpet-color: "&aBarva koberce na lamě "
+msg-button-llama-carpet-color: "&aBarva koberce na lamě"
 msg-button-llama-carpet-color-lore:
 - "Mění u lamy"
 - "barvu koberce"
@@ -104,7 +107,7 @@ msg-button-fox-variant-lore:
 - "Mění vzhled lišky"
 msg-button-fox-crouching: "&aPřepnout přikrčení"
 msg-button-fox-crouching-lore:
-- "Přepíná, zda je liška"
+- "Přepíná, zda liška"
 - "přikrčená"
 msg-button-fox-sleeping: "&aPřepnout spaní"
 msg-button-fox-sleeping-lore:
@@ -139,9 +142,9 @@ msg-button-villager-variant: "&aVýběr varianty vesničana"
 msg-button-villager-variant-lore:
 - "Mění vzhled"
 - "vesničana"
-msg-button-villager-level: "&aVýběr úrovně vesničana"
+msg-button-villager-level: "&aVýběr barvy odznaku vesničana"
 msg-button-villager-level-lore:
-- "Mění úroveň"
+- "Mění barvu odznaku"
 - "vesničana"
 msg-button-zombie-villager-profession: "&aVýběr profese vesničana"
 msg-button-zombie-villager-profession-lore:
@@ -194,17 +197,19 @@ msg-hired: "&aPronajal sis tohoto kupce!"
 msg-missing-hire-perm: "&7Nemáš oprávnění k pronajetí kupce."
 msg-cant-hire: "&7Nemůžeš si dovolit pronajmout tohoto kupce."
 msg-cant-hire-shop-type: "&7Nemáš oprávnění k pronajetí tohoto typu kupce."
-msg-villager-for-hire: "&aVesničan nabízel své služby jako kupec výměnou za &6{costs} × {hire-item}&a."
+msg-villager-for-hire: "&aVesničan nabízel své služby jako kupec výměnou za &6{costs}× {hire-item}&a."
 
 msg-missing-trade-perm: "&7Nemáš oprávnění k obchodování s tímto kupcem."
 msg-missing-custom-trade-perm: "&7Nemáš oprávnění k obchodování s tímto kupcem."
+msg-cant-trade-with-own-shop: "&7Nelze obchodovat s vlastním kupcem."
 msg-cant-trade-while-owner-online: "&7Nemůžeš obchodovat s tímto kupcem, dokud je jeho vlastník ('&e{owner}&7') přihlášen."
+msg-cant-trade-with-shop-missing-chest: "&7Nelze obchodovat s tímto kupcem, neboť schází jeho truhla."
 
 msg-shopkeeper-created: "&aKupec vytvořen: &6{type} &7({description})\n{setupDesc}"
 
 msg-shop-setup-desc-selling: |-
   &e  Vlož předměty, které chceš prodat, do své truhly,
-  &e  pravým klikem s plížením (shift) na kupce uprav ceny.
+  &e  pak pravým klikem s plížením (shift) na kupce uprav ceny.
 msg-shop-setup-desc-buying: |-
   &e  Vlož jeden kus od každého předmětu, které chceš vykupovat, do své truhly,
   &e  pak pravým klikem s plížením (shift) na kupce uprav ceny.
@@ -221,8 +226,7 @@ msg-trade-setup-desc-header: '&6{shopType}'
 msg-trade-setup-desc-admin-regular:
 - Má neomezené zásoby.
 - Vlož předměty ze svého inventáře,
-- vždy tolik, po kolika je budeš prodávat.
-- 'Horní řádek: Počet prodávaných předmětů'
+- 'Horní řádek: Výsledný počet předmětů'
 - 'Spodní řádky: Za co se prodávají'
 msg-trade-setup-desc-selling:
 - Prodává předměty hráčům.
@@ -234,7 +238,7 @@ msg-trade-setup-desc-buying:
 - Vykupuje předměty od hráčů.
 - Vlož do truhly po jednom kuse
 - předměty, které chceš vykupovat,
-- a množství předmětů, za něž kupuješ.
+- a prázdné knihy s brkem.
 - Levým/pravým klikem uprav počet.
 - 'Horní řádek: Za co se prodávají'
 - 'Spodní řádek: Kupované předměty'
@@ -253,17 +257,17 @@ msg-trade-setup-desc-book:
 - 'Horní řádek: Prodávané knihy'
 - 'Spodní řádky: Za co se prodávají'
 
-msg-list-admin-shops-header: "&9Počet správcovských kupců: &e{shopsCount} &9 &e(Strana {page} z {maxPage})"
+msg-list-admin-shops-header: "&9Počet správcovských kupců: &e(Strana {page} z {maxPage})"
 msg-list-player-shops-header: "&9Počet obchodů hráče '&e{player}&9': &e{shopsCount}&9: &e(Strana {page} z {maxPage})"
-msg-list-shops-entry: "&e{shopId}) &7{shopName}&r&8na &7({location})&8, druh: &7{shopType}&8, kupec: &7{objectType}"
+msg-list-shops-entry: "  &"&e{shopId}) &7{shopName}&r&8na &7({location})&8, druh: &7{shopType}&8, kupec: &7{objectType}"
 
 msg-removed-admin-shops: "&aSprávcovské obchody byly odstraněny (&e{shopsCount}&a)."
-msg-removed-player-shops: "Hráčské obchody byly odstraněny (&e{shopsCount}&a)."
-msg-removed-all-player-shops: "&aVšechny hráčské obchody byly odstraněny (&e{shopsCount}&a)."
+msg-removed-shops-of-player: "Hráčské obchody byly odstraněny (&e{shopsCount}&a)."
+msg-removed-player-shops: "&aOdstraněni kupci hráče &aplayer: &e{shopsCount}&a."
 
-msg-confirm-remove-admin-shops: "&cChystáš se nevratně odstranit \nvšechny správcovské kupce (&6{shopsCount}&c)!"
-msg-confirm-remove-own-shops: "&cChystáš se nevratně odstranit \nvšechny své kupce (&6{shopsCount}&c)!"
-msg-confirm-remove-player-shops: "&cChystáš se nevratně odstranit \nvšechny kupce hráče &6{player}&c (&6{shopsCount}&c)!"
+msg-confirm-remove-all-admin-shops: "&cChystáš se nevratně odstranit \nvšechny správcovs1ké kupce (&6{shopsCount}&c)!"
+msg-confirm-remove-all-own-shops: "&cChystáš se nevratně odstranit \nvšechny své kupce (&6{shopsCount}&c)!"
+msg-confirm-remove-all-shops-of-player: "&cChystáš se nevratně odstranit \nvšechny kupce hráče &6{player}&c (&6{shopsCount}&c)!"
 msg-confirm-remove-all-player-shops: "&cChystáš se nevratně odstranit \nvšechny kupce všech hráčů (&6{shopsCount}&c)!"
 
 msg-confirmation-required: "&7Asi bude lepší, když tuto akci potvrdíš napsáním \n&6/shopkeepers confirm"
