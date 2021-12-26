@@ -19,12 +19,12 @@ msg-shop-object-type-npc: "npc"
 msg-selected-shop-type: "&aSelected shop type: &6{type} &7({description})"
 msg-selected-shop-object-type: "&aSelected object type: &6{type}"
 
-msg-creation-item-selected: |
-    &aShop creation:
-    &e  Left/Right-click to select the shop type.
-    &e  Sneak + left/right-click to select the object type.
-    &e  Right-click a chest to select it.
-    &e  Then right-click a block to place the shopkeeper.
+msg-creation-item-selected: |-
+  &aShop creation:
+  &e  Left/Right-click to select the shop type.
+  &e  Sneak + left/right-click to select the object type.
+  &e  Right-click a chest to select it.
+  &e  Then right-click a block to place the shopkeeper.
 
 msg-button-previous-page: "&6<- Previous page ({prev_page} of {max_page})"
 msg-button-previous-page-lore: []
@@ -202,20 +202,21 @@ msg-cant-trade-while-owner-online: "&7You cannot trade while the owner of this s
 
 msg-shopkeeper-created: "&aShopkeeper created: &6{type} &7({description})\n{setupDesc}"
 
-msg-shop-setup-desc-selling: |
-    &e  Add items you want to sell to your chest, then
-    &e  right-click the shop while sneaking to modify costs.
-msg-shop-setup-desc-buying: |
-    &e  Add one of each item you want to buy to your chest, then
-    &e  right-click the shop while sneaking to modify costs.
-msg-shop-setup-desc-trading: |
-    &e  Add items you want to sell to your chest, then
-    &e  right-click the shop while sneaking to modify costs.
-msg-shop-setup-desc-book: |
-    &e  Add written books and blank books to your chest, then
-    &e  right-click the shop while sneaking to modify costs.
-msg-shop-setup-desc-admin-regular: |
-    &e  Right-click the shop while sneaking to modify trades.
+msg-shop-setup-desc-selling: |-
+  &e  Add items you want to sell to your chest, then
+  &e  right-click the shop while sneaking to modify costs.
+msg-shop-setup-desc-buying: |-
+  &e  Add one of each item you want to buy to your chest, then
+  &e  right-click the shop while sneaking to modify costs.
+msg-shop-setup-desc-trading: |-
+  &e  Add items you want to sell to your chest, then
+  &e  right-click the shop while sneaking to modify costs.
+msg-shop-setup-desc-book: |-
+  &e  Add written books and blank books to your chest, then
+  &e  right-click the shop while sneaking to modify costs.
+msg-shop-setup-desc-admin-regular: |-
+  &e  Right-click the shop while sneaking to modify trades.
+
 msg-trade-setup-desc-header: '&6{shopType}'
 msg-trade-setup-desc-admin-regular:
 - Has unlimited stock.
@@ -254,16 +255,16 @@ msg-trade-setup-desc-book:
 
 msg-list-admin-shops-header: "&9There are &e{shopsCount} &9admin shops: &e(Page {page} of {maxPage})"
 msg-list-player-shops-header: "&9Player '&e{player}&9' has &e{shopsCount} &9shops: &e(Page {page} of {maxPage})"
-msg-list-shops-entry: "  &e{shopSessionId}) &7{shopName}&r&8at &7({location})&8, type: &7{shopType}&8, object type: &7{objectType}"
+msg-list-shops-entry: "  &e{shopId}) &7{shopName}&r&8at &7({location})&8, type: &7{shopType}&8, object: &7{objectType}"
 
 msg-removed-admin-shops: "&e{shopsCount} &aadmin shops were removed."
 msg-removed-player-shops: "&e{shopsCount} &ashops of player '&e{player}&a' were removed."
 msg-removed-all-player-shops: "&aAll &e{shopsCount} &aplayer shops were removed."
 
-msg-confirm-remove-admin-shops: "&cYou are about to irrevocable remove all admin shops!"
-msg-confirm-remove-own-shops: "&cYou are about to irrevocable remove all your shops!"
-msg-confirm-remove-player-shops: "&cYou are about to irrevocable remove all shops of player &6{player}&c!"
-msg-confirm-remove-all-player-shops: "&cYou are about to irrevocable remove all player shops of all players!"
+msg-confirm-remove-admin-shops: "&cYou are about to irrevocable remove all admin shops (&6{shopsCount}&c)!"
+msg-confirm-remove-own-shops: "&cYou are about to irrevocable remove all your shops (&6{shopsCount}&c)!"
+msg-confirm-remove-player-shops: "&cYou are about to irrevocable remove all shops of player &6{player}&c (&6{shopsCount}&c)!"
+msg-confirm-remove-all-player-shops: "&cYou are about to irrevocable remove all player shops of all players (&6{shopsCount}&c)!"
 
 msg-confirmation-required: "&7Please confirm this action by typing &6/shopkeepers confirm"
 msg-confirmation-expired: "&cConfirmation expired."
@@ -273,6 +274,7 @@ msg-no-permission: "&cYou don't have the permission to do that."
 
 msg-command-unknown: "&cUnknown command '&e{command}&c'!"
 msg-command-argument-unexpected: "&cUnexpected argument '&e{argument}&c'."
+msg-command-argument-requires-player: "&cArgument '&e{argumentFormat}&c' requires a player to execute the command."
 msg-command-argument-missing: "&cMissing argument '&e{argumentFormat}&c'."
 msg-command-argument-invalid: "&cInvalid argument '&e{argument}&c'."
 msg-command-player-argument-missing: "&cNo player specified for '&e{argumentFormat}&c'."
@@ -282,6 +284,10 @@ msg-command-shop-object-type-argument-invalid: "&cUnknown shop object type '&e{a
 msg-command-shopkeeper-argument-invalid: "&cNo shopkeeper found for '&e{argument}&c'."
 msg-command-shopkeeper-argument-no-admin-shop: "&cShopkeeper '&e{argument}&c' is no admin shopkeeper."
 msg-command-shopkeeper-argument-no-player-shop: "&cShopkeeper '&e{argument}&c' is no player shopkeeper."
+
+msg-ambiguous-player-name: "&cThere are multiple matches for the name '&e{name}&c'!"
+msg-ambiguous-player-name-entry: "&c  - '&e{name}&r&c' (&6{uuid}&c)"
+msg-ambiguous-player-name-more: "&c  - ...."
 
 msg-command-help-title: "&9***** &8[&6Shopkeepers v{version}&8] &9*****"
 msg-command-help-usage-format: "&e{usage}"
