@@ -1,5 +1,7 @@
 # Language: cs
 
+date-time-format: "yyyy-MM-dd HH:mm:ss"
+
 shop-type-admin-regular: "Správcovský obchod"
 shop-type-selling: "Prodej"
 shop-type-buying: "Výkup"
@@ -99,6 +101,10 @@ button-horse-style: "&aVýběr vzoru koně"
 button-horse-style-lore:
 - "Výběr vzoru"
 - "koně"
+button-horse-saddle: "&aPřepnout osedlání koně"
+button-horse-saddle-lore:
+- "Přepíná osedlání"
+- "koně"
 button-horse-armor: "&aVýběr zbroje pro koně"
 button-horse-armor-lore:
 - "Mění zbroj"
@@ -189,6 +195,24 @@ button-goat-screaming: "&aPřepínání ryčící kozy"
 button-goat-screaming-lore:
 - "Přepínání mezi normální"
 - "a ryčící kozou"
+button-tropical-fish-pattern: "&aVýběr varianty"
+button-tropical-fish-pattern-lore:
+- "Mění tvar a vzor"
+- "tropické ryby."
+- "Nyní: &e{pattern}"
+button-tropical-fish-body-color: "&aVýběr barvy těla"
+button-tropical-fish-body-color-lore:
+- "Mění barvu těla"
+- "tropické ryby"
+button-tropical-fish-pattern-color: "&aVýběr barvy vzoru"
+button-tropical-fish-pattern-color-lore:
+- "Mění barvu vzoru"
+- "tropické ryby"
+button-puffer-fish-puff-state: "&aVýběr stavu nafouknutí"
+button-puffer-fish-puff-state-lore:
+- "Mění stav nafouknutí"
+- "čtverzubce."
+- "Nyní: &e{puffState}"
 
 admin-sign-shop-line1: "&2[KUPEC]"
 admin-sign-shop-line2: "&7{shopName}"
@@ -221,10 +245,10 @@ too-many-shops: "&7Již jsi dosáhl limitu počtu kupců, které můžeš vlastn
 no-player-shops-via-command: "&7Hráčské kupce lze vytvořit pouze pomocí zvláštního předmětu na vytvoření obchodu!"
 shop-create-fail: "&7Zde nemůžeš vytvořit kupce."
 
-type-new-name: "&aNapiš jméno kupce (název obchodu) do chatu.\n  &aChceš-li jméno odstranit, napiš pomlčku (-)."
-name-set: "&aJméno bylo nastaveno!"
+type-new-name: "&aZadej nové jméno kupce (název obchodu) do chatu.\n  &aChceš-li dosavadní jméno odstranit, odešli pomlčku (-)."
+name-set: "&aJméno kupce bylo nastaveno na '&e{name}&a'!"
 name-has-not-changed: "&aJméno se nezměnilo!"
-name-invalid: "&aToto jméno není platné!"
+name-invalid: "&cNeplatný název kupce:" '&e{name}&c'"
 nameplate-prefix: "&2"
 
 shop-type-disabled: "&7Typ kupce '&6{type}&7' je vypnut."
@@ -405,6 +429,7 @@ list-shops-entry: "  &e{shopId}) &7{shopName}&r&8na &7({location})&8, druh: &7{s
 
 shop-removed: "&aKupec byl odstraněn."
 shop-already-removed: "&7Kupec byl již odstraněn."
+shop-no-longer-exists: "&7Kupec už neexistuje."
 shop-removal-cancelled: "&cZásuvný modul zabránil odstranění kupce."
 
 shops-already-removed: "&7Kupci již byli odstraněni (&e{shopsCount}&7)."
@@ -441,12 +466,28 @@ confirmation-ui-cancel-lore:
 - "právě probíhající akci."
 confirmation-ui-aborted: "&7Potvrzení bylo zrušeno."
 
+snapshot-list-header: "&9Kupec &e{shop_id} &9má &e{snapshotsCount} &9snímků: &e(Strana {page} z {maxPage})"
+snapshot-list-entry: "  &e{id}) &2{name}&8 (&7{timestamp}&8)"
+invalid-snapshot-id: "&cNeplatné ID snímku: &e{id}"
+invalid-snapshot-name: "&cŽádný snímek se jménem '&e{name}&c'."
+snapshot-name-too-long: "&cNázev snímku může být maximálně &e{maxLength}&c znaků dlouhý: &e{name}"
+snapshot-name-invalid: "&cNeplatný název snímku: &e{name}"
+snapshot-name-already-exists: "&cJiž existuje jiný snímek s tímto názvem: &e{name}"
+snapshot-created: "&aVytvořen nový snímek: &e({id}) &2{name} &8(&7{timestamp}&8)"
+confirm-remove-snapshot: "&cChystáš se nenávratně odstranit uvedený snímek!"
+confirm-remove-all-snapshots: "&cChystáš se nenávratně odstranit všechny snímky zadaného kupce (&6{snapshotsCount}&c)!"
+action-aborted-snapshots-changed: "&cAkce přerušena! Snímky se mezitím změnily. Zkus to znovu."
+snapshot-removed: "&aSnímek odstraněn: &e({id}) &2{name} &8(&7{timestamp}&8)"
+snapshot-removed-all: "&aVšechny snímky (&e{snapshotsCount}&a) kupce &e{shop_id}&a byly smazány."
+snapshot-restore-failed: "&cFailed to restore snapshot: &e({id}) &2{name} &8(&7{timestamp}&8)"
+snapshot-restored: "&aSnímek obnoven: &e({id}) &2{name} &8(&7{timestamp}&8)"
+
 no-permission: "&cNemáš oprávnění to udělat."
 
 command-unknown: "&cNeznámý příkaz '&e{command}&c'!"
 command-argument-unexpected: "&cNeočekávaný parametr '&e{argument}&c'."
-command-argument-requires-player: "&cParametr '&e{argumentFormat}&c' požaduje, aby hráč provedl příkaz."
-command-argument-missing: "&cChybějící parametr '&e{argument}&c'."
+command-argument-requires-player: "&cParametr '&e{argumentFormat}&c' požaduje, aby příkaz provedl hráč."
+command-argument-missing: "&cChybějící parametr '&e{argumentFormat}&c'."
 command-argument-invalid: "&cNeplatný parametr '&e{argument}&c'."
 command-player-argument-missing: "&cPro '&e{argumentFormat}&c' nebyl zadán žádný hráč."
 command-player-argument-invalid: "&cPro '&e{argument}&c' nebyl nalezen žádný hráč."
@@ -480,4 +521,8 @@ command-description-remote-edit: "Vzdáleně upravuje obchod."
 command-description-transfer: "Přenos vlastnictví obchodu."
 command-description-settradeperm: "Nastavuje, odstraňuje (-) nebo zobrazuje (?) oprávnění k obchodování."
 command-description-setforhire: "Nastavuje jeden z tvých obchodů na prodej."
+command-description-snapshot-list: "Vypíše seznam snímků kupce."
+command-description-snapshot-create: "Vytvoří nový snímek kupce."
+command-description-snapshot-remove: "Odebere konkrétní nebo všechny snímky kupce."
+command-description-snapshot-restore: "Obnoví zadaný snímek kupce."
 command-description-edit-villager: "Otevře editor pro zaměřeného vesničana."

@@ -1,5 +1,7 @@
 # Language: de
 
+date-time-format: "yyyy-MM-dd HH:mm:ss"
+
 shop-type-admin-regular: "Admin Shop"
 shop-type-selling: "Verkäufer"
 shop-type-buying: "Ankäufer"
@@ -100,6 +102,10 @@ button-horse-style: "&aFellmuster ändern"
 button-horse-style-lore:
 - "Ändert das Fellmuster"
 - "des Pferdes"
+button-horse-saddle: "&aSattel umschalten"
+button-horse-saddle-lore:
+- "Schaltet den Sattel"
+- "an oder aus"
 button-horse-armor: "&aPferderüstung ändern"
 button-horse-armor-lore:
 - "Ändert die Pferderüstung"
@@ -196,6 +202,24 @@ button-goat-screaming: "&aSchreiende Ziege umschalten"
 button-goat-screaming-lore:
 - "Schaltet zwischen einer normalen"
 - "und einer schreienden Ziege um"
+button-tropical-fish-pattern: "&aVariante ändern"
+button-tropical-fish-pattern-lore:
+- "Ändert die Form und das"
+- "Muster des Tropenfisches."
+- "Aktuell: &e{pattern}"
+button-tropical-fish-body-color: "&aKörperfarbe ändern"
+button-tropical-fish-body-color-lore:
+- "Ändert die Körperfarbe"
+- "des Tropenfisches"
+button-tropical-fish-pattern-color: "&aMusterfarbe ändern"
+button-tropical-fish-pattern-color-lore:
+- "Ändert die Musterfarbe"
+- "des Tropenfisches"
+button-puffer-fish-puff-state: "&aAufgeblasen-Zustand ändern"
+button-puffer-fish-puff-state-lore:
+- "Ändert den Aufgeblasen-Zustand"
+- "des Kugelfisches."
+- "Aktuell: &e{puffState}"
 
 admin-sign-shop-line1: "&2[SHOP]"
 admin-sign-shop-line2: "&7{shopName}"
@@ -228,10 +252,10 @@ too-many-shops: "&7Du hast bereits das Limit an Shops erreicht, die du besitzen 
 no-player-shops-via-command: "&7Spieler-Shops können nur mit dem Shop-Erstellungs Item erzeugt werden!"
 shop-create-fail: "&7Du kannst dort keinen Shop erstellen."
 
-type-new-name: "&aBitte gib den neuen Shop-Namen im Chat ein.\n  &aTippe Minus (-) ein, um den Namen zu entfernen."
-name-set: "&aDer Shop-Name wurde gesetzt!"
+type-new-name: "&aBitte gib den neuen Namen des Shops im Chat ein.\n  &aEin Minus (-) entfernt den aktuellen Namen."
+name-set: "&aDer Name des Shops wurde auf '&e{name}&a' gesetzt!"
 name-has-not-changed: "&aDer Shop-Name hat sich nicht geändert."
-name-invalid: "&aDer Name ist ungültig!"
+name-invalid: "&cUngültiger Shop-Name: '&e{name}&c'"
 nameplate-prefix: "&2"
 
 shop-type-disabled: "&7Der Shop-Typ '&6{type}&7' ist deaktiviert."
@@ -412,6 +436,7 @@ list-shops-entry: "  &e{shopId}) &7{shopName}&r&8an &7({location})&8, Typ: &7{sh
 
 shop-removed: "&aDer Shop wurde entfernt."
 shop-already-removed: "&7Der Shop wurde bereits entfernt."
+shop-no-longer-exists: "&7Der Shop existiert nicht mehr."
 shop-removal-cancelled: "&cEin Plugin hat das Entfernen des Shops verhindert."
 
 shops-already-removed: "&e{shopsCount}&7 der Shops wurden bereits entfernt."
@@ -447,6 +472,22 @@ confirmation-ui-cancel-lore:
 - "Dadurch wird die aktuelle"
 - "Aktion abgebrochen."
 confirmation-ui-aborted: "&7Bestätigung abgebrochen."
+
+snapshot-list-header: "&9Shop &e{shop_id} &9hat &e{snapshotsCount} &9Snapshots: &e(Seite {page} von {maxPage})"
+snapshot-list-entry: "  &e{id}) &2{name}&8 (&7{timestamp}&8)"
+invalid-snapshot-id: "&cUngültige Snapshot-Id: &e{id}"
+invalid-snapshot-name: "&cEs wurde kein Snapshot gefunden mit Namen '&e{name}&c'."
+snapshot-name-too-long: "&cDer Snapshot-Name kann höchstens &e{maxLength}&c Zeichen lang sein: &e{name}"
+snapshot-name-invalid: "&cUngültiger Snapshot-Name: &e{name}"
+snapshot-name-already-exists: "&cEs gibt bereits einen anderen Snapshot mit diesem Namen: &e{name}"
+snapshot-created: "&aNeuer Snapshot erstellt: &e({id}) &2{name} &8(&7{timestamp}&8)"
+confirm-remove-snapshot: "&cDu bist dabei den ausgewählten Snapshot unwiderruflich zu löschen!"
+confirm-remove-all-snapshots: "&cDu bist dabei alle Snapshots des ausgewählten Shops (&6{snapshotsCount}&c) unwiderruflich zu löschen!"
+action-aborted-snapshots-changed: "&cAktion abgebrochen! Die Snapshots haben sich inzwischen geändert. Versuche es erneut."
+snapshot-removed: "&aSnapshot gelöscht: &e({id}) &2{name} &8(&7{timestamp}&8)"
+snapshot-removed-all: "&aAlle &e{snapshotsCount} &aSnapshots von Shop &e{shop_id}&a wurden gelöscht."
+snapshot-restore-failed: "&cSnapshot konnte nicht wiederhergestellt werden: &e({id}) &2{name} &8(&7{timestamp}&8)"
+snapshot-restored: "&aSnapshot wiederhergestellt: &e({id}) &2{name} &8(&7{timestamp}&8)"
 
 no-permission: "&cDafür hast du nicht die nötigen Berechtigungen."
 
@@ -487,4 +528,8 @@ command-description-remote-edit: "Editiert einen Shop aus der Ferne."
 command-description-transfer: "Ändert den Besitzer eines Shops."
 command-description-settradeperm: "Setzt, entfernt (-) oder zeigt (?) die Handel-Permission an."
 command-description-setforhire: "Gibt einen deiner Shops zum Verkauf frei."
+command-description-snapshot-list: "Listet die Snapshots eines Shops auf."
+command-description-snapshot-create: "Erstellt einen neuen Shop-Snapshot."
+command-description-snapshot-remove: "Löscht einen bestimmten oder alle Snapshots eines Shops."
+command-description-snapshot-restore: "Stellt einen Shop-Snapshot wieder her."
 command-description-edit-villager: "Öffnet den Editor für den ausgewählten Dorfbewohner."

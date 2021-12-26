@@ -1,5 +1,7 @@
 # Language: en-default
 
+date-time-format: "yyyy-MM-dd HH:mm:ss"
+
 shop-type-admin-regular: "Admin shop"
 shop-type-selling: "Selling shop"
 shop-type-buying: "Buying shop"
@@ -99,6 +101,10 @@ button-horse-style: "&aChoose horse style"
 button-horse-style-lore:
 - "Changes the coat pattern"
 - "of the horse"
+button-horse-saddle: "&aToggle horse saddle"
+button-horse-saddle-lore:
+- "Toggles the saddle"
+- "of the horse"
 button-horse-armor: "&aChoose horse armor"
 button-horse-armor-lore:
 - "Changes the armor"
@@ -189,6 +195,24 @@ button-goat-screaming: "&aToggle screaming goat"
 button-goat-screaming-lore:
 - "Toggles between a normal"
 - "and a screaming goat"
+button-tropical-fish-pattern: "&aChoose variant"
+button-tropical-fish-pattern-lore:
+- "Changes the shape and pattern"
+- "of the tropical fish."
+- "Currently: &e{pattern}"
+button-tropical-fish-body-color: "&aChoose body color"
+button-tropical-fish-body-color-lore:
+- "Changes the body color"
+- "of the tropical fish"
+button-tropical-fish-pattern-color: "&aChoose pattern color"
+button-tropical-fish-pattern-color-lore:
+- "Changes the pattern color"
+- "of the tropical fish"
+button-puffer-fish-puff-state: "&aChoose puff state"
+button-puffer-fish-puff-state-lore:
+- "Changes the puff state"
+- "of the puffer fish."
+- "Currently: &e{puffState}"
 
 admin-sign-shop-line1: "&2[SHOP]"
 admin-sign-shop-line2: "&7{shopName}"
@@ -221,10 +245,10 @@ too-many-shops: "&7You have already reached the limit of how many shops you can 
 no-player-shops-via-command: "&7Player shops can only be created via the shop creation item!"
 shop-create-fail: "&7You cannot create a shopkeeper there."
 
-type-new-name: "&aPlease type the shop's name into the chat.\n  &aType a dash (-) to remove the name."
-name-set: "&aThe shop's name has been set!"
+type-new-name: "&aPlease enter the shop's new name in chat.\n  &aEnter a dash (-) to remove the current name."
+name-set: "&aThe shop's name has been set to '&e{name}&a'!"
 name-has-not-changed: "&aThe shop's name has not changed."
-name-invalid: "&aThat name is not valid!"
+name-invalid: "&cInvalid shop name: '&e{name}&c'"
 nameplate-prefix: "&2"
 
 shop-type-disabled: "&7The shop type '&6{type}&7' is disabled."
@@ -405,6 +429,7 @@ list-shops-entry: "  &e{shopId}) &7{shopName}&r&8at &7({location})&8, type: &7{s
 
 shop-removed: "&aThe shopkeeper has been removed."
 shop-already-removed: "&7The shopkeeper has already been removed."
+shop-no-longer-exists: "&7The shopkeeper no longer exists."
 shop-removal-cancelled: "&cA plugin has prevented the removal of the shopkeeper."
 
 shops-already-removed: "&e{shopsCount}&7 of the shops have already been removed."
@@ -440,6 +465,22 @@ confirmation-ui-cancel-lore:
 - "This will abort the"
 - "current action."
 confirmation-ui-aborted: "&7Confirmation aborted."
+
+snapshot-list-header: "&9Shop &e{shop_id} &9has &e{snapshotsCount} &9snapshots: &e(Page {page} of {maxPage})"
+snapshot-list-entry: "  &e{id}) &2{name}&8 (&7{timestamp}&8)"
+invalid-snapshot-id: "&cInvalid snapshot id: &e{id}"
+invalid-snapshot-name: "&cNo snapshot found with name '&e{name}&c'."
+snapshot-name-too-long: "&cThe snapshot name can be a maximum of &e{maxLength}&c characters long: &e{name}"
+snapshot-name-invalid: "&cInvalid snapshot name: &e{name}"
+snapshot-name-already-exists: "&cThere already exists another snapshot with this name: &e{name}"
+snapshot-created: "&aNew snapshot created: &e({id}) &2{name} &8(&7{timestamp}&8)"
+confirm-remove-snapshot: "&cYou are about to irrevocably delete the specified snapshot!"
+confirm-remove-all-snapshots: "&cYou are about to irrevocably delete all snapshots of the specified shopkeeper (&6{snapshotsCount}&c)!"
+action-aborted-snapshots-changed: "&cAction aborted! The snapshots have changed in the meantime. Try again."
+snapshot-removed: "&aSnapshot deleted: &e({id}) &2{name} &8(&7{timestamp}&8)"
+snapshot-removed-all: "&aAll &e{snapshotsCount} &asnapshots of shop &e{shop_id}&a have been deleted."
+snapshot-restore-failed: "&cFailed to restore snapshot: &e({id}) &2{name} &8(&7{timestamp}&8)"
+snapshot-restored: "&aSnapshot restored: &e({id}) &2{name} &8(&7{timestamp}&8)"
 
 no-permission: "&cYou don't have the permission to do that."
 
@@ -480,4 +521,8 @@ command-description-remote-edit: "Remotely edits a shop."
 command-description-transfer: "Transfers the ownership of a shop."
 command-description-settradeperm: "Sets, removes (-) or displays (?) the trading permission."
 command-description-setforhire: "Sets one of your shops for sale."
+command-description-snapshot-list: "Lists the snapshots of a shop."
+command-description-snapshot-create: "Creates a new shop snapshot."
+command-description-snapshot-remove: "Removes a specific or all snapshots of a shop."
+command-description-snapshot-restore: "Restores a specific shop snapshot."
 command-description-edit-villager: "Opens the editor for the target villager."
