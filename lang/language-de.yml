@@ -23,7 +23,7 @@ msg-creation-item-selected: |-
   &aShop-Erstellung:
   &e  Links-/Rechtsklick, um den Shop-Typ auszuwählen.
   &e  Shift + Links-/Rechtsklick, um den Objekt-Typ auszuwählen.
-  &e  Rechtsklick auf eine Kiste, um diese auszuwählen.
+  &e  Rechtsklick auf einen Behälter, um diesen auszuwählen.
   &e  Dann Rechtsklick auf einen Block, um dort den Händler zu erstellen.
 
 msg-button-previous-page: "&6<- Vorherige Seite ({prev_page} von {max_page})"
@@ -37,8 +37,8 @@ msg-button-name: "&aShop Namen ändern"
 msg-button-name-lore:
 - Gib deinem Shop
 - einen Namen
-msg-button-chest: "&aShop-Inventar öffnen"
-msg-button-chest-lore:
+msg-button-container: "&aShop-Inventar öffnen"
+msg-button-container-lore:
 - Zeigt dir das Inventar
 - deines Verkäufers
 msg-button-delete: "&4Entfernen"
@@ -155,17 +155,26 @@ msg-button-zombie-villager-profession: "&aBeruf ändern"
 msg-button-zombie-villager-profession-lore:
 - "Ändert den Beruf des"
 - "Dorfbewohner-Zombies"
+msg-button-slime-size: "&aGröße ändern"
+msg-button-slime-size-lore:
+- "Ändert die Größe des Schleims."
+- "Aktuelle Größe: &e{size}"
+msg-button-magma-cube-size: "&aGröße ändern"
+msg-button-magma-cube-size-lore:
+- "Ändert die Größe des Magmawürfels."
+- "Aktuelle Größe: &e{size}"
 
 msg-trading-title-prefix: "&2"
 msg-trading-title-default: "Händler"
 
-msg-selected-chest:  "&aTruhe ausgewählt! Klicke mit rechts auf einen Block, um den Shop zu platzieren."
-msg-must-select-chest: "&7Du musst zuerst eine Truhe mit rechts anklicken, bevor du den Shop platzieren kannst."
-msg-no-chest-selected: "&7Der ausgewählte Block ist keine Truhe!"
-msg-chest-too-far: "&7Die Truhe des Shops ist zu weit entfernt!"
-msg-chest-not-placed: "&7Du musst eine Truhe auswählen, die du kürzlich platziert hast!"
-msg-chest-already-in-use: "&7Ein anderer Shop benutzt bereits die ausgewählte Truhe!"
-msg-no-chest-access: "&7Du hast keinen Zugriff auf die ausgewählte Truhe!"
+msg-container-selected:  "&aBehälter ausgewählt! Klicke mit rechts auf einen Block, um den Shop zu platzieren."
+msg-unsupported-container: "&7Diese Art von Behälter kann nicht für Shops benutzt werden."
+msg-must-select-container: "&7Du musst zuerst einen Behälter mit rechts anklicken, bevor du den Shop platzieren kannst."
+msg-invalid-container: "&7Der ausgewählte Block ist kein gültiger Behälter!"
+msg-container-too-far-away: "&7Der Behälter des Shops ist zu weit entfernt!"
+msg-container-not-placed: "&7Du musst einen Behälter auswählen, den du kürzlich platziert hast!"
+msg-container-already-in-use: "&7Ein anderer Shop benutzt bereits den ausgewählten Behälter!"
+msg-no-container-access: "&7Du hast keinen Zugriff auf den ausgewählten Behälter!"
 msg-too-many-shops: "&7Du hast bereits zu viele Shops!"
 msg-no-admin-shop-type-selected: "&7Du musst einen Admin-Shop Typ auswählen!"
 msg-no-player-shop-type-selected: "&7Du musst einen Spieler-Shop Typ auswählen!"
@@ -185,10 +194,17 @@ msg-must-target-player-shop: "&7Du musst einen Spieler-Shop anvisieren."
 msg-target-entity-is-no-shop: "&7Das anvisierte Objekt ist kein Shop."
 msg-target-shop-is-no-admin-shop: "&7Der anvisierte Shop ist kein Admin-Shop."
 msg-target-shop-is-no-player-shop: "&7Der anvisierte Shop ist kein Spieler-Shop."
-msg-unused-chest: "&7Kein Shop benutzt diese Truhe."
+msg-unused-container: "&7Dieser Behälter wird von keinem Shop benutzt."
 msg-not-owner: "&7Du bist nicht der Besitzer von diesem Shop."
 msg-owner-set: "&aDer neue Besitzer ist jetzt: &e{owner}"
 msg-shop-creation-items-given: "&aSpieler &e{player}&a hat &e{amount}&a Shop-Erstellungs Items bekommen!"
+msg-shop-creation-items-received: "&aDu hast &e{amount}&a Shop-Erstellungs Items bekommen!"
+msg-currency-items-given: "&aSpieler &e{player}&a hat &e{amount}&a Geld Items bekommen!"
+msg-currency-items-received: "&aDu hast &e{amount}&a Geld Items bekommen!"
+msg-high-currency-items-given: "&aSpieler &e{player}&a hat &e{amount}&a Geld Items der hohen Währung bekommen!"
+msg-high-currency-items-received: "&aDu hast &e{amount}&a Geld Items der hohen Währung bekommen!"
+msg-high-currency-disabled: "&cDie hohe Währung ist deaktiviert!"
+msg-items-converted: "&aEs wurden &e{count}&a Item Stapel konvertiert!"
 msg-unknown-book-author: "Unbekannt"
 
 msg-trade-perm-set: "&aDie Handel-Permission für den Shop wurde auf '&e{perm}&a' gesetzt!"
@@ -208,21 +224,21 @@ msg-missing-trade-perm: "&7Du hast nicht die nötige Befugnis, um mit diesem Sho
 msg-missing-custom-trade-perm: "&7Du hast nicht die nötige Befugnis, um mit diesem Shop zu handeln."
 msg-cant-trade-with-own-shop: "&7Du kannst nicht mit deinem eigenen Shop handeln."
 msg-cant-trade-while-owner-online: "&7Du kannst nicht handeln, während der Besitzer dieses Shops ('&e{owner}&7') online ist."
-msg-cant-trade-with-shop-missing-chest: "&7Du kannst nicht mit diesem Shop handeln, da seine Truhe fehlt."
+msg-cant-trade-with-shop-missing-container: "&7Du kannst nicht mit diesem Shop handeln, da sein Behälter fehlt."
 
 msg-shopkeeper-created: "&aShop erstellt: &6{type} &7({description})\n{setupDesc}"
 
 msg-shop-setup-desc-selling: |-
-  &e  Lege die zu verkaufenden Items in die Truhe und
+  &e  Lege die zu verkaufenden Items in den Behälter und
   &e  gib mit Shift+Rechts Klick auf den Shop die Preise an.
 msg-shop-setup-desc-buying: |-
-  &e  Lege von jedem Item, das du ankaufen möchtest, eines in die Truhe.
+  &e  Lege von jedem Item, das du ankaufen möchtest, eines in den Behälter.
   &e  Mit Shift+Rechts Klick auf den Shop legst du die Preise fest.
 msg-shop-setup-desc-trading: |-
-  &e  Lege die Items, die du eintauschen möchtest, in die Truhe.
+  &e  Lege die Items, die du eintauschen möchtest, in den Behälter.
   &e  Mit Shift+Rechts Klick auf den Shop legst du die Angebote fest.
 msg-shop-setup-desc-book: |-
-  &e  Lege das signierte Buch und soviele leere Bücher in die Truhe, wie Kopien verkauft werden sollen.
+  &e  Lege signierte und leere Bücher in den Behälter.
   &e  Mit Shift+Rechts Klick auf den Shop legst du die Preise fest.
 msg-shop-setup-desc-admin-regular: |-
   &e  Mit Shift+Rechts Klick auf den Shop legst du die Preise fest.
@@ -235,14 +251,14 @@ msg-trade-setup-desc-admin-regular:
 - 'Untere Reihen: Kosten'
 msg-trade-setup-desc-selling:
 - Verkauft Items an Spieler.
-- Lege die zu verkaufenden Items in die Truhe.
+- Lege die zu verkaufenden Items in den Behälter.
 - Links/Rechts Klick zum Ändern der Mengen.
 - 'Obere Reihe: Verkaufte Items'
 - 'Untere Reihen: Kosten'
 msg-trade-setup-desc-buying:
 - Kauft Items von Spielern.
 - Lege von jedem anzukaufendem Item eines
-- in die Truhe, sowie reichlich Währung.
+- in den Behälter, sowie reichlich Währung.
 - Links/Rechts Klick zum Ändern der Mengen.
 - 'Obere Reihe: Kosten'
 - 'Untere Reihe: Angekaufte Items'
@@ -255,12 +271,44 @@ msg-trade-setup-desc-trading:
 - 'Untere Reihen: Kosten'
 msg-trade-setup-desc-book:
 - Verkauft Kopien von Büchern.
-- Lege signierte und leere Bücher in die Truhe.
+- Lege signierte und leere Bücher in den Behälter.
 - Links/Rechts Klick zum Ändern der Kosten.
 - 'Obere Reihe: Verkaufte Bücher'
 - 'Untere Reihen: Kosten'
 
+msg-missing-edit-villagers-perm: "&7Dir fehlt die nötige Berechtigung, um Dorfbewohner zu editieren."
+msg-missing-edit-wandering-traders-perm: "&7Dir fehlt die nötige Berechtigung, um wandernde Händler zu editieren."
+msg-must-target-entity: "&7Du musst ein Objekt anvisieren."
+msg-must-target-villager: "&7Du musst einen Dorfbewohner anvisieren."
+msg-target-entity-is-no-villager: "&7Das anvisierte Objekt ist kein normaler Dorfbewohner."
+
+msg-villager-editor-title: "&aDorfbewohner Editor: &e{villagerName}"
+msg-villager-editor-description-header: "&6Dorfbewohner Editor"
+msg-villager-editor-description:
+- 'Obere Reihe: Ergebnis Items'
+- 'Untere Reihen: Kosten'
+- 'Bearbeitete Angebote können unendlich oft'
+- 'genutzt werden und haben keine XP Belohnungen'
+
+msg-button-delete-villager: "&4Entfernen"
+msg-button-delete-villager-lore:
+- Entfernt den Dorfbewohner
+msg-button-villager-inventory: "&aDorfbewohner Inventar"
+msg-button-villager-inventory-lore:
+- Zeigt dir eine Kopie des
+- Inventars des Dorfbewohners
+msg-button-mob-ai: "&aKI umschalten"
+msg-button-mob-ai-lore:
+- "Schaltet die KI der"
+- "Kreatur an oder aus"
+
+msg-villager-inventory-title: "Dorfbewohner Inventar (Kopie)"
+msg-set-villager-xp: "&aDie XP des Dorfbewohners wurde auf &e{xp}&a gesetzt."
+msg-no-villager-trades-changed: "&aEs wurden keine Angebote geändert."
+msg-villager-trades-changed: "&aEs wurden &e{changedTrades}&a Angebote geändert."
+
 msg-list-admin-shops-header: "&9Es gibt &e{shopsCount} &9Admin-Shops: &e(Seite {page} von {maxPage})"
+msg-list-all-shops-header: "&9Es gibt insgesamt &e{shopsCount} &9Shops: &e(Seite {page} von {maxPage})"
 msg-list-player-shops-header: "&9Spieler '&e{player}&9' hat &e{shopsCount} &9Shops: &e(Seite {page} von {maxPage})"
 msg-list-shops-entry: "  &e{shopId}) &7{shopName}&r&8an &7({location})&8, Typ: &7{shopType}&8, Objekt: &7{objectType}"
 
@@ -307,8 +355,11 @@ msg-command-description-debug: "Schaltet den Debug-Modus an und aus."
 msg-command-description-list: "Listet alle Shops des ausgewählten Spielers, oder alle Admin-Shops auf."
 msg-command-description-remove: "Entfernt alle Shops des ausgewählten Spielers, aller Spieler, oder alle Admin-Shops."
 msg-command-description-give: "Gibt dem Spieler Items zum Erstellen von Shops."
+msg-command-description-give-currency: "Gibt dem Spieler Geld Items."
+msg-command-description-convert-items: "Konvertiert die gehaltenen (oder alle) Items, um dem Datenformat von Spigot zu entsprechen."
 msg-command-description-remote: "Öffnet einen Shop aus der Ferne (Optional: Für einen anderen Spieler)."
 msg-command-description-remote-edit: "Editiert einen Shop aus der Ferne."
 msg-command-description-transfer: "Ändert den Besitzer eines Shops."
 msg-command-description-settradeperm: "Setzt, entfernt (-) oder zeigt (?) die Handel-Permission an."
 msg-command-description-setforhire: "Gibt einen deiner Shops zum Verkauf frei."
+msg-command-description-edit-villager: "Öffnet den Editor für den ausgewählten Dorfbewohner."

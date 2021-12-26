@@ -23,7 +23,7 @@ msg-creation-item-selected: |-
   &aZaložení obchodu:
   &e  Levý/pravý-klik vybírá druh obchodu.
   &e  Plížení (shift) + levý/pravý-klik vybírá druh kupce.
-  &e  Pravý-klik - výběr truhly.
+  &e  Pravý-klik - výběr nádoby.
   &e  Pak pravý-klik na blok, kde má stát kupec.
 
 msg-button-previous-page: "&6<- Předchozí stránka ({prev_page} z {max_page})"
@@ -37,8 +37,8 @@ msg-button-name: "&aNastavit název obchodu"
 msg-button-name-lore:
 - Můžeš přejmenovat
 - svého kupce
-msg-button-chest: "&aZobrazit obsah truhly"
-msg-button-chest-lore:
+msg-button-container: "&aZobrazit obsah obchodu"
+msg-button-container-lore:
 - Můžeš vidět inventář
 - svého kupce
 msg-button-delete: "&4Smazat"
@@ -150,17 +150,26 @@ msg-button-zombie-villager-profession: "&aVýběr profese vesničana"
 msg-button-zombie-villager-profession-lore:
 - "Mění zaměstnání"
 - "zombie vesničana"
+msg-button-slime-size: "&aVýběr velikosti slizouna"
+msg-button-slime-size-lore:
+- "Přepíná velikost slizouna."
+- "Aktuální velikost: &e{size}"
+msg-button-magma-cube-size: "&aVýběr velikosti magmaslizouna"
+msg-button-magma-cube-size-lore:
+- "Přepíná velikost magmslizouna."
+- "Aktuální velikost: &e{size}"
 
 msg-trading-title-prefix: "&2"
 msg-trading-title-default: "Kupec"
 
-msg-selected-chest: "&aTruhla vybrána! Klikni pravým na blok, kde má stát tvůj kupec."
-msg-must-select-chest: "&7Musíš nejprve kliknout pravým tlačítkem na truhlu, než postavíš svého kupce."
-msg-no-chest-selected: "&7Vybraný blok není truhla!"
-msg-chest-too-far: "&7Kupcova truhla je příliš daleko!"
-msg-chest-not-placed: "&7Musíš si vybrat truhlu, kterou jsi postavil nedávno!"
-msg-chest-already-in-use: "&7Vybranou truhlu používá už jiný kupec!"
-msg-no-chest-access: "&7K vybrané truhle nemáš přístup!"
+msg-container-selected: "&aNádoba vybrána! Klikni pravým na blok, kde má stát tvůj kupec."
+msg-unsupported-container: "&7Tento typ nádoby se nemůže pro kupce použít."
+msg-must-select-container: "&7Musíš nejprve kliknout pravým tlačítkem na nádobu, než postavíš svého kupce."
+msg-invalid-container: "&7Vybraný blok není platná nádoba!"
+msg-container-too-far-away: "&7Kupcova nádoba je příliš daleko!"
+msg-container-not-placed: "&7Musíš si vybrat nádobu, kterou jsi postavil nedávno!"
+msg-container-already-in-use: "&7Vybranou nádobu používá už jiný kupec!"
+msg-no-container-access: "&7K vybrané nádobě nemáš přístup!"
 msg-too-many-shops: "&7Máš příliš mnoho kupců!"
 msg-no-admin-shop-type-selected: "&7Musíš si vybrat typ správcovského obchodu!"
 msg-no-player-shop-type-selected: "&7Musíš si vybrat hráčský typ kupce!"
@@ -180,10 +189,17 @@ msg-must-target-player-shop: "&7Musíš mířit na hráčského kupce."
 msg-target-entity-is-no-shop: "&7Zaměřená entita není kupec."
 msg-target-shop-is-no-admin-shop: "&7Zaměřený kupec není správcovský."
 msg-target-shop-is-no-player-shop: "&7Zaměřený kupec není hráčský."
-msg-unused-chest: "&7Tuto truhlu nepoužívá žádný kupec."
+msg-unused-container: "&7Tuto nádobu nepoužívá žádný kupec."
 msg-not-owner: "&7Nejsi vlastníkem tohoto kupce."
 msg-owner-set: "&aNovým vlastníkem se stal &e{owner}"
 msg-shop-creation-items-given: "&aHráč &e{player}&a obdržel předměty zakládající obchod (&e{amount}&a)!"
+msg-shop-creation-items-received: "&aDostáváš předměty zakládající obchod (&e{amount}&a ks)!"
+msg-currency-items-given: "&aHráč &e{player}&a obdržel předměty platidla (&e{amount}&a ks)!"
+msg-currency-items-received: "&aDostáváš předměty platidla (&e{amount}&a ks)!"
+msg-high-currency-items-given: "&aHráč &e{player}&a obdržel předměty vyššího platidla (&e{amount}&a ks)!"
+msg-high-currency-items-received: "&aDostáváš předměty vyššího platidla (&e{amount}&a ks)!"
+msg-high-currency-disabled: "&cPlatidlo vyšší hodnoty je vypnuto!"
+msg-items-converted: "&aPřevedeno &e{count}&a stack(ů) předmětu!"
 msg-unknown-book-author: "Neznámý"
 
 msg-trade-perm-set: "&aOprávnění k obchodování s tímto kupcem bylo nastaveno na '&e{perm}&a'!"
@@ -203,21 +219,21 @@ msg-missing-trade-perm: "&7Nemáš oprávnění k obchodování s tímto kupcem.
 msg-missing-custom-trade-perm: "&7Nemáš oprávnění k obchodování s tímto kupcem."
 msg-cant-trade-with-own-shop: "&7Nelze obchodovat s vlastním kupcem."
 msg-cant-trade-while-owner-online: "&7Nemůžeš obchodovat s tímto kupcem, dokud je jeho vlastník ('&e{owner}&7') přihlášen."
-msg-cant-trade-with-shop-missing-chest: "&7Nelze obchodovat s tímto kupcem, neboť schází jeho truhla."
+msg-cant-trade-with-shop-missing-container: "&7Nelze obchodovat s tímto kupcem, neboť schází jeho nádoba."
 
 msg-shopkeeper-created: "&aKupec vytvořen: &6{type} &7({description})\n{setupDesc}"
 
 msg-shop-setup-desc-selling: |-
-  &e  Vlož předměty, které chceš prodat, do své truhly,
+  &e  Vlož předměty, které chceš prodat, do své nádoby,
   &e  pak pravým klikem s plížením (shift) na kupce uprav ceny.
 msg-shop-setup-desc-buying: |-
-  &e  Vlož jeden kus od každého předmětu, které chceš vykupovat, do své truhly,
+  &e  Vlož po jednom kusu od každého předmětu, které chceš vykupovat, do své nádoby,
   &e  pak pravým klikem s plížením (shift) na kupce uprav ceny.
 msg-shop-setup-desc-trading: |-
-  &e  Vlož předměty, které chceš prodat, do své truhly,
+  &e  Vlož předměty, které chceš prodat, do své nádoby,
   &e  pak pravým klikem s plížením (shift) na kupce uprav ceny.
 msg-shop-setup-desc-book: |-
-  &e  Vlož napsané knihy a prázdné knihy s brkem do své truhly,
+  &e  Vlož napsané a prázdné knihy s brkem do své nádoby,
   &e  pak pravým klikem s plížením (shift) na kupce uprav ceny.
 msg-shop-setup-desc-admin-regular: |-
   &e  Pravým klikem s plížením (shift) na kupce uprav výměny.
@@ -230,7 +246,7 @@ msg-trade-setup-desc-admin-regular:
 - 'Spodní řádky: Za co se prodávají'
 msg-trade-setup-desc-selling:
 - Prodává předměty hráčům.
-- Vlož předměty, které chceš prodat, do truhly.
+- Vlož předměty, které chceš prodat, do nádoby.
 - Levým/pravým klikem uprav počet.
 - 'Horní řádek: Prodávané předměty'
 - 'Spodní řádky: Za co se prodávají'
@@ -238,7 +254,7 @@ msg-trade-setup-desc-buying:
 - Vykupuje předměty od hráčů.
 - Vlož do truhly po jednom kuse
 - předměty, které chceš vykupovat,
-- a prázdné knihy s brkem.
+- do nádoby.
 - Levým/pravým klikem uprav počet.
 - 'Horní řádek: Za co se prodávají'
 - 'Spodní řádek: Kupované předměty'
@@ -252,20 +268,51 @@ msg-trade-setup-desc-trading:
 msg-trade-setup-desc-book:
 - Prodává kopie knih.
 - Vlož do truhly napsané
-- a prázdné knihy s brkem.
+- do nádoby.
 - Levým/pravým klikem uprav ceny.
 - 'Horní řádek: Prodávané knihy'
 - 'Spodní řádky: Za co se prodávají'
 
-msg-list-admin-shops-header: "&9Počet správcovských kupců: &e(Strana {page} z {maxPage})"
+msg-missing-edit-villagers-perm: "&7Nemáš oprávnění upravovat vesničany."
+msg-missing-edit-wandering-traders-perm: "&7Nemáš oprávnění upravovat potulné obchodníky."
+msg-must-target-entity: "&7Musíš mířit na entitu."
+msg-must-target-villager: "&7Musíš mířit na vesničana."
+msg-target-entity-is-no-villager: "&7Zaměřená entita není běžný vesničan."
+
+msg-villager-editor-title: "&aEditor vesničana: &e{villagerName}"
+msg-villager-editor-description-header: "&6Úprava vesničana"
+msg-villager-editor-description:
+- 'Horní řádek: Výsledný počet předmětů'
+- 'Spodní řádky: Za co se prodávají'
+- 'Upravované obchody mají nekonečně mnoho'
+- 'použití a žádné zkušenosti za odměnu.'
+
+msg-button-delete-villager: "&4Smazat"
+msg-button-delete-villager-lore:
+- "Smaže vesničana"
+msg-button-villager-inventory: "&aZobrazit inventář vesničana"
+msg-button-villager-inventory-lore:
+- Můžeš vidět kopii
+- inventáře vesničana
+msg-button-mob-ai: "&aPřepínání umělé inteligence stvoření"
+msg-button-mob-ai-lore:
+- "Přepíná umělou inteligenci stvoření"
+
+msg-villager-inventory-title: "Inventář vesničana (kopie)"
+msg-set-villager-xp: "&aNastavit zkušenosti vesničana na &e{xp}"
+msg-no-villager-trades-changed: "&aŽádné obchody nebyly změněny."
+msg-villager-trades-changed: "&aObchody byly změněny (počet: &e{changedTrades})."
+
+msg-list-admin-shops-header: "&9Počet správcovských kupců: &e{shopsCount} -  &e(Strana {page} z {maxPage})"
+msg-list-all-shops-header: "&9Celkem obchodů: &e{shopsCount} - &e(Strana {page} z {maxPage})"
 msg-list-player-shops-header: "&9Počet obchodů hráče '&e{player}&9': &e{shopsCount}&9: &e(Strana {page} z {maxPage})"
 msg-list-shops-entry: "  &"&e{shopId}) &7{shopName}&r&8na &7({location})&8, druh: &7{shopType}&8, kupec: &7{objectType}"
 
 msg-removed-admin-shops: "&aSprávcovské obchody byly odstraněny (&e{shopsCount}&a)."
-msg-removed-shops-of-player: "Hráčské obchody byly odstraněny (&e{shopsCount}&a)."
+msg-removed-shops-of-player: Kupci hráče '&e{player}&a' byli odstraněni (&e{shopsCount}&a)."
 msg-removed-player-shops: "&aOdstraněni kupci hráče &aplayer: &e{shopsCount}&a."
 
-msg-confirm-remove-all-admin-shops: "&cChystáš se nevratně odstranit \nvšechny správcovs1ké kupce (&6{shopsCount}&c)!"
+msg-confirm-remove-all-admin-shops: "&cChystáš se nevratně odstranit \nvšechny správcovské kupce (&6{shopsCount}&c)!"
 msg-confirm-remove-all-own-shops: "&cChystáš se nevratně odstranit \nvšechny své kupce (&6{shopsCount}&c)!"
 msg-confirm-remove-all-shops-of-player: "&cChystáš se nevratně odstranit \nvšechny kupce hráče &6{player}&c (&6{shopsCount}&c)!"
 msg-confirm-remove-all-player-shops: "&cChystáš se nevratně odstranit \nvšechny kupce všech hráčů (&6{shopsCount}&c)!"
@@ -304,8 +351,11 @@ msg-command-description-debug: "Přepíná mód ladění na zapnuto a vypnuto."
 msg-command-description-list: "Vypíše všechny kupce určitého hráče nebo všechny správcovské kupce."
 msg-command-description-remove: "Odstraní všechny kupce určitého hráče, všech hráčů, nebo všechny správcovské kupce."
 msg-command-description-give: "Dá předmět(y) vytvářející kupce určitému hráči."
+msg-command-description-give-currency: "Dá předmět(y) platidla zadanému hráči."
+msg-command-description-convert-items: "Převede držené (nebo všechny) předměty tak, aby vyhovovaly datovému formátu Spigotu."
 msg-command-description-remote: "Vzdáleně otevře obchod (volitelně: jiného hráče)."
 msg-command-description-remote-edit: "Vzdáleně upravuje obchod."
 msg-command-description-transfer: "Přenos vlastnictví obchodu."
 msg-command-description-settradeperm: "Nastavuje, odstraňuje (-) nebo zobrazuje (?) oprávnění k obchodování."
 msg-command-description-setforhire: "Nastavuje jeden z tvých obchodů na prodej."
+msg-command-description-edit-villager: "Opens the editor for the target villager."
