@@ -33,7 +33,7 @@ msg-button-next-page-lore: []
 msg-button-current-page: "&6Strana {page} z {max_page}"
 msg-button-current-page-lore: []
 
-msg-button-name: "&aNastavit název obchodu "
+msg-button-name: "&aNastavit název obchodu"
 msg-button-name-lore:
 - Můžeš přejmenovat
 - svého kupce
@@ -300,7 +300,7 @@ msg-command-description-debug: "Přepíná mód ladění na zapnuto a vypnuto."
 msg-command-description-list: "Vypíše všechny kupce určitého hráče nebo všechny správcovské kupce."
 msg-command-description-remove: "Odstraní všechny kupce určitého hráče, všech hráčů, nebo všechny správcovské kupce."
 msg-command-description-give: "Dá předmět(y) vytvářející kupce určitému hráči."
-msg-command-description-remote: "Vzdáleně otevře obchod."
+msg-command-description-remote: "Vzdáleně otevře obchod (volitelně: jiného hráče)."
 msg-command-description-remote-edit: "Vzdáleně upravuje obchod."
 msg-command-description-transfer: "Přenos vlastnictví obchodu."
 msg-command-description-settradeperm: "Nastavuje, odstraňuje (-) nebo zobrazuje (?) oprávnění k obchodování."
