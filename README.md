@@ -19,7 +19,7 @@ In order to help translators keep track of changes in language files, the langua
 
 To use one of these language files:
 * Select the [branch](https://docs.github.com/en/repositories/configuring-branches-and-merges-in-your-repository/managing-branches-in-your-repository/viewing-branches-in-your-repository) that matches your version of the Shopkeepers plugin:  
-Either select the branch in the drop-down menu at the top-left of this page, or click this [link](https://github.com/Shopkeepers/Language-Files/branches) for an overview of all branches and then click a branch there to select it.  
+Either select the branch in the drop-down menu at the top-left of this page, or click this [link](https://github.com/Shopkeepers/Language-Files/branches/all) for an overview of all branches and then click a branch there to select it.  
 Some versions of the Shopkeepers plugin had no changes to their language files, so there is no separate branch for them. In that case, simply pick the next lower version for which this repository contains language files.
 * Pick the language file that matches your desired language. If there is no translation for your language yet, consider [contributing](https://github.com/Shopkeepers/Language-Files#contributing) one!
 * Once you have opened a language file, click the `[Raw]` button in the top right, and then either copy and paste the contents of the language file to a new file on your computer, or use your browser's `Save page as...` (`Ctrl+S`) action to download the file.
