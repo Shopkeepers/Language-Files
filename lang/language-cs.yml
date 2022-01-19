@@ -248,7 +248,7 @@ shop-create-fail: "&7Zde nemůžeš vytvořit kupce."
 type-new-name: "&aZadej nové jméno kupce (název obchodu) do chatu.\n  &aChceš-li dosavadní jméno odstranit, odešli pomlčku (-)."
 name-set: "&aJméno kupce bylo nastaveno na '&e{name}&a'!"
 name-has-not-changed: "&aJméno se nezměnilo!"
-name-invalid: "&cNeplatný název kupce:" '&e{name}&c'"
+name-invalid: "&cNeplatný název kupce: '&e{name}&c'"
 nameplate-prefix: "&2"
 
 shop-type-disabled: "&7Typ kupce '&6{type}&7' je vypnut."
