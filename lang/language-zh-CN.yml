@@ -36,7 +36,7 @@ editor-title: "Shopkeeper 编辑器"
 
 button-previous-page: "&6<- 上页 ({prev_page} of {max_page})"
 button-previous-page-lore: []
-button-next-page: "&下页 ({next_page} of {max_page}) ->"
+button-next-page: "&6下页 ({next_page} of {max_page}) ->"
 button-next-page-lore: []
 button-current-page: "&6第 {page} 页, 共 {max_page} 页"
 button-current-page-lore: []
