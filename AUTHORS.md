@@ -6,6 +6,7 @@ This document lists the authors of language files found in this repository.
 
 * cs: Lemafor
 * zh-CN: katorly
+* pl: Lemafor
 
 ## v2.13.2
 
