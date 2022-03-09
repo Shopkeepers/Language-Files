@@ -22,7 +22,7 @@ selected-shop-type: "&a选定的商店类型: &6{type} &7({description})"
 selected-shop-object-type: "&a选定的对象类型: &6{type}"
 
 creation-item-selected: |-
-  &a商店创建:
+  &a创建商店:
   &e  不要对准任何方块 然后:
   &e  左键/右键 选择商店类型.
   &e  潜行 + 左键/右键 选择对象类型.
