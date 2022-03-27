@@ -232,10 +232,18 @@ button-hire-lore:
 trading-title-prefix: "&2"
 trading-title-default: "Shopkeeper"
 
+must-target-block: "&7You must look at a block to place the shopkeeper."
+missing-spawn-location: "&7You must specify a spawn location for this type of shop."
+spawn-block-not-empty: "&7The spawn location must be empty."
+invalid-spawn-block-face: "&7The shopkeeper cannot be placed on this side of the block."
+mob-cannot-spawn-on-peaceful-difficulty: "&7The selected mob type cannot spawn on peaceful difficulty."
+restricted-area: "&7You cannot create a shopkeeper in this area."
+location-already-in-use: "&7This location is already used by another shopkeeper."
+
 container-selected: "&aContainer selected! Right-click a block to place your shopkeeper."
 unsupported-container: "&7This type of container cannot be used for shops."
 must-select-container: "&7You must right-click a container before placing your shopkeeper."
-must-target-container: "&7You must target a container to place this type of shop."
+must-target-container: "&7You must look at a container to place this type of shop."
 invalid-container: "&7The selected block is not a valid container!"
 container-too-far-away: "&7The shopkeeper's container is too far away!"
 container-not-placed: "&7You must select a container you have recently placed!"
@@ -243,7 +251,6 @@ container-already-in-use: "&7Another shopkeeper is already using the selected co
 no-container-access: "&7You cannot access the selected container!"
 too-many-shops: "&7You have already reached the limit of how many shops you can own!"
 no-player-shops-via-command: "&7Player shops can only be created via the shop creation item!"
-shop-create-fail: "&7You cannot create a shopkeeper there."
 
 type-new-name: "&aPlease enter the shop's new name in chat.\n  &aEnter a dash (-) to remove the current name."
 name-set: "&aThe shop's name has been set to '&e{name}&a'!"
@@ -265,11 +272,11 @@ not-owner: "&7You are not the owner of this shopkeeper."
 owner-set: "&aThe new owner is now &e{owner}"
 shop-creation-items-given: "&aPlayer &e{player}&a has received &e{amount}&a shop creation item(s)!"
 shop-creation-items-received: "&aYou have received &e{amount}&a shop creation item(s)!"
-currency-items-given: "&aPlayer &e{player}&a has received &e{amount}&a currency item(s)!"
-currency-items-received: "&aYou have received &e{amount}&a currency item(s)!"
-high-currency-items-given: "&aPlayer &e{player}&a has received &e{amount}&a high currency item(s)!"
-high-currency-items-received: "&aYou have received &e{amount}&a high currency item(s)!"
-high-currency-disabled: "&cThe high currency is disabled!"
+unknown-currency: "&cUnknown currency: '&e{currency}&c'"
+currency-items-given: "&aPlayer &e{player}&a has received &6{amount}x&a currency item '&e{currency}&a'!"
+currency-items-received: "&aYou have received &6{amount}x&a currency item '&e{currency}&a'!"
+must-hold-item-in-main-hand: "&7You must hold an item in your main hand."
+currency-item-set-to-main-hand-item: "&aThe currency item '&e{currencyId}&a' has been set to the &eitem in your main hand&a!"
 items-converted: "&aConverted &e{count}&a item stack(s)!"
 unknown-book-author: "Unknown"
 
@@ -377,6 +384,95 @@ trade-setup-desc-book:
 - 'Top row: Books being sold'
 - 'Bottom rows: Cost items'
 
+selling-shop.empty-trade.result-item: "&dSell Item"
+selling-shop.empty-trade.result-item-lore:
+- "The item you want to sell."
+- "Add items to the shop container."
+- "Left/Right click to adjust the amount."
+selling-shop.empty-trade.item1: "&dBuy Item"
+selling-shop.empty-trade.item1-lore:
+- "The item you want to buy."
+- "Left/Right click to adjust the amount."
+selling-shop.empty-trade.item2: "&dBuy Item 2"
+selling-shop.empty-trade.item2-lore:
+- "The second item you want to buy."
+- "Left/Right click to adjust the amount."
+selling-shop.empty-item1: "&dBuy Item"
+selling-shop.empty-item1-lore:
+- "The item you want to buy."
+- "Left/Right click to adjust the amount."
+selling-shop.empty-item2: "&dBuy Item 2"
+selling-shop.empty-item2-lore:
+- "The second item you want to buy."
+- "Left/Right click to adjust the amount."
+
+buying-shop.empty-trade.result-item: "&dSell Item"
+buying-shop.empty-trade.result-item-lore:
+- "The item you want to sell."
+- "Left/Right click to adjust the amount."
+buying-shop.empty-trade.item1: "&dBuy Item"
+buying-shop.empty-trade.item1-lore:
+- "The item you want to buy."
+- "Add items to the shop container."
+- "Left/Right click to adjust the amount."
+buying-shop.empty-result-item: "&dSell Item"
+buying-shop.empty-result-item-lore:
+- "The item you want to sell."
+- "Left/Right click to adjust the amount."
+
+trading-shop.empty-trade.result-item: "&dSell Item"
+trading-shop.empty-trade.result-item-lore:
+- "The item you want to sell."
+- "Add items to the shop container,"
+- "or place an item from your inventory."
+- "Left/Right click to adjust the amount."
+trading-shop.empty-trade.item1: "&dBuy Item"
+trading-shop.empty-trade.item1-lore:
+- "The item you want to buy."
+- "Place an item from your inventory."
+- "Left/Right click to adjust the amount."
+trading-shop.empty-trade.item2: "&dBuy Item 2"
+trading-shop.empty-trade.item2-lore:
+- "The second item you want to buy."
+- "Place an item from your inventory."
+- "Left/Right click to adjust the amount."
+trading-shop.empty-result-item: "&dSell Item"
+trading-shop.empty-result-item-lore:
+- "The item you want to sell."
+- "Place an item from your inventory."
+- "Left/Right click to adjust the amount."
+trading-shop.empty-item1: "&dBuy Item"
+trading-shop.empty-item1-lore:
+- "The item you want to buy."
+- "Place an item from your inventory."
+- "Left/Right click to adjust the amount."
+trading-shop.empty-item2: "&dBuy Item 2"
+trading-shop.empty-item2-lore:
+- "The second item you want to buy."
+- "Place an item from your inventory."
+- "Left/Right click to adjust the amount."
+
+book-shop.empty-trade.result-item: "&dSell Item"
+book-shop.empty-trade.result-item-lore:
+- "The item you want to sell."
+- "Add written books to the shop container."
+book-shop.empty-trade.item1: "&dBuy Item"
+book-shop.empty-trade.item1-lore:
+- "The item you want to buy."
+- "Left/Right click to adjust the amount."
+book-shop.empty-trade.item2: "&dBuy Item 2"
+book-shop.empty-trade.item2-lore:
+- "The second item you want to buy."
+- "Left/Right click to adjust the amount."
+book-shop.empty-item1: "&dBuy Item"
+book-shop.empty-item1-lore:
+- "The item you want to buy."
+- "Left/Right click to adjust the amount."
+book-shop.empty-item2: "&dBuy Item 2"
+book-shop.empty-item2-lore:
+- "The second item you want to buy."
+- "Left/Right click to adjust the amount."
+
 missing-edit-villagers-perm: "&7You do not have the permission to edit villagers."
 missing-edit-wandering-traders-perm: "&7You do not have the permission to edit wandering traders."
 must-target-entity: "&7You have to target an entity."
@@ -468,8 +564,8 @@ confirmation-ui-aborted: "&7Confirmation aborted."
 
 snapshot-list-header: "&9Shop &e{shop_id} &9has &e{snapshotsCount} &9snapshots: &e(Page {page} of {maxPage})"
 snapshot-list-entry: "  &e{id}) &2{name}&8 (&7{timestamp}&8)"
-invalid-snapshot-id: "&cInvalid snapshot id: &e{id}"
-invalid-snapshot-name: "&cNo snapshot found with name '&e{name}&c'."
+invalid-snapshot-id: "&cInvalid snapshot id: &e{argument}"
+invalid-snapshot-name: "&cNo snapshot found with name '&e{argument}&c'."
 snapshot-name-too-long: "&cThe snapshot name can be a maximum of &e{maxLength}&c characters long: &e{name}"
 snapshot-name-invalid: "&cInvalid snapshot name: &e{name}"
 snapshot-name-already-exists: "&cThere already exists another snapshot with this name: &e{name}"
@@ -515,6 +611,7 @@ command-description-remove: "Removes a specific shop."
 command-description-remove-all: "Removes all shops of a specific player, all players, or all admin shops."
 command-description-give: "Gives shop creation item(s) to the specified player."
 command-description-give-currency: "Gives currency item(s) to the specified player."
+command-description-set-currency: "Changes the currency item to the item held in hand."
 command-description-convert-items: "Converts the held (or all) items to conform to Spigot's data format."
 command-description-remote: "Remotely opens a shop (Optionally: For another player)."
 command-description-remote-edit: "Remotely edits a shop."

@@ -239,6 +239,14 @@ button-hire-lore:
 trading-title-prefix: "&2"
 trading-title-default: "Händler"
 
+must-target-block: "&7Du musst einen Block anvisieren, um den Shop zu platzieren."
+missing-spawn-location: "&7Für diese Art von Shop musst du einen Spawn-Ort angeben."
+spawn-block-not-empty: "&7Der Spawn-Ort muss leer sein."
+invalid-spawn-block-face: "&7Der Shop kann nicht auf dieser Seite des Blocks platziert werden."
+mob-cannot-spawn-on-peaceful-difficulty: "&7Der gewählte Mob-Typ kann bei friedlichem Schwierigkeitsgrad nicht spawnen."
+restricted-area: "&7Du kannst in dieser Gegend keinen Shop erstellen."
+location-already-in-use: "&7An diesem Ort befindet sich bereits ein anderer Shop."
+
 container-selected:  "&aBehälter ausgewählt! Klicke mit rechts auf einen Block, um den Shop zu platzieren."
 unsupported-container: "&7Diese Art von Behälter kann nicht für Shops benutzt werden."
 must-select-container: "&7Du musst zuerst einen Behälter mit rechts anklicken, bevor du den Shop platzieren kannst."
@@ -250,7 +258,6 @@ container-already-in-use: "&7Ein anderer Shop benutzt bereits den ausgewählten 
 no-container-access: "&7Du hast keinen Zugriff auf den ausgewählten Behälter!"
 too-many-shops: "&7Du hast bereits das Limit an Shops erreicht, die du besitzen kannst!"
 no-player-shops-via-command: "&7Spieler-Shops können nur mit dem Shop-Erstellungs Item erzeugt werden!"
-shop-create-fail: "&7Du kannst dort keinen Shop erstellen."
 
 type-new-name: "&aBitte gib den neuen Namen des Shops im Chat ein.\n  &aEin Minus (-) entfernt den aktuellen Namen."
 name-set: "&aDer Name des Shops wurde auf '&e{name}&a' gesetzt!"
@@ -272,11 +279,11 @@ not-owner: "&7Du bist nicht der Besitzer von diesem Shop."
 owner-set: "&aDer neue Besitzer ist jetzt &e{owner}"
 shop-creation-items-given: "&aSpieler &e{player}&a hat &e{amount}&a Shop-Erstellungs Items bekommen!"
 shop-creation-items-received: "&aDu hast &e{amount}&a Shop-Erstellungs Items bekommen!"
-currency-items-given: "&aSpieler &e{player}&a hat &e{amount}&a Geld Items bekommen!"
-currency-items-received: "&aDu hast &e{amount}&a Geld Items bekommen!"
-high-currency-items-given: "&aSpieler &e{player}&a hat &e{amount}&a Geld Items der hohen Währung bekommen!"
-high-currency-items-received: "&aDu hast &e{amount}&a Geld Items der hohen Währung bekommen!"
-high-currency-disabled: "&cDie hohe Währung ist deaktiviert!"
+unknown-currency: "&cUnbekannte Währung: '&e{currency}&c'"
+currency-items-given: "&aSpieler &e{player}&a hat &6{amount}x &aWährungsitem '&e{currency}&a' bekommen!"
+currency-items-received: "&aDu hast &6{amount}x&a Währungsitem '&e{currency}&a' bekommen!"
+must-hold-item-in-main-hand: "&7Du musst ein Item in deiner Haupthand halten."
+currency-item-set-to-main-hand-item: "&aDas Währungsitem '&e{currencyId}&a' wurde zu dem &eItem in deiner Haupthand&a geändert!"
 items-converted: "&aEs wurden &e{count}&a Item Stapel konvertiert!"
 unknown-book-author: "Unbekannt"
 
@@ -382,6 +389,95 @@ trade-setup-desc-book:
 - 'Obere Reihe: Verkaufte Bücher'
 - 'Untere Reihen: Kosten'
 
+selling-shop.empty-trade.result-item: "&dVerkauf Gegenstand"
+selling-shop.empty-trade.result-item-lore:
+- "Der Gegenstand den du verkaufen möchtest."
+- "Lege Gegenstände in den Behälter."
+- "Links-/Rechtsklick zum Ändern der Menge."
+selling-shop.empty-trade.item1: "&dKauf Gegenstand"
+selling-shop.empty-trade.item1-lore:
+- "Der Gegenstand den du kaufen möchtest."
+- "Links-/Rechtsklick zum Ändern der Menge."
+selling-shop.empty-trade.item2: "&dKauf Gegenstand 2"
+selling-shop.empty-trade.item2-lore:
+- "Der zweite Gegenstand den du kaufen möchtest."
+- "Links-/Rechtsklick zum Ändern der Menge."
+selling-shop.empty-item1: "&dKauf Gegenstand"
+selling-shop.empty-item1-lore:
+- "Der Gegenstand den du kaufen möchtest."
+- "Links-/Rechtsklick zum Ändern der Menge."
+selling-shop.empty-item2: "&dKauf Gegenstand 2"
+selling-shop.empty-item2-lore:
+- "Der zweite Gegenstand den du kaufen möchtest."
+- "Links-/Rechtsklick zum Ändern der Menge."
+
+buying-shop.empty-trade.result-item: "&dVerkauf Gegenstand"
+buying-shop.empty-trade.result-item-lore:
+- "Der Gegenstand den du verkaufen möchtest."
+- "Links-/Rechtsklick zum Ändern der Menge."
+buying-shop.empty-trade.item1: "&dKauf Gegenstand"
+buying-shop.empty-trade.item1-lore:
+- "Der Gegenstand den du kaufen möchtest."
+- "Lege Gegenstände in den Behälter."
+- "Links-/Rechtsklick zum Ändern der Menge."
+buying-shop.empty-result-item: "&dVerkauf Gegenstand"
+buying-shop.empty-result-item-lore:
+- "Der Gegenstand den du verkaufen möchtest."
+- "Links-/Rechtsklick zum Ändern der Menge."
+
+trading-shop.empty-trade.result-item: "&dVerkauf Gegenstand"
+trading-shop.empty-trade.result-item-lore:
+- "Der Gegenstand den du verkaufen möchtest."
+- "Lege Gegenstände in den Behälter, oder"
+- "platziere einen Gegenstand aus deinem Inventar."
+- "Links-/Rechtsklick zum Ändern der Menge."
+trading-shop.empty-trade.item1: "&dKauf Gegenstand"
+trading-shop.empty-trade.item1-lore:
+- "Der Gegenstand den du kaufen möchtest."
+- "Platziere einen Gegenstand aus deinem Inventar."
+- "Links-/Rechtsklick zum Ändern der Menge."
+trading-shop.empty-trade.item2: "&dKauf Gegenstand 2"
+trading-shop.empty-trade.item2-lore:
+- "Der zweite Gegenstand den du kaufen möchtest."
+- "Platziere einen Gegenstand aus deinem Inventar."
+- "Links-/Rechtsklick zum Ändern der Menge."
+trading-shop.empty-result-item: "&dVerkauf Gegenstand"
+trading-shop.empty-result-item-lore:
+- "Der Gegenstand den du verkaufen möchtest."
+- "Platziere einen Gegenstand aus deinem Inventar."
+- "Links-/Rechtsklick zum Ändern der Menge."
+trading-shop.empty-item1: "&dBuy Item"
+trading-shop.empty-item1-lore:
+- "Der Gegenstand den du kaufen möchtest."
+- "Platziere einen Gegenstand aus deinem Inventar."
+- "Links-/Rechtsklick zum Ändern der Menge."
+trading-shop.empty-item2: "&dKauf Gegenstand 2"
+trading-shop.empty-item2-lore:
+- "Der zweite Gegenstand den du kaufen möchtest."
+- "Platziere einen Gegenstand aus deinem Inventar."
+- "Links-/Rechtsklick zum Ändern der Menge."
+
+book-shop.empty-trade.result-item: "&dVerkauf Gegenstand"
+book-shop.empty-trade.result-item-lore:
+- "Der Gegenstand den du verkaufen möchtest."
+- "Lege geschriebene Bücher in den Behälter."
+book-shop.empty-trade.item1: "&dKauf Gegenstand"
+book-shop.empty-trade.item1-lore:
+- "Der Gegenstand den du kaufen möchtest."
+- "Links-/Rechtsklick zum Ändern der Menge."
+book-shop.empty-trade.item2: "&dKauf Gegenstand 2"
+book-shop.empty-trade.item2-lore:
+- "Der zweite Gegenstand den du kaufen möchtest."
+- "Links-/Rechtsklick zum Ändern der Menge."
+book-shop.empty-item1: "&dKauf Gegenstand"
+book-shop.empty-item1-lore:
+- "Der Gegenstand den du kaufen möchtest."
+- "Links-/Rechtsklick zum Ändern der Menge."
+book-shop.empty-item2: "&dKauf Gegenstand 2"
+book-shop.empty-item2-lore:
+- "Der zweite Gegenstand den du kaufen möchtest."
+- "Links-/Rechtsklick zum Ändern der Menge."
+
 missing-edit-villagers-perm: "&7Dir fehlt die nötige Berechtigung, um Dorfbewohner zu editieren."
 missing-edit-wandering-traders-perm: "&7Dir fehlt die nötige Berechtigung, um wandernde Händler zu editieren."
 must-target-entity: "&7Du musst ein Objekt anvisieren."
@@ -475,8 +571,8 @@ confirmation-ui-aborted: "&7Bestätigung abgebrochen."
 
 snapshot-list-header: "&9Shop &e{shop_id} &9hat &e{snapshotsCount} &9Snapshots: &e(Seite {page} von {maxPage})"
 snapshot-list-entry: "  &e{id}) &2{name}&8 (&7{timestamp}&8)"
-invalid-snapshot-id: "&cUngültige Snapshot-Id: &e{id}"
-invalid-snapshot-name: "&cEs wurde kein Snapshot gefunden mit Namen '&e{name}&c'."
+invalid-snapshot-id: "&cUngültige Snapshot-Id: &e{argument}"
+invalid-snapshot-name: "&cEs wurde kein Snapshot gefunden mit Namen '&e{argument}&c'."
 snapshot-name-too-long: "&cDer Snapshot-Name kann höchstens &e{maxLength}&c Zeichen lang sein: &e{name}"
 snapshot-name-invalid: "&cUngültiger Snapshot-Name: &e{name}"
 snapshot-name-already-exists: "&cEs gibt bereits einen anderen Snapshot mit diesem Namen: &e{name}"
@@ -522,6 +618,7 @@ command-description-remove: "Entfernt einen bestimmten Shop."
 command-description-remove-all: "Entfernt alle Shops eines Spielers, aller Spieler, oder alle Admin-Shops."
 command-description-give: "Gibt dem Spieler Items zum Erstellen von Shops."
 command-description-give-currency: "Gibt dem Spieler Geld Items."
+command-description-set-currency: "Ändert das Währungs-Item zu dem Item in deiner Hand."
 command-description-convert-items: "Konvertiert die gehaltenen (oder alle) Items, um dem Datenformat von Spigot zu entsprechen."
 command-description-remote: "Öffnet einen Shop aus der Ferne (Optional: Für einen anderen Spieler)."
 command-description-remote-edit: "Editiert einen Shop aus der Ferne."
