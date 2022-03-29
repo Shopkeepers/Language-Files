@@ -4,7 +4,7 @@ date-time-format: "yyyy-MM-dd HH:mm:ss"
 
 shop-type-admin-regular: "Sklep admina"
 shop-type-selling: "Sprzedaż"
-shop-type-buying: "Skup "
+shop-type-buying: "Skup"
 shop-type-trading: "Handlowanie"
 shop-type-book: "Księgarnia"
 
@@ -73,7 +73,7 @@ button-baby-lore:
 - "- wariant dorosły i dziecięcy"
 button-sitting: "&aPrzełącza pozycję siedzącą"
 button-sitting-lore:
-- "Przełącza pozycję stworzenia"
+- "Przełącza nietykalność"
 - "stojącą/siedzącą"
 button-cat-variant: "&aWybierz odmianę kota"
 button-cat-variant-lore:
@@ -95,16 +95,16 @@ button-carrying-chest-lore:
 - "nosi skrzynię"
 button-horse-color: "&aWybierz maść konia"
 button-horse-color-lore:
-- "Zmienia maść"
-- "konia"
+- "Zmienia kolor"
+- "końską"
 button-horse-style: "&aWybierz wzór konia"
 button-horse-style-lore:
 - "Zmienia wzór sierści"
-- "konia"
+- "końską"
 button-horse-saddle: "&aPrzełącza siodło"
 button-horse-saddle-lore:
 - "Przełącza siodło"
-- "na koniu"
+- "końską"
 button-horse-armor: "&aWybierz zbroję "
 button-horse-armor-lore:
 - "Zmienia zbroję"
@@ -214,7 +214,7 @@ button-puffer-fish-puff-state-lore:
 - "rozdymki"
 - "Obecnie: &e{puffState}"
 
-admin-sign-shop-line1: "&2[KUPIEC]"
+admin-sign-shop-line1: "&2[SKLEP]"
 admin-sign-shop-line2: "&7{shopName}"
 admin-sign-shop-line3: ""
 admin-sign-shop-line4: "&eKliknij prawym!"
@@ -232,10 +232,18 @@ button-hire-lore:
 trading-title-prefix: "&2"
 trading-title-default: "Kupiec"
 
+must-target-block: "&7Trzeba patrzeć na blok, gdzie ma kupiec stać."
+missing-spawn-location: "&7Trzeba określić miejsce utworzenia dla tego typu sklepu."
+spawn-block-not-empty: "&7Miejsce utworzenia musi być puste."
+invalid-spawn-block-face: "&7Kupiec nie może być umieszczony po tej stronie bloku."
+mob-cannot-spawn-on-peaceful-difficulty: "&7Wybrany typ moba nie może się pojawić w pokojowym poziomie trudności."
+restricted-area: "&7Na tym obszarze nie można stworzyć kupca."
+location-already-in-use: "&7To miejsce jest już zajęte przez innego kupca."
+
 container-selected: "&aPojemnik wybrany! Kliknij prawym blok, gdzie ma stać kupiec."
 unsupported-container: "&7Ten typ pojemnika nie może być używany w sklepach."
 must-select-container: "&7Przed umieszczeniem swojego kupca musisz kliknąć prawym pojemnik."
-must-target-container: "&7Trzeba celować w pojemnik, aby umieścić tego typu sklep."
+must-target-container: "&7Trzeba patrzeć na pojemnik, aby umieścić tego typu sklep."
 invalid-container: "&7Wybrany blok nie jest prawidłowym pojemnikiem!"
 container-too-far-away: "&7Pojemnik kupca jest za daleko!"
 container-not-placed: "&7Musisz wybrać pojemnik, który umieściłeś niedawno!"
@@ -243,7 +251,6 @@ container-already-in-use: "&7Z wybranego pojemnika korzysta już inny kupiec!"
 no-container-access: "&7Nie masz dostępu do wybranego pojemnika!"
 too-many-shops: "&7Osiągłeś już limit liczby kupców, które możesz posiadać!"
 no-player-shops-via-command: "&7Sklepy graczy można tworzyć tylko za pomocą przedmiotu do tworzenia sklepu!"
-shop-create-fail: "&7Tam nie można stworzyć kupca."
 
 type-new-name: "&aWpisz nową nazwę kupca na czacie.\n &aAby usunąć bieżącą nazwę, wpisz minus (-)."
 name-set: "&aNazwa sklepu została ustawiona na '&e{name}&a'!"
@@ -265,11 +272,11 @@ not-owner: "&7Nie jesteś właścicielem tego kupca."
 owner-set: "&aNowym właścicielem jest teraz &e{owner}"
 shop-creation-items-given: "&aGracz &e{player}&a otrzymał przedmioty do tworzenia kupca (&e{amount}&a szt.)!"
 shop-creation-items-received: "&aOtrzymałeś przedmioty do tworzenia kupca (&e{amount}&a szt.)!"
-currency-items-given: "&aGracz &e{player}&a otrzymał przedmioty środku płatniczego (&e{amount}&a szt.)!"
-currency-items-received: "&aOtrzymałeś przedmioty środku płatniczego (&e{amount}&a szt.)!"
-high-currency-items-given: "&aGracz &e{player}&a otrzymał przedmioty środku płatniczego o wyższym nominale (&e{amount}&a szt.)!"
-high-currency-items-received: "&aOtrzymałeś przedmioty środku płatniczego o wyższym nominale (&e{amount}&a szt.)!"
-high-currency-disabled: "&cWyższy nominał jest wyłączony!"
+unknown-currency: "&cNieznany środek płatniczy: '&e{currency}&c'"
+currency-items-given: "&aGracz &e{player}&a otrzymał przedmioty '&e{currency}&a' środku płatniczego (&e{amount}&a szt.)!"
+currency-items-received: "&aOtrzymałeś przedmioty '&e{currency}&a' środku płatniczego (&e{amount}&a szt.)!"
+must-hold-item-in-main-hand: "&7Musisz trzymać przedmiot w głównej ręce."
+currency-item-set-to-main-hand-item: "&aPrzedmiot '&e{currencyId}&a' środku płatniczego został ustawiony na &eprzedmiot w twojej głównej ręce &a!"
 items-converted: "&aDokonano konwersję &e{count}&a stos(ów) przedmiotów!"
 unknown-book-author: "Nieznany"
 
@@ -377,6 +384,95 @@ trade-setup-desc-book:
 - 'Górny wiersz: Sprzedawane książki'
 - 'Dolne wiersze: Za co sprzedajemy'
 
+selling-shop.empty-trade.result-item: "&dSprzedaż przedmiotu"
+selling-shop.empty-trade.result-item-lore:
+- "Przedmiot, który chcesz sprzedać."
+- "Dodaj przedmioty do pojemnika sklepu."
+- "Lewym/prawym przyciskiem dostosuj ilość."
+selling-shop.empty-trade.item1: "&dKupno przedmiotu"
+selling-shop.empty-trade.item1-lore:
+- "Przedmiot, który chcesz kupić."
+- "Lewym/prawym przyciskiem dostosuj ilość."
+selling-shop.empty-trade.item2: "&dKupno przedmiotu 2"
+selling-shop.empty-trade.item2-lore:
+- "Drugi przedmiot, który chcesz kupić."
+- "Lewym/prawym przyciskiem dostosuj ilość."
+selling-shop.empty-item1: "&dKupno przedmiotu"
+selling-shop.empty-item1-lore:
+- "Przedmiot, który chcesz kupić."
+- "Lewym/prawym przyciskiem dostosuj ilość."
+selling-shop.empty-item2: "&dKupno przedmiotu 2"
+selling-shop.empty-item2-lore:
+- "Drugi przedmiot, który chcesz kupić."
+- "Lewym/prawym przyciskiem dostosuj ilość."
+
+buying-shop.empty-trade.result-item: "&dSprzedaż przedmiotu"
+buying-shop.empty-trade.result-item-lore:
+- "Przedmiot, który chcesz sprzedać."
+- "Lewym/prawym przyciskiem dostosuj ilość."
+buying-shop.empty-trade.item1: "&dKupno przedmiotu"
+buying-shop.empty-trade.item1-lore:
+- "Przedmiot, który chcesz kupić."
+- "Dodaj przedmioty do pojemnika sklepu."
+- "Lewym/prawym przyciskiem dostosuj ilość."
+buying-shop.empty-result-item: "&dSprzedaż przedmiotu"
+buying-shop.empty-result-item-lore:
+- "Przedmiot, który chcesz sprzedać."
+- "Lewym/prawym przyciskiem dostosuj ilość."
+
+trading-shop.empty-trade.result-item: "&dSprzedaż przedmiotu"
+trading-shop.empty-trade.result-item-lore:
+- "Przedmiot, który chcesz sprzedać."
+- "Dodaj przedmioty do pojemnika sklepu"
+- "lub włóż jakiś przedmiot ze swojego ekwipunku."
+- "Lewym/prawym przyciskiem dostosuj ilość."
+trading-shop.empty-trade.item1: "&dKupno przedmiotu"
+trading-shop.empty-trade.item1-lore:
+- "Przedmiot, który chcesz kupić."
+- "Włóż jakiś przedmiot ze swojego ekwipunku."
+- "Lewym/prawym przyciskiem dostosuj ilość."
+trading-shop.empty-trade.item2: "&dKupno przedmiotu 2"
+trading-shop.empty-trade.item2-lore:
+- "Drugi przedmiot, który chcesz kupić."
+- "Włóż jakiś przedmiot ze swojego ekwipunku."
+- "Lewym/prawym przyciskiem dostosuj ilość."
+trading-shop.empty-result-item: "&dSprzedaż przedmiotu"
+trading-shop.empty-result-item-lore:
+- "Przedmiot, który chcesz sprzedać."
+- "Włóż jakiś przedmiot ze swojego ekwipunku."
+- "Lewym/prawym przyciskiem dostosuj ilość."
+trading-shop.empty-item1: "&dKupno przedmiotu"
+trading-shop.empty-item1-lore:
+- "Przedmiot, który chcesz kupić."
+- "Włóż jakiś przedmiot ze swojego ekwipunku."
+- "Lewym/prawym przyciskiem dostosuj ilość."
+trading-shop.empty-item2: "&dKupno przedmiotu 2"
+trading-shop.empty-item2-lore:
+- "Drugi przedmiot, który chcesz kupić."
+- "Włóż jakiś przedmiot ze swojego ekwipunku."
+- "Lewym/prawym przyciskiem dostosuj ilość."
+
+book-shop.empty-trade.result-item: "&dSprzedaż przedmiotu"
+book-shop.empty-trade.result-item-lore:
+- "Przedmiot, który chcesz sprzedać."
+- "Dodaj zapisaną książkę do pojemnika sklepu."
+book-shop.empty-trade.item1: "&dKupno przedmiotu"
+book-shop.empty-trade.item1-lore:
+- "Przedmiot, który chcesz kupić."
+- "Lewym/prawym przyciskiem dostosuj ilość."
+book-shop.empty-trade.item2: "&dKupno przedmiotu 2"
+book-shop.empty-trade.item2-lore:
+- "Drugi przedmiot, który chcesz kupić."
+- "Lewym/prawym przyciskiem dostosuj ilość."
+book-shop.empty-item1: "&dKupno przedmiotu"
+book-shop.empty-item1-lore:
+- "Przedmiot, który chcesz kupić."
+- "Lewym/prawym przyciskiem dostosuj ilość."
+book-shop.empty-item2: "&dKupno przedmiotu 2"
+book-shop.empty-item2-lore:
+- "Drugi przedmiot, który chcesz kupić."
+- "Lewym/prawym przyciskiem dostosuj ilość."
+
 missing-edit-villagers-perm: "&7Nie masz uprawnień do modyfikacji osadników."
 missing-edit-wandering-traders-perm: "&7Nie masz uprawnień do modyfikacji wędrownych handlarzy."
 must-target-entity: "&7Trzeba celować w jakiś byt."
@@ -468,8 +564,8 @@ confirmation-ui-aborted: "&7Potwierdzenie zostało anulowane."
 
 snapshot-list-header: "&9Kupiec &e{shop_id} &9ma &e{snapshotsCount} &9snapshotów: &e(Strona {page} z {maxPage})"
 snapshot-list-entry: "  &e{id}) &2{name}&8 (&7{timestamp}&8)"
-invalid-snapshot-id: "&cNieprawidłowy identyfikator snapshotu: &e{id}"
-invalid-snapshot-name: "&cNie znaleziono żadnego snapshotu o nazwie '&e{name}&c'."
+invalid-snapshot-id: "&cNieprawidłowy identyfikator snapshotu: &e{argument}"
+invalid-snapshot-name: "&cNie znaleziono żadnego snapshotu o nazwie '&e{argument}&c'."
 snapshot-name-too-long: "&cNazwa snapshotu może zawierać maksymalnie &e{maxLength}&c znaków: &e{name}"
 snapshot-name-invalid: "&cNieprawidłowa nazwa snapshotu: &e{name}"
 snapshot-name-already-exists: "&cJuż istnieje inny snapshot o tej nazwie: &e{name}"
@@ -515,6 +611,7 @@ command-description-remove: "Usuwa określony sklep."
 command-description-remove-all: "Usuwa wszystkie sklepy konkretnego gracza, wszystkich graczy lub wszystke sklepy admina."
 command-description-give: "Daje przedmiot(y) do stworzenia sklepu określonemu graczowi."
 command-description-give-currency: "Daje przedmiot(y) środka płatniczego określonemu graczowi."
+command-description-set-currency: "Zmienia środek płatniczy na przedmiot trzymany w ręku."
 command-description-convert-items: "Konwertuje trzymane w ręce (lub wszystkie) przedmioty, aby były zgodne z formatem danych Spigot."
 command-description-remote: "Zdalnie otwiera sklep (opcjonalnie: dla innego gracza)."
 command-description-remote-edit: "Zdalnie edytuje sklep."
