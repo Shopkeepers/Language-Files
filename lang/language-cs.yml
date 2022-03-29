@@ -623,4 +623,3 @@ command-description-snapshot-create: "Vytvoří nový snímek kupce."
 command-description-snapshot-remove: "Odebere konkrétní nebo všechny snímky kupce."
 command-description-snapshot-restore: "Obnoví zadaný snímek kupce."
 command-description-edit-villager: "Otevře editor pro zaměřeného vesničana."
-
