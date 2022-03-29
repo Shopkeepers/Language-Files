@@ -2,6 +2,11 @@
 
 This document lists the authors of language files found in this repository.
 
+## v2.15.0
+
+* cs: Lemafor
+* pl: Lemafor
+
 ## v2.14.0
 
 * cs: Lemafor
