@@ -1,5 +1,76 @@
 # Changelog
 
+## v2.15.0
+
+### New messages
+
+* Added `button-horse-saddle`.
+* Added `button-horse-saddle-lore`.
+* Added `must-target-block`.
+* Added `missing-spawn-location`.
+* Added `spawn-block-not-empty`.
+* Added `invalid-spawn-block-face`.
+* Added `mob-cannot-spawn-on-peaceful-difficulty`.
+* Added `restricted-area`.
+* Added `location-already-in-use`.
+* Added `must-hold-item-in-main-hand`.
+* Added `currency-item-set-to-main-hand-item`.
+* Added `command-description-set-currency`.
+* Added `selling-shop.empty-trade.result-item`.
+* Added `selling-shop.empty-trade.result-item-lore`.
+* Added `selling-shop.empty-trade.item1`.
+* Added `selling-shop.empty-trade.item1-lore`.
+* Added `selling-shop.empty-trade.item2`.
+* Added `selling-shop.empty-trade.item2-lore`.
+* Added `selling-shop.empty-item1`.
+* Added `selling-shop.empty-item1-lore`.
+* Added `selling-shop.empty-item2`.
+* Added `selling-shop.empty-item2-lore`.
+* Added `buying-shop.empty-trade.result-item`.
+* Added `buying-shop.empty-trade.result-item-lore`.
+* Added `buying-shop.empty-trade.item1`.
+* Added `buying-shop.empty-trade.item1-lore`.
+* Added `buying-shop.empty-result-item`.
+* Added `buying-shop.empty-result-item-lore`.
+* Added `trading-shop.empty-trade.result-item`.
+* Added `trading-shop.empty-trade.result-item-lore`.
+* Added `trading-shop.empty-trade.item1`.
+* Added `trading-shop.empty-trade.item1-lore`.
+* Added `trading-shop.empty-trade.item2`.
+* Added `trading-shop.empty-trade.item2-lore`.
+* Added `trading-shop.empty-result-item`.
+* Added `trading-shop.empty-result-item-lore`.
+* Added `trading-shop.empty-item1`.
+* Added `trading-shop.empty-item1-lore`.
+* Added `trading-shop.empty-item2`.
+* Added `trading-shop.empty-item2-lore`.
+* Added `book-shop.empty-trade.result-item`.
+* Added `book-shop.empty-trade.result-item-lore`.
+* Added `book-shop.empty-trade.item1`.
+* Added `book-shop.empty-trade.item1-lore`.
+* Added `book-shop.empty-trade.item2`.
+* Added `book-shop.empty-trade.item2-lore`.
+* Added `book-shop.empty-item1`.
+* Added `book-shop.empty-item1-lore`.
+* Added `book-shop.empty-item2`.
+* Added `book-shop.empty-item2-lore`.
+* Added `unknown-currency`.
+
+### Changed messages
+
+* Slightly changed the default `must-target-container` message.
+* Changed `invalid-snapshot-id`.
+* Changed `invalid-snapshot-name`.
+* Changed `currency-items-given`.
+* Changed `currency-items-received`.
+
+### Removed messages
+
+* Removed `shop-create-fail`.
+* Removed `high-currency-items-given`.
+* Removed `high-currency-items-received`.
+* Removed `high-currency-disabled`.
+
 ## v2.14.0
 
 ### New messages
