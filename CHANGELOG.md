@@ -1,5 +1,26 @@
 # Changelog
 
+## v2.16.0
+
+### New messages
+
+* Added `button-move`.
+* Added `button-move-lore`.
+* Added `click-new-shop-location`.
+* Added `shopkeeper-moved`.
+* Added `shopkeeper-move-aborted`.
+* Added `button-frog-variant`.
+* Added `button-frog-variant-lore`.
+* Added `button-goat-left-horn`.
+* Added `button-goat-left-horn-lore`.
+* Added `button-goat-right-horn`.
+* Added `button-goat-right-horn-lore`.
+
+### Changed messages
+
+* Changed `mob-cannot-spawn-on-peaceful-difficulty`.
+* Changed `restricted-area`.
+
 ## v2.15.0
 
 ### New messages
