@@ -1,4 +1,4 @@
-# Contributing via Github
+# Contributing via GitHub
 
 To contribute via Github:
 * Fork this repository (`[Fork]` button in the top-right corner of this page): This creates your own personal copy of this repository.
