@@ -1,3 +1,5 @@
+# Contributing via Github
+
 To contribute via Github:
 * Fork this repository (`[Fork]` button in the top-right corner of this page): This creates your own personal copy of this repository.
 * Inside your fork, [select the branch](https://docs.github.com/en/repositories/configuring-branches-and-merges-in-your-repository/managing-branches-in-your-repository/viewing-branches-in-your-repository) that matches the plugin version you want to add or edit a language file for.
