@@ -45,6 +45,10 @@ button-name: "&aShop Namen ändern"
 button-name-lore:
 - Gib deinem Shop
 - einen Namen
+button-move: "&aShop umziehen"
+button-move-lore:
+- Verschiebe deinen Shop
+- an einen anderen Ort
 button-container: "&aShop-Inventar öffnen"
 button-container-lore:
 - Zeigt dir das Inventar
@@ -202,6 +206,14 @@ button-goat-screaming: "&aSchreiende Ziege umschalten"
 button-goat-screaming-lore:
 - "Schaltet zwischen einer normalen"
 - "und einer schreienden Ziege um"
+button-goat-left-horn: "&aLinkes Horn umschalten"
+button-goat-left-horn-lore:
+- "Schaltet das linke"
+- "Ziegenhorn an und aus"
+button-goat-right-horn: "&aRechtes Horn umschalten"
+button-goat-right-horn-lore:
+- "Schaltet das rechte"
+- "Ziegenhorn an und aus"
 button-tropical-fish-pattern: "&aVariante ändern"
 button-tropical-fish-pattern-lore:
 - "Ändert die Form und das"
@@ -220,6 +232,10 @@ button-puffer-fish-puff-state-lore:
 - "Ändert den Aufgeblasen-Zustand"
 - "des Kugelfisches."
 - "Aktuell: &e{puffState}"
+button-frog-variant: "&aFrosch-Variante ändern"
+button-frog-variant-lore:
+- "Ändert das Aussehen"
+- "des Frosches"
 
 admin-sign-shop-line1: "&2[SHOP]"
 admin-sign-shop-line2: "&7{shopName}"
@@ -243,8 +259,8 @@ must-target-block: "&7Du musst einen Block anvisieren, um den Shop zu platzieren
 missing-spawn-location: "&7Für diese Art von Shop musst du einen Spawn-Ort angeben."
 spawn-block-not-empty: "&7Der Spawn-Ort muss leer sein."
 invalid-spawn-block-face: "&7Der Shop kann nicht auf dieser Seite des Blocks platziert werden."
-mob-cannot-spawn-on-peaceful-difficulty: "&7Der gewählte Mob-Typ kann bei friedlichem Schwierigkeitsgrad nicht spawnen."
-restricted-area: "&7Du kannst in dieser Gegend keinen Shop erstellen."
+mob-cannot-spawn-on-peaceful-difficulty: "&7Der gewählte Mob-Typ kann hier bei friedlichem Schwierigkeitsgrad nicht spawnen."
+restricted-area: "&7Du kannst in dieser Gegend keinen Shop platzieren."
 location-already-in-use: "&7An diesem Ort befindet sich bereits ein anderer Shop."
 
 container-selected:  "&aBehälter ausgewählt! Klicke mit rechts auf einen Block, um den Shop zu platzieren."
@@ -264,6 +280,10 @@ name-set: "&aDer Name des Shops wurde auf '&e{name}&a' gesetzt!"
 name-has-not-changed: "&aDer Shop-Name hat sich nicht geändert."
 name-invalid: "&cUngültiger Shop-Name: '&e{name}&c'"
 nameplate-prefix: "&2"
+
+click-new-shop-location: "&aBitte rechtsklicke den neuen Standort des Shops.\n  &aZum Abbrechen linksklicken."
+shopkeeper-moved: "&aDer Shop wurde verschoben!"
+shopkeeper-move-aborted: "&7Umzug des Shops abgebrochen."
 
 shop-type-disabled: "&7Der Shop-Typ '&6{type}&7' ist deaktiviert."
 shop-object-type-disabled: "&7Der Shop-Objekt-Typ '&6{type}&7' ist deaktiviert."

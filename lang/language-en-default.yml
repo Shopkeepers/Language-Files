@@ -45,6 +45,10 @@ button-name: "&aSet shop name"
 button-name-lore:
 - Lets you rename
 - your shopkeeper
+button-move: "&aMove shopkeeper"
+button-move-lore:
+- Lets you move
+- your shopkeeper
 button-container: "&aView shop inventory"
 button-container-lore:
 - Lets you view the inventory
@@ -195,6 +199,14 @@ button-goat-screaming: "&aToggle screaming goat"
 button-goat-screaming-lore:
 - "Toggles between a normal"
 - "and a screaming goat"
+button-goat-left-horn: "&aToggle left horn"
+button-goat-left-horn-lore:
+- "Toggles the goat's"
+- "left horn"
+button-goat-right-horn: "&aToggle right horn"
+button-goat-right-horn-lore:
+- "Toggles the goat's"
+- "right horn"
 button-tropical-fish-pattern: "&aChoose variant"
 button-tropical-fish-pattern-lore:
 - "Changes the shape and pattern"
@@ -213,6 +225,9 @@ button-puffer-fish-puff-state-lore:
 - "Changes the puff state"
 - "of the puffer fish."
 - "Currently: &e{puffState}"
+button-frog-variant: "&aChoose frog variant"
+button-frog-variant-lore:
+- "Changes the frog's look"
 
 admin-sign-shop-line1: "&2[SHOP]"
 admin-sign-shop-line2: "&7{shopName}"
@@ -236,8 +251,8 @@ must-target-block: "&7You must look at a block to place the shopkeeper."
 missing-spawn-location: "&7You must specify a spawn location for this type of shop."
 spawn-block-not-empty: "&7The spawn location must be empty."
 invalid-spawn-block-face: "&7The shopkeeper cannot be placed on this side of the block."
-mob-cannot-spawn-on-peaceful-difficulty: "&7The selected mob type cannot spawn on peaceful difficulty."
-restricted-area: "&7You cannot create a shopkeeper in this area."
+mob-cannot-spawn-on-peaceful-difficulty: "&7The selected mob type cannot spawn here on peaceful difficulty."
+restricted-area: "&7You cannot place a shopkeeper in this area."
 location-already-in-use: "&7This location is already used by another shopkeeper."
 
 container-selected: "&aContainer selected! Right-click a block to place your shopkeeper."
@@ -257,6 +272,10 @@ name-set: "&aThe shop's name has been set to '&e{name}&a'!"
 name-has-not-changed: "&aThe shop's name has not changed."
 name-invalid: "&cInvalid shop name: '&e{name}&c'"
 nameplate-prefix: "&2"
+
+click-new-shop-location: "&aPlease right-click the shop's new location.\n  &aLeft-click to abort."
+shopkeeper-moved: "&aThe shopkeeper has been moved!"
+shopkeeper-move-aborted: "&7Shopkeeper move aborted."
 
 shop-type-disabled: "&7The shop type '&6{type}&7' is disabled."
 shop-object-type-disabled: "&7The shop object type '&6{type}&7' is disabled."
