@@ -29,7 +29,23 @@ Some versions of the Shopkeepers plugin had no changes to their language files, 
 
 In order to really be of use, **this repository depends on contributions** for languages other than the defaults. Feel encouraged to add new translations, update outdated translations, or suggest changes to existing translations.
 
-To contribute:
+If you are not familiar with Git and Github, you can also send me your translated language files via [Discord](https://discord.gg/d9NKd5z). But be sure to follow the **contribution guidelines** mentioned below.
+
+If you have any questions or suggestions, [join the Discord Server](https://discord.gg/d9NKd5z) or [create an issue](https://github.com/Shopkeepers/Language-Files/issues/new).
+
+#### Contribution Guidelines
+
+In order to get your changes accepted, **follow these principles**:
+* Stick to the default coloring and formatting scheme of the messages, and of the language file itself.
+* Do not include author or server names, advertisements, or links.
+* When adding a new language file, follow the naming pattern `language-<languageCode>.yml`.
+* When you create a new language file outside of Github: Use the `UTF-8` encoding for your language file. Some text editors, like for example [Notepad++](https://notepad-plus-plus.org/), allow you to easily determine and change the encoding of your language file. Try to use `UTF-8` right from the beginning, because changing the file encoding in retrospect might break special characters.
+* You may also suggest changes or alternatives for already existing translations, including the default translations. But please include an explanation as to why you think that these changes are necessary or useful. If your suggestions affect the default language files, they are either considered for the next version of Shopkeepers, or added as an alternative translation in this repository.
+* See the section on [Updating a Language File](https://github.com/Shopkeepers/Language-Files#updating-a-language-file) for additional notes on updating existing language files for newer plugin versions.
+
+#### Contributing via Github
+
+To contribute via Github:
 * Fork this repository (`[Fork]` button in the top-right corner of this page): This creates your own personal copy of this repository.
 * Inside your fork, [select the branch](https://docs.github.com/en/repositories/configuring-branches-and-merges-in-your-repository/managing-branches-in-your-repository/viewing-branches-in-your-repository) that matches the plugin version you want to add or edit a language file for.
 * Add or edit a language file. This can be done [directly here on GitHub](https://help.github.com/en/articles/managing-files-on-github). In order to later get your changes accepted, be sure to follow the principles listed below.
@@ -42,18 +58,11 @@ To contribute:
 
 **Alternatively**, there are also buttons to add and edit files directly in this repository: When you use those, GitHub will automatically fork this repository for you, create a `patch-x` branch to store your changes, and afterwards offer you the option to create a Pull Request for your changes.
 
-In order to get your changes accepted, **try to follow these principles**:
-* Stick to the default coloring and formatting scheme of the messages, and of the language file itself.
-* Do not include author or server names, advertisements, or links.
-* When adding a new language file, follow the naming pattern `language-<languageCode>.yml`.
-* This can be ignored if you add or edit language files directly here on GitHub: Use the `UTF-8` encoding for your language file. Some text editors, like for example [Notepad++](https://notepad-plus-plus.org/), allow you to easily determine and change the encoding of your language file. Try to use `UTF-8` right from the beginning, because changing the file encoding in retrospect might break special characters.
-* Prefer creating multiple Pull Requests for independent changes (e.g. when adding or making changes in different language files, or for different plugin versions). On GitHub, you can [create multiple "branches"](https://help.github.com/en/articles/creating-and-deleting-branches-within-your-repository), which allows you to keep each of your independent changes separate, and later create individual Pull Requests for them.
-  * When you added or edited a file and are about to commit the changes, GitHub offers you an option to create a new branch for these changes.
-  * If you add or edit files directly inside this repository, without manually creating a fork first, GitHub will automatically create a fork with a new `patch-x` branch to store your changes. In this case, you can probably ignore this aspect and let GitHub handle it automatically for you.
-* You may also suggest changes or alternatives for already existing translations, including the default translations. But please include an explanation as to why you think that these changes are necessary or useful. If your suggestions affect the default language files, they are either considered for the next version of Shopkeepers, or added as an alternative translation in this repository.
-* See [the next section](https://github.com/Shopkeepers/Language-Files#updating-a-language-file) for additional notes on updating existing language files for newer plugin versions.
+Prefer creating multiple Pull Requests for independent changes (e.g. when adding or making changes in different language files, or for different plugin versions). On GitHub, you can [create multiple "branches"](https://help.github.com/en/articles/creating-and-deleting-branches-within-your-repository), which allows you to keep each of your independent changes separate, and later create individual Pull Requests for them.
+* When you added or edited a file and are about to commit the changes, GitHub offers you an option to create a new branch for these changes.
+* If you add or edit files directly inside this repository, without manually creating a fork first, GitHub will automatically create a fork with a new `patch-x` branch to store your changes. In this case, you can probably ignore this aspect and let GitHub handle it automatically for you.
 
-### Updating a Language File
+#### Updating a Language File
 
 With every update of the Shopkeepers plugin, if there have been changes to the default language files:
 * A new branch is created for this plugin version. This branch initially only contains the default language files (english, and likely german since I speak that myself).
@@ -67,7 +76,5 @@ However, the changelog will often times only mention that some messages have cha
   * Open the compare page [`https://github.com/Shopkeepers/Language-Files/compare`](https://github.com/Shopkeepers/Language-Files/compare) and select the two branches of the two plugin versions you want to compare. At the bottom of the comparison page, GitHub will then list all files that have changed, and all the lines that have changed within each of these files. Search for the default `en-default` language file to inspect its changes.
   * Alternative 1: Select the default `en-default` language file inside the branch of the latest plugin version, and then click the `[History]` button in the top-right corner of the page. This will bring up the commit history of this file. Select the commit for the latest plugin version update: This will visualize all the lines that have changed compared to the previous version of this file.
   * Alternative 2: Use some external text comparison tool like https://text-compare.com/.
-
-If you have questions or suggestions, [join the Discord Server](https://discord.gg/d9NKd5z) or [create an issue](https://github.com/Shopkeepers/Language-Files/issues/new).
 
 ### Thanks to [all contributors](AUTHORS.md)!
