@@ -40,7 +40,7 @@ If you have any questions or suggestions, [join the Discord Server](https://disc
 
 #### Contribution Guidelines
 
-In order to get your changes accepted, **follow these principles**:
+In order to get your changes accepted, follow these principles:
 * Test your language file at least once and make sure that the plugin can load it.
 * Stick to the default coloring and formatting scheme of the messages, and of the language file itself.
 * Do not include author or server names, advertisements, or links.
