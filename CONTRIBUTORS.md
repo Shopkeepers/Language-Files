@@ -1,11 +1,12 @@
-# Authors
+# Contributors
 
-This document lists the authors of language files found in this repository.
+This document lists the contributors of language files found in this repository.
 
 ## v2.16.0
 
 * cs: Lemafor
 * pl: Lemafor
+* es: Santyxs
 
 ## v2.15.0
 
