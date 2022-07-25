@@ -64,4 +64,4 @@ However, the changelog will often times only mention that some messages have cha
   * Alternative 1: Select the default `en-default` language file inside the branch of the latest plugin version, and then click the `[History]` button in the top-right corner of the page. This will bring up the commit history of this file. Select the commit for the latest plugin version update: This will visualize all the lines that have changed compared to the previous version of this file.
   * Alternative 2: Use some external text comparison tool like https://text-compare.com/.
 
-### Thanks to [all contributors](AUTHORS.md)!
+### Thanks to [all contributors](CONTRIBUTORS.md)!
