@@ -1,0 +1,644 @@
+# Language: zh-CN
+
+date-time-format: "yyyy-MM-dd HH:mm:ss"
+
+shop-type-admin-regular: "系统商店"
+shop-type-selling: "售卖商店"
+shop-type-buying: "收购商店"
+shop-type-trading: "交易商店"
+shop-type-book: "书店"
+
+shop-type-desc-admin-regular: "拥有无限存货"
+shop-type-desc-selling: "售卖物品给玩家"
+shop-type-desc-buying: "收购玩家的物品"
+shop-type-desc-trading: "与玩家交易物品"
+shop-type-desc-book: "售卖书本"
+
+shop-object-type-living: "{type}"
+shop-object-type-sign: "sign"
+shop-object-type-npc: "npc"
+
+selected-shop-type: "&a选定的商店类型: &6{type} &7({description})"
+selected-shop-object-type: "&a选定的对象类型: &6{type}"
+
+creation-item-selected: |-
+  &a创建商店:
+  &e  不要对准任何方块 然后:
+  &e  左键/右键 选择商店类型.
+  &e  潜行 + 左键/右键 选择对象类型.
+  &e  右键一个容器以选定它.
+  &e  然后右键一个方块来放置 shopkeeper.
+
+state-enabled: "&2启用"
+state-disabled: "&4禁用"
+
+editor-title: "Shopkeeper 编辑器"
+
+button-previous-page: "&6<- 上页 ({prev_page} of {max_page})"
+button-previous-page-lore: []
+button-next-page: "&6下页 ({next_page} of {max_page}) ->"
+button-next-page-lore: []
+button-current-page: "&6第 {page} 页, 共 {max_page} 页"
+button-current-page-lore: []
+
+button-name: "&a设置商店名称"
+button-name-lore:
+- 重命名
+- 您的 shopkeeper
+button-move: "&a移动 shopkeeper"
+button-move-lore:
+- 移动
+- 您的 shopkeeper
+button-container: "&a查看商店物品栏"
+button-container-lore:
+- 查看您的 shopkeeper
+- 正在使用的物品栏
+button-trade-notifications: "&a交易提醒"
+button-trade-notifications-lore:
+- "开启/关闭 此 shopkeeper"
+- "的交易提醒."
+- "当前状态: {state}"
+button-delete: "&4删除"
+button-delete-lore:
+- 关闭并移除
+- 此 shopkeeper
+
+button-sign-variant: "&a选择告示牌样式"
+button-sign-variant-lore:
+- "更改告示牌"
+- "的材质"
+button-sign-glowing-text: "&a切换发光文字"
+button-sign-glowing-text-lore:
+- "开启或关闭"
+- "发光文字"
+button-baby: "&a切换幼年样式"
+button-baby-lore:
+- "将生物切换成"
+- "幼年或成年"
+button-sitting: "&a切换起坐姿势"
+button-sitting-lore:
+- "使生物"
+- "站立或坐下"
+button-cat-variant: "&a选择猫的样式"
+button-cat-variant-lore:
+- "更改猫的外观"
+button-rabbit-variant: "&a选择兔子样式"
+button-rabbit-variant-lore:
+- "更改兔子外观"
+button-collar-color: "&a选择项圈颜色"
+button-collar-color-lore:
+- "更改生物的"
+- "项圈颜色"
+button-wolf-angry: "&a切换激怒的狼"
+button-wolf-angry-lore:
+- "切换狼的"
+- "激怒状态"
+button-carrying-chest: "&a切换手拿箱子"
+button-carrying-chest-lore:
+- "切换生物是否"
+- "拿着一个箱子"
+button-horse-color: "&a选择马匹颜色"
+button-horse-color-lore:
+- "更改马"
+- "的颜色"
+button-horse-style: "&a选择马匹样式"
+button-horse-style-lore:
+- "更改马"
+- "的花纹"
+button-horse-saddle: "&a切换马鞍"
+button-horse-saddle-lore:
+- "切换马鞍"
+- "的状态"
+button-horse-armor: "&a选择马凯"
+button-horse-armor-lore:
+- "更改马身上的"
+- "马凯"
+button-llama-variant: "&a选择羊驼样式"
+button-llama-variant-lore:
+- "更改羊驼的外观"
+button-llama-carpet-color: "&a切换羊驼地毯颜色"
+button-llama-carpet-color-lore:
+- "更改羊驼身上的"
+- "地毯颜色"
+button-creeper-charged: "&a切换苦力怕的充能状态"
+button-creeper-charged-lore:
+- "切换苦力怕的"
+- "充能状态"
+button-fox-variant: "&a选择狐狸样式"
+button-fox-variant-lore:
+- "更改狐狸的外观"
+button-fox-crouching: "&a切换潜行姿势"
+button-fox-crouching-lore:
+- "切换狐狸的"
+- "潜行姿势"
+button-fox-sleeping: "&a切换睡觉姿势"
+button-fox-sleeping-lore:
+- "切换狐狸的"
+- "睡觉姿势"
+button-mooshroom-variant: "&a选择哞菇样式"
+button-mooshroom-variant-lore:
+- "更改哞菇"
+- "的外观"
+button-panda-variant: "&a选择熊猫样式"
+button-panda-variant-lore:
+- "更改熊猫的外观"
+button-parrot-variant: "&a选择鹦鹉样式"
+button-parrot-variant-lore:
+- "更改鹦鹉的外观"
+button-pig-saddle: "&a切换猪的鞍"
+button-pig-saddle-lore:
+- "切换猪是否有鞍"
+button-sheep-color: "&a选择绵羊颜色"
+button-sheep-color-lore:
+- "更改绵羊的"
+- "羊毛颜色"
+button-sheep-sheared: "&a切换被剪毛的绵羊"
+button-sheep-sheared-lore:
+- "切换绵羊"
+- "是否被剪毛"
+button-villager-profession: "&a选择村民职业"
+button-villager-profession-lore:
+- "更改村民"
+- "的职业"
+button-villager-variant: "&a选择村民样式"
+button-villager-variant-lore:
+- "更改村民"
+- "的外观"
+button-villager-level: "&a选择村民等级颜色"
+button-villager-level-lore:
+- "更改村民"
+- "等级的颜色"
+button-zombie-villager-profession: "&a选择僵尸村民职业"
+button-zombie-villager-profession-lore:
+- "更改僵尸村民"
+- "的职业"
+button-slime-size: "&a选择史莱姆大小"
+button-slime-size-lore:
+- "更改史莱姆的大小."
+- "当前大小: &e{size}"
+button-magma-cube-size: "&a选择岩浆怪大小"
+button-magma-cube-size-lore:
+- "更改岩浆怪的大小."
+- "当前大小: &e{size}"
+button-snowman-pumpkin-head: "&a切换南瓜头"
+button-snowman-pumpkin-head-lore:
+- "切换雪傀儡"
+- "是否戴着南瓜头"
+button-shulker-color: "&a选择潜影贝颜色"
+button-shulker-color-lore:
+- "更改潜影贝"
+- "的颜色"
+button-axolotl-variant: "&a选择蝾螈样式"
+button-axolotl-variant-lore:
+- "更改蝾螈的外观"
+button-glow-squid-dark: "&a切换鱿鱼发光"
+button-glow-squid-dark-lore:
+- "开启或关闭"
+- "鱿鱼的发光"
+button-goat-screaming: "&a切换尖叫山羊"
+button-goat-screaming-lore:
+- "在普通山羊"
+- "和尖叫山羊之间切换"
+button-goat-left-horn: "&a切换山羊左角"
+button-goat-left-horn-lore:
+- "切换山羊"
+- "的左角"
+button-goat-right-horn: "&a切换山羊右角"
+button-goat-right-horn-lore:
+- "切换山羊"
+- "的右角"
+button-tropical-fish-pattern: "&a选择热带鱼样式"
+button-tropical-fish-pattern-lore:
+- "选择热带鱼的"
+- "形状和花纹."
+- "当前: &e{pattern}"
+button-tropical-fish-body-color: "&a选择热带鱼颜色"
+button-tropical-fish-body-color-lore:
+- "更改热带鱼"
+- "身体的颜色"
+button-tropical-fish-pattern-color: "&a选择热带鱼花纹颜色"
+button-tropical-fish-pattern-color-lore:
+- "更改热带鱼"
+- "花纹的颜色"
+button-puffer-fish-puff-state: "&a切换河豚膨胀"
+button-puffer-fish-puff-state-lore:
+- "切换河豚"
+- "是否膨胀."
+- "当前状态: &e{puffState}"
+button-frog-variant: "&a选择青蛙样式"
+button-frog-variant-lore:
+- "更改青蛙的外观"
+
+admin-sign-shop-line1: "&2[SHOP]"
+admin-sign-shop-line2: "&7{shopName}"
+admin-sign-shop-line3: ""
+admin-sign-shop-line4: "&e右键!"
+
+player-sign-shop-line1: "&2[SHOP]"
+player-sign-shop-line2: "&7{shopName}"
+player-sign-shop-line3: "&7{owner}"
+player-sign-shop-line4: "&e右键!"
+
+for-hire-title: "供雇佣"
+button-hire: "&a雇佣"
+button-hire-lore:
+- 购买此 shopkeeper
+
+trading-title-prefix: "&2"
+trading-title-default: "Shopkeeper"
+
+must-target-block: "&7在放置您的 shopkeeper 之前, 您必须要将您的光标对着一个方块."
+missing-spawn-location: "&7您必须为此类型的商店指定一个生成位置."
+spawn-block-not-empty: "&7生成位置必须是空的."
+invalid-spawn-block-face: "&7shopkeeper 不可以被放置在方块的这一侧."
+mob-cannot-spawn-on-peaceful-difficulty: "&7选定的生物类型无法在和平难度下生成."
+restricted-area: "&7您不能在此区域放置 shopkeeper."
+location-already-in-use: "&7此位置已被另一个 shopkeeper 占用."
+
+container-selected: "&a容器已选定! 右键一个方块以放置您的 shopkeeper."
+unsupported-container: "&7此类型的容器不能作为一个商店."
+must-select-container: "&7在放置您的 shopkeeper 之前, 您必须右键一个容器."
+must-target-container: "&7在放置此类型的商店之前您必须将您的光标对着一个容器."
+invalid-container: "&7选定的容器无效!"
+container-too-far-away: "&7shopkeeper 的容器过远!"
+container-not-placed: "&7您必须选择您不久前放置的容器!"
+container-already-in-use: "&7另一个 shopkeeper 已经在使用选定的容器了!"
+no-container-access: "&7您没有使用该容器的权限!"
+too-many-shops: "&7您已到达能创建的商店数量的上限!"
+no-player-shops-via-command: "&7玩家商店只能通过商店创建工具来创建!"
+
+type-new-name: "&a请在聊天栏中输入商店名称.\n  &a输入负号 (-) 以移除该名称."
+name-set: "&a商店名称设置成功!"
+name-has-not-changed: "&a商店名称未被更改."
+name-invalid: "&a此名称无效!"
+nameplate-prefix: "&2"
+
+click-new-shop-location: "&a请右键以设置商店的新位置.\n  &a左键以放弃."
+shopkeeper-moved: "&a成功移动 shopkeeper!"
+shopkeeper-move-aborted: "&7已放弃对 shopkeeper 的移动."
+
+shop-type-disabled: "&7商店类型 '&6{type}&7' 已被禁用."
+shop-object-type-disabled: "&7商店对象类型 '&6{type}&7' 已被禁用."
+
+must-target-shop: "&7您需要将您的光标对着一个 shopkeeper."
+must-target-admin-shop: "&7您需要将您的光标对着一个系统 shopkeeper."
+must-target-player-shop: "&7您需要将您的光标对着一个玩家 shopkeeper."
+target-entity-is-no-shop: "&7您的光标所对着的实体不是一个 shopkeeper."
+target-shop-is-no-admin-shop: "&7您的光标所对着的实体不是一个系统 shopkeeper."
+target-shop-is-no-player-shop: "&7您的光标所对着的实体不是一个玩家 shopkeeper."
+unused-container: "&7没有 shopkeeper 在使用此容器."
+not-owner: "&7您不是此 shopkeeper 的所有者."
+owner-set: "&e{owner} &a现在是新的所有者"
+shop-creation-items-given: "&a玩家 &e{player}&a 获得了 &e{amount}&a 个商店创建工具!"
+shop-creation-items-received: "&a您获得了 &e{amount}&a 个商店创建工具!"
+unknown-currency: "&c未知的货币: '&e{currency}&c'"
+currency-items-given: "&a玩家 &e{player}&a 获得了 &6{amount}x&a 个货币物品 '&e{currency}&a'!"
+currency-items-received: "&a您获得了 &6{amount}x&a 个货币物品 '&e{currency}&a'!"
+must-hold-item-in-main-hand: "&7您必须用主手拿着一个物品."
+currency-item-set-to-main-hand-item: "&a货币物品 '&e{currencyId}&a' 已被设置成 &e您主手拿着的物品&a!"
+items-converted: "&a转换了 &e{count}&a 个物品堆!"
+unknown-book-author: "未知"
+
+trade-perm-set: "&a商店的交易权限已设置为 '&e{perm}&a'!"
+trade-perm-removed: "&a商店的交易权限 '&e{perm}&a' 已被移除!"
+trade-perm-view: "&a此商店现在的交易权限是 '&e{perm}&a'."
+
+zombie-villager-curing-disabled: "&7已禁止僵尸村民的治愈."
+must-hold-hire-item: "&7您需要将指定的雇佣物品拿在手中."
+set-for-hire: "&a此 shopkeeper 现可供雇佣."
+hired: "&a您雇佣了此 shopkeeper!"
+missing-hire-perm: "&7您没有权限雇佣 shopkeeper."
+cannot-hire: "&7您没有足够的余额雇佣此 shopkeeper."
+cannot-hire-shop-type: "&7您没有权限雇佣此类型的 shopkeeper."
+villager-for-hire: "&a该村民提供 shopkeeper 服务, 需要 &6{costs}x {hire-item}&a."
+
+missing-trade-perm: "&7您没有权限与此商店交易."
+missing-custom-trade-perm: "&7您没有权限与此商店交易."
+cannot-trade-no-offers: "&7商店当前没有物品可交易. 待会儿再来!"
+no-offers-open-editor-description: "&e您可以通过 潜行 + 右键 来编辑商店."
+cannot-trade-with-own-shop: "&7您不可以与自己的商店交易."
+cannot-trade-while-owner-online: "&7您不可以在此商店的所有者 ('&e{owner}&7') 在线时与商店交易."
+cannot-trade-with-shop-missing-container: "&7您不能与此商店交易, 因为其容器丢失."
+cannot-trade-unexpected-trade: "&7交易终止: 交易的物品不符合此 shopkeeper 的预期."
+cannot-trade-items-not-strictly-matching: "&7交易终止: 提供的物品与预期物品不符."
+cannot-trade-insufficient-storage-space: "&7交易终止: 此商店剩余空间不足."
+cannot-trade-insufficient-currency: "&7交易终止: 此商店剩余货币不足."
+cannot-trade-insufficient-stock: "&7交易终止: 此商店剩余交易的物品不足."
+cannot-trade-insufficient-writable-books: "&7交易终止: 此书店剩余空白的书不足."
+
+trade-notification-one-item: "&7交易: &e{player}&7 [&6{item1Amount}x &a{item1}&7] \u279e [&6{resultItemAmount}x &a{resultItem}&7] {shop}{trade_count}"
+trade-notification-two-items: "&7交易: &e{player}&7 [&6{item1Amount}x &a{item1}&7] [&6{item2Amount}x &a{item2}&7] \u279e [&6{resultItemAmount}x &a{resultItem}&7] {shop}{trade_count}"
+buy-notification-one-item: "&7交易: &e{player}&7 [&6{item1Amount}x &a{item1}&7] \u279e [&6{resultItemAmount}x &a{resultItem}&7] {shop}{trade_count}"
+buy-notification-two-items: "&7交易: &e{player}&7 [&6{item1Amount}x &a{item1}&7] [&6{item2Amount}x &a{item2}&7] \u279e [&6{resultItemAmount}x &a{resultItem}&7] {shop}{trade_count}"
+trade-notification-player-shop: "&e{shop_owner_name}"
+trade-notification-named-player-shop: "&e{shop_owner_name}"
+trade-notification-admin-shop: "&e系统商店"
+trade-notification-named-admin-shop: '&e"{shop_name}"'
+trade-notification-trade-count: "&7 (&6{count}x&7)"
+
+owner-trade-notification-one-item: "&e{player}&7 从 {shop}{trade_count} 购买了 &6{resultItemAmount}x &a{resultItem}"
+owner-trade-notification-two-items: "&e{player}&7 从 {shop}{trade_count} 购买了 &6{resultItemAmount}x &a{resultItem}"
+owner-buy-notification-one-item: "&e{player}&7 向 {shop}{trade_count} 出售了 &6{item1Amount}x &a{item1}"
+owner-buy-notification-two-items: "&e{player}&7 向 {shop}{trade_count} 出售了 &6{item1Amount}x &a{item1}&7 和 &6{item2Amount}x &a{item2}"
+owner-trade-notification-shop: "您的商店之一"
+owner-trade-notification-named-shop: '您的商店 &e"{shop_name}"'
+owner-buy-notification-shop: "您的商店之一"
+owner-buy-notification-named-shop: '您的商店 &e"{shop_name}"'
+owner-trade-notification-trade-count: "&7 (&6{count}x&7)"
+
+disable-trade-notifications-hint: "&7您可以输入 &e{command} &7以关闭交易提醒."
+disable-trade-notifications-hint-command: "/shopkeeper notify trades"
+trade-notifications-disabled: "&a本次退出服务器之前都不会再收到交易提醒."
+trade-notifications-enabled: "&a您将在此接收交易提醒."
+
+shopkeeper-created: "&aShopkeeper 已创建: &6{type} &7({description})\n{setupDesc}"
+
+shop-setup-desc-selling: |-
+  &e  向您的容器中添加您要售卖的物品,
+  &e  并 潜行+右键 商店以更改价格.
+shop-setup-desc-buying: |-
+  &e  向您的容器中添加您要收购的物品,
+  &e  并 潜行+右键 商店以更改价格.
+shop-setup-desc-trading: |-
+  &e  向您的容器中添加您要售卖的物品,
+  &e  并 潜行+右键 商店以更改价格.
+shop-setup-desc-book: |-
+  &e  向您的容器中添加您要收购的物品,
+  &e  并 潜行+右键 商店以更改价格.
+shop-setup-desc-admin-regular: |-
+  &e  潜行+右键 商店以更改价格.
+
+trade-setup-desc-header: '&6{shopType}'
+trade-setup-desc-admin-regular:
+- 拥有无限存货.
+- 从您的物品栏放入物品.
+- '顶部一行: 得到的物品'
+- '底部一行: 需要的物品'
+trade-setup-desc-selling:
+- 售卖物品给玩家.
+- 向容器中放入要售卖的物品.
+- 左键/右键 以调整数量.
+- '顶部一行: 售卖的物品'
+- '底部一行: 需要的物品'
+trade-setup-desc-buying:
+- 从玩家那儿收购物品.
+- 插入您要收购的物品
+- 和一些货币
+- 到容器中.
+- 左键/右键 以调整数量.
+- '顶部一行: 需要的物品'
+- '底部一行: 收购的物品'
+trade-setup-desc-trading:
+- 与玩家交易物品.
+- 从您的物品栏中选择一个物品
+- 并点击一个格子以放置它.
+- 左键/右键 以调整数量.
+- '顶部一行: 得到的物品'
+- '底部一行: 需要的物品'
+trade-setup-desc-book:
+- 售卖书的印刷品.
+- 放入写好的和空白的书
+- 到容器中.
+- 左键/右键 以调整价格.
+- '顶部一行: 售卖的书'
+- '底部一行: 需要的物品'
+
+selling-shop.empty-trade.result-item: "&d售出物品"
+selling-shop.empty-trade.result-item-lore:
+- "要售出的物品."
+- "向容器中添加物品."
+- "左键/右键 以调整数量."
+selling-shop.empty-trade.item1: "&d购买物品"
+selling-shop.empty-trade.item1-lore:
+- "要购买的物品."
+- "左键/右键 以调整数量."
+selling-shop.empty-trade.item2: "&d购买第二个物品"
+selling-shop.empty-trade.item2-lore:
+- "要购买的第二个物品."
+- "左键/右键 以调整数量."
+selling-shop.empty-item1: "&d购买物品"
+selling-shop.empty-item1-lore:
+- "要购买的物品."
+- "左键/右键 以调整数量."
+selling-shop.empty-item2: "&d购买第二个物品"
+selling-shop.empty-item2-lore:
+- "要购买的第二个物品."
+- "左键/右键 以调整数量."
+
+buying-shop.empty-trade.result-item: "&d售出物品"
+buying-shop.empty-trade.result-item-lore:
+- "要售出的物品."
+- "左键/右键 以调整数量."
+buying-shop.empty-trade.item1: "&d购买物品"
+buying-shop.empty-trade.item1-lore:
+- "要购买的物品."
+- "向容器中添加物品."
+- "左键/右键 以调整数量."
+buying-shop.empty-result-item: "&d售出物品"
+buying-shop.empty-result-item-lore:
+- "要售出的物品."
+- "左键/右键 以调整数量."
+
+trading-shop.empty-trade.result-item: "&d售出物品"
+trading-shop.empty-trade.result-item-lore:
+- "要售出的物品."
+- "向容器中添加物品,"
+- "或者放置一个您物品栏中的物品."
+- "左键/右键 以调整数量."
+trading-shop.empty-trade.item1: "&d购买物品"
+trading-shop.empty-trade.item1-lore:
+- "要购买的物品."
+- "放置一个您物品栏中的物品."
+- "左键/右键 以调整数量."
+trading-shop.empty-trade.item2: "&d购买第二个物品"
+trading-shop.empty-trade.item2-lore:
+- "要购买的第二个物品."
+- "放置一个您物品栏中的物品."
+- "左键/右键 以调整数量."
+trading-shop.empty-result-item: "&d售出物品"
+trading-shop.empty-result-item-lore:
+- "要售出的物品."
+- "放置一个您物品栏中的物品."
+- "左键/右键 以调整数量."
+trading-shop.empty-item1: "&d购买物品"
+trading-shop.empty-item1-lore:
+- "要购买的物品."
+- "放置一个您物品栏中的物品."
+- "左键/右键 以调整数量."
+trading-shop.empty-item2: "&d购买第二个物品"
+trading-shop.empty-item2-lore:
+- "要购买的第二个物品."
+- "放置一个您物品栏中的物品."
+- "左键/右键 以调整数量."
+
+book-shop.empty-trade.result-item: "&d售出物品"
+book-shop.empty-trade.result-item-lore:
+- "要售出的物品."
+- "向容器中添加成书."
+book-shop.empty-trade.item1: "&d购买物品"
+book-shop.empty-trade.item1-lore:
+- "要购买的物品."
+- "左键/右键 以调整数量."
+book-shop.empty-trade.item2: "&d购买第二个物品"
+book-shop.empty-trade.item2-lore:
+- "要购买的第二个物品."
+- "左键/右键 以调整数量."
+book-shop.empty-item1: "&d购买物品"
+book-shop.empty-item1-lore:
+- "要购买的物品."
+- "左键/右键 以调整数量."
+book-shop.empty-item2: "&d购买第二个物品"
+book-shop.empty-item2-lore:
+- "要购买的第二个物品."
+- "左键/右键 以调整数量."
+
+missing-edit-villagers-perm: "&7您没有权限编辑村民."
+missing-edit-wandering-traders-perm: "&7您没有权限编辑流浪商人."
+must-target-entity: "&7您需要用光标指向一个实体."
+must-target-villager: "&7您需要用光标指向一个村民."
+target-entity-is-no-villager: "&7光标所指的实体不是一个普通村民."
+villager-no-longer-exists: "&村民不再存在."
+
+villager-editor-title: "&2村民编辑器: &e{villagerName}"
+villager-editor-description-header: "&6村民编辑器"
+villager-editor-description:
+- '顶部一行: 得到的物品'
+- '底部一行: 需要的物品'
+- '编辑过的交易可被无限次使用,'
+- '并且没有经验奖励.'
+
+button-delete-villager: "&4删除"
+button-delete-villager-lore:
+- 删除该村民
+button-name-villager: "&a设置村民名称"
+button-name-villager-lore:
+- "重命名"
+- "村民"
+button-villager-inventory: "&a查看村民物品栏"
+button-villager-inventory-lore:
+- 查看村民物品栏
+- 的一个拷贝
+button-mob-ai: "&a切换生物 AI"
+button-mob-ai-lore:
+- "切换生物的 AI"
+button-invulnerability: "&a切换无敌模式"
+button-invulnerability-lore:
+- "切换生物"
+- "的无敌模式."
+- "创造模式的玩家"
+- "仍然能伤害该生物."
+
+villager-inventory-title: "村民的物品栏 (一个拷贝)"
+set-villager-xp: "&a将村民的经验设置为 &e{xp}"
+no-villager-trades-changed: "&a没有交易被更改."
+villager-trades-changed: "&e{changedTrades}&a 个交易被更改."
+
+type-new-villager-name: "&a请在聊天栏输入村民名称.\n  &a输入负号 (-) 以移除该名称."
+villager-name-set: "&a成功设置村民名称!"
+villager-name-invalid: "&a名称无效!"
+
+list-admin-shops-header: "&9共有 &e{shopsCount} &9个系统商店: &e(第 {page} 页, 共 {maxPage} 页)"
+list-all-shops-header: "&9共有 &e{shopsCount} &9个商店: &e(第 {page} 页, 共 {maxPage} 页)"
+list-player-shops-header: "&9玩家 '&e{player}&9' 拥有 &e{shopsCount} &9个商店: &e(第 {page} 页, 共 {maxPage} 页)"
+list-shops-entry: "  &e{shopId}) &7{shopName}&r&8在 &7({location})&8, 类型: &7{shopType}&8, 对象: &7{objectType}"
+
+shop-removed: "&a该 shopkeeper 被移除."
+shop-already-removed: "&7该 shopkeeper 已被移除."
+shop-no-longer-exists: "&7该 shopkeeper 不再存在."
+shop-removal-cancelled: "&c某个插件取消了 shopkeeper 的移除."
+
+shops-already-removed: "&e{shopsCount}&7 个商店已被移除."
+shop-removals-cancelled: "&c某个插件已取消移除 &e{shopsCount}&c 个商店."
+admin-shops-removed: "&e{shopsCount} &a个系统商店被移除."
+shops-of-player-removed: "&e{shopsCount} &a个玩家 '&e{player}&a' 的商店被移除."
+player-shops-removed: "&e{shopsCount} &a个玩家商店被移除."
+
+confirm-remove-shop: "&c您即将永久移除指定 shopkeeper!"
+confirm-remove-all-admin-shops: "&c您即将永久移除所有系统商店 (&6{shopsCount}&c)!"
+confirm-remove-all-own-shops: "&c您即将永久移除您所有的商店 (&6{shopsCount}&c)!"
+confirm-remove-all-shops-of-player: "&c您即将永久移除玩家 &6{player}&c 的所有商店 (&6{shopsCount}&c)!"
+confirm-remove-all-player-shops: "&c您即将永久移除所有玩家的所有商店 (&6{shopsCount}&c)!"
+
+confirmation-required: "&7请输入 &6/shopkeepers confirm &7来确认此操作."
+confirmation-expired: "&c待确认的操作过期."
+nothing-to-confirm: "&c当前没有操作待确认."
+
+confirmation-ui-delete-shop-title: "&c真的要移除此商店吗?"
+confirmation-ui-delete-shop-confirm-lore:
+- "这将不可撤销地"
+- "移除此商店!"
+
+confirmation-ui-delete-villager-title: "&c真的要移除此村民吗?"
+confirmation-ui-delete-villager-confirm-lore:
+- "这将不可撤销地"
+- "移除此村民!"
+villager-removed: "&a村民被移除."
+
+confirmation-ui-confirm: "&2确认"
+confirmation-ui-cancel: "&4取消"
+confirmation-ui-cancel-lore:
+- "这将确认"
+- "当前操作."
+confirmation-ui-aborted: "&7待确认的操作终止."
+
+snapshot-list-header: "&e{shop_id} &9商店拥有 &e{snapshotsCount} &9个备份: &e(Page {page} of {maxPage})"
+snapshot-list-entry: "  &e{id}) &2{name}&8 (&7{timestamp}&8)"
+invalid-snapshot-id: "&c无效的备份ID: &e{argument}"
+invalid-snapshot-name: "&c未找到名为 '&e{argument}&c' 的备份."
+snapshot-name-too-long: "&c备份名最多 &e{maxLength}&c 个字符: &e{name}"
+snapshot-name-invalid: "&c无效的备份名: &e{name}"
+snapshot-name-already-exists: "&c备份名已存在: &e{name}"
+snapshot-created: "&a成功创建备份: &e({id}) &2{name} &8(&7{timestamp}&8)"
+confirm-remove-snapshot: "&c您将要删除所有指定备份!"
+confirm-remove-all-snapshots: "&c您将要删除 (&6{snapshotsCount}&c) 商店的所有指定备份!"
+action-aborted-snapshots-changed: "&c操作中止! 在执行过程中备份发生了改变. 请重试."
+snapshot-removed: "&a成功删除备份: &e({id}) &2{name} &8(&7{timestamp}&8)"
+snapshot-removed-all: "&e{shop_id}&a 商店的所有备份已删除 (共 &e{snapshotsCount} &a个)."
+snapshot-restore-failed: "&c无法恢复备份: &e({id}) &2{name} &8(&7{timestamp}&8)"
+snapshot-restored: "&a备份恢复: &e({id}) &2{name} &8(&7{timestamp}&8)"
+
+no-permission: "&c你没有权限这么做."
+
+command-unknown: "&c未知指令 '&e{command}&c'!"
+command-argument-unexpected: "&c非预期参数 '&e{argument}&c'."
+command-argument-requires-player: "&c参数 '&e{argumentFormat}&c' 需要玩家通过指令来执行."
+command-argument-missing: "&c缺少参数 '&e{argumentFormat}&c'."
+command-argument-invalid: "&c无效参数 '&e{argument}&c'."
+command-player-argument-missing: "&c没有为 '&e{argumentFormat}&c' 指定玩家."
+command-player-argument-invalid: "&c未找到有关 '&e{argument}&c' 的玩家."
+command-shop-type-argument-invalid: "&c未知的商店类型 '&e{argument}&c'."
+command-shop-object-type-argument-invalid: "&c未知的商店对象类型 '&e{argument}&c'."
+command-shopkeeper-argument-invalid: "&c未找到有关 '&e{argument}&c' 的 shopkeeper."
+command-shopkeeper-argument-no-admin-shop: "&cShopkeeper '&e{argument}&c' 不是一个系统 shopkeeper."
+command-shopkeeper-argument-no-player-shop: "&cShopkeeper '&e{argument}&c' 不是一个玩家 shopkeeper."
+
+ambiguous-player-name: "&c名称 '&e{name}&c' 有多个可选项!"
+ambiguous-player-name-entry: "&c  - '&e{name}&r&c' (&6{uuid}&c)"
+ambiguous-player-name-more: "&c  - ...."
+
+command-help-title: "&9***** &8[&6Shopkeepers v{version}&8] &9*****"
+command-help-usage-format: "&e{usage}"
+command-help-description-format: "&8 - &3{description}"
+
+command-description-shopkeeper: "创建一个 shopkeeper."
+command-description-help: "显示此帮助页面."
+command-description-reload: "重载此插件."
+command-description-debug: "开启或关闭调试模式."
+command-description-notify: "开启或关闭您的交易提醒."
+command-description-list: "列出指定玩家的所有商店, 或列出所有系统商店."
+command-description-remove: "移除指定商店."
+command-description-remove-all: "移除指定玩家的所有商店, 或移除所有玩家的所有商店, 或移除所有系统商店."
+command-description-give: "给予指定玩家商店创建工具."
+command-description-give-currency: "给予指定玩家货币."
+command-description-set-currency: "将货币物品更改成主手拿着的物品."
+command-description-convert-items: "将拿在手中的物品 (或所有物品) 转换成 Spigot 的标准物品数据."
+command-description-remote: "远程打开商店 (可选: 为其他玩家)."
+command-description-remote-edit: "远程编辑商店."
+command-description-transfer: "转让商店所有权."
+command-description-settradeperm: "设置, 移除 (-) 或列出 (?) 交易权限."
+command-description-setforhire: "出售您的一个商店."
+command-description-snapshot-list: "列出商店备份."
+command-description-snapshot-create: "创建一个新的商店备份."
+command-description-snapshot-remove: "移除商店指定的或所有的备份."
+command-description-snapshot-restore: "还原一个特定的商店备份 (回档)."
+command-description-edit-villager: "打开您光标所指的村民的编辑器."
