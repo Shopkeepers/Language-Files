@@ -7,6 +7,7 @@ This document lists the contributors of language files found in this repository.
 * cs: Lemafor
 * pl: Lemafor
 * es: Santyxs
+* zh-CN: katorly
 
 ## v2.15.0
 
