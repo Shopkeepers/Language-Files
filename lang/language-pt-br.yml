@@ -160,7 +160,8 @@ button-villager-profession: "&aEscolha a profissão de aldeão"
 button-villager-profession-lore:
 - "Muda a profissão"
 - "do aldeão"
-button-villager-variant:"&aEscolha variante de aldeão"
+button-villager-variant:
+- "&aEscolha variante de aldeão"
 button-villager-variant-lore:
 - "Muda o visual"
 - "do aldeão"
@@ -524,7 +525,7 @@ button-mob-ai-lore:
 button-invulnerability: "&aAlterar invulnerabilidade"
 button-invulnerability-lore:
 - "Altera o mob para"
-- "invulnerabilidade".
+- "invulnerabilidade."
 - "Jogadores em modo criativo"
 - "ainda pode danificar o mob."
 
