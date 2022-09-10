@@ -1,0 +1,625 @@
+# Language: fr
+
+date-time-format: "yyyy-MM-dd HH:mm:ss"
+
+shop-type-admin-regular: "Shop Admin"
+shop-type-selling: "Shop de vente"
+shop-type-buying: "Shop d'achat"
+shop-type-trading: "Shop d'échange"
+shop-type-book: "Shop de livre"
+
+shop-type-desc-admin-regular: "a un stock illimité"
+shop-type-desc-selling: "vends des items aux joueurs"
+shop-type-desc-buying: "achètes des items aux joueurs"
+shop-type-desc-trading: "échanges des items avec des joueurs"
+shop-type-desc-book: "vends des copies de livres"
+
+shop-object-type-living: "{type}"
+shop-object-type-sign: "sign"
+shop-object-type-npc: "npc"
+
+selected-shop-type: "&aType de shop séléctionné: &6{type} &7({description})"
+selected-shop-object-type: "&aType d'objet séléctionné: &6{type}"
+
+creation-item-selected: |-
+  &aCréation d'un shop:
+  &e  Ne viser aucun bloc. Ensuite:
+  &e  Clic gauche/droit pour séléctionner le type de shop.
+  &e  S'accroupir + clic gauche/droit pour séléctionner le type d'objet.
+  &e  Clic droit sur un conteneur pour la séléctionner.
+  &e  Ensuite, clic droit sur un bloc pour placer le marchand.
+
+state-enabled: "&2Activé"
+state-disabled: "&4Désactivé"
+
+editor-title: "Editeur de marchand"
+
+button-previous-page: "&6<- Page précédente ({prev_page} sur {max_page})"
+button-previous-page-lore: []
+button-next-page: "&6Page suivante ({next_page} sur {max_page}) ->"
+button-next-page-lore: []
+button-current-page: "&6Page {page} sur {max_page}"
+button-current-page-lore: []
+
+button-name: "&aDéfinir le nom du shop"
+button-name-lore:
+- Permet de renommer
+- votre marchand
+button-container: "&aRegarder l'inventaire du shop"
+button-container-lore:
+- Permet de regarder l'inventaire
+- que votre marchand utilise
+button-trade-notifications: "&aNotifications d'échanges"
+button-trade-notifications-lore:
+- "Active/désactive les notifications "
+- "d'échanges pour ce marchand."
+- "Actuellement: {state}"
+button-delete: "&4Supprimer"
+button-delete-lore:
+- Fermer et supprimer
+- ce marchand
+
+button-sign-variant: "&aChoisissez le type du panneau"
+button-sign-variant-lore:
+- "Change le type de bois"
+- "du panneau"
+button-sign-glowing-text: "&aActive/désactive le texte brillant"
+button-sign-glowing-text-lore:
+- "Active/désactive"
+- "le texte brillant"
+button-baby: "&aActive/désactive le mode bébé"
+button-baby-lore:
+- "Basule entre la variante"
+- "bébé et adulte"
+button-sitting: "&aActive/désactive la position assise"
+button-sitting-lore:
+- "Active/désactive"
+- "la position assise"
+button-cat-variant: "&aChoisissez le type de chat"
+button-cat-variant-lore:
+- "Changer l'apparence du chat"
+button-rabbit-variant: "&aChoisissez me type de lapin"
+button-rabbit-variant-lore:
+- "Changer l'apparence du lapin"
+button-collar-color: "&aChange la couleur du collier"
+button-collar-color-lore:
+- "Changer l'apparence"
+- "du collier du monstre"
+button-wolf-angry: "&aActive/désactive la colère du loup"
+button-wolf-angry-lore:
+- "Active désactive"
+- "la colère du loup"
+button-carrying-chest: "&aActive/désactive le port d'un coffre"
+button-carrying-chest-lore:
+- "Active/ désactive"
+- "le port d'un coffre"
+button-horse-color: "&aChoisisez la couleur du cheval"
+button-horse-color-lore:
+- "Change la couleur"
+- "du cheval"
+button-horse-style: "&aChoisisez le type de cheval"
+button-horse-style-lore:
+- "Change le motif"
+- "de la robe du cheval"
+button-horse-saddle: "&aActive/désactive la selle du cheval"
+button-horse-saddle-lore:
+- "Active/désactive"
+- "la selle du cheval"
+button-horse-armor: "&aChoisisez l'armure du cheval"
+button-horse-armor-lore:
+- "Change l'armure"
+- "du cheval"
+button-llama-variant: "&aChoisissez le type du lama"
+button-llama-variant-lore:
+- "Change l'apparence du lama"
+button-llama-carpet-color: "&aCouleur du tapis du lama"
+button-llama-carpet-color-lore:
+- "Change la couleur"
+- "du tapis du lama"
+button-creeper-charged: "&aActive/désactive la charge du creeper"
+button-creeper-charged-lore:
+- "Active/désactive"
+- "la charge du creeper"
+button-fox-variant: "&aChoisissez le type de renard"
+button-fox-variant-lore:
+- "Change l'apparence du loup"
+button-fox-crouching: "&aActive/désactive la pose accroupie"
+button-fox-crouching-lore:
+- "Active/désactive la pose"
+- "accroupie du renard"
+button-fox-sleeping: "&aActive/désactive la pose endormie"
+button-fox-sleeping-lore:
+- "Active/désactive la pose"
+- "endormie du renard"
+button-mooshroom-variant: "&aChoisissez le type de la champimeuh"
+button-mooshroom-variant-lore:
+- "Change l'apparence"
+- "de la champimeuh"
+button-panda-variant: "&aChoisissez le type de panda"
+button-panda-variant-lore:
+- "Change l'apparence du panda"
+button-parrot-variant: "&aChoisissez le type de perroquet"
+button-parrot-variant-lore:
+- "Change l'apparence du perroquet"
+button-pig-saddle: "&aActive/désactive la selle du cochon"
+button-pig-saddle-lore:
+- "Active/désactive la selle du cochon"
+button-sheep-color: "&aChoisissez la couleur du cochon"
+button-sheep-color-lore:
+- "Change la couleur"
+- "du mouton"
+button-sheep-sheared: "&aActive/désactive la tonte de mouton"
+button-sheep-sheared-lore:
+- "Active/désactive"
+- "la tonte de mouton"
+button-villager-profession: "&aChoisissez le métier du villageois"
+button-villager-profession-lore:
+- "Change le métier"
+- "odu villageois"
+button-villager-variant: "&aChoisissez le type de villageois"
+button-villager-variant-lore:
+- "Change l'apparence"
+- "du villageois"
+button-villager-level: "&aChoisissez la couleur du badge du villageois"
+button-villager-level-lore:
+- "Change la couleur"
+- "du badge du villageois"
+button-zombie-villager-profession: "&aChoisissez la profession du zombie-villageois"
+button-zombie-villager-profession-lore:
+- "Change la profession"
+- "du zombie-villageois"
+button-slime-size: "&aChoisissez la taille du slime"
+button-slime-size-lore:
+- "Fait défiler la taille du slime"
+- "Taille actuelle: &e{size}"
+button-magma-cube-size: "&aChoisissez la taille du magma-cube"
+button-magma-cube-size-lore:
+- "Fait défiler la taille du magpa-cube"
+- "Taille actuelle: &e{size}"
+button-snowman-pumpkin-head: "&aActive/désactive la tête de citrouille"
+button-snowman-pumpkin-head-lore:
+- "Active/ désactive la tête de"
+- "citrouille du bonhomme de neige"
+button-shulker-color: "&aChoisissez la couleur de la shulker"
+button-shulker-color-lore:
+- "Change la couleur"
+- "de la shulker"
+button-axolotl-variant: "&aChoisissez le type d'axolot"
+button-axolotl-variant-lore:
+- "Change l'apparence de l'axolot"
+button-glow-squid-dark: "&aActive/désactive la brillance du poulpe"
+button-glow-squid-dark-lore:
+- "Active/désactive"
+- "la brillance du poulpe"
+button-goat-screaming: "&aActive/désactive le cri de la chèvre"
+button-goat-screaming-lore:
+- "Bascule entre le mode normal"
+- "et le cri de la chèvre"
+button-tropical-fish-pattern: "&aChoisissez le motif du poisson tropical"
+button-tropical-fish-pattern-lore:
+- "Change la forme et le motif"
+- "du poisson tropical."
+- "Actuellement: &e{pattern}"
+button-tropical-fish-body-color: "&aChoisissez la couleur du corps du poissons tropical"
+button-tropical-fish-body-color-lore:
+- "Choisissez la couleur"
+- "du corps du poisson tropical"
+button-tropical-fish-pattern-color: "&aChoisissez la couleur du motif du poisson tropical"
+button-tropical-fish-pattern-color-lore:
+- "Choisissez la couleur"
+- "du motif du poisson tropical"
+button-puffer-fish-puff-state: "&aChoisissez l'état de bouffée poisson-globe"
+button-puffer-fish-puff-state-lore:
+- "Change l'état de bouffée"
+- "du poisson globe."
+- "Actuellent: &e{puffState}"
+
+admin-sign-shop-line1: "&2[SHOP]"
+admin-sign-shop-line2: "&7{shopName}"
+admin-sign-shop-line3: ""
+admin-sign-shop-line4: "&eClic droit!"
+
+player-sign-shop-line1: "&2[SHOP]"
+player-sign-shop-line2: "&7{shopName}"
+player-sign-shop-line3: "&7{owner}"
+player-sign-shop-line4: "&eClic droit!"
+
+for-hire-title: "Pour embaucher"
+button-hire: "&aEmbaucher"
+button-hire-lore:
+- Acheter ce marchand
+
+trading-title-prefix: "&2"
+trading-title-default: "Marchand"
+
+must-target-block: "&7Vous devez regarder un bloc pour placer le marchand."
+missing-spawn-location: "&7Vous devez spécifier un emplacement d'apparition pour ce type de shop."
+spawn-block-not-empty: "&7L'emplacement d'apparirion doit être vide."
+invalid-spawn-block-face: "&7le marchand ne peut pas être placer de ce coté du bloc."
+mob-cannot-spawn-on-peaceful-difficulty: "&7Le mob sélectionner ne peut pas apparaitre en difficulté paisible."
+restricted-area: "&7Vous ne pouvez pas créer un marchand dans cette zone"
+location-already-in-use: "&7Cet emplacement est déjà utilisé par un marchand."
+
+container-selected: "&aConteneur séléctionné ! Clic droit sur un bloc pour placer votre marchand."
+unsupported-container: "&7Ce type de conteneur ne peut pas être utilisé pour un shop."
+must-select-container: "&7Vous devez faire un clic-droit sur un conteneur avant de okacer votre marchand."
+must-target-container: "&7Vous devez regarder un conteneur pour placer ce type de shop."
+invalid-container: "&7Le bloc sélectionner n'est pas un conteneur valide."
+container-too-far-away: "&7Le conteneur du marchand est trop loin."
+container-not-placed: "&7Vous devez sélectionner un conteneur que vous avez récemment placé."
+container-already-in-use: "&7Un autre marchand utilise déjà le conteneur sélectionné."
+no-container-access: "&7Vous ne pouvez pas accéder au conteneur sélectionné."
+too-many-shops: "&7Vous avez déjà atteint la limite du nombre de shop que vous pouvez avoir."
+no-player-shops-via-command: "&7Le shop de joueur peut être créer uniquement avec l'item de création de shop"
+
+type-new-name: "&aEntrez le nom du nouveau shop dans le tchat.\n  &aEntrez un tirret (-) pour supprimer le nom actuel."
+name-set: "&aLe nom du shop a été défini à '&e{name}&a'!"
+name-has-not-changed: "&aLe nom du shop n'a pas changé."
+name-invalid: "&cNom de shop incorrect: '&e{name}&c'"
+nameplate-prefix: "&2"
+
+shop-type-disabled: "&7Le type de shop '&6{type}&7' a été désactivé."
+shop-object-type-disabled: "&7Le shop d'objet du type '&6{type}&7' a été désactivé."
+
+must-target-shop: "&7Vous devez viser un marchand."
+must-target-admin-shop: "&7Vous devez viser un marchand administrateur."
+must-target-player-shop: "&7Vous devez viser un marchand joueur."
+target-entity-is-no-shop: "&7L'entité visée n'est pas un marchand."
+target-shop-is-no-admin-shop: "&7le marchand visé n'est pas un marchand administrateur."
+target-shop-is-no-player-shop: "&7Le marchand visé n'est pas un marchand joueur."
+unused-container: "&7Aucun marchand n'est utilisé pour ce conteneur."
+not-owner: "&7Vous n'êtes pas le propriétaire de ce marchand."
+owner-set: "&aLe nouveau propriétaire est maintenant &e{owner}"
+shop-creation-items-given: "&aLe joueur &e{player}&a a reçu &e{amount}&a item(s) de création de shop!"
+shop-creation-items-received: "&aVous avez reçu &e{amount}&a item(s) de création de shop!"
+unknown-currency: "&cDevise inconnue: '&e{currency}&c'"
+currency-items-given: "&aLe joueur &e{player}&a a reçu &6{amount}x&a  '&e{currency}&a'!"
+currency-items-received: "&aYou have received &6{amount}x&a pièce de monnaie '&e{currency}&a'!"
+must-hold-item-in-main-hand: "&7Vous devez tenir un item dans votre main."
+currency-item-set-to-main-hand-item: "&aL'item monétaire '&e{currencyId}&a' a été défini sur l'item dans votre main principale&a!"
+items-converted: "&aConversion de &e{count}&a stack(s) d'items!"
+unknown-book-author: "Inconnu"
+
+trade-perm-set: "&aTLa permission du shop d'échchange a été défini sur '&e{perm}&a'!"
+trade-perm-removed: "&aLa permission du shop d'échange '&e{perm}&a' a été retiré!"
+trade-perm-view: "&aLa permission actuelle du shop d'échange est '&e{perm}&a'."
+
+zombie-villager-curing-disabled: "&7La guérison des villageois-zombies est désactivé."
+must-hold-hire-item: "&7Vous devez tenir l'item à louer dans votre main."
+set-for-hire: "&ace marchand peut maintenant être embaucher."
+hired: "&aVous avez embaucher ce marchand!"
+missing-hire-perm: "&7Vous n'avez pas la permission d'embaucher ce marchand."
+cannot-hire: "&7Vous ne pouvez pas vois permettre d'embaucher ce marchand."
+cannot-hire-shop-type: "&7Vous n'avez pas la permission d'embaucher ce type de marchand."
+villager-for-hire: "&aLe villageois offre ses services de marchand en échange de &6{costs}x {hire-item}&a."
+
+missing-trade-perm: "&7Vous n'avez pas la permission d'échanger avec ce shop."
+missing-custom-trade-perm: "&7Vous n'avez pas la permission d'échanger avec ce shop."
+cannot-trade-no-offers: "&7Le shop actuel n'a pas d'offres. Revérifier plus tard"
+no-offers-open-editor-description: "&eVous pouvez éditer ce shop en faisant un clic droit dessus tout en étant accroupi."
+cannot-trade-with-own-shop: "&7Vous ne pouvez pas échanger avec votre propre shop."
+cannot-trade-while-owner-online: "&7Vous ne pouvez pas échanger avec ce shop tant que le propriétaire ('&e{owner}&7') est connecté."
+cannot-trade-with-shop-missing-container: "&7Vous ne pouvez pas échanger avec ce shop car son conteneur est manquant."
+cannot-trade-unexpected-trade: "&7Echange interrompu: Les items échangés ne correspondent pas avec ce qu'attend le marchand ."
+cannot-trade-items-not-strictly-matching: "&7Echange interrompu: les items offerts ne correspondent pas exactement avec les items requis."
+cannot-trade-insufficient-storage-space: "&7Echange interrompu: ce shop n'a plus assez d'espace de stockage."
+cannot-trade-insufficient-currency: "&7Echange interrompu: ce shop n'a pas assez d'argent."
+cannot-trade-insufficient-stock: "&7Echange interrompu: ce shop n'a pas assez d'items que vous voulez échanger"
+cannot-trade-insufficient-writable-books: "&7Echange interrompu: ce shop manque de livres inscriptibles avec lesquelles copier le livre."
+
+trade-notification-one-item: "&7Echange: &e{player}&7 [&6{item1Amount}x &a{item1}&7] \u279e [&6{resultItemAmount}x &a{resultItem}&7] {shop}{trade_count}"
+trade-notification-two-items: "&7Echange: &e{player}&7 [&6{item1Amount}x &a{item1}&7] [&6{item2Amount}x &a{item2}&7] \u279e [&6{resultItemAmount}x &a{resultItem}&7] {shop}{trade_count}"
+buy-notification-one-item: "&7Echange: &e{player}&7 [&6{item1Amount}x &a{item1}&7] \u279e [&6{resultItemAmount}x &a{resultItem}&7] {shop}{trade_count}"
+buy-notification-two-items: "&7Echangee: &e{player}&7 [&6{item1Amount}x &a{item1}&7] [&6{item2Amount}x &a{item2}&7] \u279e [&6{resultItemAmount}x &a{resultItem}&7] {shop}{trade_count}"
+trade-notification-player-shop: "&e{shop_owner_name}"
+trade-notification-named-player-shop: "&e{shop_owner_name}"
+trade-notification-admin-shop: "&eShop Admin"
+trade-notification-named-admin-shop: '&e"{shop_name}"'
+trade-notification-trade-count: "&7 (&6{count}x&7)"
+
+owner-trade-notification-one-item: "&e{player}&7 a acheté &6{resultItemAmount}x &a{resultItem}&7 de {shop}{trade_count}"
+owner-trade-notification-two-items: "&e{player}&7 a acheté &6{resultItemAmount}x &a{resultItem}&7 de {shop}{trade_count}"
+owner-buy-notification-one-item: "&e{player}&7 a vendu &6{item1Amount}x &a{item1}&7 à {shop}{trade_count}"
+owner-buy-notification-two-items: "&e{player}&7 a vendu &6{item1Amount}x &a{item1}&7 et &6{item2Amount}x &a{item2}&7 à {shop}{trade_count}"
+owner-trade-notification-shop: "Un de vos shops"
+owner-trade-notification-named-shop: 'Votre shop &e"{shop_name}"'
+owner-buy-notification-shop: "Un de vos shops"
+owner-buy-notification-named-shop: 'Votre shop &e"{shop_name}"'
+owner-trade-notification-trade-count: "&7 (&6{count}x&7)"
+
+disable-trade-notifications-hint: "&7Vous pouvez désactiver les notifications d'échanges avec cette commande : &e{command}"
+disable-trade-notifications-hint-command: "/shopkeeper notify trades"
+trade-notifications-disabled: "&aVous ne recevrez plus les notifications d'échanges durant cette session de jeu."
+trade-notifications-enabled: "&aVous rcevrez maintenant à nouveau les notifications d'échanges."
+
+shopkeeper-created: "&aMarchand créé: &6{type} &7({description})\n{setupDesc}"
+
+shop-setup-desc-selling: |-
+  &e  Ajoutez les items que vous souhaitez vendre dans votre container.
+  &e  Ensuite, faites un clic-droit tout en étant accroupi sur le conteneur pour modifier le prix.
+shop-setup-desc-buying: |-
+  &e  Ajoutez 1 de chaque item que vous souhaitez vendre dans votre conteneur
+  &e  Ensuite, faites un clic-droit tout en étant accroupi sur le conteneur pour modifier le prix.
+shop-setup-desc-trading: |-
+  &e  Ajoutez les items que vous souhaitez vendre dans votre container.
+  &e  Ensuite, faites un clic-droit tout en étant accroupi sur le conteneur pour modifier le prix.
+shop-setup-desc-book: |-
+  &e  Ajoutez des livres vierges et écrits à votre conteneur.
+  &e  Ensuite, faites un clic-droit tout en étant accroupi sur le conteneur pour modifier le prix.
+shop-setup-desc-admin-regular: |-
+  &e  Ensuite, faites un clic-droit tout en étant accroupi sur le conteneur pour modifier l'échange.
+
+trade-setup-desc-header: '&6{shopType}'
+trade-setup-desc-admin-regular:
+- A un stock illimité.
+- Insérer des items depuis votre inventaire.
+- 'Ligne du haut : Items résultants'
+- 'Ligne du bas : Coût des items'
+trade-setup-desc-selling:
+- Vendre des items aux joueurs.
+- Insérer des items à vendre dans le conteneur.
+- Clic gauche/droit pour ajuster la quantité.
+- 'Ligne du haut : Items en ventes'
+- 'Ligne du bas: Coût des items'
+trade-setup-desc-buying:
+- Achète des items aux joueurs.
+- Insérer 1 de chaque item que vous 
+- voulez acheter et beaucoup  
+- d'argent dans le coffre.
+- Clic gauche/droit pour ajuster la quantité.
+- 'Ligne du haut : Coût des items'
+- 'Ligne du bas : Items achetés'
+trade-setup-desc-trading:
+- Echange des items aux joueurs.
+- Prendre un item dans votre inventaire
+- et ensuite, cliquez dans une case pour le placer.
+- Clic gauche/droit pour ajuster la quantité.
+- 'Ligne du haut : Items résultants'
+- 'Ligne du bas : Coût des items'
+trade-setup-desc-book:
+- Vends des copies de livres.
+- Insérer des livres vierges et
+- écrits dans le conteneur
+- Clic gauche/droit pour ajuster le prix.
+- 'Ligne du haut : Items en vente'
+- 'Ligne du bas : Coût des items'
+
+selling-shop.empty-trade.result-item: "&dItem vendu"
+selling-shop.empty-trade.result-item-lore:
+- "L'item que vous souhaitez vendre."
+- "Ajoutez des items dans le conteneur du shop."
+- "Clic gauche/droit pour ajuster la quantité."
+selling-shop.empty-trade.item1: "&dItem acheté"
+selling-shop.empty-trade.item1-lore:
+- "L'item que vous souhaitez acheter."
+- "Clic gauche/droit pour ajuster la quantité."
+selling-shop.empty-trade.item2: "&d2ème item acheté"
+selling-shop.empty-trade.item2-lore:
+- "Le deuxième item que vous souhaitez acheter."
+- "Clic gauche/droit pour ajuster la quantité."
+selling-shop.empty-item1: "&dItem acheté"
+selling-shop.empty-item1-lore:
+- "l'item que vous voulez acheter."
+- "Clic gauche/droit pour ajuster la quantité."
+selling-shop.empty-item2: "&d2ème item acheté"
+selling-shop.empty-item2-lore:
+- "Le 2ème item que vous souhaitez acheter."
+- "Clic gauche/droit pour ajuster la quantité."
+
+buying-shop.empty-trade.result-item: "&dItem vendu"
+buying-shop.empty-trade.result-item-lore:
+- "L'item que vous souhaitez vendre."
+- "Clic gauche/droit pour ajuster la quantité."
+buying-shop.empty-trade.item1: "&dItem acheté"
+buying-shop.empty-trade.item1-lore:
+- "L'item que vous souhaitez vendre."
+- "Ajoutez des items dans le conteneur du shop."
+- "Clic gauche/droit pour ajuster la quantité."
+buying-shop.empty-result-item: "&dItem vendu"
+buying-shop.empty-result-item-lore:
+- "L'item que vous souhaitez acheter."
+- "Clic gauche/droit pour ajuster la quantité."
+
+trading-shop.empty-trade.result-item: "&dItem vendu"
+trading-shop.empty-trade.result-item-lore:
+- "L'item que vous souhaitez vendre."
+- "Ajoutez des items dans le conteneur du shop"
+- "ou placez un item de votre inventaire."
+- "Clic gauche/droit pour ajuster la quantité."
+trading-shop.empty-trade.item1: "&ditem acheté"
+trading-shop.empty-trade.item1-lore:
+- "L'item que vous souhaitez acheter."
+- "Placez un item de votre inventaire"
+- "Clic gauche/droit pour ajuster la quantité."
+trading-shop.empty-trade.item2: "&d2ème item acheté"
+trading-shop.empty-trade.item2-lore:
+- "Le 2ème item que vous souhaitez acheté."
+- "Placez un item de votre inventaire."
+- "Clic gauche/droit pour ajuster la quantité."
+trading-shop.empty-result-item: "&dItem vendu"
+trading-shop.empty-result-item-lore:
+- "L'item que vous souhaitez vendre."
+- "Placez un item de votre inventaire."
+- "Clic gauche/droit pour ajuster la quantité."
+trading-shop.empty-item1: "&dItem acheté"
+trading-shop.empty-item1-lore:
+- "L'item que vous souhaitez acheté."
+- "Placez un item de votre inventaire."
+- "Clic gauche/droit pour ajuster la quantité."
+trading-shop.empty-item2: "&d2ème item acheté"
+trading-shop.empty-item2-lore:
+- "le 2ème item que vous souhaitez acheté."
+- "Placez un item de votre inventaire."
+- "Clic gauche/droit pour ajuster la quantité."
+
+book-shop.empty-trade.result-item: "&dItem vendu"
+book-shop.empty-trade.result-item-lore:
+- "L'item que vous souhaitez vendre."
+- "Ajouter des livres écrits au conteneurs du shop."
+book-shop.empty-trade.item1: "&dItem acheté"
+book-shop.empty-trade.item1-lore:
+- "L'item que vous souhaitez acheter."
+- "Clic gauche/droit pour ajuster la quantité."
+book-shop.empty-trade.item2: "&d2ème item acheté"
+book-shop.empty-trade.item2-lore:
+- "Le 2ème item que vous souhaitez acheter."
+- "Clic gauche/droit pour ajuster la quantité."
+book-shop.empty-item1: "&dItem acheté"
+book-shop.empty-item1-lore:
+- "L'item que vous souhaitez acheter."
+- "Clic gauche/droit pour ajuster la quantité."
+book-shop.empty-item2: "&d2ème item acheté"
+book-shop.empty-item2-lore:
+- "Le 2ème item que vous souhaitez acheter."
+- "Clic gauche/droit pour ajuster la quantité."
+
+missing-edit-villagers-perm: "&7Vous n'avez pas la permission d'éditer ce villegois"
+missing-edit-wandering-traders-perm: "&7Vous n'avez pas la permission d'éditer les marchands ambulants."
+must-target-entity: "&7Vous devez viser une entité."
+must-target-villager: "&7Vous devez viser un villageois."
+target-entity-is-no-villager: "&7L'entité ciblé n'est pas un villageois régulier."
+villager-no-longer-exists: "&7Le village n'existe plus."
+
+villager-editor-title: "&2Editeur de village: &e{villagerName}"
+villager-editor-description-header: "&6Editeur de village"
+villager-editor-description:
+- "Ligne du haut : Items résultants"
+- "Ligne du bas : Coûts des items"
+- "Les échanges modifiés ont des utilisations"
+- "infinis et aucune récompense d'expérience."
+
+button-delete-villager: "&4Supprimer"
+button-delete-villager-lore:
+- Supprime le villageois
+button-name-villager: "&aDéfinit le nom du vullageois"
+button-name-villager-lore:
+- "Permet de renommer"
+- "le villageois"
+button-villager-inventory: "&aRegarder l'inventaire du villageois"
+button-villager-inventory-lore:
+- Permet de voir une copie
+- de l'inventaire du villageois
+button-mob-ai: "&aTActive l'IA des monstres"
+button-mob-ai-lore:
+- "Active l'IA des monstres"
+button-invulnerability: "&aActive l'invulnérabilité"
+button-invulnerability-lore:
+- "Active l'invulnérabilité"
+- "du monstre."
+- "Les joueurs en mode créatif peuvent"
+- "toujours lui infliger des dommages."
+
+villager-inventory-title: "Inventaire du villageois (copy)"
+set-villager-xp: "&aDéfinit l'expérience du villageois sur &e{xp}"
+no-villager-trades-changed: "&aAucun échange n'a été changé."
+villager-trades-changed: "&e{changedTrades}&a échanges ont été changés."
+
+type-new-villager-name: "&aEcrivez le nom du villageois dans le tchat.\n  &aEcrivez un tirret (-) pour retirer le nom."
+villager-name-set: "&aLe nom du villageois a été définis!"
+villager-name-invalid: "&aCe nom n'est pas valide!"
+
+list-admin-shops-header: "&9Il y a &e{shopsCount} &9shop admin: &e(Page {page} sur {maxPage})"
+list-all-shops-header: "&9Il y a &e{shopsCount} &9shop au total: &e(Page {page} sur {maxPage})"
+list-player-shops-header: "&9Le joueur '&e{player}&9' a &e{shopsCount} &9shops: &e(Page {page} sur {maxPage})"
+list-shops-entry: "  &e{shopId}) &7{shopName}&r&8at &7({location})&8, type: &7{shopType}&8, object: &7{objectType}"
+
+shop-removed: "&aLe marchand a été retiré."
+shop-already-removed: "&7Le marchand a déjà été retiré."
+shop-no-longer-exists: "&7Ce marchand n'existe plus."
+shop-removal-cancelled: "&cUn plugin a empéché de retirer le marchand."
+
+shops-already-removed: "&e{shopsCount}&7 des shops ont déjà été retirés."
+shop-removals-cancelled: "&cUn plugin a empéché de retirer &e{shopsCount}&c des shops."
+admin-shops-removed: "&e{shopsCount} &ashop admin ont été retiré."
+shops-of-player-removed: "&e{shopsCount} &ashop du joueur '&e{player}&a' ont été retiré."
+player-shops-removed: "&e{shopsCount} &ashop de joueur ont été retiré."
+
+confirm-remove-shop: "&cVous êtes sur le point de retirer définitivement le marchand spécifié!"
+confirm-remove-all-admin-shops: "&cVous êtes sur le point de retirer définitivement tout les shops admins (&6{shopsCount}&c)!"
+confirm-remove-all-own-shops: "&cVous êtes sur le point de retirer définitivement tout vos shops (&6{shopsCount}&c)!"
+confirm-remove-all-shops-of-player: "&cVous êtes sur le point de retirer définitivement tout les shops du joueur &6{player}&c (&6{shopsCount}&c)!"
+confirm-remove-all-player-shops: "&cVous êtes sur le point de retirer définitivement tout les shops joueurs de tout les joueurs (&6{shopsCount}&c)!"
+
+confirmation-required: "&7Confirmez cette action en écrivant cette commande &6/shopkeepers confirm"
+confirmation-expired: "&cConfirmation expiré."
+nothing-to-confirm: "&cIl n'y a rien à confirmer actuellement."
+
+confirmation-ui-delete-shop-title: "&cSupprimer réellement ce shop?"
+confirmation-ui-delete-shop-confirm-lore:
+- "Cela va définitevement"
+- "supprimer ce shop"
+
+confirmation-ui-delete-villager-title: "&cSupprimer ce villageois?"
+confirmation-ui-delete-villager-confirm-lore:
+- "Cela va définitevement"
+- "supprimer ce villageois"
+villager-removed: "&aLe villageois a été retiré."
+
+confirmation-ui-confirm: "&2Confirmer"
+confirmation-ui-cancel: "&4Annuler"
+confirmation-ui-cancel-lore:
+- "Cela annulera"
+- "l'action en cours."
+confirmation-ui-aborted: "&7Confirmation abandonnée."
+
+snapshot-list-header: "&9Le shop &e{shop_id} &9a &e{snapshotsCount} &9snapshots: &e(Page {page} of {maxPage})"
+snapshot-list-entry: "  &e{id}) &2{name}&8 (&7{timestamp}&8)"
+invalid-snapshot-id: "&cId de snaphshot invalide: &e{argument}"
+invalid-snapshot-name: "&cAucun snapshot trouvé avec le nom '&e{argument}&c'."
+snapshot-name-too-long: "&cLe nom du snapshot peut avoir au maximum &e{maxLength}&c caractères: &e{name}"
+snapshot-name-invalid: "&cNom de snapshot invalide: &e{name}"
+snapshot-name-already-exists: "&cIl existe déjà un autre snapshot avec ce nom: &e{name}"
+snapshot-created: "&aNouveau snapshot créé : &e({id}) &2{name} &8(&7{timestamp}&8)"
+confirm-remove-snapshot: "&cVous êtes sur le point de supprimer définitivement le snapshot!"
+confirm-remove-all-snapshots: "&cVous êtes sur le point de supprimer définitivement tout les snapshots de ce marchand (&6{snapshotsCount}&c)!"
+action-aborted-snapshots-changed: "&cAction annulé! Les snapshots ont changé entre temps. Essayez encore."
+snapshot-removed: "&aSnapshot supprimé: &e({id}) &2{name} &8(&7{timestamp}&8)"
+snapshot-removed-all: "&aLes &e{snapshotsCount} &asnapshots du shop &e{shop_id}&a ont été supprimé."
+snapshot-restore-failed: "&Impossible de restaurer le(s) snapshot(s): &e({id}) &2{name} &8(&7{timestamp}&8)"
+snapshot-restored: "&aSnapshot réstauré: &e({id}) &2{name} &8(&7{timestamp}&8)"
+
+no-permission: "&cVous n'avez pas la permision de faire ceci."
+
+command-unknown: "&cCommande inconnue '&e{command}&c'!"
+command-argument-unexpected: "&cArgument inattendu '&e{argument}&c'."
+command-argument-requires-player: "&cL'argument '&e{argumentFormat}&c' requiert un joueur pour executer la commande."
+command-argument-missing: "&cArgument inconnu '&e{argumentFormat}&c'."
+command-argument-invalid: "&cArgument invalide '&e{argument}&c'."
+command-player-argument-missing: "&cAucun joueur spécifié pour '&e{argumentFormat}&c'."
+command-player-argument-invalid: "&cAucun joueur trouvé pour '&e{argument}&c'."
+command-shop-type-argument-invalid: "&cType de shop inconnu '&e{argument}&c'."
+command-shop-object-type-argument-invalid: "&cType d'objet de shop inconnu '&e{argument}&c'."
+command-shopkeeper-argument-invalid: "&cAucun marchand trouvé pour '&e{argument}&c'."
+command-shopkeeper-argument-no-admin-shop: "&cLe marchand '&e{argument}&c' n'est pas un marchand admin."
+command-shopkeeper-argument-no-player-shop: "&cLe marchand '&e{argument}&c' n'est pas un marchand joueur."
+
+ambiguous-player-name: "&cIl y a plusieurs possibilités pour le nom '&e{name}&c'!"
+ambiguous-player-name-entry: "&c  - '&e{name}&r&c' (&6{uuid}&c)"
+ambiguous-player-name-more: "&c  - ...."
+
+command-help-title: "&9***** &8[&6Shopkeepers v{version}&8] &9*****"
+command-help-usage-format: "&e{usage}"
+command-help-description-format: "&8 - &3{description}"
+
+command-description-shopkeeper: "Créer un marchand."
+command-description-help: "Montrer cette page d'aide."
+command-description-reload: "Recharger le plugin."
+command-description-debug: "Activer/désactiver le mode debug."
+command-description-notify: "Activer/désactiver les notifications pour vous."
+command-description-list: "Liste tout les shop d'un joueur spécifié ou tout les shops d'admins."
+command-description-remove: "Retire le shop spécifié."
+command-description-remove-all: "Retire tout les shops d'un joueur spécifié, de tout les joueurs ou tout les shop admins."
+command-description-give: "Donne des items de création de shop au joueur spécifié."
+command-description-give-currency: "Donne de la monnaie au joueur spécifié."
+command-description-set-currency: "Change l'item de monnaie sur l'item dans la main."
+command-description-convert-items: "Convertit l'élement dans la main (ou tous) en format de données Spigot."
+command-description-remote: "Ouvre un shop à distance (Option : pour un autre joueur)."
+command-description-remote-edit: "Edite un shop à distance."
+command-description-transfer: "Transfère la propriété du shop."
+command-description-settradeperm: "Définit, supprimé (-) ou affiche (?) la permission d'échanger."
+command-description-setforhire: "Met un de vos shop en vente."
+command-description-snapshot-list: "Liste les snapshots d'un shop."
+command-description-snapshot-create: "Créer un nouveau snapshot de shop."
+command-description-snapshot-remove: "Retire un snapshot spécifique (ou tous) d'un shop."
+command-description-snapshot-restore: "Restaure un snapshot spécifique d'un shop."
+command-description-edit-villager: "Ouvre l'éditeur pour le villageois visé."

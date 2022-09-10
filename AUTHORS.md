@@ -7,6 +7,7 @@ This document lists the authors of language files found in this repository.
 * cs: Lemafor
 * pl: Lemafor
 * es: Santyxs
+* fr: Dofy
 
 ## v2.14.0
 
