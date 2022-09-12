@@ -28,7 +28,6 @@ creation-item-selected: |-
   &e  Agachar(shift) + clique com o botão esquerdo/direito para selecionar o tipo de objeto.
   &e  Clique com o botão direito do mouse em um contêiner para selecioná-lo.
   &e  Em seguida, clique com o botão direito do mouse em um bloco para colocar o lojista.
-
 state-enabled: "&2Ativado"
 state-disabled: "&4Desativado"
 
@@ -119,6 +118,7 @@ button-llama-variant-lore:
 button-llama-carpet-color: "&aCor do tapete de lhama"
 button-llama-carpet-color-lore:
 - "Muda o visual"
+- "do tapete"
 button-creeper-charged: "&aAlterar Creeper carregado"
 button-creeper-charged-lore:
 - "Alterna o tipo de Creeper"
@@ -289,11 +289,11 @@ target-shop-is-no-player-shop: "&7O lojista alvo não é um lojista administrado
 unused-container: "&7Nenhum lojista está usando este contêiner."
 not-owner: "&7Você não é o dono deste lojista."
 owner-set: "&aO novo proprietário agora é &e{proprietário}"
-hop-creation-items-given: "&aJogador &e{player}&a recebeu &e{amount}&a item(ns) de criação de loja!"
+shop-creation-items-given: "&aJogador &e{player}&a recebeu &e{amount}&a item(ns) de criação de loja!"
 shop-creation-items-received: "&aVocê recebeu &e{amount}&a(s) item(ns) de criação de loja!"
-nknown-currency: "&cMoeda desconhecida: '&e{currency}&c'"
+unknown-currency: "&cMoeda desconhecida: '&e{currency}&c'"
 currency-items-given: "&aO jogador &e{player}&a recebeu &6{amount}x&a item de moeda '&e{currency}&a'!"
-currency-items-received: "&aVocê recebeu &6{amount}x&atem de moeda '&e{currency}&a'!"
+currency-items-received: "&aVocê recebeu &6{amount}x&a item de moeda '&e{currency}&a'!"
 must-hold-item-in-main-hand: "&7Você deve segurar um item em sua mão principal."
 currency-item-set-to-main-hand-item: "&aO item de moeda '&e{currencyId}&a' foi definido como &eitem em sua mão principal&a!"
 items-converted: "&a&e{count}&a pilha(s) de itens convertidos!"
@@ -318,9 +318,9 @@ cannot-trade-no-offers: "&7Esta loja não tem ofertas no momento. Verifique nova
 no-offers-open-editor-description: "&eVocê pode editar esta loja clicando com o botão direito enquanto se esgueira."
 cannot-trade-with-own-shop: "&7Você não pode negociar com sua própria loja."
 cannot-trade-while-owner-online: "&7Você não pode negociar enquanto o proprietário desta loja ('&e{owner}&7') estiver online."
-annot-trade-with-shop-missing-container: "&7Você não pode negociar com esta loja, porque está faltando seu contêiner."
+cannot-trade-with-shop-missing-container: "&7Você não pode negociar com esta loja, porque está faltando seu contêiner."
 cannot-trade-unexpected-trade: "&7Troca abortada: Os itens negociados não correspondem ao que este lojista esperava."
-annot-trade-items-not-strictly-matching: "&7Comércio abortado: Os itens oferecidos não correspondem exatamente aos itens necessários."
+cannot-trade-items-not-strictly-matching: "&7Comércio abortado: Os itens oferecidos não correspondem exatamente aos itens necessários."
 cannot-trade-insufficient-storage-space: "&7Comércio abortado: Esta loja não tem espaço de armazenamento suficiente."
 cannot-trade-insufficient-currency: "&7Comércio abortado: Esta loja não tem dinheiro suficiente."
 cannot-trade-insufficient-stock: "&7Troca abortada: Esta loja não tem o suficiente do item trocado."
@@ -367,20 +367,19 @@ shop-setup-desc-book: |-
   &e clique com o botão direito do mouse na loja enquanto agachar para modificar os custos.
 shop-setup-desc-admin-regular: |-
   &e Clique com o botão direito do mouse na loja enquanto agachar para modificar negociações.
-
 trade-setup-desc-header: '&6{shopType}'
 trade-setup-desc-admin-regular:
 - Possui estoque ilimitado.
 - Insira itens do seu inventário.
 - 'Linha superior: itens de resultado'
- 'Linhas inferiores: custo de itens'
-rade-setup-desc-selling:
+- 'Linhas inferiores: custo de itens'
+trade-setup-desc-selling:
 - Vende itens para os jogadores.
 - Insira itens para vender no contêiner.
 - Clique esquerdo/direito para ajustar os valores.
 - 'Linha superior: Itens sendo vendidos'
-'Linhas inferiores: custo de itens'
-ade-setup-desc-buying:
+- 'Linhas inferiores: custo de itens'
+trade-setup-desc-buying:
 - Compra itens de jogadores.
 - Insira um de cada item que você deseja
 - compre e muitos itens de moeda
@@ -394,7 +393,7 @@ trade-setup-desc-trading:
 - e, em seguida, clique em um contêiner para colocá-lo.
 - Clique esquerdo/direito para ajustar os valores.
 - 'Linha superior: itens de resultado'
- 'Linhas inferiores: custo de itens'
+- 'Linhas inferiores: custo de itens'
 trade-setup-desc-book:
 - Vende exemplares de livros.
 - Inserir livros escritos e em branco
@@ -402,6 +401,7 @@ trade-setup-desc-book:
 - Clique esquerdo/direito para ajustar os custos.
 - 'Linha superior: livros sendo vendidos'
 - 'Linhas inferiores: custo de itens'
+
 selling-shop.empty-trade.result-item: "&dVender Item"
 selling-shop.empty-trade.result-item-lore:
 - "O item que você deseja vender."
@@ -515,7 +515,7 @@ button-name-villager-lore:
 - "o aldeão"
 button-villager-inventory: "&aVer inventário do aldeão"
 button-villager-inventory-lore:
-Permite visualizar uma cópia do
+- Permite visualizar uma cópia do
 - inventário do aldeão
 button-mob-ai: "&aAlternar IA do mob"
 button-mob-ai-lore:
@@ -524,7 +524,7 @@ button-invulnerability: "&aAlterar invulnerabilidade"
 button-invulnerability-lore:
 - "Altera a invulnerabilidade"
 - "do mob."
-"Jogadores em modo criativo"
+- "Jogadores em modo criativo"
 - "ainda pode danificar o mob."
 
 villager-inventory-title: "Inventário do aldeão (cópia)"
@@ -550,8 +550,9 @@ shops-already-removed: "&e{shopsCount}&7 das lojas já foram removidas."
 shop-removals-cancelled: "&cPlugins impediram a remoção de &e{shopsCount}&c das lojas."
 admin-shops-removed: "&e{shopsCount} &aadmin de lojas foram removidos."
 shops-of-player-removed: "&e{shopsCount} &ashops do jogador '&e{player}&a' foram removidos."
-yer-shops-removed: "&aJogador teve &e{shopsCount} &alojas removidas."
-nfirm-remove-shop: "&cVocê está prestes a remover irrevogavelmente o lojista especificado!"
+player-shops-removed: "&aJogador teve &e{shopsCount} &alojas removidas."
+
+confirm-remove-shop: "&cVocê está prestes a remover irrevogavelmente o lojista especificado!"
 confirm-remove-all-admin-shops: "&cVocê está prestes a remover irrevogavelmente todas as lojas de administração (&6{shopsCount}&c)!"
 confirm-remove-all-own-shops: "&cVocê está prestes a remover irrevogavelmente todas as suas lojas (&6{shopsCount}&c)!"
 confirm-remove-all-shops-of-player: "&cVocê está prestes a remover irrevogavelmente todas as lojas do jogador &6{player}&c (&6{shopsCount}&c)!"
@@ -575,8 +576,8 @@ villager-removed: "&aO aldeão foi removido."
 confirmation-ui-confirm: "&2Confirma"
 confirmation-ui-cancel: "&4Cancela"
 confirmation-ui-cancel-lore:
-sto abortará a"
-ção atual"
+- "Isto abortará a"
+- "ação atual"
 confirmation-ui-aborted: "&7Confirmação abortada."
 
 snapshot-list-header: "&9Comprar &e{shop_id} &9tem &e{snapshotsCount} &9snapshots: &e(Página {page} de {maxPage})"
@@ -619,8 +620,8 @@ command-help-usage-format: "&e{usage}"
 command-help-description-format: "&8 - &3{description}"
 
 command-description-shopkeeper: "Cria um lojista."
-nd-description-help: "Mostra página de ajuda."
-nd-description-reload: "Recarrega este plugin."
+command-description-help: "Mostra página de ajuda."
+command-description-reload: "Recarrega este plugin."
 command-description-debug: "Ativa e desativa o modo de depuração."
 command-description-notify: "Ativa ou desativa as notificações de negociação para você."
 command-description-list: "Lista todas as lojas de um jogador específico, ou todas as lojas de administração."
