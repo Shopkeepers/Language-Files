@@ -366,9 +366,9 @@ shop-setup-desc-trading: |-
 shop-setup-desc-book: |-
   &e Adicione livros escritos e em branco ao seu contêiner e, em seguida,
   &e clique com o botão direito do mouse na loja enquanto agachar para modificar os custos.
-
 shop-setup-desc-admin-regular: |-
   &e Clique com o botão direito do mouse na loja enquanto agachar para modificar negociações.
+
 trade-setup-desc-header: '&6{shopType}'
 trade-setup-desc-admin-regular:
 - Possui estoque ilimitado.
