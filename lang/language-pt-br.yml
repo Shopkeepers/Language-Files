@@ -45,14 +45,14 @@ button-name: "&aDefinir nome da loja"
 button-name-lore:
 - Permite renomear
 - seu lojinsta
-button-move: "&aMover lojinsta"
+button-move: "&aMover lojista"
 button-move-lore:
 - Permite que você se mova
 - seu lojista
 button-container: "&aVer estoque da loja"
 button-container-lore:
 - Permite visualizar o inventário
-- seu lojista está usando
+- que seu lojista está usando
 button-trade-notifications: "&aNotificações comerciais"
 button-trade-notifications-lore:
 - "Altera as notificações de negociação"
@@ -63,15 +63,15 @@ button-delete-lore:
 - Fecha e remove
 - este lojinsta
 
-button-sign-variant: "&aEscolha a variante do sinal"
+button-sign-variant: "&aEscolha a variante da placa"
 button-sign-variant-lore:
-- "Muda o sinal"
+- "Muda a placa"
 - "tipo de madeira"
 button-sign-glowing-text: "&aAlterar texto brilhante"
 button-sign-glowing-text-lore:
 - "Altera o texto brilhante"
 - "ligado e desligado"
-button-baby: "&aAlterar variante bebê"
+button-baby: "&aAlterar variante de bebê"
 button-baby-lore:
 - "Altera entre os mobs"
 - "variante bebê e adulto"
@@ -87,15 +87,15 @@ button-rabbit-variant-lore:
 - "Muda a aparência do coelho"
 button-collar-color: "&aEscolha a cor da gola"
 button-collar-color-lore:
-- "Muda o mob's"
-- "cor da gola"
-button-wolf-angry: "&aAlterar lobo bravo"
+- "Muda a cor"
+- "da gola do mob"
+button-wolf-angry: "&aAlterar para lobo bravo"
 button-wolf-angry-lore:
-- "Altera lobo"
-- "estado raivoso"
+- "Altera o lobo"
+- "para o estado raivoso"
 button-carrying-chest: "&aAlterar o baú de transporte"
 button-carrying-chest-lore:
-- "Alterna se a multidão"
+- "Alterna se o transporte"
 - "está carregando um baú"
 button-horse-color: "&aEscolha a cor do cavalo"
 button-horse-color-lore:
@@ -119,12 +119,12 @@ button-llama-variant-lore:
 button-llama-carpet-color: "&aCor do tapete de lhama"
 button-llama-carpet-color-lore:
 - "Muda o visual"
-- "cor do tapete"
+- "do tapete"
 button-creeper-charged: "&aAlterar Creeper carregado"
 button-creeper-charged-lore:
 - "Alterna o tipo de Creeper"
-- "estado carregado"
-button-fox-variant: "&aEscolha a variante raposa"
+- "para o estado de Carregado"
+button-fox-variant: "&aEscolha a variante da raposa"
 button-fox-variant-lore:
 - "Muda o visual da raposa"
 button-fox-crouching: "&aAlterar pose agachada"
@@ -151,12 +151,12 @@ button-pig-saddle-lore:
 button-sheep-color: "&aEscolha a cor da ovelha"
 button-sheep-color-lore:
 - "Muda a ovelha"
-- "cor de lã"
+- "altera a cor da lã"
 button-sheep-sheared: "&aAlterar ovelhas tosquiadas"
 button-sheep-sheared-lore:
 - "Altera a ovelha"
-- "estado cortado"
-button-villager-profession: "&aEscolha a profissão de aldeão"
+- "para o estado de Tosquiado"
+button-villager-profession: "&aEscolha a profissão do aldeão"
 button-villager-profession-lore:
 - "Muda a profissão"
 - "do aldeão"
@@ -167,11 +167,11 @@ button-villager-variant-lore:
 - "do aldeão"
 button-villager-level: "&aEscolha a cor do emblema do aldeão"
 button-villager-level-lore:
-- "Muda a cor do emblema"
+- "Muda o tipo do emblema"
 - "do aldeão"
-button-zombie-villager-profession: "&aEscolha a profissão de aldeão"
+button-zombie-villager-profession: "&aEscolha a profissão do aldeão"
 button-zombie-villager-profession-lore:
-- "Muda de profissão"
+- "Muda a profissão"
 - "do aldeão zumbi"
 button-slime-size: "&aEscolha o tamanho do slime"
 button-slime-size-lore:
@@ -183,8 +183,8 @@ button-magma-cube-size-lore:
 - "Tamanho atual: &e{size}"
 button-snowman-pumpkin-head: "&aAlternar cabeça de abóbora"
 button-snowman-pumpkin-head-lore:
-- "Alterna o boneco de neve"
-- "cabeça de abóbora"
+- "Alterna o se o boneco de neve"
+- "usa uma cabeça de abóbora"
 button-shulker-color: "&aEscolha a cor do shulker"
 button-shulker-color-lore:
 - "Muda a cor"
@@ -195,7 +195,7 @@ button-axolotl-variant-lore:
 button-glow-squid-dark: "&aAlterar brilho"
 button-glow-squid-dark-lore:
 - "Alterna o brilho da lula"
-- "acende e apaga"
+- "acende ou apaga"
 button-goat-screaming: "&aAlterar grito da cabra"
 button-goat-screaming-lore:
 - "Altera entre um normal"
@@ -208,20 +208,20 @@ button-goat-right-horn: "&aAlterar toque do chifre direito"
 button-goat-right-horn-lore:
 - "Altera toque do"
 - "chifre direito da cabra"
-button-tropical-fish-pattern: "&aEscolher variante"
+button-tropical-fish-pattern: "&aEscolher variante de peixes"
 button-tropical-fish-pattern-lore:
 - "Muda a forma e o padrão"
 - "dos peixes tropicais."
 - "Atualmente: &e{default}"
-button-tropical-fish-body-color: "&aEscolha a cor do corpo"
+button-tropical-fish-body-color: "&aEscolha a cor do corpo do peixe"
 button-tropical-fish-body-color-lore:
 - "Muda a cor do corpo"
 - "do peixe tropical"
-button-tropical-fish-pattern-color: "&aEscolha a cor do padrão"
+button-tropical-fish-pattern-color: "&aEscolha a cor do padrão do peixe"
 button-tropical-fish-pattern-color-lore:
 - "Muda a cor do padrão"
 - "do peixe tropical"
-button-puffer-fish-puff-state: "&aEscolha o estado de expanção"
+button-puffer-fish-puff-state: "&aEscolha o estado de expanção do baiacu"
 button-puffer-fish-puff-state-lore:
 - "Muda o estado de expanção"
 - "do baiacu."
@@ -251,7 +251,7 @@ trading-title-default: "Lojista"
 must-target-block: "&7Você deve olhar para um bloco para colocar o lojista."
 missing-spawn-location: "&7Você deve especificar um local de spawn para este tipo de loja."
 spawn-block-not-empty: "&7O local de spawn deve estar vazio."
-invalid-spawn-block-face: "&7O lojista não pode ser colocado deste lado do quarteirão."
+invalid-spawn-block-face: "&7O lojista não pode ser colocado deste lado do bloco."
 mob-cannot-spawn-on-peaceful-difficulty: "&7O tipo de mob selecionado não pode aparecer aqui na dificuldade pacífica."
 restricted-area: "&7Você não pode colocar um lojista nesta área."
 location-already-in-use: "&7Este local já é utilizado por outro lojista."
@@ -283,21 +283,21 @@ shop-object-type-disabled: "&7O tipo de objeto da loja '&6{type}&7' está desati
 
 must-target-shop: "&7Você tem que mirar em um lojista."
 must-target-admin-shop: "&7Você precisa segmentar um lojista administrador."
-must-target-player-shop: "&7Você tem que mirar em um lojista de jogador."
-target-entity-is-no-shop: "&7A entidade visada não é lojista."
+must-target-player-shop: "&7Você tem que mirar em um lojista de um jogador."
+target-entity-is-no-shop: "&7A entidade visualizada não é lojista."
 target-shop-is-no-admin-shop: "&7O lojista alvo não é um lojista administrador."
 target-shop-is-no-player-shop: "&7O lojista alvo não é um lojista administrador."
 unused-container: "&7Nenhum lojista está usando este contêiner."
 not-owner: "&7Você não é o dono deste lojista."
 owner-set: "&aO novo proprietário agora é &e{proprietário}"
-shop-creation-items-given: "&aJogador &e{player}&a recebeu &e{amount}&um item(ns) de criação de loja!"
-shop-creation-items-received: "&aVocê recebeu &e{amount}& um(s) item(ns) de criação de loja!"
+shop-creation-items-given: "&aJogador &e{player}&a recebeu &e{amount}&a item(ns) de criação de loja!"
+shop-creation-items-received: "&aVocê recebeu &e{amount}&a(s) item(ns) de criação de loja!"
 unknown-currency: "&cMoeda desconhecida: '&e{currency}&c'"
 currency-items-given: "&aO jogador &e{player}&a recebeu &6{amount}x&a item de moeda '&e{currency}&a'!"
 currency-items-received: "&aVocê recebeu &6{amount}x&a item de moeda '&e{currency}&a'!"
 must-hold-item-in-main-hand: "&7Você deve segurar um item em sua mão principal."
 currency-item-set-to-main-hand-item: "&aO item de moeda '&e{currencyId}&a' foi definido como &eitem em sua mão principal&a!"
-items-converted: "&a&e{count}&uma pilha(s) de itens convertidos!"
+items-converted: "&a&e{count}&a pilha(s) de itens convertidos!"
 unknown-book-author: "Desconhecido"
 
 trade-perm-set: "&aA permissão de negociação da loja foi definida como '&e{perm}&a'!"
@@ -319,13 +319,13 @@ cannot-trade-no-offers: "&7Esta loja não tem ofertas no momento. Verifique nova
 no-offers-open-editor-description: "&eVocê pode editar esta loja clicando com o botão direito enquanto se esgueira."
 cannot-trade-with-own-shop: "&7Você não pode negociar com sua própria loja."
 cannot-trade-while-owner-online: "&7Você não pode negociar enquanto o proprietário desta loja ('&e{owner}&7') estiver online."
-cannot-trade-with-shop-missing-container: "&7Você não pode negociar com esta loja, porque seu contêiner está faltando."
-cannot-trade-unexpected-trade: "&7Trade aborted: Os itens negociados não correspondem ao que este lojista esperava."
+cannot-trade-with-shop-missing-container: "&7Você não pode negociar com esta loja, porque está faltando seu contêiner."
+cannot-trade-unexpected-trade: "&7Troca abortada: Os itens negociados não correspondem ao que este lojista esperava."
 cannot-trade-items-not-strictly-matching: "&7Comércio abortado: Os itens oferecidos não correspondem exatamente aos itens necessários."
 cannot-trade-insufficient-storage-space: "&7Comércio abortado: Esta loja não tem espaço de armazenamento suficiente."
 cannot-trade-insufficient-currency: "&7Comércio abortado: Esta loja não tem dinheiro suficiente."
 cannot-trade-insufficient-stock: "&7Troca abortada: Esta loja não tem o suficiente do item trocado."
-cannot-trade-insufficient-writable-books: "&7Comércio abortado: esta livraria não tem livros graváveis ​​para copiar o livro."
+cannot-trade-insufficient-writable-books: "&7Comércio abortado: esta livraria não tem livros graváveis para copiar o livro."
 
 trade-notification-one-item: "&7Comércio: &e{player}&7 [&6{item1Amount}x &a{item1}&7] \u279e [&6{resultItemAmount}x &a{resultItem}&7] {shop}{trade_count}"
 trade-notification-two-items: "&7Comércio: &e{player}&7 [&6{item1Amount}x &a{item1}&7] [&6{item2Amount}x &a{item2}&7] \u279e [&6{resultItemAmount}x &a{resultItem}&7] {shop}{trade_count }"
@@ -374,20 +374,20 @@ trade-setup-desc-admin-regular:
 - Possui estoque ilimitado.
 - Insira itens do seu inventário.
 - 'Linha superior: itens de resultado'
-- 'Linhas inferiores: itens de custo'
+- 'Linhas inferiores: custo de itens'
 trade-setup-desc-selling:
 - Vende itens para os jogadores.
 - Insira itens para vender no contêiner.
 - Clique esquerdo/direito para ajustar os valores.
 - 'Linha superior: Itens sendo vendidos'
-- 'Linhas inferiores: itens de custo'
+- 'Linhas inferiores: custo de itens'
 trade-setup-desc-buying:
 - Compra itens de jogadores.
 - Insira um de cada item que você deseja
 - compre e muitos itens de moeda
 - no contêiner.
 - Clique esquerdo/direito para ajustar os valores.
-- 'Linha superior: itens de custo'
+- 'Linha superior: custo de itens'
 - 'Linha inferior: Itens sendo comprados'
 trade-setup-desc-trading:
 - Troca itens com os jogadores.
@@ -395,14 +395,14 @@ trade-setup-desc-trading:
 - e, em seguida, clique em um contêiner para colocá-lo.
 - Clique esquerdo/direito para ajustar os valores.
 - 'Linha superior: itens de resultado'
-- 'Linhas inferiores: itens de custo'
+- 'Linhas inferiores: custo de itens'
 trade-setup-desc-book:
 - Vende exemplares de livros.
 - Inserir livros escritos e em branco
-- no slot.
+- no container.
 - Clique esquerdo/direito para ajustar os custos.
 - 'Linha superior: livros sendo vendidos'
-- 'Linhas inferiores: itens de custo'
+- 'Linhas inferiores: custo de itens'
 
 selling-shop.empty-trade.result-item: "&dVender Item"
 selling-shop.empty-trade.result-item-lore:
@@ -517,15 +517,15 @@ button-name-villager-lore:
 - "o aldeão"
 button-villager-inventory: "&aVer inventário do aldeão"
 button-villager-inventory-lore:
-- Permite visualizar uma cópia de
+- Permite visualizar uma cópia do
 - inventário do aldeão
 button-mob-ai: "&aAlternar IA do mob"
 button-mob-ai-lore:
-- "Altera a IA do mob"
+- "Altera a Inteligencia Artificial do mob"
 button-invulnerability: "&aAlterar invulnerabilidade"
 button-invulnerability-lore:
-- "Altera o mob para"
-- "invulnerabilidade."
+- "Altera a invulnerabilidade"
+- "do mob."
 - "Jogadores em modo criativo"
 - "ainda pode danificar o mob."
 
@@ -552,7 +552,7 @@ shops-already-removed: "&e{shopsCount}&7 das lojas já foram removidas."
 shop-removals-cancelled: "&cPlugins impediram a remoção de &e{shopsCount}&c das lojas."
 admin-shops-removed: "&e{shopsCount} &aadmin de lojas foram removidos."
 shops-of-player-removed: "&e{shopsCount} &ashops do jogador '&e{player}&a' foram removidos."
-player-shops-removed: "&e{shopsCount} &ajogadore lojas foram removidos."
+player-shops-removed: "&aJogador teve &e{shopsCount} &alojas removidas."
 
 confirm-remove-shop: "&cVocê está prestes a remover irrevogavelmente o lojista especificado!"
 confirm-remove-all-admin-shops: "&cVocê está prestes a remover irrevogavelmente todas as lojas de administração (&6{shopsCount}&c)!"
@@ -578,7 +578,7 @@ villager-removed: "&aO aldeão foi removido."
 confirmation-ui-confirm: "&2Confirma"
 confirmation-ui-cancel: "&4Cancela"
 confirmation-ui-cancel-lore:
-- "Isto irá abortar a"
+- "Isto abortará a"
 - "ação atual"
 confirmation-ui-aborted: "&7Confirmação abortada."
 
@@ -622,7 +622,7 @@ command-help-usage-format: "&e{usage}"
 command-help-description-format: "&8 - &3{description}"
 
 command-description-shopkeeper: "Cria um lojista."
-command-description-help: "Mostra esta página de ajuda."
+command-description-help: "Mostra página de ajuda."
 command-description-reload: "Recarrega este plugin."
 command-description-debug: "Ativa e desativa o modo de depuração."
 command-description-notify: "Ativa ou desativa as notificações de negociação para você."
