@@ -8,12 +8,14 @@ This document lists the contributors of language files found in this repository.
 * pl: Lemafor
 * es: Santyxs
 * zh-CN: katorly
+* pt-BR: luizinhoh2o1
 
 ## v2.15.0
 
 * cs: Lemafor
 * pl: Lemafor
 * es: Santyxs
+* fr: Dofy
 
 ## v2.14.0
 

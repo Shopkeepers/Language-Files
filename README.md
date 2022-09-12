@@ -29,7 +29,7 @@ Some versions of the Shopkeepers plugin had no changes to their language files, 
 
 In order to really be of use, **this repository depends on contributions** for languages other than the defaults. Feel encouraged to add new translations, update outdated translations, or suggest changes to existing translations.
 
-So send me your translated language file either:
+To send me your translated language file either:
 * Create an issue and attach (drag-and-drop) the language file there, or upload it somewhere else (e.g. https://pastebin.com/) and send me a link to it. Be sure to mention which plugin version your language file is meant for.
 * Send me your translated language file via [Discord](https://discord.gg/d9NKd5z).
 * If you are familiar with Git and GitHub, create a Pull Request. If you want to learn about how to contribute via GitHub, I try to explain the process [here](Contributing-via-GitHub.md).
