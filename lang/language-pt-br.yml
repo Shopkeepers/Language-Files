@@ -28,6 +28,7 @@ creation-item-selected: |-
   &e  Agachar(shift) + clique com o botão esquerdo/direito para selecionar o tipo de objeto.
   &e  Clique com o botão direito do mouse em um contêiner para selecioná-lo.
   &e  Em seguida, clique com o botão direito do mouse em um bloco para colocar o lojista.
+
 state-enabled: "&2Ativado"
 state-disabled: "&4Desativado"
 
@@ -365,6 +366,7 @@ shop-setup-desc-trading: |-
 shop-setup-desc-book: |-
   &e Adicione livros escritos e em branco ao seu contêiner e, em seguida,
   &e clique com o botão direito do mouse na loja enquanto agachar para modificar os custos.
+
 shop-setup-desc-admin-regular: |-
   &e Clique com o botão direito do mouse na loja enquanto agachar para modificar negociações.
 trade-setup-desc-header: '&6{shopType}'
