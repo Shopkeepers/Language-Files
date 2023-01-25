@@ -9,6 +9,7 @@ This document lists the contributors of language files found in this repository.
 * es: Santyxs
 * zh-CN: katorly
 * pt-BR: luizinhoh2o1
+* fr: WaxenSs
 
 ## v2.15.0
 
