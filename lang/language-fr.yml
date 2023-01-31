@@ -19,7 +19,7 @@ shop-object-type-sign: "sign"
 shop-object-type-npc: "npc"
 
 selected-shop-type: "&aType de magasin séléctionné: &6{type} &7({description})"
-selected-shop-object-type: "&aType d'objet séléctionné: &6{type}"
+selected-shop-object-type: "&aEntité du marchand: &6{type}"
 
 creation-item-selected: |-
   &aCréation d'un magasin:
@@ -305,10 +305,10 @@ trade-perm-view: "&aLa permission actuelle du magasin d'échange est '&e{perm}&a
 
 zombie-villager-curing-disabled: "&7La guérison des villageois-zombies est désactivé."
 must-hold-hire-item: "&7Vous devez tenir l'item à louer dans votre main."
-set-for-hire: "&ace marchand peut maintenant être embaucher."
-hired: "&aVous avez embaucher ce marchand!"
+set-for-hire: "&aCe marchand peut maintenant être embauché."
+hired: "&aVous avez embauché ce marchand!"
 missing-hire-perm: "&7Vous n'avez pas la permission d'embaucher ce marchand."
-cannot-hire: "&7Vous ne pouvez pas vois permettre d'embaucher ce marchand."
+cannot-hire: "&7Vous ne pouvez pas vous permettre d'embaucher ce marchand."
 cannot-hire-shop-type: "&7Vous n'avez pas la permission d'embaucher ce type de marchand."
 villager-for-hire: "&aLe villageois offre ses services de marchand en échange de &6{costs}x {hire-item}&a."
 
