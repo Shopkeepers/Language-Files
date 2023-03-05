@@ -276,152 +276,152 @@ shopkeeper-move-aborted: "&7Перемещение торговца отмене
 shop-type-disabled: "&7Тип магазина '&6{type}&7' отключен."
 shop-object-type-disabled: "&7Тип объекта магазина '&6{type}&7' отключен."
 
-must-target-shop: "&7You have to target a shopkeeper." # TODO: Continue from here
-must-target-admin-shop: "&7You have to target an admin shopkeeper."
-must-target-player-shop: "&7You have to target a player shopkeeper."
-target-entity-is-no-shop: "&7The targeted entity is no shopkeeper."
-target-shop-is-no-admin-shop: "&7The targeted shopkeeper is no admin shopkeeper."
-target-shop-is-no-player-shop: "&7The targeted shopkeeper is no player shopkeeper."
-unused-container: "&7No shopkeeper is using this container."
-not-owner: "&7You are not the owner of this shopkeeper."
-owner-set: "&aThe new owner is now &e{owner}"
-shop-creation-items-given: "&aPlayer &e{player}&a has received &e{amount}&a shop creation item(s)!"
-shop-creation-items-received: "&aYou have received &e{amount}&a shop creation item(s)!"
-unknown-currency: "&cUnknown currency: '&e{currency}&c'"
-currency-items-given: "&aPlayer &e{player}&a has received &6{amount}x&a currency item '&e{currency}&a'!"
-currency-items-received: "&aYou have received &6{amount}x&a currency item '&e{currency}&a'!"
-must-hold-item-in-main-hand: "&7You must hold an item in your main hand."
-currency-item-set-to-main-hand-item: "&aThe currency item '&e{currencyId}&a' has been set to the &eitem in your main hand&a!"
-items-converted: "&aConverted &e{count}&a item stack(s)!"
-unknown-book-author: "Unknown"
+must-target-shop: "&7Ты должен смотреть на торговца."
+must-target-admin-shop: "&7Ты должен смотреть на администраторского торговца."
+must-target-player-shop: "&7Ты должен смотреть на игрового торговца."
+target-entity-is-no-shop: "&7Указанная сущность не торговец."
+target-shop-is-no-admin-shop: "&7Указанный торговец не администраторский."
+target-shop-is-no-player-shop: "&7Указанный торговец не игровой."
+unused-container: "&7Этот контейнер не используется никаким торговцев."
+not-owner: "&7Ты не владелец этого торговца."
+owner-set: "&aТеперь новый владелец это &e{owner}"
+shop-creation-items-given: "&aИгрок &e{player}&a получил &e{amount}&a предмет(ов) для создания магазина!"
+shop-creation-items-received: "&aТы получил &e{amount}&a предмет(ов) для создания магазина!"
+unknown-currency: "&cНеизвестная валюта: '&e{currency}&c'"
+currency-items-given: "&aИгрок &e{player}&a получил &6{amount}x&a предметов валюты '&e{currency}&a'!"
+currency-items-received: "&aТы получил &6{amount}x&a предметов валюты '&e{currency}&a'!"
+must-hold-item-in-main-hand: "&7Ты должен держать предмет в основной руке."
+currency-item-set-to-main-hand-item: "&aПредмет валюты '&e{currencyId}&a' без изменен на &eпредмет в твоей основной руке&a!"
+items-converted: "&aПреобразовано &e{count}&a стак(ов) предметов!"
+unknown-book-author: "Неизвестен"
 
-trade-perm-set: "&aThe shop's trading permission has been set to '&e{perm}&a'!"
-trade-perm-removed: "&aThe shop's trading permission '&e{perm}&a' has been removed!"
-trade-perm-view: "&aThe shop's current trading permission is '&e{perm}&a'."
+trade-perm-set: "&aПраво торговли было изменено на '&e{perm}&a'!"
+trade-perm-removed: "&aПраво торговли '&e{perm}&a' было удалено!"
+trade-perm-view: "&aТекущее право торговли магазина это '&e{perm}&a'."
 
-zombie-villager-curing-disabled: "&7Curing of zombie villagers is disabled."
-must-hold-hire-item: "&7You have to hold the required hire item in your hand."
-set-for-hire: "&aThis shopkeeper can now be hired."
-hired: "&aYou have hired this shopkeeper!"
-missing-hire-perm: "&7You do not have the permission to hire shopkeepers."
-cannot-hire: "&7You cannot afford to hire this shopkeeper."
-cannot-hire-shop-type: "&7You do not have the permission to hire this type of shopkeeper."
-villager-for-hire: "&aThe villager offered his services as a shopkeeper in exchange for &6{costs}x {hire-item}&a."
+zombie-villager-curing-disabled: "&7Лечение зомби-жителя отключено."
+must-hold-hire-item: "&7Ты должен держать предмет для найма в своей руке."
+set-for-hire: "&aЭтот торговец теперь может быть нанят."
+hired: "&aТы нанял этого торговца!"
+missing-hire-perm: "&7У тебя нет прав нанимать этого торговца."
+cannot-hire: "&7У тебя недостаточно средств для найма этого торговца."
+cannot-hire-shop-type: "&7У тебя нет прав для найма торговцев этого типа."
+villager-for-hire: "&aЭтот деревенский житель предлагает свои услуги как торговца в обмен на &6{costs}x {hire-item}&a."
 
-missing-trade-perm: "&7You do not have the permission to trade with this shop."
-missing-custom-trade-perm: "&7You do not have the permission to trade with this shop."
-cannot-trade-no-offers: "&7This shop currently has no offers. Check again later!"
-no-offers-open-editor-description: "&eYou can edit this shop by right clicking it while sneaking."
-cannot-trade-with-own-shop: "&7You cannot trade with your own shop."
-cannot-trade-while-owner-online: "&7You cannot trade while the owner of this shop ('&e{owner}&7') is online."
-cannot-trade-with-shop-missing-container: "&7You cannot trade with this shop, because its container is missing."
-cannot-trade-unexpected-trade: "&7Trade aborted: The traded items do not match what this shopkeeper expected."
-cannot-trade-items-not-strictly-matching: "&7Trade aborted: The offered items do not exactly match the required items."
-cannot-trade-insufficient-storage-space: "&7Trade aborted: This shop does not have enough storage space."
-cannot-trade-insufficient-currency: "&7Trade aborted: This shop does not have enough currency."
-cannot-trade-insufficient-stock: "&7Trade aborted: This shop does not have enough of the traded item."
-cannot-trade-insufficient-writable-books: "&7Trade aborted: This book shop lacks writable books to copy the book with."
+missing-trade-perm: "&7У тебя нет прав для торговли в этом магазине."
+missing-custom-trade-perm: "&7У тебя нет прав для торговли в этом магазине."
+cannot-trade-no-offers: "&7У этого магазина нет предложений на данный момент. Попробуй еще раз позже!"
+no-offers-open-editor-description: "&eТы можешь редактировать этот магазин, нажав правую кнопку мыши, пригнувшись."
+cannot-trade-with-own-shop: "&7Ты не можешь торговать в своем же магазине."
+cannot-trade-while-owner-online: "&7Ты не можешь торговать, пока владелец этого магазина ('&e{owner}&7') в онлайне."
+cannot-trade-with-shop-missing-container: "&7Ты не можешь торговать в этом магазине, потому что его контейнер исчез."
+cannot-trade-unexpected-trade: "&7Торг отменен: Обмененные предметы не совпадают с теми, которые ожидает торговец."
+cannot-trade-items-not-strictly-matching: "&7Торг отменен: Предложенные предметы не совсем совпадают с необходимыми."
+cannot-trade-insufficient-storage-space: "&7Торг отменен: У этого магазина не осталось места для хранения."
+cannot-trade-insufficient-currency: "&7Торг отменен: У этого магазина не хватает валюты."
+cannot-trade-insufficient-stock: "&7Торг отменен: У этого магазина не хватает обмененных предметов."
+cannot-trade-insufficient-writable-books: "&7Торг отменен: У этого магазина не хватает книг для создания копий."
 
-trade-notification-one-item: "&7Trade: &e{player}&7 [&6{item1Amount}x &a{item1}&7] \u279e [&6{resultItemAmount}x &a{resultItem}&7] {shop}{trade_count}"
-trade-notification-two-items: "&7Trade: &e{player}&7 [&6{item1Amount}x &a{item1}&7] [&6{item2Amount}x &a{item2}&7] \u279e [&6{resultItemAmount}x &a{resultItem}&7] {shop}{trade_count}"
-buy-notification-one-item: "&7Trade: &e{player}&7 [&6{item1Amount}x &a{item1}&7] \u279e [&6{resultItemAmount}x &a{resultItem}&7] {shop}{trade_count}"
-buy-notification-two-items: "&7Trade: &e{player}&7 [&6{item1Amount}x &a{item1}&7] [&6{item2Amount}x &a{item2}&7] \u279e [&6{resultItemAmount}x &a{resultItem}&7] {shop}{trade_count}"
+trade-notification-one-item: "&7Торг: &e{player}&7 [&6{item1Amount}x &a{item1}&7] \u279e [&6{resultItemAmount}x &a{resultItem}&7] {shop}{trade_count}"
+trade-notification-two-items: "&7Торг: &e{player}&7 [&6{item1Amount}x &a{item1}&7] [&6{item2Amount}x &a{item2}&7] \u279e [&6{resultItemAmount}x &a{resultItem}&7] {shop}{trade_count}"
+buy-notification-one-item: "&7Торг: &e{player}&7 [&6{item1Amount}x &a{item1}&7] \u279e [&6{resultItemAmount}x &a{resultItem}&7] {shop}{trade_count}"
+buy-notification-two-items: "&7Торг: &e{player}&7 [&6{item1Amount}x &a{item1}&7] [&6{item2Amount}x &a{item2}&7] \u279e [&6{resultItemAmount}x &a{resultItem}&7] {shop}{trade_count}"
 trade-notification-player-shop: "&e{shop_owner_name}"
 trade-notification-named-player-shop: "&e{shop_owner_name}"
-trade-notification-admin-shop: "&eAdmin Shop"
+trade-notification-admin-shop: "&eАдминистраторский Магазин"
 trade-notification-named-admin-shop: '&e"{shop_name}"'
 trade-notification-trade-count: "&7 (&6{count}x&7)"
 
-owner-trade-notification-one-item: "&e{player}&7 bought &6{resultItemAmount}x &a{resultItem}&7 from {shop}{trade_count}"
-owner-trade-notification-two-items: "&e{player}&7 bought &6{resultItemAmount}x &a{resultItem}&7 from {shop}{trade_count}"
-owner-buy-notification-one-item: "&e{player}&7 sold &6{item1Amount}x &a{item1}&7 to {shop}{trade_count}"
-owner-buy-notification-two-items: "&e{player}&7 sold &6{item1Amount}x &a{item1}&7 and &6{item2Amount}x &a{item2}&7 to {shop}{trade_count}"
-owner-trade-notification-shop: "one of your shops"
-owner-trade-notification-named-shop: 'your shop &e"{shop_name}"'
-owner-buy-notification-shop: "one of your shops"
-owner-buy-notification-named-shop: 'your shop &e"{shop_name}"'
+owner-trade-notification-one-item: "&e{player}&7 купил(а) &6{resultItemAmount}x &a{resultItem}&7 из {shop}{trade_count}"
+owner-trade-notification-two-items: "&e{player}&7 купил(а) &6{resultItemAmount}x &a{resultItem}&7 из {shop}{trade_count}"
+owner-buy-notification-one-item: "&e{player}&7 продал(а) &6{item1Amount}x &a{item1}&7 в {shop}{trade_count}"
+owner-buy-notification-two-items: "&e{player}&7 продал(а) &6{item1Amount}x &a{item1}&7 и &6{item2Amount}x &a{item2}&7 в {shop}{trade_count}"
+owner-trade-notification-shop: "один из твоих магазинов"
+owner-trade-notification-named-shop: 'твой магазин &e"{shop_name}"'
+owner-buy-notification-shop: "один из твоих магазинов"
+owner-buy-notification-named-shop: 'твой магазин &e"{shop_name}"'
 owner-trade-notification-trade-count: "&7 (&6{count}x&7)"
 
-disable-trade-notifications-hint: "&7You can disable these trade notifications with the command &e{command}"
+disable-trade-notifications-hint: "&7Ты можешь отключить оповещения о торгах с помощью команды &e{command}"
 disable-trade-notifications-hint-command: "/shopkeeper notify trades"
-trade-notifications-disabled: "&aYou will no longer receive trade notifications during this game session."
-trade-notifications-enabled: "&aYou will now receive trade notifications again."
+trade-notifications-disabled: "&aТы больше не будешь получать оповещения о торгах в течение этой игровой сессии."
+trade-notifications-enabled: "&aТеперь ты будешь получать оповещения о торгах."
 
-shopkeeper-created: "&aShopkeeper created: &6{type} &7({description})\n{setupDesc}"
+shopkeeper-created: "&aТорговец создан: &6{type} &7({description})\n{setupDesc}"
 
 shop-setup-desc-selling: |-
-  &e  Add items you want to sell to your container, then
-  &e  right-click the shop while sneaking to modify costs.
+  &e  Добавь предметы, которые ты собираешься продавать, в контейнер,
+  &e  затем нажми Shift + Правая кнопка мыши, чтобы изменить стоимость.
 shop-setup-desc-buying: |-
-  &e  Add one of each item you want to buy to your container,
-  &e  then right-click the shop while sneaking to modify costs.
+  &e  Добавь по одному предмету, который ты собираешься скупать, в контейнер,
+  &e  затем нажми Shift + Правая кнопка мыши, чтобы изменить стоимость.
 shop-setup-desc-trading: |-
-  &e  Add items you want to sell to your container, then
-  &e  right-click the shop while sneaking to modify costs.
+  &e  Добавь предметы, которые ты собираешься продавать, в контейнер,
+  &e  затем нажми Shift + Правая кнопка мыши, чтобы изменить стоимость.
 shop-setup-desc-book: |-
-  &e  Add written and blank books to your container, then
-  &e  right-click the shop while sneaking to modify costs.
+  &e  Добавь заполненную книгу и множество книг с пером в контейнер,
+  &e  затем нажми Shift + Правая кнопка мыши, чтобы изменить стоимость.
 shop-setup-desc-admin-regular: |-
-  &e  Right-click the shop while sneaking to modify trades.
+  &e  Нажми Shift + Правая кнопка мыши, чтобы изменить стоимость.
 
 trade-setup-desc-header: '&6{shopType}'
 trade-setup-desc-admin-regular:
-- Has unlimited stock.
-- Insert items from your inventory.
-- 'Top row: Result items'
-- 'Bottom rows: Cost items'
+- Имеет неограниченый запас.
+- Вставь предметы из своего инвентаря.
+- 'Верхняя строка: Продаваемые предметы'
+- 'Нижняя строка: Предметы-цена'
 trade-setup-desc-selling:
-- Sells items to players.
-- Insert items to sell into the container.
-- Left/Right click to adjust amounts.
-- 'Top row: Items being sold'
-- 'Bottom rows: Cost items'
+- Продаёт предметы игрокам.
+- Положи продаваемые предметы в контейнер.
+- Левая/правая кнопка мыши для изменения количества.
+- 'Верхняя строка: Продаваемые предметы'
+- 'Нижняя строка: Предметы-цена'
 trade-setup-desc-buying:
-- Buys items from players.
-- Insert one of each item you want to
-- buy and plenty of currency items
-- into the container.
-- Left/Right click to adjust amounts.
-- 'Top row: Cost items'
-- 'Bottom row: Items being bought'
+- Скупает предметы у игроков.
+- Положи по одному предмету, что ты
+- собираешься скупать и достаточное
+- количество валюты в контейнер.
+- Левая/правая кнопка мыши для изменения количества.
+- 'Верхняя строка: Предметы-цена'
+- 'Нижняя строка: Скупаемые предметы'
 trade-setup-desc-trading:
-- Trades items with players.
-- Pickup an item from your inventory
-- and then click a slot to place it.
-- Left/Right click to adjust amounts.
-- 'Top row: Result items'
-- 'Bottom rows: Cost items'
+- Обменивается предметами с игроками.
+- Возьми предмет из своего инвентаря
+- и нажми на слот, чтобы его разместить.
+- Левая/правая кнопка мыши для изменения количества.
+- 'Верхняя строка: Продаваемые предметы'
+- 'Нижняя строка: Предметы-цена'
 trade-setup-desc-book:
-- Sells book copies.
-- Insert written and blank books
-- into the container.
-- Left/Right click to adjust costs.
-- 'Top row: Books being sold'
-- 'Bottom rows: Cost items'
+- Продаёт копии книг.
+- Положи заполненную книгу и множество
+- пустых книг c пером в контейнер.
+- Левая/правая кнопка мыши для изменения количества.
+- 'Верхняя строка: Продаваемые книги'
+- 'Нижняя строка: Предметы-цена'
 
-selling-shop.empty-trade.result-item: "&dSell Item"
+selling-shop.empty-trade.result-item: "&dПродаваемый Предмет"
 selling-shop.empty-trade.result-item-lore:
-- "The item you want to sell."
-- "Add items to the shop container."
-- "Left/Right click to adjust the amount."
-selling-shop.empty-trade.item1: "&dBuy Item"
+- "Предмет, который ты хочешь продать."
+- "Добавь предметы в контейнер магазина."
+- "Левая/правая кнопка мыши для изменения количества."
+selling-shop.empty-trade.item1: "&dПокупаемый Предмет"
 selling-shop.empty-trade.item1-lore:
-- "The item you want to buy."
-- "Left/Right click to adjust the amount."
-selling-shop.empty-trade.item2: "&dBuy Item 2"
+- "Предмет, который ты хочешь купить."
+- "Левая/правая кнопка мыши для изменения количества."
+selling-shop.empty-trade.item2: "&dПокупаемый Предмет 2"
 selling-shop.empty-trade.item2-lore:
-- "The second item you want to buy."
-- "Left/Right click to adjust the amount."
-selling-shop.empty-item1: "&dBuy Item"
+- "Второй предмет, который ты хочешь купить."
+- "Левая/правая кнопка мыши для изменения количества."
+selling-shop.empty-item1: "&dПокупаемый Предмет"
 selling-shop.empty-item1-lore:
-- "The item you want to buy."
-- "Left/Right click to adjust the amount."
-selling-shop.empty-item2: "&dBuy Item 2"
+- "Предмет, который ты хочешь купить."
+- "Левая/правая кнопка мыши для изменения количества."
+selling-shop.empty-item2: "&dПокупаемый Предмет 2"
 selling-shop.empty-item2-lore:
-- "The second item you want to buy."
-- "Left/Right click to adjust the amount."
+- "Второй предмет, который ты хочешь купить."
+- "Левая/правая кнопка мыши для изменения количества."
 
-buying-shop.empty-trade.result-item: "&dSell Item"
+buying-shop.empty-trade.result-item: "&dSell Item" # TODO: Continue from here
 buying-shop.empty-trade.result-item-lore:
 - "The item you want to sell."
 - "Left/Right click to adjust the amount."
