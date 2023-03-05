@@ -336,10 +336,10 @@ owner-trade-notification-one-item: "&e{player}&7 купил(а) &6{resultItemAmo
 owner-trade-notification-two-items: "&e{player}&7 купил(а) &6{resultItemAmount}x &a{resultItem}&7 из {shop}{trade_count}"
 owner-buy-notification-one-item: "&e{player}&7 продал(а) &6{item1Amount}x &a{item1}&7 в {shop}{trade_count}"
 owner-buy-notification-two-items: "&e{player}&7 продал(а) &6{item1Amount}x &a{item1}&7 и &6{item2Amount}x &a{item2}&7 в {shop}{trade_count}"
-owner-trade-notification-shop: "один из твоих магазинов"
-owner-trade-notification-named-shop: 'твой магазин &e"{shop_name}"'
-owner-buy-notification-shop: "один из твоих магазинов"
-owner-buy-notification-named-shop: 'твой магазин &e"{shop_name}"'
+owner-trade-notification-shop: "одного из твоих магазинов"
+owner-trade-notification-named-shop: 'твоего магазин &e"{shop_name}"'
+owner-buy-notification-shop: "одного из твоих магазинов"
+owner-buy-notification-named-shop: 'твоего магазин &e"{shop_name}"'
 owner-trade-notification-trade-count: "&7 (&6{count}x&7)"
 
 disable-trade-notifications-hint: "&7Ты можешь отключить оповещения о торгах с помощью команды &e{command}"
