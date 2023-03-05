@@ -421,163 +421,160 @@ selling-shop.empty-item2-lore:
 - "Второй предмет, который ты хочешь купить."
 - "Левая/правая кнопка мыши для изменения количества."
 
-buying-shop.empty-trade.result-item: "&dSell Item" # TODO: Continue from here
+buying-shop.empty-trade.result-item: "&dПродаваемый Предмет"
 buying-shop.empty-trade.result-item-lore:
-- "The item you want to sell."
-- "Left/Right click to adjust the amount."
-buying-shop.empty-trade.item1: "&dBuy Item"
+- "Предмет, который ты хочешь продать."
+- "Левая/правая кнопка мыши для изменения количества."
+buying-shop.empty-trade.item1: "&dПокупаемый Предмет"
 buying-shop.empty-trade.item1-lore:
-- "The item you want to buy."
-- "Add items to the shop container."
-- "Left/Right click to adjust the amount."
-buying-shop.empty-result-item: "&dSell Item"
+- "Предмет, который ты хочешь продать."
+- "Добавь предметы в контейнер магазина."
+- "Левая/правая кнопка мыши для изменения количества."
+buying-shop.empty-result-item: "&dПродаваемый Предмет"
 buying-shop.empty-result-item-lore:
-- "The item you want to sell."
-- "Left/Right click to adjust the amount."
+- "Предмет, который ты хочешь продать."
+- "Левая/правая кнопка мыши для изменения количества."
 
-trading-shop.empty-trade.result-item: "&dSell Item"
+trading-shop.empty-trade.result-item: "&dПродаваемый Предмет"
 trading-shop.empty-trade.result-item-lore:
-- "The item you want to sell."
-- "Add items to the shop container,"
-- "or place an item from your inventory."
-- "Left/Right click to adjust the amount."
-trading-shop.empty-trade.item1: "&dBuy Item"
+- "Предмет, который ты хочешь продать."
+- "Добавь предмет в контейнер магазина"
+- "или перемести предмет из своего инвентаря."
+- "Левая/правая кнопка мыши для изменения количества."
+trading-shop.empty-trade.item1: "&dПокупаемый Предмет"
 trading-shop.empty-trade.item1-lore:
-- "The item you want to buy."
-- "Place an item from your inventory."
-- "Left/Right click to adjust the amount."
-trading-shop.empty-trade.item2: "&dBuy Item 2"
+- "Предмет, который ты хочешь купить."
+- "Пермести предмет из своего инвентаря."
+- "Левая/правая кнопка мыши для изменения количества."
+trading-shop.empty-trade.item2: "&dПокупаемый Предмет 2"
 trading-shop.empty-trade.item2-lore:
-- "The second item you want to buy."
-- "Place an item from your inventory."
-- "Left/Right click to adjust the amount."
-trading-shop.empty-result-item: "&dSell Item"
+- "Второй предмет, который ты хочешь купить."
+- "Пермести предмет из своего инвентаря."
+- "Левая/правая кнопка мыши для изменения количества."
+trading-shop.empty-result-item: "&dПродаваемый Предмет"
 trading-shop.empty-result-item-lore:
-- "The item you want to sell."
-- "Place an item from your inventory."
-- "Left/Right click to adjust the amount."
-trading-shop.empty-item1: "&dBuy Item"
+- "Предмет, который ты хочешь продать."
+- "Пермести предмет из своего инвентаря."
+- "Левая/правая кнопка мыши для изменения количества."
+trading-shop.empty-item1: "&dПокупаемый Предмет"
 trading-shop.empty-item1-lore:
-- "The item you want to buy."
-- "Place an item from your inventory."
-- "Left/Right click to adjust the amount."
-trading-shop.empty-item2: "&dBuy Item 2"
+- "Предмет, который ты хочешь купить."
+- "Пермести предмет из своего инвентаря."
+- "Левая/правая кнопка мыши для изменения количества."
+trading-shop.empty-item2: "&dПокупаемый Предмет 2"
 trading-shop.empty-item2-lore:
-- "The second item you want to buy."
-- "Place an item from your inventory."
-- "Left/Right click to adjust the amount."
+- "Второй предмет, который ты хочешь купить."
+- "Пермести предмет из своего инвентаря."
+- "Левая/правая кнопка мыши для изменения количества."
 
-book-shop.empty-trade.result-item: "&dSell Item"
+book-shop.empty-trade.result-item: "&dПродаваемый Предмет"
 book-shop.empty-trade.result-item-lore:
-- "The item you want to sell."
-- "Add written books to the shop container."
-book-shop.empty-trade.item1: "&dBuy Item"
+- "Предмет, который ты хочешь продать."
+- "Добавь заполненные книги в контейнер."
+book-shop.empty-trade.item1: "&dПокупаемый Предмет"
 book-shop.empty-trade.item1-lore:
-- "The item you want to buy."
-- "Left/Right click to adjust the amount."
-book-shop.empty-trade.item2: "&dBuy Item 2"
+- "Предмет, который ты хочешь купить."
+- "Левая/правая кнопка мыши для изменения количества."
+book-shop.empty-trade.item2: "&dПокупаемый Предмет 2"
 book-shop.empty-trade.item2-lore:
-- "The second item you want to buy."
-- "Left/Right click to adjust the amount."
-book-shop.empty-item1: "&dBuy Item"
+- "Второй предмет, который ты хочешь купить."
+- "Левая/правая кнопка мыши для изменения количества."
+book-shop.empty-item1: "&dПокупаемый Предмет"
 book-shop.empty-item1-lore:
-- "The item you want to buy."
-- "Left/Right click to adjust the amount."
-book-shop.empty-item2: "&dBuy Item 2"
+- "Предмет, который ты хочешь купить."
+- "Левая/правая кнопка мыши для изменения количества."
+book-shop.empty-item2: "&dПокупаемый Предмет 2"
 book-shop.empty-item2-lore:
-- "The second item you want to buy."
-- "Left/Right click to adjust the amount."
+- "Второй предмет, который ты хочешь купить."
+- "Левая/правая кнопка мыши для изменения количества."
 
-missing-edit-villagers-perm: "&7You do not have the permission to edit villagers."
-missing-edit-wandering-traders-perm: "&7You do not have the permission to edit wandering traders."
-must-target-entity: "&7You have to target an entity."
-must-target-villager: "&7You have to target a villager."
-target-entity-is-no-villager: "&7The targeted entity is no regular villager."
-villager-no-longer-exists: "&7The villager no longer exists."
+missing-edit-villagers-perm: "&7У тебя нет прав для редактирования деревенских жителей."
+missing-edit-wandering-traders-perm: "&7У тебя нет прав для редактирования странствующих торговцев."
+must-target-entity: "&7Ты должен целиться на сущность."
+must-target-villager: "&7Ты должен целиться на деревенского жителя."
+target-entity-is-no-villager: "&7Указанная сущность не обычный деревенский житель."
+villager-no-longer-exists: "&7Этот деревенский житель больше не существует."
 
-villager-editor-title: "&2Villager Editor: &e{villagerName}"
-villager-editor-description-header: "&6Villager Editor"
+villager-editor-title: "&2Редактор Жителя: &e{villagerName}"
+villager-editor-description-header: "&6Редактор Жителя"
 villager-editor-description:
-- 'Top row: Result items'
-- 'Bottom rows: Cost items'
-- 'Edited trades have infinite'
-- 'uses and no XP rewards.'
+- 'Верхняя строка: Продаваемый предмет'
+- 'Нижняя строка: Предмет-цена'
+- 'Измененные торги имеют неограниченное использование'
+- 'и не будут начислять награды за опыт.'
 
-button-delete-villager: "&4Delete"
+button-delete-villager: "&4Удалить"
 button-delete-villager-lore:
-- Deletes the villager
-button-name-villager: "&aSet villager name"
+- Удаляет жителя
+button-name-villager: "&aУстановить имя жителя"
 button-name-villager-lore:
-- "Lets you rename"
-- "the villager"
-button-villager-inventory: "&aView villager inventory"
+- "Даёт тебе переименовать жителя"
+button-villager-inventory: "&aПросмотреть инвентарь жителя"
 button-villager-inventory-lore:
-- Lets you view a copy of
-- the villager's inventory
-button-mob-ai: "&aToggle mob AI"
+- Даёт тебе просмотреть копию
+- инвентаря жителя
+button-mob-ai: "&aПереключить ИИ моба"
 button-mob-ai-lore:
-- "Toggles the mob's AI"
-button-invulnerability: "&aToggle invulnerability"
+- "Переключает ИИ моба"
+button-invulnerability: "&aПереключить неуязвимость"
 button-invulnerability-lore:
-- "Toggles the mob's"
-- "invulnerability."
-- "Players in creative mode"
-- "can still damage the mob."
+- "Переключает неуязвимость моба"
+- "Игроки в креативном режиме"
+- "всё еще могут наносить ему урон."
 
-villager-inventory-title: "Villager inventory (copy)"
-set-villager-xp: "&aSet the villager's XP to &e{xp}"
-no-villager-trades-changed: "&aNo trades have been changed."
-villager-trades-changed: "&e{changedTrades}&a trades have been changed."
+villager-inventory-title: "Инвентарь жителя (копия)"
+set-villager-xp: "&aУстановить опыт жителя на &e{xp}"
+no-villager-trades-changed: "&aНикакие торги не были изменены."
+villager-trades-changed: "&e{changedTrades}&a торгов было изменено."
 
-type-new-villager-name: "&aPlease type the villager's name into the chat.\n  &aType a dash (-) to remove the name."
-villager-name-set: "&aThe villager's name has been set!"
-villager-name-invalid: "&aThat name is not valid!"
+type-new-villager-name: "&aПожалуйста, напиши имя жителя в чат.\n&aНапиши минус (-), чтобы удалить имя."
+villager-name-set: "&aИмя жителя было установлено!"
+villager-name-invalid: "&aИмя не валидно!"
 
-list-admin-shops-header: "&9There are &e{shopsCount} &9admin shops: &e(Page {page} of {maxPage})"
-list-all-shops-header: "&9There are &e{shopsCount} &9shops in total: &e(Page {page} of {maxPage})"
-list-player-shops-header: "&9Player '&e{player}&9' has &e{shopsCount} &9shops: &e(Page {page} of {maxPage})"
-list-shops-entry: "  &e{shopId}) &7{shopName}&r&8at &7({location})&8, type: &7{shopType}&8, object: &7{objectType}"
+list-admin-shops-header: "&9Создано &e{shopsCount} &9администраторских магазинов: &e(Страница {page} из {maxPage})"
+list-all-shops-header: "&9Всего создано &e{shopsCount} &9магазинов: &e(Страница {page} из {maxPage})"
+list-player-shops-header: "&Игрок '&e{player}&9' владеет &e{shopsCount} &9магазинами: &e(Страница {page} из {maxPage})"
+list-shops-entry: "  &e{shopId}) &7{shopName}&r&8на &7({location})&8, тип: &7{shopType}&8, объект: &7{objectType}"
 
-shop-removed: "&aThe shopkeeper has been removed."
-shop-already-removed: "&7The shopkeeper has already been removed."
-shop-no-longer-exists: "&7The shopkeeper no longer exists."
-shop-removal-cancelled: "&cA plugin has prevented the removal of the shopkeeper."
+shop-removed: "&aТорговец был удалён."
+shop-already-removed: "&7Этот торговец уже удалён."
+shop-no-longer-exists: "&7Этот торговец больше не существует."
+shop-removal-cancelled: "&cПлагин не позволил удалить торговца."
 
-shops-already-removed: "&e{shopsCount}&7 of the shops have already been removed."
-shop-removals-cancelled: "&cPlugins have prevented the removal of &e{shopsCount}&c of the shops."
-admin-shops-removed: "&e{shopsCount} &aadmin shops have been removed."
-shops-of-player-removed: "&e{shopsCount} &ashops of player '&e{player}&a' have been removed."
-player-shops-removed: "&e{shopsCount} &aplayer shops have been removed."
+shops-already-removed: "&e{shopsCount}&7 магазинов было удалено."
+shop-removals-cancelled: "&cПлагин не позволил удалить &e{shopsCount}&c магазинов."
+admin-shops-removed: "&e{shopsCount} &aадминистраторских магазинов было удалено."
+shops-of-player-removed: "&e{shopsCount} &aмагазинов игрока '&e{player}&a' было удалено."
+player-shops-removed: "&e{shopsCount} &aигровых магазинов было удалено."
 
-confirm-remove-shop: "&cYou are about to irrevocably remove the specified shopkeeper!"
-confirm-remove-all-admin-shops: "&cYou are about to irrevocably remove all admin shops (&6{shopsCount}&c)!"
-confirm-remove-all-own-shops: "&cYou are about to irrevocably remove all your shops (&6{shopsCount}&c)!"
-confirm-remove-all-shops-of-player: "&cYou are about to irrevocably remove all shops of player &6{player}&c (&6{shopsCount}&c)!"
-confirm-remove-all-player-shops: "&cYou are about to irrevocably remove all player shops of all players (&6{shopsCount}&c)!"
+confirm-remove-shop: "&cТы собираешься безвозвратно удалить этого торговца!"
+confirm-remove-all-admin-shops: "&cТы собираешься безвозвратно удалить все администраторские магазны (&6{shopsCount}&c)!"
+confirm-remove-all-own-shops: "&cТы собираешься безвозвратно удалить все свои магазины (&6{shopsCount}&c)!"
+confirm-remove-all-shops-of-player: "&cТы собираешься безвозвратно удалить все магазины игрока &6{player}&c (&6{shopsCount}&c)!"
+confirm-remove-all-player-shops: "&cТы собираешься безвозвратно удалить все магазины всех игроков (&6{shopsCount}&c)!"
 
-confirmation-required: "&7Please confirm this action by typing &6/shopkeepers confirm"
-confirmation-expired: "&cConfirmation expired."
-nothing-to-confirm: "&cThere is nothing to confirm currently."
+confirmation-required: "&7Пожалуйста, подтверди своё действие, написав команду &6/shopkeepers confirm"
+confirmation-expired: "&cПодтверждение истекло."
+nothing-to-confirm: "&cНа данный момент нечего подтверждать."
 
-confirmation-ui-delete-shop-title: "&cReally delete this shop?"
+confirmation-ui-delete-shop-title: "&cТочно удалить этот магазин?"
 confirmation-ui-delete-shop-confirm-lore:
-- "This will irrevocably"
-- "remove this shop!"
+- "Безвозвратно удалит"
+- "этот магазин!"
 
-confirmation-ui-delete-villager-title: "&cReally delete this villager?"
+confirmation-ui-delete-villager-title: "&cТочно удалить этого жителя?"
 confirmation-ui-delete-villager-confirm-lore:
-- "This will irrevocably"
-- "remove this villager!"
-villager-removed: "&aThe villager has been removed."
+- "Безвозвратно удалит"
+- "этого жителя!"
+villager-removed: "&aЖитель был удалён."
 
-confirmation-ui-confirm: "&2Confirm"
-confirmation-ui-cancel: "&4Cancel"
+confirmation-ui-confirm: "&2Подтвердить"
+confirmation-ui-cancel: "&4Отменить"
 confirmation-ui-cancel-lore:
-- "This will abort the"
-- "current action."
-confirmation-ui-aborted: "&7Confirmation aborted."
+- "Отменит текущее действие"
+confirmation-ui-aborted: "&7Подтверждение отменено."
 
-snapshot-list-header: "&9Shop &e{shop_id} &9has &e{snapshotsCount} &9snapshots: &e(Page {page} of {maxPage})"
+snapshot-list-header: "&9Shop &e{shop_id} &9has &e{snapshotsCount} &9snapshots: &e(Page {page} of {maxPage})" # TODO: Continue from here
 snapshot-list-entry: "  &e{id}) &2{name}&8 (&7{timestamp}&8)"
 invalid-snapshot-id: "&cInvalid snapshot id: &e{argument}"
 invalid-snapshot-name: "&cNo snapshot found with name '&e{argument}&c'."
