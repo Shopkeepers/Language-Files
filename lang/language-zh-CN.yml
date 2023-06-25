@@ -16,6 +16,7 @@ shop-type-desc-book: "售卖书本"
 
 shop-object-type-living: "{type}"
 shop-object-type-sign: "sign"
+shop-object-type-hanging-sign: "hanging sign"
 shop-object-type-npc: "npc"
 
 selected-shop-type: "&a选定的商店类型: &6{type} &7({description})"

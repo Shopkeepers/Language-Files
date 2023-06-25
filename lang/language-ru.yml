@@ -16,6 +16,7 @@ shop-type-desc-book: "продаёт копии книг"
 
 shop-object-type-living: "{type}"
 shop-object-type-sign: "табличка"
+shop-object-type-hanging-sign: "висячая табличка"
 shop-object-type-npc: "npc"
 
 selected-shop-type: "&aВыбранный тип магазина: &6{type} &7({description})"

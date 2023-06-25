@@ -16,6 +16,7 @@ shop-type-desc-book: "vends des copies de livres"
 
 shop-object-type-living: "{type}"
 shop-object-type-sign: "sign"
+shop-object-type-hanging-sign: "hanging sign"
 shop-object-type-npc: "npc"
 
 selected-shop-type: "&aType de magasin séléctionné: &6{type} &7({description})"
