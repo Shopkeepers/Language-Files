@@ -1,5 +1,11 @@
 # Changelog
 
+## v2.17.0
+
+### New messages
+
+* Added `shop-object-type-hanging-sign`. Existing translations were adjusted.
+
 ## v2.16.0
 
 ### New messages
