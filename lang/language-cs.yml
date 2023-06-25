@@ -15,7 +15,8 @@ shop-type-desc-trading: "vyměňuje s hráči předměty za předměty"
 shop-type-desc-book: "prodává kopie knih"
 
 shop-object-type-living: "{type}"
-shop-object-type-sign: "závěsná cedule"
+shop-object-type-sign: "cedule"
+shop-object-type-hanging-sign: "závěsná cedule"
 shop-object-type-npc: "npc"
 
 selected-shop-type: "&aVybraný druh obchodu: &6{type} &7({description})"
