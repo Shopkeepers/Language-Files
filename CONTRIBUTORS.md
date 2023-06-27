@@ -6,6 +6,7 @@ This document lists the contributors of language files found in this repository.
 
 * See v2.16.0: Existing translations were adapted.
 * sk: takatalvi
+* ua: wtlgo
 
 ## v2.16.0
 
