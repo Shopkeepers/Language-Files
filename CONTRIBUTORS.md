@@ -50,7 +50,7 @@ This document lists the contributors of language files found in this repository.
 * es-419-2: Direte89
 * pt-BR: IgorFradi
 * ja: fa0311
-* tr: hhhhckr
+* tr: hhhhh-ckr
 * cs: Lemafor
 
 ## v2.10.0
