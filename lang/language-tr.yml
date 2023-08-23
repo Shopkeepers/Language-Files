@@ -27,7 +27,7 @@ creation-item-selected: |-
   &e  Sol/Sağ-click ile market türünü seçin.
   &e  Eğilme + Sol/Sağ-click ile varlık türünü seçin.
   &e  Sağ-click ile sandık, varil gibi depolama bloğuna tıklayın.
-  &e  Ardından Sağ-click ile marketi yerleştirmek istediğiniz bloğa tıklayın.
+  &e  Ardından Sağ-click ile marketi yerleştirmek istediğin bloğa tıklayın.
 
 state-enabled: "&2Aktif"
 state-disabled: "&4Pasif"
@@ -238,27 +238,27 @@ button-hire-lore:
 trading-title-prefix: "&2"
 trading-title-default: "Market"
 
-must-target-block: "&7Marketi yerleştirmek için bir bloğa bakmalısınız."
-missing-spawn-location: "&7Bu market türü için doğma noktası belitmelisiniz"
+must-target-block: "&7Marketi yerleştirmek için bir bloğa bakmalısın."
+missing-spawn-location: "&7Bu market türü için doğma noktası belitmelisin."
 spawn-block-not-empty: "&7Doğma noktası boş olmalıdır."
 invalid-spawn-block-face: "&7Market bloğun bu yüzüne yerleştirilemez."
-mob-cannot-spawn-on-peaceful-difficulty: "&7Seçilen varlık türü barışçıl zorlukta spawn olamaz."
-restricted-area: "&7Market bu alana yerleştirilemez."
-location-already-in-use: "&7Bu konum başka bir market tarafından kullanılıyor."
+mob-cannot-spawn-on-peaceful-difficulty: "&7Seçilen varlık türü barışçıl zorlukta burada spawn olamaz."
+restricted-area: "&7Bu alana market yerleştiremezsin."
+location-already-in-use: "&7Bu konum zaten başka bir market tarafından kullanılıyor."
 
 container-selected: "&aDepolama seçildi! Marketi yerleştirmek için bir bloğa sağ tıklayın."
 unsupported-container: "&7Bu tip depolama, marketler için kullanılamaz."
-must-select-container: "&7Marketi yerleştirmeden önce bir depolamaya sağ tıklamalısınız."
-must-target-container: "&7Marketi yerleştirmek için depolamaya bakıyor olmalısınız."
+must-select-container: "&7Marketi yerleştirmeden önce bir depolamaya sağ tıklamalısın."
+must-target-container: "&7Marketi yerleştirmek için depolamaya bakıyor olmalısın."
 invalid-container: "&7Seçilen blok geçerli bir depolama değil!"
 container-too-far-away: "&7Marketin depolaması çok uzakta!"
-container-not-placed: "&7Yakın zamanda yerleştirdiğiniz bir depolama seçmelisiniz!"
-container-already-in-use: "&7Seçilen depolamayı, başka bir market zaten kullanıyor!"
+container-not-placed: "&7Yakın zamanda yerleştirdiğin bir depolama seçmelisin!"
+container-already-in-use: "&7Seçilen depolamayı zaten başka bir market kullanıyor!"
 no-container-access: "&7Seçilen depolamaya erişemezsin!"
 too-many-shops: "&7Sahip olabileceğin market sınırına ulaştın!"
 no-player-shops-via-command: "&7Oyuncu marketleri sadece market oluşturma eşyası aracılığı ile oluşturulabilir."
 
-type-new-name: "&aLütfen chate marketin adını yazınız.\n &aSilmek için sadece (-) yazınız."
+type-new-name: "&aLütfen chate marketin yeni adını yazın.\n &aSilmek için sadece (-) yazın."
 name-set: "&aMarket adı '&e{name}&a' olarak ayarlandı!"
 name-has-not-changed: "&aMarketin adı değiştirilmedi."
 name-invalid: "&cGeçersiz market adı: '&e{name}&c'"
@@ -285,7 +285,7 @@ shop-creation-items-received: "&e{amount}&a adet market oluşturma eşyası ald�
 unknown-currency: "&cBilinmeyen para birimi: '&e{currency}&c'"
 currency-items-given: "&aOyuncu &e{player}&a, &6{amount} tane&a '&e{currency}&a' para birimi aldı!"
 currency-items-received: "&6{amount} tane&a '&e{currency}&a' para birimi aldın!"
-must-hold-item-in-main-hand: "&7Eşyayı elinizde tutmalısınız."
+must-hold-item-in-main-hand: "&7Eşyayı sağ elinde tutmalısın."
 currency-item-set-to-main-hand-item: "&aPara birimi '&e{currencyId}&a',&e elindeki eşya olarak ayarlandı&a!"
 items-converted: "&e{count}&a stack eşya dönüştürüldü!"
 unknown-book-author: "Bilinmeyen"
@@ -339,8 +339,8 @@ owner-trade-notification-trade-count: "&7 (&6{count}x&7)"
 
 disable-trade-notifications-hint: "&e{command} &7komutu ile takas bildirimlerini kapatabilirsin."
 disable-trade-notifications-hint-command: "/shopkeeper notify trades"
-trade-notifications-disabled: "&aBu oyun oturumu sırasında artık takas bildirimleri almayacaksınız."
-trade-notifications-enabled: "&aArtık tekrar takas bildirimleri alacaksınız."
+trade-notifications-disabled: "&aBu oyun oturumu sırasında artık takas bildirimleri almayacaksın."
+trade-notifications-enabled: "&aArtık tekrar takas bildirimleri alacaksın."
 
 shopkeeper-created: "&aMarket oluşturuldu: &6{type} &7({description})\n{setupDesc}"
 
@@ -523,7 +523,7 @@ set-villager-xp: "&aKöylünün XP'sini &e{xp}&a ayarla"
 no-villager-trades-changed: "&aTakas değişikliği olmadı."
 villager-trades-changed: "&e{changedTrades}&a takası değiştirildi."
 
-type-new-villager-name: "&aLütfen chate köylünün adını yazınız.\n &aSilmek için sadece (-) yazınız."
+type-new-villager-name: "&aLütfen chate köylünün yeni adını yazın.\n &aSilmek için sadece (-) yazın."
 villager-name-set: "&aKöylü ismi ayarlandı!"
 villager-name-invalid: "&aBu isim uygun değil!"
 
@@ -533,11 +533,11 @@ list-player-shops-header: "&9Oyuncu '&e{player}&9', &e{shopsCount} &9markete sah
 list-shops-entry: "  &e{shopId}) &7{shopName}&r&8, &7({location})&8 konumunda, tür: &7{shopType}&8, varlık: &7{objectType}"
 
 shop-removed: "&aMarket kaldırıldı."
-shop-already-removed: "&7Market önceden kaldırılmış."
+shop-already-removed: "&7Market zaten kaldırılmış."
 shop-no-longer-exists: "&7Market artık erişilebilir değil."
 shop-removal-cancelled: "&cBir plugin marketin kaldırılmasını engelledi."
 
-shops-already-removed: "&7Marketlerin &e{shopsCount}&7 tanesi önceden kaldırılmış."
+shops-already-removed: "&7Marketlerin &e{shopsCount}&7 tanesi zaten kaldırılmış."
 shop-removals-cancelled: "&cBir plugin &e{shopsCount}&c tane marketin kaldırılmasını engelledi."
 admin-shops-removed: "&e{shopsCount} &atane Admin marketi kaldırıldı."
 shops-of-player-removed: "&a'&e{player}&a' oyuncusunun &e{shopsCount} &atane marketi kaldırıldı."
