@@ -66,14 +66,14 @@ button-sign-glowing-text: "&aParlayan yazı aç/kapat"
 button-sign-glowing-text-lore:
 - "Parlayan yazıyı"
 - "açar/kapatır"
-button-baby: "&aBiçimi değiştir"
+button-baby: "&aBebek hali aç/kapat"
 button-baby-lore:
-- "Varlığın bebek veya"
-- "yetişkin halini değiştirir"
-button-sitting: "&aOturma pozisyonu değiştir"
+- "Varlığın bebek"
+- "halini açar/kapatır"
+button-sitting: "&aOturma pozisyonu aç/kapat"
 button-sitting-lore:
 - "Varlığın oturma"
-- "pozisyonunu değiştirir"
+- "pozisyonunu açar/kapatır"
 button-cat-variant: "&aKedi türünü değiştir"
 button-cat-variant-lore:
 - "Kedinin görünümünü değiştirir"
@@ -237,10 +237,10 @@ too-many-shops: "&7Sahip olabileceğin market sınırına ulaştın!"
 no-player-shops-via-command: "&7Oyuncu marketleri sadece market oluşturma eşyası aracılığı ile oluşturulabilir."
 shop-create-fail: "&7Burada market oluşturamazsın."
 
-type-new-name: "&aLütfen chate marketin yeni adını yazın.\n &aSilmek için sadece (-) yazın."
-name-set: "&aMarket adı '&e{name}&a' olarak ayarlandı!"
-name-has-not-changed: "&aMarketin adı değiştirilmedi."
-name-invalid: "&cGeçersiz market adı: '&e{name}&c'"
+type-new-name: "&aLütfen chate marketin yeni ismini yazın.\n &aİsimi silmek için sadece tire (-) yazın."
+name-set: "&aMarket ismi '&e{name}&a' olarak ayarlandı!"
+name-has-not-changed: "&aMarketin ismi değiştirilmedi."
+name-invalid: "&cGeçersiz market ismi: '&e{name}&c'"
 nameplate-prefix: "&2"
 
 shop-type-disabled: "'&6{type}&7' &7market türü devre dışı bırakıldı."
@@ -326,7 +326,7 @@ shop-setup-desc-buying: |-
   &e  Satın almak istediğin eşyaları depolamaya ekle, ardından
   &e  markete eğilerek sağ tıkla ve ücretini belirle.
 shop-setup-desc-trading: |-
-  &e  Satmak istediğin eşyaları depolamaya ekle, ardında
+  &e  Takas yapmak istediğin eşyaları depolamaya ekle, ardından
   &e  markete eğilerek sağ tıkla ve ücretini belirle.
 shop-setup-desc-book: |-
   &e  Boş ve yazılmış kitapları depolamaya ekle, ardından
@@ -386,10 +386,10 @@ villager-editor-description:
 button-delete-villager: "&4Sil"
 button-delete-villager-lore:
 - Köylüyü siler
-button-name-villager: "&aKöylülün adını değiştir."
+button-name-villager: "&aKöylülün ismini değiştir."
 button-name-villager-lore:
-- "Lets you rename"
-- "the villager"
+- "Köylüyü yeniden"
+- "isimlendirir"
 button-villager-inventory: "&aKöylünün envanterini gör"
 button-villager-inventory-lore:
 - Köylülün envanterinin
@@ -409,7 +409,7 @@ set-villager-xp: "&aKöylünün XP'sini &e{xp}&a ayarla"
 no-villager-trades-changed: "&aTakas değişikliği olmadı."
 villager-trades-changed: "&e{changedTrades}&a takası değiştirildi."
 
-type-new-villager-name: "&aLütfen chate köylünün yeni adını yazın.\n &aSilmek için sadece (-) yazın."
+type-new-villager-name: "&aLütfen chate köylünün yeni ismini yazın.\n &aİsimi silmek için sadece tire (-) yazın."
 villager-name-set: "&aKöylü ismi ayarlandı!"
 villager-name-invalid: "&aBu isim uygun değil!"
 
