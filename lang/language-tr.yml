@@ -306,7 +306,6 @@ msg-removed-admin-shops: "&e{shopsCount} &atane Admin marketi kaldırıldı."
 msg-removed-shops-of-player: "&a'&e{player}&a' oyuncusunun &e{shopsCount} &atane marketi kaldırıldı."
 msg-removed-player-shops: "&e{shopsCount} &atane oyuncu marketi kaldırıldı."
 
-msg-confirm-remove-shop: "&cBelirtilen marketi geri alınamaz şekilde kaldırmak üzeresin!"
 msg-confirm-remove-all-admin-shops: "&cBütün Admin marketlerini (&6{shopsCount}&c) geri alınamaz şekilde kaldırmak üzeresin!"
 msg-confirm-remove-all-own-shops: "&cBütün marketlerini (&6{shopsCount}&c) geri alınamaz şekilde kaldırmak üzeresin!"
 msg-confirm-remove-all-shops-of-player: "&6{player}&c oyuncusunun bütün marketlerini (&6{shopsCount}&c) geri alınamaz şekilde kaldırmak üzeresin!"
