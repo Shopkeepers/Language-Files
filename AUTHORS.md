@@ -9,6 +9,7 @@ This document lists the authors of language files found in this repository.
 * cs: Lemafor
 * zh-CN: katorly
 * es-419: Cesar Binarity
+* tr: hhhhh-ckr
 
 ## v2.13.0
 
