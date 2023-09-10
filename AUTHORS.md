@@ -35,6 +35,7 @@ This document lists the authors of language files found in this repository.
 ## v2.9.0
 
 * cs: Lemafor
+* tr: hhhhh-ckr
 
 ## v2.8.0
 
