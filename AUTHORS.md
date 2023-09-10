@@ -2,7 +2,7 @@
 
 This document lists the authors of language files found in this repository.
 
-## [v2.9.3](https://github.com/Shopkeepers/Language-Files/edit/v2.9.3/AUTHORS.md)
+## [v2.9.3](https://github.com/Shopkeepers/Language-Files/blob/v2.9.3/AUTHORS.md)
 
 * cs: Lemafor
 * tr: hhhhh-ckr
