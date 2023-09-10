@@ -21,10 +21,11 @@ msg-selected-shop-object-type: "&aSeçilen varlık türü: &6{type}"
 
 msg-creation-item-selected: |-
   &aMarket Oluşturma:
-  &e  Market türünü seçmek için blok olmayan bir yere sağ/sol mouse tıklayınız.
-  &e  Market varlığını seçmek için eğilirken blok olmayan bir yere sağ/sol mouse tıklayınız.
-  &e  Eşyaların depolanacağı yeri seçmek için sandık, varil tarzı bloğa sağ tıklayınız.
-  &e  Sonra yerleştirmek istediğiniz bloğa sağ tıklayarak Marketi yerleştirin.
+  &e  Herhangi bir bloğa aim almayın. Ardından:
+  &e  Sol/Sağ-click ile market türünü seçin.
+  &e  Eğilme + Sol/Sağ-click ile varlık türünü seçin.
+  &e  Sağ-click ile sandık, varil gibi depolama bloğuna tıklayın.
+  &e  Ardından Sağ-click ile marketi yerleştirmek istediğin bloğa tıklayın.
 
 msg-button-previous-page: "&6<- Önceki sayfa ({prev_page}/{max_page})"
 msg-button-previous-page-lore: []
@@ -42,98 +43,112 @@ msg-button-container-lore:
 - depolamayı gösterir
 msg-button-delete: "&4Sil"
 msg-button-delete-lore:
-- Marketi kapat ve
-- tamamen kaldır
+- Marketi kapatır ve siler
 msg-button-hire: "&aKirala"
 msg-button-hire-lore:
-- Bu market artık senin olur
+- Marketi kiralar
 
-msg-button-sign-variant: "&aÇeşiti değiştir"
+msg-button-sign-variant: "&aTabela çeşitini değiştir"
 msg-button-sign-variant-lore:
-- "Kullanılan ağaç türünü değiştirir"
-msg-button-baby: "&aBiçimi değiştir"
+- "Tabelanın kullandığı"
+- "ağaç türünü değiştirir"
+msg-button-baby: "&aBebek hali aç/kapat"
 msg-button-baby-lore:
-- "Varlığın bebek halini değiştirir"
-msg-button-sitting: "&aPozisyonu değiştir"
+- "Varlığın bebek"
+- "halini açar/kapatır"
+msg-button-sitting: "&aOturma pozisyonu aç/kapat"
 msg-button-sitting-lore:
-- "Varlığın oturma halini değiştirir"
-msg-button-cat-variant: "&aÇeşiti değiştir"
+- "Varlığın oturma"
+- "pozisyonunu açar/kapatır"
+msg-button-cat-variant: "&aKedi türünü değiştir"
 msg-button-cat-variant-lore:
 - "Kedinin görünümünü değiştirir"
-msg-button-rabbit-variant: "&aÇeşiti değiştir"
+msg-button-rabbit-variant: "&aTavşan türünü değiştir"
 msg-button-rabbit-variant-lore:
 - "Tavşanın görünümünü değiştirir"
-msg-button-collar-color: "&aRengi değiştir"
+msg-button-collar-color: "&aTasma rengini değiştir"
 msg-button-collar-color-lore:
-- "Varlığın tasmasının rengini değiştirir"
-msg-button-wolf-angry: "&aDurumu değiştir"
+- "Varlığın tasmasının"
+- "rengini değiştirir"
+msg-button-wolf-angry: "&aKızgın kurt aç/kapat"
 msg-button-wolf-angry-lore:
-- "Kurtun kızgın halini değiştirir"
-msg-button-carrying-chest: "&aDurumu değiştir"
+- "Kurtun kızgın"
+- "halini açar/kapatır"
+msg-button-carrying-chest: "&aSandık taşıma aç/kapat"
 msg-button-carrying-chest-lore:
-- "Varlığın sandıklı halini değiştirir"
-msg-button-horse-color: "&aRengi değiştir"
+- "Varlığın sandıklı"
+- "halini açar/kapatır"
+msg-button-horse-color: "&aAt rengi değiştir"
 msg-button-horse-color-lore:
 - "Atın rengini değiştirir"
-msg-button-horse-style: "&aÇeşiti değiştir"
+msg-button-horse-style: "&aAt tarzını değiştir"
 msg-button-horse-style-lore:
 - "Atın görünümünü değiştirir"
-msg-button-horse-armor: "&aZırhı değiştir"
+msg-button-horse-armor: "&aAt zırhı değiştir"
 msg-button-horse-armor-lore:
 - "Atın zırhını değiştirir"
-msg-button-llama-variant: "&aÇeşiti değiştir"
+msg-button-llama-variant: "&aLama türünü değiştir"
 msg-button-llama-variant-lore:
 - "Lamanın görünümünü değiştirir"
-msg-button-llama-carpet-color: "&aRengi değiştir"
+msg-button-llama-carpet-color: "&aHalı rengi değiştir"
 msg-button-llama-carpet-color-lore:
-- "Lamanın halı rengini değiştirir"
-msg-button-creeper-charged: "&aDurumu değiştir"
+- "Lamanın halı"
+- "rengini değiştirir"
+msg-button-creeper-charged: "&aŞarjlı creeper aç/kapat"
 msg-button-creeper-charged-lore:
-- "Creeperın şarjlı halini değiştirir"
-msg-button-fox-variant: "&aÇeşiti değiştir"
+- "Creeperın şarjlı"
+- "halini açar/kapatır"
+msg-button-fox-variant: "&aTilkinin türünü değiştir"
 msg-button-fox-variant-lore:
 - "Tilkinin görünümünü değiştirir"
-msg-button-fox-crouching: "&aPozisyonu değiştir"
+msg-button-fox-crouching: "&aEğilme pozisyonu aç/kapat"
 msg-button-fox-crouching-lore:
-- "Tilkinin oturma halini değiştirir"
-msg-button-fox-sleeping: "&aPozisyonu değiştir"
+- "Tilkinin oturma"
+- "halini açar/kapatır"
+msg-button-fox-sleeping: "&aUyuma pozisyonu aç/kapat"
 msg-button-fox-sleeping-lore:
-- "Tilkinin uyuma halini değiştirir"
-msg-button-mooshroom-variant: "&aÇeşiti değiştir"
+- "Tilkinin uyuma"
+- "halini açar/kapatır"
+msg-button-mooshroom-variant: "&aMantar inek türünü değiştir"
 msg-button-mooshroom-variant-lore:
-- "Mantar inek görünümünü değiştirir"
-msg-button-panda-variant: "&aÇeşiti değiştir"
+- "Mantar inek"
+- "görünümünü değiştirir"
+msg-button-panda-variant: "&aPanda türünü değiştir"
 msg-button-panda-variant-lore:
 - "Pandanın görünümünü değiştirir"
-msg-button-parrot-variant: "&aÇeşiti değiştir"
+msg-button-parrot-variant: "&aPapağan türünü değiştir"
 msg-button-parrot-variant-lore:
 - "Papağanın görünümünü değiştirir"
-msg-button-pig-saddle: "&aDurumu değiştir"
+msg-button-pig-saddle: "&aEğer aç/kapat"
 msg-button-pig-saddle-lore:
-- "Domuzun eğerli halini değiştirir"
-msg-button-sheep-color: "&aRengi değiştir"
+- "Domuzun eğerli halini"
+- "açar/kapatır"
+msg-button-sheep-color: "&aKoyun rengini değiştir"
 msg-button-sheep-color-lore:
 - "Koyunun yün rengini değiştirir"
-msg-button-sheep-sheared: "&aDurumu değiştir"
+msg-button-sheep-sheared: "&aTıraşlı koyun aç/kapat"
 msg-button-sheep-sheared-lore:
-- "Koyunun traşlı halini değiştirir"
-msg-button-villager-profession: "&aMesleği değiştir"
+- "Koyunun traşlı halini"
+- "açar/kapatır"
+msg-button-villager-profession: "&aKöylünün mesleğini değiştir"
 msg-button-villager-profession-lore:
-- "Köylünün mesleğini ve görünümünü değiştirir"
-msg-button-villager-variant: "&aÇeşiti değiştir"
+- "Köylünün mesleğini değiştirir"
+msg-button-villager-variant: "&aKöylünün türünü değiştir"
 msg-button-villager-variant-lore:
-- "Köylünün biyomunu ve görünüşünü değiştirir"
-msg-button-villager-level: "&aRozeti değiştir"
+- "Köylünün biyomunu değiştirir"
+msg-button-villager-level: "&aKöylünün rozet rengini değiştir"
 msg-button-villager-level-lore:
-- "Köylünün seviyesini gösteren rozeti değiştirir"
-msg-button-zombie-villager-profession: "&aMesleği değiştir"
+- "Köylünün rozet rengini"
+- "değiştirir"
+msg-button-zombie-villager-profession: "&aKöylünün mesleğini değiştir"
 msg-button-zombie-villager-profession-lore:
-- "Zombi köylünün mesleğini ve görünümünü değiştirir"
-msg-button-slime-size: "&aBoyutu değiştir"
+- "Zombi köylünün mesleğini"
+- "değiştirir"
+msg-button-slime-size: "&aSlime boyutunu değiştir"
 msg-button-slime-size-lore:
 - "Slime boyutunu değiştirir."
 - "Şuanki boyut: &e{size}"
-msg-button-magma-cube-size: "&aBoyutu değiştir"
+msg-button-magma-cube-size: "&aMagma küp boyutunu değiştir"
 msg-button-magma-cube-size-lore:
 - "Magma küpü boyutunu değiştirir."
 - "Şuanki boyut: &e{size}"
@@ -142,68 +157,68 @@ msg-trading-title-prefix: "&2"
 msg-trading-title-default: "Market"
 
 msg-container-selected: "&aDepolama seçildi! Marketi yerleştirmek için bir bloğa sağ tıklayın."
-msg-unsupported-container: "&7Bu tip depolama marketler için kullanılamaz."
-msg-must-select-container: "&7Marketi yerleştirmeden önce bir depolamaya sağ tıklamalısınız."
+msg-unsupported-container: "&7Bu tip depolama, marketler için kullanılamaz."
+msg-must-select-container: "&7Marketi yerleştirmeden önce bir depolamaya sağ tıklamalısın."
 msg-invalid-container: "&7Seçilen blok geçerli bir depolama değil!"
 msg-container-too-far-away: "&7Marketin depolaması çok uzakta!"
-msg-container-not-placed: "&7Yakın zamanda yerleştirdiğiniz bir depolama seçmelisiniz!"
-msg-container-already-in-use: "&7Başka bir market, seçilen depolamayı zaten kullanıyor!"
+msg-container-not-placed: "&7Yakın zamanda yerleştirdiğin bir depolama seçmelisin!"
+msg-container-already-in-use: "&7Seçilen depolamayı zaten başka bir market kullanıyor!"
 msg-no-container-access: "&7Seçilen depolamaya erişemezsin!"
 msg-too-many-shops: "&7Sahip olabileceğin market sınırına ulaştın!"
-msg-no-admin-shop-type-selected: "&7Yönetici market türü seçmelisiniz!"
-msg-no-player-shop-type-selected: "&7Oyuncu market türü seçmelisiniz!"
-msg-shop-create-fail: "&7Burada market oluşturamazsın!"
+msg-no-admin-shop-type-selected: "&7Yönetici marketi türü seçmelisin!"
+msg-no-player-shop-type-selected: "&7Oyuncu marketi türü seçmelisin!"
+msg-shop-create-fail: "&7Burada market oluşturamazsın."
 
-msg-type-new-name: "&aLütfen chate marketin ismini yazınız!\n &aSilmek için sadece (-) yazınız!"
-msg-name-set: "&aMarket adı ayarlandı!"
-msg-name-has-not-changed: "&aMarketin adı değişmedi!"
-msg-name-invalid: "&aGeçersiz isim!"
+msg-type-new-name: "&aLütfen chate marketin yeni adını yazın.\n &aSilmek için sadece (-) yazın."
+msg-name-set: "&aMarket adı '&e{name}&a' olarak ayarlandı!"
+msg-name-has-not-changed: "&aMarketin adı değiştirilmedi."
+msg-name-invalid: "&cBu ad geçerli değil!"
 
 msg-shop-type-disabled: "'&6{type}&7' &7market türü devre dışı bırakıldı."
 msg-shop-object-type-disabled: "'&6{type}&7' &7varlık türü devre dışı bırakıldı."
 
-msg-must-target-shop: "&7Marketi hedef almalısın"
+msg-must-target-shop: "&7Marketi hedef almalısın."
 msg-must-target-admin-shop: "&7Admin marketini hedef almalısın."
 msg-must-target-player-shop: "&7Oyuncu marketini hedef almalısın."
-msg-target-entity-is-no-shop: "&7Hedeflenen yer, bir market değil."
+msg-target-entity-is-no-shop: "&7Hedeflenen varlık, bir market değil."
 msg-target-shop-is-no-admin-shop: "&7Hedeflenen market, Admin marketi değil."
 msg-target-shop-is-no-player-shop: "&7Hedeflenen market, Oyuncu marketi değil."
 msg-unused-container: "&7Bu depolamayı hiçbir market kullanmıyor."
 msg-not-owner: "&7Bu marketin sahibi sen değilsin."
 msg-owner-set: "&aMarketin yeni sahibi artık &e{owner}"
-msg-shop-creation-items-given: "&e{player}&a, &e{amount}&a adet market oluşturma eşyası aldı!"
+msg-shop-creation-items-given: "&aOyuncu &e{player}&a, &e{amount}&a adet market oluşturma eşyası aldı!"
 msg-shop-creation-items-received: "&e{amount}&a adet market oluşturma eşyası aldın!"
-msg-currency-items-given: "&e{player}&a, &e{amount}&a adet para birimi aldı!"
-msg-currency-items-received: "&e{amount}&a adet para birimi aldın!"
-msg-high-currency-items-given: "&a{player}&a, &e{amount}&a adet toplu para birimi aldı!"
-msg-high-currency-items-received: "&a{amount}&a adet toplu para birimi aldın!"
-msg-high-currency-disabled: "&cToplu para birimi devre dışı!"
+msg-currency-items-given: "&aOyuncu &e{player}&a, &e{amount} tane&a para birimi aldı!"
+msg-currency-items-received: "&e{amount} tane&a para birimi aldın!"
+msg-high-currency-items-given: "&aOyuncu &e{player}&a, &e{amount} tane&a toplu para birimi aldı!"
+msg-high-currency-items-received: "&e{amount} tane&a toplu para birimi aldın!"
+msg-high-currency-disabled: "&cToplu para birimi devre dışı bırakıldı!"
 msg-items-converted: "&e{count}&a stack eşya dönüştürüldü!"
 msg-unknown-book-author: "Bilinmeyen"
 
-msg-trade-perm-set: "&aMarket alış-veriş yetkisi '&e{perm}&a' olarak ayarlandı!"
-msg-trade-perm-removed: "'&e{perm}&a' &aMarket alış-veriş yetkisi kaldırıldı!"
-msg-trade-perm-view: "&aŞu anki market alış-veriş yetkisi '&e{perm}&a'."
+msg-trade-perm-set: "&aBu marketin takas yetkileri '&e{perm}&a' olarak ayarlandı!"
+msg-trade-perm-removed: "&aBu marketin '&e{perm}&a' takas yetkisi kaldırıldı!"
+msg-trade-perm-view: "&aBu marketin şu anki takas yetkisi '&e{perm}&a'."
 
 msg-zombie-villager-curing-disabled: "&7Zombi köylü iyileştirme devre dışı."
 msg-must-hold-hire-item: "&7Kiralamak için gerekli eşyayı elinde tutman gerekiyor."
 msg-set-for-hire: "&aMarket kiralık olarak ayarlandı."
-msg-hired: "&aMarketi kiraladın!"
+msg-hired: "&aBu marketi kiraladın!"
 msg-missing-hire-perm: "&7Market kiralamak için yetkin yok."
 msg-cant-hire: "&7Bu marketi kiralayamazsın."
 msg-cant-hire-shop-type: "&7Bu türde marketi kiralamak için yetkin yok."
-msg-villager-for-hire: "&aKöylü, &6{costs}x {hire-item}&a karşılığında market olmayı teklif ediyor."
+msg-villager-for-hire: "&aKöylü, &6{costs} tane {hire-item}&a karşılığında market olmayı teklif ediyor."
 
-msg-missing-trade-perm: "&7Bu markette alış-veriş etmek için yetkin yok."
-msg-missing-custom-trade-perm: "&7Bu markette alış-veriş etmek için yetkin yok."
-msg-cant-trade-with-own-shop: "&7Kendi marketinden alış-veriş yapamazsın."
-msg-cant-trade-while-owner-online: "&7Bu marketin sahibi ('&e{owner}&7') online iken alış-veriş yapamazsın."
-msg-cant-trade-with-shop-missing-container: "&7Bu markette alış-veriş yapamazsın, çünkü depolaması yok."
+msg-missing-trade-perm: "&7Bu markette takas yapmak için yetkin yok."
+msg-missing-custom-trade-perm: "&7Bu markette takas yapmak için yetkin yok."
+msg-cant-trade-with-own-shop: "&7Kendi marketinde takas yapamazsın."
+msg-cant-trade-while-owner-online: "&7Bu marketin sahibi ('&e{owner}&7') online iken takas yapamazsın."
+msg-cant-trade-with-shop-missing-container: "&7Bu markette takas yapamazsın, çünkü depolaması yok."
 
 msg-shopkeeper-created: "&aMarket oluşturuldu: &6{type} &7({description})\n{setupDesc}"
 
 msg-shop-setup-desc-selling: |-
-  &e  Satmak istediğin eşyaları depolamaya ekle, ardında
+  &e  Satmak istediğin eşyaları depolamaya ekle, ardından
   &e  markete eğilerek sağ tıkla ve ücretini belirle.
 msg-shop-setup-desc-buying: |-
   &e  Satın almak istediğin eşyaları depolamaya ekle, ardından
@@ -212,10 +227,10 @@ msg-shop-setup-desc-trading: |-
   &e  Takas yapmak istediğin eşyaları depolamaya ekle, ardından
   &e  markete eğilerek sağ tıkla ve ücretini belirle.
 msg-shop-setup-desc-book: |-
-  &e  Boş yada yazılmış kitapları depolamaya ekle, ardından
+  &e  Boş ve yazılmış kitapları depolamaya ekle, ardından
   &e  markete eğilerek sağ tıkla ve ücretini belirle.
 msg-shop-setup-desc-admin-regular: |-
-  &e  Markete eğilerek sağ tıkla ve teklifleri belirle.
+  &e  Markete eğilerek sağ tıkla ve ücretini belirle.
 
 msg-trade-setup-desc-header: '&6{shopType}'
 msg-trade-setup-desc-admin-regular:
@@ -242,8 +257,8 @@ msg-trade-setup-desc-trading:
 - Envanterinden eşya al ve
 - eklemek için bir slota tıkla.
 - Sol/Sağ mouse ile miktarı ayarla.
-- 'Üst sıra: Satılacak eşya'
-- 'Alt sıra: Ücret'
+- 'Üst sıra: Alınacak eşya'
+- 'Alt sıra: Verilecek eşya'
 msg-trade-setup-desc-book:
 - Kitap kopyaları satar.
 - Boş yada yazılmış kitapları depolamaya ekle.
@@ -256,6 +271,7 @@ msg-missing-edit-wandering-traders-perm: "&7Gezgin tüccarları düzenlemek içi
 msg-must-target-entity: "&7Bir varlığı hedef almalısın."
 msg-must-target-villager: "&7Bir köylüyü hedef almalısın."
 msg-target-entity-is-no-villager: "&7Hedeflenen varlık sıradan bir köylü değil."
+msg-villager-no-longer-exists: "&7Köylü artık erişilebilir değil."
 
 msg-villager-editor-title: "&aKöylü Editörü: &e{villagerName}"
 msg-villager-editor-description-header: "&6Köylü Editörü"
@@ -270,50 +286,51 @@ msg-button-delete-villager-lore:
 - Köylüyü siler
 msg-button-villager-inventory: "&aKöylünün envanterini gör"
 msg-button-villager-inventory-lore:
-- Köylülün envanterinin kopyasını görmeni sağlar
-msg-button-mob-ai: "&aDurumu değiştir"
+- Köylülün envanterinin
+- kopyasını görmeni sağlar
+msg-button-mob-ai: "&aYapay zeka aç/kapat"
 msg-button-mob-ai-lore:
-- "AI durumunu değiştirir"
+- "Varlığın yapay zekasını açar/kapatır."
 
 msg-villager-inventory-title: "Köylünün envanteri (kopya)"
 msg-set-villager-xp: "&aKöylünün XP'sini &e{xp}&a ayarla"
 msg-no-villager-trades-changed: "&aTakas değişikliği olmadı."
 msg-villager-trades-changed: "&e{changedTrades}&a takası değiştirildi."
 
-msg-list-admin-shops-header: "&9Toplamda &e{shopsCount} &9Admin marketi var: &e(Sayfa {page}/{maxPage})"
-msg-list-all-shops-header: "&9Toplamda &e{shopsCount} &9market var: &e(Sayfa {page}/{maxPage})"
-msg-list-player-shops-header: "'&e{player}&9', &e{shopsCount} &9markete sahip: &e(Sayfa {page}/{maxPage})"
-msg-list-shops-entry: "  &8ID: &e{shopId}) &8İsim: &7{shopName}&r &8Konum: &7({location})&r, &8Tür: &7{shopType}&r, &8Varlık: &7{objectType}"
+msg-list-admin-shops-header: "&9Toplamda &e{shopsCount} &9Admin shops: &e(Page {page}/{maxPage})"
+msg-list-all-shops-header: "&9Toplamda &e{shopsCount} &9market var: &e(Page {page}/{maxPage})"
+msg-list-player-shops-header: "&9Oyuncu '&e{player}&9', &e{shopsCount} &9markete sahip: &e(Page {page}/{maxPage})"
+msg-list-shops-entry: "  &e{shopId}) &7{shopName}&r&8, &7({location})&8 konumunda, tür: &7{shopType}&8, varlık: &7{objectType}"
 
-msg-removed-admin-shops: "&e{shopsCount} &aAdmin marketi kaldırıldı."
-msg-removed-shops-of-player: "&e{shopsCount} &a'&e{player}&a' oyuncusunun marketleri kaldırıldı."
-msg-removed-player-shops: "&e{shopsCount} &aoyuncu marketleri kaldırıldı."
+msg-removed-admin-shops: "&e{shopsCount} &atane Admin marketi kaldırıldı."
+msg-removed-shops-of-player: "&a'&e{player}&a' oyuncusunun &e{shopsCount} &atane marketi kaldırıldı."
+msg-removed-player-shops: "&e{shopsCount} &atane oyuncu marketi kaldırıldı."
 
-msg-confirm-remove-all-admin-shops: "&cBütün Admin marketlerini (&6{shopsCount}&c) geri dönüşsüz kaldırmak üzeresiniz!"
-msg-confirm-remove-all-own-shops: "&cBütün sahip olduğun marketleri (&6{shopsCount}&c) geri dönüşsüz kaldırmak üzeresiniz!"
-msg-confirm-remove-all-shops-of-player: "&6{player}&c oyuncusunun bütün marketlerini (&6{shopsCount}&c) geri dönüşsüz kaldırmak üzeresiniz!"
-msg-confirm-remove-all-player-shops: "&cBütün oyuncuların, oyuncu marketlerini (&6{shopsCount}&c) geri dönüşsüz kaldırmak üzeresiniz!!"
+msg-confirm-remove-all-admin-shops: "&cBütün Admin marketlerini (&6{shopsCount}&c) geri alınamaz şekilde kaldırmak üzeresin!"
+msg-confirm-remove-all-own-shops: "&cBütün marketlerini (&6{shopsCount}&c) geri alınamaz şekilde kaldırmak üzeresin!"
+msg-confirm-remove-all-shops-of-player: "&6{player}&c oyuncusunun bütün marketlerini (&6{shopsCount}&c) geri alınamaz şekilde kaldırmak üzeresin!"
+msg-confirm-remove-all-player-shops: "&cBütün oyuncuların bütün marketlerini (&6{shopsCount}&c) geri alınamaz şekilde kaldırmak üzeresin!"
 
-msg-confirmation-required: "&7İşlemi onaylamak için &6/shopkeepers confirm &7yazınız!"
-msg-confirmation-expired: "&cOnaylama süresi doldu."
-msg-nothing-to-confirm: "&cŞuanda onaylanacak bir şey yok."
+msg-confirmation-required: "&7Lütfen bu işlemi &6/shopkeepers confirm &7yazarak onaylayın"
+msg-confirmation-expired: "&cOnaylamanın süresi doldu."
+msg-nothing-to-confirm: "&cŞu anda onaylanacak bir şey yok."
 
 msg-no-permission: "&cBunu yapmak için yetkin yok."
 
-msg-command-unknown: "&cBilinmeyen komut: '&e{command}&c'"
-msg-command-argument-unexpected: "&cBeklenmeyen arguman: '&e{argument}&c'"
-msg-command-argument-requires-player: "&cYürütülmek için oyuncu gerektirir: '&e{argumentFormat}&c'"
-msg-command-argument-missing: "&cEksik arguman: '&e{argumentFormat}&c'"
-msg-command-argument-invalid: "&cGeçersiz arguman: '&e{argument}&c'"
-msg-command-player-argument-missing: "&cOyuncu belirtilmedi: '&e{argumentFormat}&c'"
-msg-command-player-argument-invalid: "&cOyuncu geçersiz: '&e{argument}&c'"
+msg-command-unknown: "&cBilinmeyen komut: '&e{command}&c'!"
+msg-command-argument-unexpected: "&cBeklenmeyen argüman: '&e{argument}&c'."
+msg-command-argument-requires-player: "&cArgüman '&e{argumentFormat}&c' yürütülmek için oyuncu gerektirir."
+msg-command-argument-missing: "&cEksik argüman: '&e{argumentFormat}&c'."
+msg-command-argument-invalid: "&cGeçersiz argüman: '&e{argument}&c'."
+msg-command-player-argument-missing: "&cOyuncu belirtilmedi: '&e{argumentFormat}&c'."
+msg-command-player-argument-invalid: "&cOyuncu bulunamadı: '&e{argument}&c'"
 msg-command-shop-type-argument-invalid: "&cBilinmeyen market türü: '&e{argument}&c'"
-msg-command-shop-object-type-argument-invalid: "&cBilinmeyen market varlık türü: '&e{argument}&c'"
-msg-command-shopkeeper-argument-invalid: "&cMarket bulunamadı: '&e{argument}&c'"
+msg-command-shop-object-type-argument-invalid: "&cBilinmeyen market obje türü: '&e{argument}&c'."
+msg-command-shopkeeper-argument-invalid: "&cMarket bulunamadı: '&e{argument}&c'."
 msg-command-shopkeeper-argument-no-admin-shop: "&cMarket '&e{argument}&c', admin marketi değil."
 msg-command-shopkeeper-argument-no-player-shop: "&cMarket '&e{argument}&c', oyuncu marketi değil."
 
-msg-ambiguous-player-name: "&cBu isim için birden çok eşleşme var: '&e{name}&c'"
+msg-ambiguous-player-name: "&cBu isim için birden çok eşleşme var: '&e{name}&c'!"
 msg-ambiguous-player-name-entry: "&c  - '&e{name}&r&c' (&6{uuid}&c)"
 msg-ambiguous-player-name-more: "&c  - ...."
 
@@ -322,17 +339,18 @@ msg-command-help-usage-format: "&e{usage}"
 msg-command-help-description-format: "&8 - &3{description}"
 
 msg-command-description-shopkeeper: "Market oluşturur."
-msg-command-description-help: "Yardım sayfasını gösterir."
+msg-command-description-help: "Bu yardım sayfasını gösterir."
 msg-command-description-reload: "Plugini yeniden yükler."
-msg-command-description-debug: "Debug modu açar ve kapatır."
-msg-command-description-list: "Belirtilen oyuncunun yada tüm admin marketlerini listeler."
+msg-command-description-debug: "Debug modu açar/kapatır."
+msg-command-description-notify: "Takas bildirimlerini açar/kapatır"
+msg-command-description-list: "Belirtilen oyuncunun ya da tüm admin marketlerini listeler."
 msg-command-description-remove: "Belirtilen oyuncunun, bütün oyuncuların yada bütün admin marketlerini kaldırır."
 msg-command-description-give: "Belirtilen oyuncuya merket oluşturma eşyası verir."
 msg-command-description-give-currency: "Belirtilen oyuncuya para birimi verir."
 msg-command-description-convert-items: "Tutulan (veya tüm) öğeleri Spigot'un veri formatına uyacak şekilde dönüştürür."
-msg-command-description-remote: "Marketi uzaktan açar (Opsiyonel olarak: Başka bir oyuncu)."
+msg-command-description-remote: "Marketi uzaktan açar (Opsiyonel olarak: Başka bir oyuncunun)."
 msg-command-description-remote-edit: "Marketi uzaktan düzenler."
 msg-command-description-transfer: "Marketin sahipliğini aktarır."
 msg-command-description-settradeperm: "Takas yetkilerini ayarlar, kaldırır (-) yada görüntüler (?)."
 msg-command-description-setforhire: "Marketlerinden birini satılık olarak ayarlar."
-msg-command-description-edit-villager: "Hedef alınan köylü için Editörü açar."
+msg-command-description-edit-villager: "Hedef alınan köylü için editörü açar."
