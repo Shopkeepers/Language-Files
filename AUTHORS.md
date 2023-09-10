@@ -8,6 +8,7 @@ This document lists the authors of language files found in this repository.
 * pl: Lemafor
 * es: Santyxs
 * fr: Dofy
+* tr: hhhhh-ckr
 
 ## v2.14.0
 
