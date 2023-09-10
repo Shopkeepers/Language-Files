@@ -28,7 +28,7 @@ creation-item-selected: |-
   &e  Sol/Sağ-click ile market türünü seçin.
   &e  Eğilme + Sol/Sağ-click ile varlık türünü seçin.
   &e  Sağ-click ile sandık, varil gibi depolama bloğuna tıklayın.
-  &e  Ardından Sağ-click ile marketi yerleştirmek istediğiniz bloğa tıklayın.
+  &e  Ardından Sağ-click ile marketi yerleştirmek istediğin bloğa tıklayın.
 
 state-enabled: "&2Aktif"
 state-disabled: "&4Pasif"
@@ -70,14 +70,14 @@ button-sign-glowing-text: "&aParlayan yazı aç/kapat"
 button-sign-glowing-text-lore:
 - "Parlayan yazıyı"
 - "açar/kapatır"
-button-baby: "&aBiçimi değiştir"
+button-baby: "&aBebek hali aç/kapat"
 button-baby-lore:
-- "Varlığın bebek veya"
-- "yetişkin halini değiştirir"
-button-sitting: "&aOturma pozisyonu değiştir"
+- "Varlığın bebek"
+- "halini açar/kapatır"
+button-sitting: "&aOturma pozisyonu aç/kapat"
 button-sitting-lore:
 - "Varlığın oturma"
-- "pozisyonunu değiştirir"
+- "pozisyonunu açar/kapatır"
 button-cat-variant: "&aKedi türünü değiştir"
 button-cat-variant-lore:
 - "Kedinin görünümünü değiştirir"
@@ -239,30 +239,30 @@ button-hire-lore:
 trading-title-prefix: "&2"
 trading-title-default: "Market"
 
-must-target-block: "&7Marketi yerleştirmek için bir bloğa bakmalısınız."
-missing-spawn-location: "&7Bu market türü için doğma noktası belitmelisiniz"
+must-target-block: "&7Marketi yerleştirmek için bir bloğa bakmalısın."
+missing-spawn-location: "&7Bu market türü için doğma noktası belitmelisin."
 spawn-block-not-empty: "&7Doğma noktası boş olmalıdır."
 invalid-spawn-block-face: "&7Market bloğun bu yüzüne yerleştirilemez."
-mob-cannot-spawn-on-peaceful-difficulty: "&7Seçilen varlık türü barışçıl zorlukta spawn olamaz."
-restricted-area: "&7Market bu alana yerleştirilemez."
-location-already-in-use: "&7Bu konum başka bir market tarafından kullanılıyor."
+mob-cannot-spawn-on-peaceful-difficulty: "&7Seçilen varlık türü barışçıl zorlukta burada spawn olamaz."
+restricted-area: "&7Bu alana market yerleştiremezsin."
+location-already-in-use: "&7Bu konum zaten başka bir market tarafından kullanılıyor."
 
 container-selected: "&aDepolama seçildi! Marketi yerleştirmek için bir bloğa sağ tıklayın."
 unsupported-container: "&7Bu tip depolama, marketler için kullanılamaz."
-must-select-container: "&7Marketi yerleştirmeden önce bir depolamaya sağ tıklamalısınız."
-must-target-container: "&7Marketi yerleştirmek için depolamaya bakıyor olmalısınız."
+must-select-container: "&7Marketi yerleştirmeden önce bir depolamaya sağ tıklamalısın."
+must-target-container: "&7Marketi yerleştirmek için depolamaya bakıyor olmalısın."
 invalid-container: "&7Seçilen blok geçerli bir depolama değil!"
 container-too-far-away: "&7Marketin depolaması çok uzakta!"
-container-not-placed: "&7Yakın zamanda yerleştirdiğiniz bir depolama seçmelisiniz!"
+container-not-placed: "&7Yakın zamanda yerleştirdiğin bir depolama seçmelisin!"
 container-already-in-use: "&7Seçilen depolamayı, başka bir market zaten kullanıyor!"
 no-container-access: "&7Seçilen depolamaya erişemezsin!"
 too-many-shops: "&7Sahip olabileceğin market sınırına ulaştın!"
 no-player-shops-via-command: "&7Oyuncu marketleri sadece market oluşturma eşyası aracılığı ile oluşturulabilir."
 
-type-new-name: "&aLütfen chate marketin adını yazınız.\n &aSilmek için sadece (-) yazınız."
-name-set: "&aMarket adı '&e{name}&a' olarak ayarlandı!"
-name-has-not-changed: "&aMarketin adı değiştirilmedi."
-name-invalid: "&cGeçersiz market adı: '&e{name}&c'"
+type-new-name: "&aLütfen chate marketin yeni ismini yazın.\n &aİsimi silmek için sadece tire (-) yazın."
+name-set: "&aMarket ismi '&e{name}&a' olarak ayarlandı!"
+name-has-not-changed: "&aMarketin ismi değiştirilmedi."
+name-invalid: "&cGeçersiz market ismi: '&e{name}&c'"
 nameplate-prefix: "&2"
 
 click-new-shop-location: "&aLütfen marketin yeni konumuna Sağ-click tıklayın.\n  &aİptal için Sol-click tıklayın."
@@ -286,7 +286,7 @@ shop-creation-items-received: "&e{amount}&a adet market oluşturma eşyası ald�
 unknown-currency: "&cBilinmeyen para birimi: '&e{currency}&c'"
 currency-items-given: "&aOyuncu &e{player}&a, &6{amount} tane&a '&e{currency}&a' para birimi aldı!"
 currency-items-received: "&6{amount} tane&a '&e{currency}&a' para birimi aldın!"
-must-hold-item-in-main-hand: "&7Eşyayı elinizde tutmalısınız."
+must-hold-item-in-main-hand: "&7Eşyayı sağ elinde tutmalısın."
 currency-item-set-to-main-hand-item: "&aPara birimi '&e{currencyId}&a',&e elindeki eşya olarak ayarlandı&a!"
 items-converted: "&e{count}&a stack eşya dönüştürüldü!"
 unknown-book-author: "Bilinmeyen"
@@ -340,8 +340,8 @@ owner-trade-notification-trade-count: "&7 (&6{count}x&7)"
 
 disable-trade-notifications-hint: "&e{command} &7komutu ile takas bildirimlerini kapatabilirsin."
 disable-trade-notifications-hint-command: "/shopkeeper notify trades"
-trade-notifications-disabled: "&aBu oyun oturumu sırasında artık takas bildirimleri almayacaksınız."
-trade-notifications-enabled: "&aArtık tekrar takas bildirimleri alacaksınız."
+trade-notifications-disabled: "&aBu oyun oturumu sırasında artık takas bildirimleri almayacaksın."
+trade-notifications-enabled: "&aArtık tekrar takas bildirimleri alacaksın."
 
 shopkeeper-created: "&aMarket oluşturuldu: &6{type} &7({description})\n{setupDesc}"
 
@@ -352,7 +352,7 @@ shop-setup-desc-buying: |-
   &e  Satın almak istediğin eşyaları depolamaya ekle, ardından
   &e  markete eğilerek sağ tıkla ve ücretini belirle.
 shop-setup-desc-trading: |-
-  &e  Satmak istediğin eşyaları depolamaya ekle, ardında
+  &e  Takas yapmak istediğin eşyaları depolamaya ekle, ardında
   &e  markete eğilerek sağ tıkla ve ücretini belirle.
 shop-setup-desc-book: |-
   &e  Boş ve yazılmış kitapları depolamaya ekle, ardından
@@ -501,10 +501,10 @@ villager-editor-description:
 button-delete-villager: "&4Sil"
 button-delete-villager-lore:
 - Köylüyü siler
-button-name-villager: "&aKöylülün adını değiştir."
+button-name-villager: "&aKöylülün ismini değiştir."
 button-name-villager-lore:
-- "Lets you rename"
-- "the villager"
+- "Köylüyü yeniden"
+- "isimlendirir"
 button-villager-inventory: "&aKöylünün envanterini gör"
 button-villager-inventory-lore:
 - Köylülün envanterinin
@@ -524,7 +524,7 @@ set-villager-xp: "&aKöylünün XP'sini &e{xp}&a ayarla"
 no-villager-trades-changed: "&aTakas değişikliği olmadı."
 villager-trades-changed: "&e{changedTrades}&a takası değiştirildi."
 
-type-new-villager-name: "&aLütfen chate köylünün adını yazınız.\n &aSilmek için sadece (-) yazınız."
+type-new-villager-name: "&aLütfen chate köylünün yeni ismini yazın.\n &aİsimi silmek için sadece tire (-) yazın."
 villager-name-set: "&aKöylü ismi ayarlandı!"
 villager-name-invalid: "&aBu isim uygun değil!"
 
