@@ -2,14 +2,7 @@
 
 This document lists the contributors of language files found in this repository.
 
-## v2.17.0
-
-* See v2.16.0: Existing translations were adapted.
-* sk: takatalvi
-* ua: wtlgo
-* tr: hhhhh-ckr
-
-## v2.16.0
+## [v2.17.0](https://github.com/Shopkeepers/Language-Files/blob/v2.17.0/CONTRIBUTORS.md)
 
 * cs: Lemafor
 * pl: Lemafor
@@ -18,54 +11,26 @@ This document lists the contributors of language files found in this repository.
 * pt-BR: luizinhoh2o1
 * fr: WaxenSs
 * ru: wtlgo
-
-## v2.15.0
-
-* cs: Lemafor
-* pl: Lemafor
-* es: Santyxs
-* fr: Dofy
-
-## v2.14.0
-
-* cs: Lemafor
-* zh-CN: katorly, YuanYuanOwO
-* pl: Lemafor
-
-## v2.13.2
-
-* ru: Naloaty
-* ja: fa0311
-* cs: Lemafor
-* zh-CN: katorly
-* es-419: Cesar Binarity
-
-## v2.13.0
-
-* cs: Lemafor
-
-## v2.11.0
-
-* es-419: Nehemek
-* it: Peppe73
-* es-419-2: Direte89
-* pt-BR: IgorFradi
-* ja: fa0311
+* ua: wtlgo
+* sk: takatalvi
 * tr: hhhhh-ckr
-* cs: Lemafor
 
-## v2.10.0
+## [v2.16.0](https://github.com/Shopkeepers/Language-Files/blob/v2.16.0/CONTRIBUTORS.md)
 
-* cs: Lemafor
+## [v2.15.0](https://github.com/Shopkeepers/Language-Files/blob/v2.15.0/AUTHORS.md)
 
-## v2.9.3
+## [v2.14.0](https://github.com/Shopkeepers/Language-Files/blob/v2.14.0/AUTHORS.md)
 
-* cs: Lemafor
+## [v2.13.2](https://github.com/Shopkeepers/Language-Files/blob/v2.13.2/AUTHORS.md)
 
-## v2.9.0
+## [v2.13.0](https://github.com/Shopkeepers/Language-Files/blob/v2.13.0/AUTHORS.md)
 
-* cs: Lemafor
+## [v2.11.0](https://github.com/Shopkeepers/Language-Files/blob/v2.11.0/AUTHORS.md)
 
-## v2.8.0
+## [v2.10.0](https://github.com/Shopkeepers/Language-Files/blob/v2.10.0/AUTHORS.md)
 
-* es: ariel-l
+## [v2.9.3](https://github.com/Shopkeepers/Language-Files/blob/v2.9.3/AUTHORS.md)
+
+## [v2.9.0](https://github.com/Shopkeepers/Language-Files/blob/v2.9.0/AUTHORS.md)
+
+## [v2.8.0](https://github.com/Shopkeepers/Language-Files/blob/v2.8.0/AUTHORS.md)
