@@ -11,6 +11,7 @@ This document lists the contributors of language files found in this repository.
 * pt-BR: luizinhoh2o1
 * fr: WaxenSs
 * ru: wtlgo
+* tr: hhhhh-ckr
 
 ## v2.15.0
 
