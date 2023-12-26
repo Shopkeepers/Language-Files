@@ -304,6 +304,11 @@ trade-perm-set: "&aThe shop's trading permission has been set to '&e{perm}&a'!"
 trade-perm-removed: "&aThe shop's trading permission '&e{perm}&a' has been removed!"
 trade-perm-view: "&aThe shop's current trading permission is '&e{perm}&a'."
 
+traded-command-set: "&aThe item's traded command has been set to '&e{command}&a'!"
+traded-command-removed: "&aThe item's traded command has been removed!"
+traded-command-view: "&aThe item's current traded command is '&e{command}&a'."
+traded-command-view-unset: "&aThe item has no traded command assigned."
+
 zombie-villager-curing-disabled: "&7Curing of zombie villagers is disabled."
 must-hold-hire-item: "&7You have to hold the required hire item in your hand."
 set-for-hire: "&aThis shopkeeper can now be hired."
@@ -538,6 +543,8 @@ type-new-villager-name: "&aPlease type the villager's name into the chat.\n  &aT
 villager-name-set: "&aThe villager's name has been set!"
 villager-name-invalid: "&aThat name is not valid!"
 
+no-shops-found: "&7No shops were found."
+
 list-admin-shops-header: "&9There are &e{shopsCount} &9admin shops: &e(Page {page} of {maxPage})"
 list-all-shops-header: "&9There are &e{shopsCount} &9shops in total: &e(Page {page} of {maxPage})"
 list-player-shops-header: "&9Player '&e{player}&9' has &e{shopsCount} &9shops: &e(Page {page} of {maxPage})"
@@ -559,6 +566,13 @@ confirm-remove-all-admin-shops: "&cYou are about to irrevocably remove all admin
 confirm-remove-all-own-shops: "&cYou are about to irrevocably remove all your shops (&6{shopsCount}&c)!"
 confirm-remove-all-shops-of-player: "&cYou are about to irrevocably remove all shops of player &6{player}&c (&6{shopsCount}&c)!"
 confirm-remove-all-player-shops: "&cYou are about to irrevocably remove all player shops of all players (&6{shopsCount}&c)!"
+
+confirm-replace-all-shops-with-vanilla-villagers: |-
+  &cYou are about to irrevocably delete all shops (&6{shopsCount}&c) and replace them with vanilla villagers without AI!
+  Consider creating a backup of your world and shopkeeper data before you proceed.
+all-shops-replaced-with-vanilla-villagers: |-
+  &e{adminShopsCount}&a admin shops and &e{playerShopsCount}&a player shops have been replaced with vanilla villagers!
+  &e{skippedShopsCount}&a shops have been skipped.
 
 confirmation-required: "&7Please confirm this action by typing &6/shopkeepers confirm"
 confirmation-expired: "&cConfirmation expired."
@@ -637,9 +651,11 @@ command-description-remote: "Remotely opens a shop (Optionally: For another play
 command-description-remote-edit: "Remotely edits a shop."
 command-description-transfer: "Transfers the ownership of a shop."
 command-description-settradeperm: "Sets, removes (-) or displays (?) the trading permission."
+command-description-settradedcommand: "Sets, removes (-) or displays (?) the traded command of the held item."
 command-description-setforhire: "Sets one of your shops for sale."
 command-description-snapshot-list: "Lists the snapshots of a shop."
 command-description-snapshot-create: "Creates a new shop snapshot."
 command-description-snapshot-remove: "Removes a specific or all snapshots of a shop."
 command-description-snapshot-restore: "Restores a specific shop snapshot."
 command-description-edit-villager: "Opens the editor for the target villager."
+command-description-replace-all-with-vanilla-villagers: "Replaces all shopkeepers with vanilla villagers without AI."

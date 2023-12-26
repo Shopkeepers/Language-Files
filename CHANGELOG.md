@@ -1,5 +1,19 @@
 # Changelog
 
+## v2.19.0
+
+### New messages
+
+* Added `traded-command-set`.
+* Added `traded-command-removed`.
+* Added `traded-command-view`.
+* Added `traded-command-view-unset`.
+* Added `command-description-settradedcommand`.
+* Added `no-shops-found`.
+* Added `confirm-replace-all-shops-with-vanilla-villagers`.
+* Added `all-shops-replaced-with-vanilla-villagers`.
+* Added `command-description-replace-all-with-vanilla-villagers`.
+
 ## v2.17.0
 
 ### New messages
