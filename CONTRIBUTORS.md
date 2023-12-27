@@ -5,19 +5,9 @@ This document lists the contributors of language files found in this repository.
 ## [v2.19.0](https://github.com/Shopkeepers/Language-Files/blob/v2.19.0/CONTRIBUTORS.md)
 
 * cs: Lemafor
+* pl: Lemafor
 
 ## [v2.17.0](https://github.com/Shopkeepers/Language-Files/blob/v2.17.0/CONTRIBUTORS.md)
-
-* cs: Lemafor
-* pl: Lemafor
-* es: Santyxs
-* zh-CN: katorly
-* pt-BR: luizinhoh2o1
-* fr: WaxenSs
-* ru: wtlgo
-* ua: wtlgo
-* sk: takatalvi
-* tr: hhhhh-ckr
 
 ## [v2.16.0](https://github.com/Shopkeepers/Language-Files/blob/v2.16.0/CONTRIBUTORS.md)
 
