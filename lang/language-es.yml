@@ -265,7 +265,7 @@ container-too-far-away: "&7El contenedor del vendedor está demasiado lejos!"
 container-not-placed: "&7Debes seleccionar un contenedor que colocaste hace poco!"
 container-already-in-use: "&7Otro vendedor ya está usando el contenedor seleccionado!"
 no-container-access: "&7No puedes acceder al contenedor seleccionado!"
-too-many-shops: "&7Haz alcanzado el límite de tiendas que puede tener!"
+too-many-shops: "&7Has alcanzado el límite de tiendas que puede tener!"
 no-player-shops-via-command: "&7Las tiendas de jugadores solo se pueden crear con el objeto de creación de tiendas!"
 
 type-new-name: "&aPor favor escribe el nombre de la tienda en el chat.\n  &aEscribe un guión (-) para remover el nombre."
@@ -274,7 +274,7 @@ name-has-not-changed: "&aEl nombre de la tienda no ha sido cambiado."
 name-invalid: "&cEl nombre de la tienda no es válido: '&e{name}&c'"
 nameplate-prefix: "&2"
 
-click-new-shop-location: "&aHaz clic con el botón derecho en la nueva ubicación de la tienda.\n  &aClic izquierdo para abortar."
+click-new-shop-location: "&aHas clic con el botón derecho en la nueva ubicación de la tienda.\n  &aClic izquierdo para abortar."
 shopkeeper-moved: "&aEl comerciante ha sido movido!"
 shopkeeper-move-aborted: "&7Movimiento de comerciante abortado."
 
@@ -291,7 +291,7 @@ unused-container: "&7Ningún vendedor está usando este contenedor."
 not-owner: "&7Tu no eres el propietario de este vendedor."
 owner-set: "&aEl nuevo propietario es ahora &e{owner}."
 shop-creation-items-given: "&aEl jugador &e{player}&a ha recibido &e{amount}&a objeto(s) de creación de tienda!"
-shop-creation-items-received: "&aHaz recibido &e{amount}&a objeto(s) de creación de tienda!"
+shop-creation-items-received: "&aHas recibido &e{amount}&a objeto(s) de creación de tienda!"
 unknown-currency: "&cMoneda desconocida: '&e{currency}&c'"
 currency-items-given: "&aEl jugador &e{player}&a ha recibido &e{amount}&a objeto(s) de moneda!"
 currency-items-received: "&aHas recibido &e{amount}&a objeto(s) de moneda!"
@@ -304,10 +304,15 @@ trade-perm-set: "&aEl permiso de intercambio de la tienda ha sido puesto como '&
 trade-perm-removed: "&aEl permiso de intercambio de la tienda '&e{perm}&a' ha sido removido!"
 trade-perm-view: "&aEl permiso de intercambio actual de la tienda es '&e{perm}&a'."
 
+traded-command-set: "&aEl comando comercializado del item se ha establecido en '&e{command}&a'!"
+traded-command-removed: "&aSe ha eliminado el comando de intercambio del objeto!"
+traded-command-view: "&aEl comando comercializado actual del item es '&e{command}&a'."
+traded-command-view-unset: "&aEl item no tiene ningún comando comercializado asignado."
+
 zombie-villager-curing-disabled: "&7Curar aldeanos zombi está desactivado."
 must-hold-hire-item: "&7Tienes que tener el objeto requerido para contratación en tu mano."
 set-for-hire: "&aEl vendedor ahora puede contratarse."
-hired: "&aHaz contratado este vendedor!"
+hired: "&aHas contratado este vendedor!"
 missing-hire-perm: "&7No tienes permisos para contratar vendedores."
 cannot-hire: "&7No tienes suficiente para contratar este vendedor."
 cannot-hire-shop-type: "&7No tienes el permiso para contratar este tipo de vendedor."
@@ -356,16 +361,16 @@ shopkeeper-created: "&aVendedor creado: &6{type} &7({description})\n{setupDesc}"
 
 shop-setup-desc-selling: |-
   &e  Añade los objetos que quieres vender a tu contenedor,
-  &e  luego haz clic derecho mientras te agachas para modificar los costos.
+  &e  luego Has clic derecho mientras te agachas para modificar los costos.
 shop-setup-desc-buying: |-
   &e  Añade uno de cada uno de los objetos que quieres comprar
-  &e  luego haz clic derecho en la tienda para modificar los costos.
+  &e  luego Has clic derecho en la tienda para modificar los costos.
 shop-setup-desc-trading: |-
   &e  Añade los objetos que quieres vender a tu contenedor,
-  &e  luego haz clic derecho mientras te agachas para modificar los costos.
+  &e  luego Has clic derecho mientras te agachas para modificar los costos.
 shop-setup-desc-book: |-
   &e  Añade libros de escritura en blanco a tu contenedor, luego
-  &e  haz clic derecho mientras te agachas para modificar los costos.
+  &e  Has clic derecho mientras te agachas para modificar los costos.
 shop-setup-desc-admin-regular: |-
   &e  Clic derecho a la tienda mientras te agachas para modificar los intercambios.
 
@@ -392,7 +397,7 @@ trade-setup-desc-buying:
 trade-setup-desc-trading:
 - Intercambia con los jugadores.
 - Elige un objeto de tu inventario y luego
-- haz clic en un espacio para ponerlo.
+- Has clic en un espacio para ponerlo.
 - Clic izquierdo/derecho para ajustar las cantidades.
 - 'Fila superior: Objetos resultantes'
 - 'Filas inferiores: Costo de objetos'
@@ -538,6 +543,8 @@ type-new-villager-name: "&aEscribe el nombre del aldeano en el chat.\n  &aEscrib
 villager-name-set: "&aSe ha modificado el nombre del aldeano!"
 villager-name-invalid: "&aEse nombre no es válido!"
 
+no-shops-found: "&7No se encontraron tiendas."
+
 list-admin-shops-header: "&9Existen &e{shopsCount} &9tiendas de administrador: &e(Página {page} de {maxPage})"
 list-all-shops-header: "&9Existen &e{shopsCount} &9tiendas en total: &e(Página {page} de {maxPage})"
 list-player-shops-header: "&9El jugador '&e{player}&9' tiene &e{shopsCount} &9tiendas: &e(Página {page} de {maxPage})"
@@ -559,6 +566,13 @@ confirm-remove-all-admin-shops: "&cEstás a punto de eliminar irreversiblemente 
 confirm-remove-all-own-shops: "&cEstás a punto de eliminar irreversiblemente a todas las tiendas (&6{shopsCount}&c)!"
 confirm-remove-all-shops-of-player: "Estás a punto de eliminar irreversiblemente a todas las tiendas del jugador &6{player}&c (&6{shopsCount}&c)!"
 confirm-remove-all-player-shops: "&cEstás a punto de eliminar irreversiblemente las tiendas de todos los jugadores (&6{shopsCount}&c)!"
+
+confirm-replace-all-shops-with-vanilla-villagers: |-
+  &cEstás a punto de eliminar irrevocablemente todas las tiendas. (&6{shopsCount}&c) y reemplazarlos con aldeanos vanilla sin IA!
+  Considere crear una copia de seguridad de su mundo y de los datos del comerciante antes de continuar.
+all-shops-replaced-with-vanilla-villagers: |-
+  &e{adminShopsCount}&a tiendas de administración y &e{playerShopsCount}&a tiendas de jugadores han sido reemplazadas por aldeanos vanilla.!
+  &e{skippedShopsCount}&a tiendas saltadas.
 
 confirmation-required: "&7Por favor confirma esta acción escribiendo &6/shopkeepers confirm"
 confirmation-expired: "&cConfirmación expirada."
@@ -643,3 +657,4 @@ command-description-snapshot-create: "Crea una nueva instantánea de la tienda."
 command-description-snapshot-remove: "Elimina una instantánea específica o todas las de una tienda."
 command-description-snapshot-restore: "Restaura una instantánea de tienda específica."
 command-description-edit-villager: "Abre el editor para el aldeano objetivo."
+command-description-replace-all-with-vanilla-villagers: "Reemplaza a todos los comerciantes con aldeanos vanilla sin IA."
