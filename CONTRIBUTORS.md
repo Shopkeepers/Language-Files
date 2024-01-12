@@ -9,6 +9,7 @@ This document lists the contributors of language files found in this repository.
 * tr: hhhhh-ckr
 * es: Santyxs
 * sk: takatalvi
+* zh_CN: SnowCutieOwO
 
 ## [v2.17.0](https://github.com/Shopkeepers/Language-Files/blob/v2.17.0/CONTRIBUTORS.md)
 
