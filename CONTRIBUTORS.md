@@ -10,6 +10,7 @@ This document lists the contributors of language files found in this repository.
 * es: Santyxs
 * sk: takatalvi
 * zh_CN: SnowCutieOwO
+* fr: Shroomy_Spag
 
 ## [v2.17.0](https://github.com/Shopkeepers/Language-Files/blob/v2.17.0/CONTRIBUTORS.md)
 
