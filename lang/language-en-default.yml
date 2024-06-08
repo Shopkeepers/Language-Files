@@ -229,6 +229,9 @@ button-puffer-fish-puff-state-lore:
 button-frog-variant: "&aChoose frog variant"
 button-frog-variant-lore:
 - "Changes the frog's look"
+button-wolf-variant: "&aChoose wolf variant"
+button-wolf-variant-lore:
+- "Changes the wolf's look"
 
 admin-sign-shop-line1: "&2[SHOP]"
 admin-sign-shop-line2: "&7{shopName}"
@@ -626,6 +629,7 @@ command-shop-object-type-argument-invalid: "&cUnknown shop object type '&e{argum
 command-shopkeeper-argument-invalid: "&cNo shopkeeper found for '&e{argument}&c'."
 command-shopkeeper-argument-no-admin-shop: "&cShopkeeper '&e{argument}&c' is no admin shopkeeper."
 command-shopkeeper-argument-no-player-shop: "&cShopkeeper '&e{argument}&c' is no player shopkeeper."
+command-entity-argument-no-villager: "&cEntity '&e{argument}&c' is no regular villager."
 
 ambiguous-player-name: "&cThere are multiple matches for the name '&e{name}&c'!"
 ambiguous-player-name-entry: "&c  - '&e{name}&r&c' (&6{uuid}&c)"

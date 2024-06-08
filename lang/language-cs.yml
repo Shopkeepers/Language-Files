@@ -229,6 +229,9 @@ button-puffer-fish-puff-state-lore:
 button-frog-variant: "&aVýběr druhu žáby"
 button-frog-variant-lore:
 - "Mění vzhled žáby"
+button-wolf-variant: "&aVýběr druhu vlka"
+button-wolf-variant-lore:
+- "Mění vzhled vlka"
 
 admin-sign-shop-line1: "&2[KUPEC]"
 admin-sign-shop-line2: "&7{shopName}"
@@ -626,6 +629,7 @@ command-shop-object-type-argument-invalid: "&cNeznámý druh kupce '&e{argument}
 command-shopkeeper-argument-invalid: "&cPro '&e{argument}&c' nebyl nalezen žádný kupec."
 command-shopkeeper-argument-no-admin-shop: "&cKupec '&e{argument}&c' není správcovský."
 command-shopkeeper-argument-no-player-shop: "&cKupec '&e{argument}&c' není hráčský."
+command-entity-argument-no-villager: "&cEntita '&e{argument}&c' není obyèejný vesnièan."
 
 ambiguous-player-name: "&cPro jméno '&e{name}&c' existuje více shod!"
 ambiguous-player-name-entry: "&c  - '&e{name}&r&c' (&6{uuid}&c)"

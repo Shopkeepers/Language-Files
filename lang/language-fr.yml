@@ -202,6 +202,10 @@ button-puffer-fish-puff-state-lore:
 button-frog-variant: "&aChoisir la variante de la grenouille"
 button-frog-variant-lore:
 - "Change l'apparence de la grenouille"
+button-wolf-variant: "&aChoisir la variante du loup"
+button-wolf-variant-lore:
+- "Change l'apparence du loup"
+
 admin-sign-shop-line1: "&2[BOUTIQUE]"
 admin-sign-shop-line2: "&7{shopName}"
 admin-sign-shop-line3: ""
@@ -601,6 +605,7 @@ command-shop-object-type-argument-invalid: "&cType d'objet de boutique inconnu '
 command-shopkeeper-argument-invalid: "&cAucun marchand trouvé pour '&e{argument}&c'."
 command-shopkeeper-argument-no-admin-shop: "&cLe marchand '&e{argument}&c' n'est pas un marchand administratif."
 command-shopkeeper-argument-no-player-shop: "&cLe marchand '&e{argument}&c' n'est pas un marchand de joueur."
+command-entity-argument-no-villager: "&cEntity '&e{argument}&c' ce n'est pas un villageois régulier."
 
 ambiguous-player-name: "&cIl y a plusieurs correspondances pour le nom '&e{name}&c' !"
 ambiguous-player-name-entry: "&c  - '&e{name}&r&c' (&6{uuid}&c)"

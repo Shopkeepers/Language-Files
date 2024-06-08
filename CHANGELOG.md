@@ -1,5 +1,13 @@
 # Changelog
 
+## v2.20.0
+
+### New messages
+
+* Added `command-entity-argument-no-villager`.
+* Added `button-wolf-variant`.
+* Added `button-wolf-variant-lore`.
+
 ## v2.19.0
 
 ### New messages

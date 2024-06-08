@@ -2,18 +2,13 @@
 
 This document lists the contributors of language files found in this repository.
 
-## [v2.19.0](https://github.com/Shopkeepers/Language-Files/blob/v2.19.0/CONTRIBUTORS.md)
+## [v2.20.0](https://github.com/Shopkeepers/Language-Files/blob/v2.20.0/CONTRIBUTORS.md)
 
 * cs: Lemafor
 * pl: Lemafor
-* tr: hhhhh-ckr
-* es: Santyxs
-* sk: takatalvi
-* zh_CN: SnowCutieOwO
-* fr: Shroomy_Spag
-* uk: AKRGamesUa
-* pt-BR: zerorulez
-* zh_TW: 510208
+* fr: Spruce Studios
+
+## [v2.19.0](https://github.com/Shopkeepers/Language-Files/blob/v2.19.0/CONTRIBUTORS.md)
 
 ## [v2.17.0](https://github.com/Shopkeepers/Language-Files/blob/v2.17.0/CONTRIBUTORS.md)
 

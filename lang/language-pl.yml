@@ -229,6 +229,9 @@ button-puffer-fish-puff-state-lore:
 button-frog-variant: "&aWybierz odmianę żaby"
 button-frog-variant-lore:
 - "Zmienia wygląd żaby"
+button-wolf-variant: "&aWybierz odmianę wilka"
+button-wolf-variant-lore:
+- "Zmienia odmianę wilka"
 
 admin-sign-shop-line1: "&2[SKLEP]"
 admin-sign-shop-line2: "&7{shopName}"
@@ -626,6 +629,7 @@ command-shop-object-type-argument-invalid: "&cNieznany rodzaj obiketu sklepu '&e
 command-shopkeeper-argument-invalid: "&cDla '&e{argument}&c' nie został znaleziony żaden kupiec."
 command-shopkeeper-argument-no-admin-shop: "&cKupiec '&e{argument}&c' nie jest kupcem admina."
 command-shopkeeper-argument-no-player-shop: "&cKupiec '&e{argument}&c' nie jest kupcem gracza."
+command-entity-argument-no-villager: "&cByt '&e{argument}&c' nie jest zwyczajnym osadnikiem."
 
 ambiguous-player-name: "&cIstnieje wiele dopasowań dla nazwy '&e{name}&c'!"
 ambiguous-player-name-entry: "&c  - '&e{name}&r&c' (&6{uuid}&c)"

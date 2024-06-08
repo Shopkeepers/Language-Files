@@ -237,6 +237,10 @@ button-frog-variant: "&aFrosch-Variante ändern"
 button-frog-variant-lore:
 - "Ändert das Aussehen"
 - "des Frosches"
+button-wolf-variant: "&aWolf-Variante ändern"
+button-wolf-variant-lore:
+- "Ändert das Aussehen"
+- "des Wolfes"
 
 admin-sign-shop-line1: "&2[SHOP]"
 admin-sign-shop-line2: "&7{shopName}"
@@ -634,6 +638,7 @@ command-shop-object-type-argument-invalid: "&cUnbekannter Shop-Objekt-Typ '&e{ar
 command-shopkeeper-argument-invalid: "&cEs wurde kein Shop gefunden für '&e{argument}&c'."
 command-shopkeeper-argument-no-admin-shop: "&cShop '&e{argument}&c' ist kein Admin-Shop."
 command-shopkeeper-argument-no-player-shop: "&cShop '&e{argument}&c' ist kein Spieler-Shop."
+command-entity-argument-no-villager: "&cObjekt '&e{argument}&c' ist kein normaler Dorfbewohner."
 
 ambiguous-player-name: "&cEs gibt mehrere Treffer für den Namen '&e{name}&c'!"
 ambiguous-player-name-entry: "&c  - '&e{name}&r&c' (&6{uuid}&c)"
