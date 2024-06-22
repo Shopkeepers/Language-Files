@@ -7,6 +7,7 @@ This document lists the contributors of language files found in this repository.
 * cs: Lemafor
 * pl: Lemafor
 * fr: Spruce Studios
+* uk: dol4iua
 
 ## [v2.19.0](https://github.com/Shopkeepers/Language-Files/blob/v2.19.0/CONTRIBUTORS.md)
 
