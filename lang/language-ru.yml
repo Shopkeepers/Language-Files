@@ -1,6 +1,6 @@
 # Language: ru
 
-date-time-format: "гггг-ММ-дд ЧЧ:мм:сс"
+date-time-format: "yyyy-MM-dd HH:mm:ss"
 
 shop-type-admin-regular: "Администраторский магазин"
 shop-type-selling: "Распродажа"
@@ -270,15 +270,13 @@ no-container-access: "&7Вы не можете получить доступ к 
 too-many-shops: "&7Вы уже достигли предела количества магазинов, которыми вы можете владеть!"
 no-player-shops-via-command: "&7Магазины игроков можно создавать только с помощью пункта создания магазина!"
 
-type-new-name: "&aПожалуйста, введите новое название магазина в чат
-  &aВведите тире (-), чтобы удалить текущее название."
+type-new-name: "&aПожалуйста, введите новое название магазина в чат\n  &aВведите тире (-), чтобы удалить текущее название."
 name-set: "&aНазвание магазина изменено на '&e{name}&a'!"
 name-has-not-changed: "&aНазвание магазина не изменилось."
 name-invalid: "&cНевалидное название магазина: '&e{name}&c'"
 nameplate-prefix: "&2"
 
-click-new-shop-location: "&aНажмите правым-кликом на новую локацию магазина
-  &aЛевый-клик чтобы отменить."
+click-new-shop-location: "&aНажмите правым-кликом на новую локацию магазина\n  &aЛевый-клик чтобы отменить."
 shopkeeper-moved: "&aМагазин перемещен!"
 shopkeeper-move-aborted: "&7Перемещение магазина отменено."
 
@@ -336,10 +334,10 @@ cannot-trade-insufficient-currency: "&7Trade aborted: This shop does not have en
 cannot-trade-insufficient-stock: "&7Trade aborted: This shop does not have enough of the traded item."
 cannot-trade-insufficient-writable-books: "&7Trade aborted: This book shop lacks writable books to copy the book with."
 
-trade-notification-one-item: "&7Обмен: &e{player}&7 [&6{item1Amount}x &a{item1}&7] ➞ [&6{resultItemAmount}x &a{resultItem}&7] {shop}{trade_count}"
-trade-notification-two-items: "&7Обмен: &e{player}&7 [&6{item1Amount}x &a{item1}&7] [&6{item2Amount}x &a{item2}&7] ➞ [&6{resultItemAmount}x &a{resultItem}&7] {shop}{trade_count}"
-buy-notification-one-item: "&7Обмен: &e{player}&7 [&6{item1Amount}x &a{item1}&7] ➞ [&6{resultItemAmount}x &a{resultItem}&7] {shop}{trade_count}"
-buy-notification-two-items: "&7Обмен: &e{player}&7 [&6{item1Amount}x &a{item1}&7] [&6{item2Amount}x &a{item2}&7] ➞ [&6{resultItemAmount}x &a{resultItem}&7] {shop}{trade_count}"
+trade-notification-one-item: "&7Обмен: &e{player}&7 [&6{item1Amount}x &a{item1}&7] \u279e [&6{resultItemAmount}x &a{resultItem}&7] {shop}{trade_count}"
+trade-notification-two-items: "&7Обмен: &e{player}&7 [&6{item1Amount}x &a{item1}&7] [&6{item2Amount}x &a{item2}&7] \u279e [&6{resultItemAmount}x &a{resultItem}&7] {shop}{trade_count}"
+buy-notification-one-item: "&7Обмен: &e{player}&7 [&6{item1Amount}x &a{item1}&7] \u279e [&6{resultItemAmount}x &a{resultItem}&7] {shop}{trade_count}"
+buy-notification-two-items: "&7Обмен: &e{player}&7 [&6{item1Amount}x &a{item1}&7] [&6{item2Amount}x &a{item2}&7] \u279e [&6{resultItemAmount}x &a{resultItem}&7] {shop}{trade_count}"
 trade-notification-player-shop: "&e{shop_owner_name}"
 trade-notification-named-player-shop: "&e{shop_owner_name}"
 trade-notification-admin-shop: "&eАдмин-Магазин"
@@ -361,8 +359,7 @@ disable-trade-notifications-hint-command: "/shopkeeper notify trades"
 trade-notifications-disabled: "&aВы больше не будете получать уведомления о сделках во время этой игровой сессии."
 trade-notifications-enabled: "&aТеперь вы снова будете получать уведомления о сделках."
 
-shopkeeper-created: "&aМагазин создан: &6{type} &7({description})
-{setupDesc}"
+shopkeeper-created: "&aМагазин создан: &6{type} &7({description})\n{setupDesc}"
 
 shop-setup-desc-selling: |-
   &e  Добавьте товары, которые вы хотите продать, в свой контейнер, затем
@@ -503,7 +500,6 @@ book-shop.empty-item2-lore:
 - "Второй предмет, который вы хотите купить."
 - "Левый/Правый клик для регулировки количества."
 
-
 missing-edit-villagers-perm: "&7У вас нет разрешения редактировать жителей."
 missing-edit-wandering-traders-perm: "&7У вас нет разрешения редактировать странствующих торговцев."
 must-target-entity: "&7Вы должны нацелиться на сущность."
@@ -518,7 +514,6 @@ villager-editor-description:
 - 'Нижние ряды: Стоимость предметов'
 - 'Отредактированные сделки имеют бесконечные'
 - 'использования и не дают опыта.'
-
 
 button-delete-villager: "&4Удалить"
 button-delete-villager-lore:
@@ -563,7 +558,6 @@ shop-already-removed: "&7Продавец уже был удален."
 shop-no-longer-exists: "&7Продавец больше не существует."
 shop-removal-cancelled: "&cПлагин предотвратил удаление продавца."
 
-
 shops-already-removed: "&e{shopsCount}&7 магазинов уже были удалены."
 shop-removals-cancelled: "&cПлагины предотвратили удаление &e{shopsCount}&c магазинов."
 admin-shops-removed: "&e{shopsCount} &aмагазинов администраторов были удалены."
@@ -575,7 +569,6 @@ confirm-remove-all-admin-shops: "&cВы собираетесь безвозвр�
 confirm-remove-all-own-shops: "&cВы собираетесь безвозвратно удалить все ваши магазины (&6{shopsCount}&c)!"
 confirm-remove-all-shops-of-player: "&cВы собираетесь безвозвратно удалить все магазины игрока &6{player}&c (&6{shopsCount}&c)!"
 confirm-remove-all-player-shops: "&cВы собираетесь безвозвратно удалить все магазины игроков (&6{shopsCount}&c)!"
-
 
 confirm-replace-all-shops-with-vanilla-villagers: |-
   &cВы собираетесь безвозвратно удалить все магазины (&6{shopsCount}&c) и заменить их жителями деревни без ИИ!
@@ -618,7 +611,6 @@ snapshot-removed: "&aСнимок удален: &e({id}) &2{name} &8(&7{timestam
 snapshot-removed-all: "&aВсе &e{snapshotsCount} &aснимков магазина &e{shop_id}&a были удалены."
 snapshot-restore-failed: "&cНе удалось восстановить снимок: &e({id}) &2{name} &8(&7{timestamp}&8)"
 snapshot-restored: "&aСнимок восстановлен: &e({id}) &2{name} &8(&7{timestamp}&8)"
-
 
 no-permission: "&cУ вас нет прав."
 
