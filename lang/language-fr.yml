@@ -34,6 +34,7 @@ state-enabled: "&2Activé"
 state-disabled: "&4Désactivé"
 
 editor-title: "Éditeur de commerçant"
+
 button-previous-page: "&6<- Page précédente ({prev_page} sur {max_page})"
 button-previous-page-lore: []
 button-next-page: "&6Page suivante ({next_page} sur {max_page}) ->"
@@ -62,6 +63,7 @@ button-delete: "&4Supprimer"
 button-delete-lore:
 - Ferme et supprime
 - ce commerçant
+
 button-sign-variant: "&aChoisir la variante de panneau"
 button-sign-variant-lore:
 - "Change le type de bois du"
@@ -275,6 +277,7 @@ must-hold-item-in-main-hand: "&7Vous devez tenir un objet dans votre main princi
 currency-item-set-to-main-hand-item: "&aL'objet de monnaie '&e{idDevise}&a' a été défini sur l'&eobjet de votre main&a !"
 items-converted: "&aConverti &e{count}&a pile(s) d'objets !"
 unknown-book-author: "Inconnu"
+
 trade-perm-set: "&aLa permission de transaction de la boutique a été définie sur '&e{perm}&a' !"
 trade-perm-removed: "&aLa permission de transaction '&e{perm}&a' de la boutique a été supprimée !"
 trade-perm-view: "&aLa permission de transaction actuelle de la boutique est '&e{perm}&a'."
@@ -331,6 +334,7 @@ disable-trade-notifications-hint: "&7Vous pouvez désactiver ces notifications d
 disable-trade-notifications-hint-command: "/shopkeeper notify trades"
 trade-notifications-disabled: "&aVous ne recevrez plus de notifications de transaction pendant cette session de jeu."
 trade-notifications-enabled: "&aVous recevrez à nouveau des notifications de transaction."
+
 shopkeeper-created: "&aCommerçant créé : &6{type} &7({description})\n{setupDesc}"
 
 shop-setup-desc-selling: |-
@@ -382,102 +386,95 @@ trade-setup-desc-book:
 - Clic gauche/droit pour ajuster les coûts.
 - 'Ligne supérieure : Livres vendus'
 - 'Lignes inférieures : Articles de coût'
-selling-shop:
-  empty-trade:
-    result-item: "&dArticle à vendre"
-    result-item-lore:
-      - "L'article que vous souhaitez vendre."
-      - "Ajoutez des articles dans le conteneur de la boutique."
-      - "Clic gauche/droit pour ajuster la quantité."
-    item1: "&dArticle à acheter"
-    item1-lore:
-      - "L'article que vous souhaitez acheter."
-      - "Clic gauche/droit pour ajuster la quantité."
-    item2: "&dDeuxième article à acheter"
-    item2-lore:
-      - "Le deuxième article que vous souhaitez acheter."
-      - "Clic gauche/droit pour ajuster la quantité."
-  empty-item1: "&dArticle à acheter"
-  empty-item1-lore:
-    - "L'article que vous souhaitez acheter."
-    - "Clic gauche/droit pour ajuster la quantité."
-  empty-item2: "&dDeuxième article à acheter"
-  empty-item2-lore:
-    - "Le deuxième article que vous souhaitez acheter."
-    - "Clic gauche/droit pour ajuster la quantité."
 
-buying-shop:
-  empty-trade:
-    result-item: "&dArticle à vendre"
-    result-item-lore:
-      - "L'article que vous souhaitez vendre."
-      - "Clic gauche/droit pour ajuster la quantité."
-    item1: "&dArticle à acheter"
-    item1-lore:
-      - "L'article que vous souhaitez acheter."
-      - "Ajoutez des articles dans le conteneur de la boutique."
-      - "Clic gauche/droit pour ajuster la quantité."
-  empty-result-item: "&dArticle à vendre"
-  empty-result-item-lore:
-    - "L'article que vous souhaitez vendre."
-    - "Clic gauche/droit pour ajuster la quantité."
+selling-shop.empty-trade.result-item: "&dArticle à vendre"
+selling-shop.empty-trade.result-item-lore:
+- "L'article que vous souhaitez vendre."
+- "Ajoutez des articles dans le conteneur de la boutique."
+- "Clic gauche/droit pour ajuster la quantité."
+selling-shop.empty-trade.item1: "&dArticle à acheter"
+selling-shop.empty-trade.item1-lore:
+- "L'article que vous souhaitez acheter."
+- "Clic gauche/droit pour ajuster la quantité."
+selling-shop.empty-trade.item2: "&dDeuxième article à acheter"
+selling-shop.empty-trade.item2-lore:
+- "Le deuxième article que vous souhaitez acheter."
+- "Clic gauche/droit pour ajuster la quantité."
+selling-shop.empty-item1: "&dArticle à acheter"
+selling-shop.empty-item1-lore:
+- "L'article que vous souhaitez acheter."
+- "Clic gauche/droit pour ajuster la quantité."
+selling-shop.empty-item2: "&dDeuxième article à acheter"
+selling-shop.empty-item2-lore:
+- "Le deuxième article que vous souhaitez acheter."
+- "Clic gauche/droit pour ajuster la quantité."
 
-trading-shop:
-  empty-trade:
-    result-item: "&dArticle à vendre"
-    result-item-lore:
-      - "L'article que vous souhaitez vendre."
-      - "Ajoutez des articles dans le conteneur de la boutique,"
-      - "ou placez un article de votre inventaire."
-      - "Clic gauche/droit pour ajuster la quantité."
-    item1: "&dArticle à acheter"
-    item1-lore:
-      - "L'article que vous souhaitez acheter."
-      - "Placez un article de votre inventaire."
-      - "Clic gauche/droit pour ajuster la quantité."
-    item2: "&dDeuxième article à acheter"
-    item2-lore:
-      - "Le deuxième article que vous souhaitez acheter."
-      - "Placez un article de votre inventaire."
-      - "Clic gauche/droit pour ajuster la quantité."
-  empty-result-item: "&dArticle à vendre"
-  empty-result-item-lore:
-    - "L'article que vous souhaitez vendre."
-    - "Placez un article de votre inventaire."
-    - "Clic gauche/droit pour ajuster la quantité."
-  empty-item1: "&dArticle à acheter"
-  empty-item1-lore:
-    - "L'article que vous souhaitez acheter."
-    - "Placez un article de votre inventaire."
-    - "Clic gauche/droit pour ajuster la quantité."
-  empty-item2: "&dDeuxième article à acheter"
-  empty-item2-lore:
-    - "Le deuxième article que vous souhaitez acheter."
-    - "Placez un article de votre inventaire."
-    - "Clic gauche/droit pour ajuster la quantité."
+buying-shop.empty-trade.result-item: "&dArticle à vendre"
+buying-shop.empty-trade.result-item-lore:
+- "L'article que vous souhaitez vendre."
+- "Clic gauche/droit pour ajuster la quantité."
+buying-shop.empty-trade.item1: "&dArticle à acheter"
+buying-shop.empty-trade.item1-lore:
+- "L'article que vous souhaitez acheter."
+- "Ajoutez des articles dans le conteneur de la boutique."
+- "Clic gauche/droit pour ajuster la quantité."
+buying-shop.empty-result-item: "&dArticle à vendre"
+buying-shop.empty-result-item-lore:
+- "L'article que vous souhaitez vendre."
+- "Clic gauche/droit pour ajuster la quantité."
 
-book-shop:
-  empty-trade:
-    result-item: "&dArticle à vendre"
-    result-item-lore:
-      - "L'article que vous souhaitez vendre."
-      - "Ajoutez des livres écrits dans le conteneur de la boutique."
-    item1: "&dArticle à acheter"
-    item1-lore:
-      - "L'article que vous souhaitez acheter."
-      - "Clic gauche/droit pour ajuster la quantité."
-    item2: "&dDeuxième article à acheter"
-    item2-lore:
-      - "Le deuxième article que vous souhaitez acheter."
-      - "Clic gauche/droit pour ajuster la quantité."
-  empty-item1: "&dArticle à acheter"
-  empty-item1-lore:
-    - "L'article que vous souhaitez acheter."
-    - "Clic gauche/droit pour ajuster la quantité."
-  empty-item2: "&dDeuxième article à acheter"
-  empty-item2-lore:
-    - "Le deuxième article que vous souhaitez acheter."
-    - "Clic gauche/droit pour ajuster la quantité."
+trading-shop.empty-trade.result-item: "&dArticle à vendre"
+trading-shop.empty-trade.result-item-lore:
+- "L'article que vous souhaitez vendre."
+- "Ajoutez des articles dans le conteneur de la boutique,"
+- "ou placez un article de votre inventaire."
+- "Clic gauche/droit pour ajuster la quantité."
+trading-shop.empty-trade.item1: "&dArticle à acheter"
+trading-shop.empty-trade.item1-lore:
+- "L'article que vous souhaitez acheter."
+- "Placez un article de votre inventaire."
+- "Clic gauche/droit pour ajuster la quantité."
+trading-shop.empty-trade.item2: "&dDeuxième article à acheter"
+trading-shop.empty-trade.item2-lore:
+- "Le deuxième article que vous souhaitez acheter."
+- "Placez un article de votre inventaire."
+- "Clic gauche/droit pour ajuster la quantité."
+trading-shop.empty-result-item: "&dArticle à vendre"
+trading-shop.empty-result-item-lore:
+- "L'article que vous souhaitez vendre."
+- "Placez un article de votre inventaire."
+- "Clic gauche/droit pour ajuster la quantité."
+trading-shop.empty-item1: "&dArticle à acheter"
+trading-shop.empty-item1-lore:
+- "L'article que vous souhaitez acheter."
+- "Placez un article de votre inventaire."
+- "Clic gauche/droit pour ajuster la quantité."
+trading-shop.empty-item2: "&dDeuxième article à acheter"
+trading-shop.empty-item2-lore:
+- "Le deuxième article que vous souhaitez acheter."
+- "Placez un article de votre inventaire."
+- "Clic gauche/droit pour ajuster la quantité."
+
+book-shop.empty-trade.result-item: "&dArticle à vendre"
+book-shop.empty-trade.result-item-lore:
+- "L'article que vous souhaitez vendre."
+- "Ajoutez des livres écrits dans le conteneur de la boutique."
+book-shop.empty-trade.item1: "&dArticle à acheter"
+book-shop.empty-trade.item1-lore:
+- "L'article que vous souhaitez acheter."
+- "Clic gauche/droit pour ajuster la quantité."
+book-shop.empty-trade.item2: "&dDeuxième article à acheter"
+book-shop.empty-trade.item2-lore:
+- "Le deuxième article que vous souhaitez acheter."
+- "Clic gauche/droit pour ajuster la quantité."
+book-shop.empty-item1: "&dArticle à acheter"
+book-shop.empty-item1-lore:
+- "L'article que vous souhaitez acheter."
+- "Clic gauche/droit pour ajuster la quantité."
+book-shop.empty-item2: "&dDeuxième article à acheter"
+book-shop.empty-item2-lore:
+- "Le deuxième article que vous souhaitez acheter."
+- "Clic gauche/droit pour ajuster la quantité."
 
 missing-edit-villagers-perm: "&7Vous n'avez pas la permission de modifier les villageois."
 missing-edit-wandering-traders-perm: "&7Vous n'avez pas la permission de modifier les marchands itinérants."
@@ -493,6 +490,7 @@ villager-editor-description:
   - 'Lignes inférieures : Articles de coût'
   - "Les échanges modifiés ont une utilisation"
   - "infinie et ne donnent pas de XP."
+  
 button-delete-villager: "&4Supprimer"
 button-delete-villager-lore:
   - Supprime le villageois
