@@ -46,6 +46,12 @@ button-name: "&aShop Namen ändern"
 button-name-lore:
 - Gib deinem Shop
 - einen Namen
+button-equipment: "&aAusrüstung"
+button-equipment-lore:
+- "Ausrüstung zuweisen."
+- "Hinweis: Nicht alle Mobs"
+- "unterstützen die gleichen"
+- "Ausrüstungsplätze."
 button-move: "&aShop umziehen"
 button-move-lore:
 - Verschiebe deinen Shop
@@ -241,6 +247,21 @@ button-wolf-variant: "&aWolf-Variante ändern"
 button-wolf-variant-lore:
 - "Ändert das Aussehen"
 - "des Wolfes"
+
+equipment-editor-title: "Ausrüstung Editor"
+equipment-slot-lore:
+- "Platziere einen Gegenstand,"
+- "um ihn auszurüsten."
+- "Rechtsklick zum Leeren"
+- "des Ausrüstungsplatzes."
+
+equipment-slot-mainhand: "&aHaupthand"
+equipment-slot-offhand: "&aZweithand"
+equipment-slot-feet: "&aFüße"
+equipment-slot-legs: "&aBeine"
+equipment-slot-chest: "&aBrust"
+equipment-slot-head: "&aKopf"
+equipment-slot-body: "&aKörper"
 
 admin-sign-shop-line1: "&2[SHOP]"
 admin-sign-shop-line2: "&7{shopName}"

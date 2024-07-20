@@ -1,5 +1,21 @@
 # Changelog
 
+## v2.22.2
+
+### New messages
+
+* Added `button-equipment`.
+* Added `button-equipment-lore`.
+* Added `equipment-editor-title`.
+* Added `equipment-slot-lore`.
+* Added `equipment-slot-mainhand`.
+* Added `equipment-slot-offhand`.
+* Added `equipment-slot-feet`.
+* Added `equipment-slot-legs`.
+* Added `equipment-slot-chest`.
+* Added `equipment-slot-head`.
+* Added `equipment-slot-body`.
+
 ## v2.20.0
 
 ### New messages

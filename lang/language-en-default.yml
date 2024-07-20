@@ -46,6 +46,11 @@ button-name: "&aSet shop name"
 button-name-lore:
 - Lets you rename
 - your shopkeeper
+button-equipment: "&aEquipment"
+button-equipment-lore:
+- "Assign equipment."
+- "Note: Not all mobs support"
+- "the same equipment slots."
 button-move: "&aMove shopkeeper"
 button-move-lore:
 - Lets you move
@@ -232,6 +237,20 @@ button-frog-variant-lore:
 button-wolf-variant: "&aChoose wolf variant"
 button-wolf-variant-lore:
 - "Changes the wolf's look"
+
+equipment-editor-title: "Equipment Editor"
+equipment-slot-lore:
+- "Place an item to equip it."
+- "Right-click to clear"
+- "the equipment slot."
+
+equipment-slot-mainhand: "&aMainhand"
+equipment-slot-offhand: "&aOffhand"
+equipment-slot-feet: "&aFeet"
+equipment-slot-legs: "&aLegs"
+equipment-slot-chest: "&aChest"
+equipment-slot-head: "&aHead"
+equipment-slot-body: "&aBody"
 
 admin-sign-shop-line1: "&2[SHOP]"
 admin-sign-shop-line2: "&7{shopName}"
