@@ -8,7 +8,8 @@ This document lists the contributors of language files found in this repository.
 * pl: Lemafor
 * fr: Spruce Studios
 * uk: dol4iua
-  ru: justpoteto
+* ru: justpoteto
+* zh_CN: firesahc
 
 ## [v2.19.0](https://github.com/Shopkeepers/Language-Files/blob/v2.19.0/CONTRIBUTORS.md)
 
