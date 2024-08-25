@@ -400,21 +400,21 @@ trade-setup-desc-header: '&6{shopType}'
 trade-setup-desc-admin-regular:
 - 擁有無限的庫存。
 - 從您的物品欄插入物品。
-- '頂行：結果物品'
-- '底行：價格物品'
+- '頂行：輸出物品'
+- '底行：花費物品'
 trade-setup-desc-selling:
 - 販售物品給玩家。
 - 將要販售的物品插入容器中。
 - 左鍵／右鍵 點擊以調整數量。
 - '頂行：正在販售的物品'
-- '底行：價格物品'
+- '底行：花費物品'
 trade-setup-desc-buying:
 - 收購玩家的物品。
 - 將您想要收購的每個物品各插入一個
 - 以及大量的貨幣物品
 - 到容器中。
 - 左鍵／右鍵 點擊以調整數量。
-- '頂行：價格物品'
+- '頂行：花費物品'
 - '底行：正在收購的物品'
 trade-setup-desc-trading:
 - 與玩家交易物品。
@@ -422,14 +422,14 @@ trade-setup-desc-trading:
 - 然後點擊一個欄位以放置它。
 - 左鍵／右鍵 點擊以調整數量。
 - '頂行：結果物品'
-- '底行：價格物品'
+- '底行：花費物品'
 trade-setup-desc-book:
 - 販售書本的副本。
 - 將已寫入和空白的書本
 - 插入容器中。
 - 左鍵／右鍵 點擊以調整價格。
 - '頂行：正在販售的書本'
-- '底行：價格物品'
+- '底行：花費物品'
 
 selling-shop.empty-trade.result-item: "&d販售物品"
 selling-shop.empty-trade.result-item-lore:
@@ -531,7 +531,7 @@ villager-editor-title: "&2村民編輯器：&e{villagerName}"
 villager-editor-description-header: "&6村民編輯器"
 villager-editor-description:
 - '頂行：結果物品'
-- '底行：價格物品'
+- '底行：花費物品'
 - '已編輯的交易擁有無限'
 - '次使用且沒有經驗值獎勵。'
 
