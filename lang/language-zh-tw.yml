@@ -406,7 +406,7 @@ trade-setup-desc-selling:
 - 販售物品給玩家。
 - 將要販售的物品插入容器中。
 - 左鍵／右鍵 點擊以調整數量。
-- '頂行：正在販售的物品'
+- '頂行：販售物品'
 - '底行：花費物品'
 trade-setup-desc-buying:
 - 收購玩家的物品。
@@ -415,7 +415,7 @@ trade-setup-desc-buying:
 - 到容器中。
 - 左鍵／右鍵 點擊以調整數量。
 - '頂行：花費物品'
-- '底行：正在收購的物品'
+- '底行：收購物品'
 trade-setup-desc-trading:
 - 與玩家交易物品。
 - 從您的物品欄拾取一個物品
@@ -428,7 +428,7 @@ trade-setup-desc-book:
 - 將已寫入和空白的書本
 - 插入容器中。
 - 左鍵／右鍵 點擊以調整價格。
-- '頂行：正在販售的書本'
+- '頂行：販售書本'
 - '底行：花費物品'
 
 selling-shop.empty-trade.result-item: "&d販售物品"
