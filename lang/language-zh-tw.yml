@@ -28,12 +28,12 @@ creation-item-selected: |-
   &e  左鍵／右鍵 點擊以選擇商店類型。
   &e  潛行 ＋ 左鍵／右鍵 點擊以選擇物件類型。
   &e  右鍵 點擊一個容器以選擇它。
-  &e  然後右鍵 點擊一個方塊以放置店主。
+  &e  然後右鍵 點擊一個方塊以放置商店。
 
 state-enabled: "&2已啟用"
 state-disabled: "&4已停用"
 
-editor-title: "店主編輯器"
+editor-title: "商店編輯器"
 
 button-previous-page: "&6<- 上一頁（第 {prev_page} 頁，共 {max_page} 頁）"
 button-previous-page-lore: []
@@ -45,29 +45,29 @@ button-current-page-lore: []
 button-name: "&a設定商店名稱"
 button-name-lore:
 - 讓你重新命名
-- 你的店主
+- 你的商店
 button-equipment: "&a裝備"
 button-equipment-lore:
 - "分配裝備。"
 - "注意：並非所有生物都支援"
 - "相同的裝備欄位。"
-button-move: "&a移動店主"
+button-move: "&a移動商店"
 button-move-lore:
 - 讓你移動
-- 你的店主
+- 你的商店
 button-container: "&a檢視商店物品欄"
 button-container-lore:
 - 讓你檢視
-- 你的店主正在使用的物品欄
+- 你的商店正在使用的物品欄
 button-trade-notifications: "&a交易通知"
 button-trade-notifications-lore:
-- "切換此店主的交易通知"
+- "切換此商店的交易通知"
 - "開啟／關閉。"
 - "目前：{state}"
 button-delete: "&4刪除"
 button-delete-lore:
 - 關閉並移除
-- 此店主
+- 此商店
 
 button-sign-variant: "&a選擇告示牌樣式"
 button-sign-variant-lore:
@@ -265,27 +265,27 @@ player-sign-shop-line4: "&e右鍵點擊！"
 for-hire-title: "可僱用"
 button-hire: "&a僱用"
 button-hire-lore:
-- 購買此店主
+- 購買此商店
 
 trading-title-prefix: "&2"
-trading-title-default: "店主"
+trading-title-default: "商店"
 
-must-target-block: "&7您必須看著一個方塊才能放置店主。"
+must-target-block: "&7您必須看著一個方塊才能放置商店。"
 missing-spawn-location: "&7您必須指定此類型商店的生成位置。"
 spawn-block-not-empty: "&7生成位置必須是空的。"
-invalid-spawn-block-face: "&7店主不能放置在方塊的這一側。"
+invalid-spawn-block-face: "&7商店不能放置在方塊的這一側。"
 mob-cannot-spawn-on-peaceful-difficulty: "&7在和平難易度下，所選的生物類型無法在此生成。"
-restricted-area: "&7您不能在此區域放置店主。"
-location-already-in-use: "&7此位置已被其他店主使用。"
+restricted-area: "&7您不能在此區域放置商店。"
+location-already-in-use: "&7此位置已被其他商店使用。"
 
-container-selected: "&a已選擇容器！右鍵點擊一個方塊以放置您的店主。"
+container-selected: "&a已選擇容器！右鍵點擊一個方塊以放置您的商店。"
 unsupported-container: "&7這種容器不能用於商店。"
-must-select-container: "&7您必須在放置店主之前右鍵點擊一個容器。"
+must-select-container: "&7您必須在放置商店之前右鍵點擊一個容器。"
 must-target-container: "&7您必須看著一個容器才能放置此類型的商店。"
 invalid-container: "&7選取的方塊不是有效的容器！"
-container-too-far-away: "&7店主的容器太遠了！"
+container-too-far-away: "&7商店的容器太遠了！"
 container-not-placed: "&7您必須選擇您最近放置的容器！"
-container-already-in-use: "&7另一個店主已經在使用所選的容器！"
+container-already-in-use: "&7另一個商店已經在使用所選的容器！"
 no-container-access: "&7您無法訪問所選的容器！"
 too-many-shops: "&7您已經達到您可以擁有的商店數量上限！"
 no-player-shops-via-command: "&7玩家商店只能透過商店建立物品來建立！"
@@ -297,20 +297,20 @@ name-invalid: "&c無效的商店名稱：'&e{name}&c'"
 nameplate-prefix: "&2"
 
 click-new-shop-location: "&a請右鍵點擊商店的新位置。\n  &a左鍵點擊以取消。"
-shopkeeper-moved: "&a店主已移動！"
-shopkeeper-move-aborted: "&7店主移動已取消。"
+shopkeeper-moved: "&a商店已移動！"
+shopkeeper-move-aborted: "&7商店移動已取消。"
 
 shop-type-disabled: "&7商店類型 '&6{type}&7' 已停用。"
 shop-object-type-disabled: "&7商店物件類型 '&6{type}&7' 已停用。"
 
-must-target-shop: "&7您必須指定一個店主。"
-must-target-admin-shop: "&7您必須指定一個管理商店店主。"
-must-target-player-shop: "&7您必須指定一個玩家商店店主。"
-target-entity-is-no-shop: "&7指定的實體不是店主。"
-target-shop-is-no-admin-shop: "&7指定的店主不是管理商店店主。"
-target-shop-is-no-player-shop: "&7指定的店主不是玩家商店店主。"
-unused-container: "&7沒有店主正在使用此容器。"
-not-owner: "&7您不是此店主的擁有者。"
+must-target-shop: "&7您必須指定一個商店。"
+must-target-admin-shop: "&7您必須指定一個管理商店商店。"
+must-target-player-shop: "&7您必須指定一個玩家商店商店。"
+target-entity-is-no-shop: "&7指定的實體不是商店。"
+target-shop-is-no-admin-shop: "&7指定的商店不是管理商店商店。"
+target-shop-is-no-player-shop: "&7指定的商店不是玩家商店商店。"
+unused-container: "&7沒有商店正在使用此容器。"
+not-owner: "&7您不是此商店的擁有者。"
 owner-set: "&a新的擁有者現在是 &e{owner}"
 shop-creation-items-given: "&a玩家 &e{player}&a 已收到 &e{amount}&a 個商店建立物品！"
 shop-creation-items-received: "&a您已收到 &e{amount}&a 個商店建立物品！"
@@ -333,12 +333,12 @@ traded-command-view-unset: "&a該物品沒有分配交易指令。"
 
 zombie-villager-curing-disabled: "&7殭屍村民的治癒已停用。"
 must-hold-hire-item: "&7您必須手持所需的僱用物品。"
-set-for-hire: "&a此店主現在可以被僱用。"
-hired: "&a您已僱用此店主！"
-missing-hire-perm: "&7您沒有僱用店主的權限。"
-cannot-hire: "&7您無法負擔僱用此店主的費用。"
-cannot-hire-shop-type: "&7您沒有權限僱用此類型的店主。"
-villager-for-hire: "&a村民提供他作為店主的服務，以換取 &6{costs}x {hire-item}&a。"
+set-for-hire: "&a此商店現在可以被僱用。"
+hired: "&a您已僱用此商店！"
+missing-hire-perm: "&7您沒有僱用商店的權限。"
+cannot-hire: "&7您無法負擔僱用此商店的費用。"
+cannot-hire-shop-type: "&7您沒有權限僱用此類型的商店。"
+villager-for-hire: "&a村民提供他作為商店的服務，以換取 &6{costs}x {hire-item}&a。"
 
 missing-trade-perm: "&7您沒有與此商店交易的權限。"
 missing-custom-trade-perm: "&7您沒有與此商店交易的權限。"
@@ -347,7 +347,7 @@ no-offers-open-editor-description: "&e您可以透過潛行並右鍵點擊此商
 cannot-trade-with-own-shop: "&7您不能與您自己的商店交易。"
 cannot-trade-while-owner-online: "&7當此商店的擁有者（'&e{owner}&7'）在線上時，您無法進行交易。"
 cannot-trade-with-shop-missing-container: "&7您無法與此商店交易，因為它的容器遺失了。"
-cannot-trade-unexpected-trade: "&7交易中止：交易的物品與此店主預期的不符。"
+cannot-trade-unexpected-trade: "&7交易中止：交易的物品與此商店預期的不符。"
 cannot-trade-items-not-strictly-matching: "&7交易中止：提供的物品與所需的物品不完全相符。"
 cannot-trade-insufficient-storage-space: "&7交易中止：此商店沒有足夠的儲存空間。"
 cannot-trade-insufficient-currency: "&7交易中止：此商店沒有足夠的貨幣。"
@@ -379,7 +379,7 @@ disable-trade-notifications-hint-command: "/shopkeeper notify trades"
 trade-notifications-disabled: "&a您將不再在此遊戲階段收到交易通知。"
 trade-notifications-enabled: "&a您現在將再次收到交易通知。"
 
-shopkeeper-created: "&a店主已建立：&6{type} &7({description})\n{setupDesc}"
+shopkeeper-created: "&a商店已建立：&6{type} &7({description})\n{setupDesc}"
 
 shop-setup-desc-selling: |-
   &e  將您想要販售的物品新增到您的容器中，然後
@@ -572,10 +572,10 @@ list-all-shops-header: "&9總共有 &e{shopsCount} &9間商店：&e（第 {page}
 list-player-shops-header: "&9玩家 '&e{player}&9' 擁有 &e{shopsCount} &9間商店：&e（第 {page} 頁，共 {maxPage} 頁）"
 list-shops-entry: "  &e{shopId}) &7{shopName}&r&8 位於 &7({location})&8，類型：&7{shopType}&8，物件：&7{objectType}"
 
-shop-removed: "&a店主已移除。"
-shop-already-removed: "&7店主已被移除。"
-shop-no-longer-exists: "&7店主已不存在。"
-shop-removal-cancelled: "&c一個外掛已阻止移除店主。"
+shop-removed: "&a商店已移除。"
+shop-already-removed: "&7商店已被移除。"
+shop-no-longer-exists: "&7商店已不存在。"
+shop-removal-cancelled: "&c一個外掛已阻止移除商店。"
 
 shops-already-removed: "&e{shopsCount}&7 間商店已被移除。"
 shop-removals-cancelled: "&c外掛已阻止移除 &e{shopsCount}&c 間商店。"
@@ -583,7 +583,7 @@ admin-shops-removed: "&e{shopsCount} &a間管理商店已被移除。"
 shops-of-player-removed: "&e{shopsCount} &a間玩家 '&e{player}&a' 的商店已被移除。"
 player-shops-removed: "&e{shopsCount} &a間玩家商店已被移除。"
 
-confirm-remove-shop: "&c您即將永久移除指定的店主！"
+confirm-remove-shop: "&c您即將永久移除指定的商店！"
 confirm-remove-all-admin-shops: "&c您即將永久移除所有管理商店（&6{shopsCount}&c）！"
 confirm-remove-all-own-shops: "&c您即將永久移除您的所有商店（&6{shopsCount}&c）！"
 confirm-remove-all-shops-of-player: "&c您即將永久移除玩家 &6{player}&c 的所有商店（&6{shopsCount}&c）！"
@@ -591,7 +591,7 @@ confirm-remove-all-player-shops: "&c您即將永久移除所有玩家的所有�
 
 confirm-replace-all-shops-with-vanilla-villagers: |-
   &c您即將永久刪除所有商店（&6{shopsCount}&c）並將它們替換為沒有 AI 的原版村民！
-  在繼續之前，請考慮建立您的世界和店主資料的備份。
+  在繼續之前，請考慮建立您的世界和商店資料的備份。
 all-shops-replaced-with-vanilla-villagers: |-
   &e{adminShopsCount}&a 間管理商店和 &e{playerShopsCount}&a 間玩家商店已被替換為原版村民！
   &e{skippedShopsCount}&a 間商店已被跳過。
@@ -627,7 +627,7 @@ snapshot-name-invalid: "&c無效的快照名稱：&e{name}"
 snapshot-name-already-exists: "&c已存在另一個具有此名稱的快照：&e{name}"
 snapshot-created: "&a已建立新的快照：&e({id}) &2{name} &8(&7{timestamp}&8)"
 confirm-remove-snapshot: "&c您即將永久刪除此指定的快照！"
-confirm-remove-all-snapshots: "&c您即將永久刪除指定店主的所有快照（&6{snapshotsCount}&c）！"
+confirm-remove-all-snapshots: "&c您即將永久刪除指定商店的所有快照（&6{snapshotsCount}&c）！"
 action-aborted-snapshots-changed: "&c操作中止！快照在此期間已更改。請再試一次。"
 snapshot-removed: "&a已刪除快照：&e({id}) &2{name} &8(&7{timestamp}&8)"
 snapshot-removed-all: "&a已刪除商店 &e{shop_id}&a 的所有 &e{snapshotsCount} &a個快照。"
@@ -645,9 +645,9 @@ command-player-argument-missing: "&c未指定 '&e{argumentFormat}&c' 的玩家�
 command-player-argument-invalid: "&c找不到 '&e{argument}&c' 的玩家。"
 command-shop-type-argument-invalid: "&c未知的商店類型 '&e{argument}&c'."
 command-shop-object-type-argument-invalid: "&c未知的商店物件類型 '&e{argument}&c'."
-command-shopkeeper-argument-invalid: "&c找不到 '&e{argument}&c' 的店主。"
-command-shopkeeper-argument-no-admin-shop: "&c店主 '&e{argument}&c' 不是管理商店店主。"
-command-shopkeeper-argument-no-player-shop: "&c店主 '&e{argument}&c' 不是玩家商店店主。"
+command-shopkeeper-argument-invalid: "&c找不到 '&e{argument}&c' 的商店。"
+command-shopkeeper-argument-no-admin-shop: "&c商店 '&e{argument}&c' 不是管理商店商店。"
+command-shopkeeper-argument-no-player-shop: "&c商店 '&e{argument}&c' 不是玩家商店商店。"
 command-entity-argument-no-villager: "&c實體 '&e{argument}&c' 不是一般的村民。"
 
 ambiguous-player-name: "&c名稱 '&e{name}&c' 有多個匹配項！"
@@ -658,7 +658,7 @@ command-help-title: "&9***** &8[&6Shopkeepers v{version}&8] &9*****"
 command-help-usage-format: "&e{usage}"
 command-help-description-format: "&8 - &3{description}"
 
-command-description-shopkeeper: "建立一個店主。"
+command-description-shopkeeper: "建立一個商店。"
 command-description-help: "顯示此說明頁面。"
 command-description-reload: "重新載入此插件。"
 command-description-debug: "切換除錯模式的開啟和關閉。"
@@ -681,4 +681,4 @@ command-description-snapshot-create: "建立新的商店快照。"
 command-description-snapshot-remove: "移除商店的特定快照或所有快照。"
 command-description-snapshot-restore: "還原特定的商店快照。"
 command-description-edit-villager: "開啟目標村民的編輯器。"
-command-description-replace-all-with-vanilla-villagers: "將所有店主替換為沒有 AI 的原版村民。"
+command-description-replace-all-with-vanilla-villagers: "將所有商店替換為沒有 AI 的原版村民。"
