@@ -7,7 +7,8 @@ This document lists the contributors of language files found in this repository.
 * es: SrMat1712, Santyxs
 * fr: MaxxQc
 * ru: Zkir
-  zh-TW: yichifauzi
+* zh-TW: yichifauzi
+* it: Augusto Villa
 
 ## [v2.20.0](https://github.com/Shopkeepers/Language-Files/blob/v2.20.0/CONTRIBUTORS.md)
 
