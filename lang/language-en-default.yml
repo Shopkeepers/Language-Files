@@ -231,6 +231,10 @@ button-puffer-fish-puff-state-lore:
 - "Changes the puff state"
 - "of the puffer fish."
 - "Currently: &e{puffState}"
+button-salmon-variant: "&aChoose variant"
+button-salmon-variant-lore:
+- "Changes the size"
+- "of the salmon."
 button-frog-variant: "&aChoose frog variant"
 button-frog-variant-lore:
 - "Changes the frog's look"
@@ -320,6 +324,7 @@ currency-items-received: "&aYou have received &6{amount}x&a currency item '&e{cu
 must-hold-item-in-main-hand: "&7You must hold an item in your main hand."
 currency-item-set-to-main-hand-item: "&aThe currency item '&e{currencyId}&a' has been set to the &eitem in your main hand&a!"
 items-converted: "&aConverted &e{count}&a item stack(s)!"
+items-updated: "&aUpdated &e{count}&a item(s)!"
 unknown-book-author: "Unknown"
 
 trade-perm-set: "&aThe shop's trading permission has been set to '&e{perm}&a'!"
@@ -670,6 +675,7 @@ command-description-give: "Gives shop creation item(s) to the specified player."
 command-description-give-currency: "Gives currency item(s) to the specified player."
 command-description-set-currency: "Changes the currency item to the item held in hand."
 command-description-convert-items: "Converts the held (or all) items to conform to Spigot's data format."
+command-description-update-items: "Updates third-party items (if they support it)."
 command-description-remote: "Remotely opens a shop (Optionally: For another player)."
 command-description-remote-edit: "Remotely edits a shop."
 command-description-transfer: "Transfers the ownership of a shop."

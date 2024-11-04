@@ -1,5 +1,18 @@
 # Changelog
 
+## v2.23.1
+
+### New messages
+
+* Added `items-updated`.
+* Added `command-description-update-items`.
+* Added `button-salmon-variant`.
+* Added `button-salmon-variant-lore`.
+
+### Changed messages
+
+* Minor changes to the default german translation ("Items" -> "Gegenstände").
+
 ## v2.22.2
 
 ### New messages

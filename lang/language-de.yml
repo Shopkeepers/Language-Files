@@ -9,9 +9,9 @@ shop-type-trading: "Händler"
 shop-type-book: "Buchhändler"
 
 shop-type-desc-admin-regular: "hat unbegrenzten Vorrat"
-shop-type-desc-selling: "verkauft Items"
-shop-type-desc-buying: "kauft Items"
-shop-type-desc-trading: "tauscht Items für andere Items"
+shop-type-desc-selling: "verkauft Gegenstände"
+shop-type-desc-buying: "kauft Gegenstände"
+shop-type-desc-trading: "tauscht Gegenstände für andere Gegenstände"
 shop-type-desc-book: "verkauft Kopien von Büchern"
 
 shop-object-type-living: "{type}"
@@ -239,6 +239,10 @@ button-puffer-fish-puff-state-lore:
 - "Ändert den Aufgeblasen-Zustand"
 - "des Kugelfisches."
 - "Aktuell: &e{puffState}"
+button-salmon-variant: "&aVariante ändern"
+button-salmon-variant-lore:
+- "Ändert die Größe"
+- "des Lachses."
 button-frog-variant: "&aFrosch-Variante ändern"
 button-frog-variant-lore:
 - "Ändert das Aussehen"
@@ -299,7 +303,7 @@ container-not-placed: "&7Du musst einen Behälter auswählen, den du kürzlich p
 container-already-in-use: "&7Ein anderer Shop benutzt bereits den ausgewählten Behälter!"
 no-container-access: "&7Du hast keinen Zugriff auf den ausgewählten Behälter!"
 too-many-shops: "&7Du hast bereits das Limit an Shops erreicht, die du besitzen kannst!"
-no-player-shops-via-command: "&7Spieler-Shops können nur mit dem Shop-Erstellungs Item erzeugt werden!"
+no-player-shops-via-command: "&7Spieler-Shops können nur mit dem Shop-Erstellungsgegenstand erzeugt werden!"
 
 type-new-name: "&aBitte gib den neuen Namen des Shops im Chat ein.\n  &aEin Minus (-) entfernt den aktuellen Namen."
 name-set: "&aDer Name des Shops wurde auf '&e{name}&a' gesetzt!"
@@ -323,14 +327,15 @@ target-shop-is-no-player-shop: "&7Der anvisierte Shop ist kein Spieler-Shop."
 unused-container: "&7Dieser Behälter wird von keinem Shop benutzt."
 not-owner: "&7Du bist nicht der Besitzer von diesem Shop."
 owner-set: "&aDer neue Besitzer ist jetzt &e{owner}"
-shop-creation-items-given: "&aSpieler &e{player}&a hat &e{amount}&a Shop-Erstellungs Items bekommen!"
-shop-creation-items-received: "&aDu hast &e{amount}&a Shop-Erstellungs Items bekommen!"
+shop-creation-items-given: "&aSpieler &e{player}&a hat &e{amount}&a Shop-Erstellungsgegenstände bekommen!"
+shop-creation-items-received: "&aDu hast &e{amount}&a Shop-Erstellungsgegenstände bekommen!"
 unknown-currency: "&cUnbekannte Währung: '&e{currency}&c'"
-currency-items-given: "&aSpieler &e{player}&a hat &6{amount}x &aWährungsitem '&e{currency}&a' bekommen!"
-currency-items-received: "&aDu hast &6{amount}x&a Währungsitem '&e{currency}&a' bekommen!"
-must-hold-item-in-main-hand: "&7Du musst ein Item in deiner Haupthand halten."
-currency-item-set-to-main-hand-item: "&aDas Währungsitem '&e{currencyId}&a' wurde zu dem &eItem in deiner Haupthand&a geändert!"
-items-converted: "&aEs wurden &e{count}&a Item Stapel konvertiert!"
+currency-items-given: "&aSpieler &e{player}&a hat &6{amount}x &aWährungsgegenstand '&e{currency}&a' bekommen!"
+currency-items-received: "&aDu hast &6{amount}x&a Währungsgegenstand '&e{currency}&a' bekommen!"
+must-hold-item-in-main-hand: "&7Du musst einen Gegenstand in deiner Haupthand halten."
+currency-item-set-to-main-hand-item: "&aDer Währungsgegenstand '&e{currencyId}&a' wurde zu dem &eGegenstand in deiner Haupthand&a geändert!"
+items-converted: "&aEs wurden &e{count}&a Gegenstände konvertiert!"
+items-updated: "&aEs wurden &e{count}&a Gegenstände aktualisiert!"
 unknown-book-author: "Unbekannt"
 
 trade-perm-set: "&aDie Handel-Permission für den Shop wurde auf '&e{perm}&a' gesetzt!"
@@ -343,7 +348,7 @@ traded-command-view: "&aDer gehandelte Befehl des Gegenstandes ist aktuell '&e{c
 traded-command-view-unset: "&aDem Gegenstand ist kein gehandelter Befehl zugewiesen."
 
 zombie-villager-curing-disabled: "&7Das Heilen von Dorfbewohnerzombies ist deaktiviert."
-must-hold-hire-item: "&7Du musst das benötigte Shop-Kauf-Item in deiner Hand halten."
+must-hold-hire-item: "&7Du musst den zum Kauf benötigten Gegenstand in deiner Hand halten."
 set-for-hire: "&aDieser Shop steht jetzt zum Verkauf."
 hired: "&aDu hast diesen Shop gekauft!"
 missing-hire-perm: "&7Dir fehlt die nötige Berechtigung, um Shops zu kaufen."
@@ -358,11 +363,11 @@ no-offers-open-editor-description: "&eDu kannst diesen Shop mit Shift+Rechtsklic
 cannot-trade-with-own-shop: "&7Du kannst nicht mit deinem eigenen Shop handeln."
 cannot-trade-while-owner-online: "&7Du kannst nicht handeln, während der Besitzer dieses Shops ('&e{owner}&7') online ist."
 cannot-trade-with-shop-missing-container: "&7Du kannst nicht mit diesem Shop handeln, da sein Behälter fehlt."
-cannot-trade-unexpected-trade: "&7Handel abgebrochen: Die gehandelten Items entsprechen nicht dem, was dieser Shop erwartet hat."
-cannot-trade-items-not-strictly-matching: "&7Handel abgebrochen: Die angebotenen Items stimmen nicht exakt mit den benötigten Items überein."
+cannot-trade-unexpected-trade: "&7Handel abgebrochen: Die gehandelten Gegenstände entsprechen nicht dem, was dieser Shop erwartet hat."
+cannot-trade-items-not-strictly-matching: "&7Handel abgebrochen: Die angebotenen Gegenstände stimmen nicht exakt mit den benötigten Gegenständen überein."
 cannot-trade-insufficient-storage-space: "&7Handel abgebrochen: Dieser Shop hat nicht genügend Lagerraum."
 cannot-trade-insufficient-currency: "&7Handel abgebrochen: Dieser Shop hat nicht genügend Währung."
-cannot-trade-insufficient-stock: "&7Handel abgebrochen: Dieser Shop hat nicht genügend von dem gehandelten Item."
+cannot-trade-insufficient-stock: "&7Handel abgebrochen: Dieser Shop hat nicht genügend von dem gehandelten Gegenstand."
 cannot-trade-insufficient-writable-books: "&7Handel abgebrochen: Diesem Buchladen fehlen beschreibbare Bücher für die Buchkopie."
 
 trade-notification-one-item: "&7Handel: &e{player}&7 [&6{item1Amount}x &a{item1}&7] \u279e [&6{resultItemAmount}x &a{resultItem}&7] {shop}{trade_count}"
@@ -393,13 +398,13 @@ trade-notifications-enabled: "&aDu erhältst jetzt wieder Handelsbenachrichtigun
 shopkeeper-created: "&aShop erstellt: &6{type} &7({description})\n{setupDesc}"
 
 shop-setup-desc-selling: |-
-  &e  Lege die zu verkaufenden Items in den Behälter und
-  &e  gib mit Shift+Rechtsklick auf den Shop die Preise an.
+  &e  Lege die zu verkaufenden Gegenstände in den Behälter.
+  &e  Mit Shift+Rechtsklick auf den Shop legst du die Preise fest.
 shop-setup-desc-buying: |-
-  &e  Lege von jedem Item, das du ankaufen möchtest, eines in den Behälter.
+  &e  Lege von jedem Gegenstand, den du ankaufen möchtest, einen in den Behälter.
   &e  Mit Shift+Rechtsklick auf den Shop legst du die Preise fest.
 shop-setup-desc-trading: |-
-  &e  Lege die Items, die du eintauschen möchtest, in den Behälter.
+  &e  Lege die Gegenstände, die du eintauschen möchtest, in den Behälter.
   &e  Mit Shift+Rechtsklick auf den Shop legst du die Angebote fest.
 shop-setup-desc-book: |-
   &e  Lege signierte und leere Bücher in den Behälter.
@@ -410,35 +415,35 @@ shop-setup-desc-admin-regular: |-
 trade-setup-desc-header: '&6{shopType}'
 trade-setup-desc-admin-regular:
 - Hat unbegrenzten Vorrat.
-- Füge Items aus deinem Inventar ein.
-- 'Obere Reihe: Ergebnis Items'
+- Füge Gegenstände aus deinem Inventar ein.
+- 'Obere Reihe: Zum Verkauf stehende Gegenstände'
 - 'Untere Reihen: Kosten'
 trade-setup-desc-selling:
-- Verkauft Items an Spieler.
-- Lege die zu verkaufenden Items in den Behälter.
+- Verkauft Gegenstände an Spieler.
+- Lege die zu verkaufenden Gegenstände in den Behälter.
 - 'Links-/Rechtsklick zum Ändern der Mengen.'
-- 'Obere Reihe: Verkaufte Items'
-- 'Untere Reihen: Kosten'
+- 'Obere Reihe: Zum Verkauf stehende Gegenstände'
+- 'Untere Reihen: Was du im Gegenzug verlangst'
 trade-setup-desc-buying:
-- Kauft Items von Spielern.
-- Lege von jedem anzukaufendem Item eines
+- Kauft Gegenstände von Spielern.
+- Lege von jedem anzukaufendem Gegenstand einen
 - in den Behälter, sowie reichlich Währung.
 - 'Links-/Rechtsklick zum Ändern der Mengen.'
-- 'Obere Reihe: Kosten'
-- 'Untere Reihe: Angekaufte Items'
+- 'Obere Reihe: Was du im Gegenzug anbietest'
+- 'Untere Reihe: Die zu kaufende Gegenstände'
 trade-setup-desc-trading:
-- Tauscht Items mit Spielern.
-- Wähle ein Item aus deinem Inventar und
-- klicke ein Feld an, um es zu platzieren.
+- Tauscht Gegenstände mit Spielern.
+- Wähle einen Gegenstand aus deinem Inventar
+- und klicke ein Feld an, um es zu platzieren.
 - 'Links-/Rechtsklick zum Ändern der Mengen.'
-- 'Obere Reihe: Ergebnis Items'
-- 'Untere Reihen: Kosten'
+- 'Obere Reihe: Zum Verkauf stehende Gegenstände'
+- 'Untere Reihen: Was du im Gegenzug verlangst'
 trade-setup-desc-book:
 - Verkauft Kopien von Büchern.
 - Lege signierte und leere Bücher in den Behälter.
 - 'Links-/Rechtsklick zum Ändern der Kosten.'
-- 'Obere Reihe: Verkaufte Bücher'
-- 'Untere Reihen: Kosten'
+- 'Obere Reihe: Zum Verkauf stehende Bücher'
+- 'Untere Reihen: Was du im Gegenzug verlangst'
 
 selling-shop.empty-trade.result-item: "&dVerkauf Gegenstand"
 selling-shop.empty-trade.result-item-lore:
@@ -539,7 +544,7 @@ villager-no-longer-exists: "&7Der Dorfbewohner existiert nicht mehr."
 villager-editor-title: "&2Dorfbewohner Editor: &e{villagerName}"
 villager-editor-description-header: "&6Dorfbewohner Editor"
 villager-editor-description:
-- 'Obere Reihe: Ergebnis Items'
+- 'Obere Reihe: Zum Verkauf stehende Gegenstände'
 - 'Untere Reihen: Kosten'
 - 'Bearbeitete Angebote können unendlich oft'
 - 'genutzt werden und haben keine XP Belohnungen'
@@ -677,10 +682,11 @@ command-description-notify: "Schaltet Handelsbenachrichtigungen für dich an ode
 command-description-list: "Listet alle Shops eines Spielers, oder alle Admin-Shops auf."
 command-description-remove: "Entfernt einen bestimmten Shop."
 command-description-remove-all: "Entfernt alle Shops eines Spielers, aller Spieler, oder alle Admin-Shops."
-command-description-give: "Gibt dem Spieler Items zum Erstellen von Shops."
-command-description-give-currency: "Gibt dem Spieler Geld Items."
-command-description-set-currency: "Ändert das Währungs-Item zu dem Item in deiner Hand."
-command-description-convert-items: "Konvertiert die gehaltenen (oder alle) Items, um dem Datenformat von Spigot zu entsprechen."
+command-description-give: "Gibt dem Spieler Gegenstände zum Erstellen von Shops."
+command-description-give-currency: "Gibt dem Spieler Geld Gegenstände."
+command-description-set-currency: "Ändert den Währungsgegenstand zu dem Gegenstand in deiner Hand."
+command-description-convert-items: "Konvertiert die gehaltenen (oder alle) Gegenstände, um dem Datenformat von Spigot zu entsprechen."
+command-description-update-items: "Aktualisiert Gegenstände von Drittanbieter-Plugins (sofern diese es unterstützen)."
 command-description-remote: "Öffnet einen Shop aus der Ferne (Optional: Für einen anderen Spieler)."
 command-description-remote-edit: "Editiert einen Shop aus der Ferne."
 command-description-transfer: "Ändert den Besitzer eines Shops."
