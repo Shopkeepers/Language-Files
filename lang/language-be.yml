@@ -1,0 +1,684 @@
+# Language: be
+
+date-time-format: "dd-MM-yyyy HH:mm:ss"
+
+shop-type-admin-regular: "Крама адміністрацыі"
+shop-type-selling: "Крама продажу"
+shop-type-buying: "Крама набыцця"
+shop-type-trading: "Крама абмену"
+shop-type-book: "Крама кніг"
+
+shop-type-desc-admin-regular: "мае неабмежаваны запас"
+shop-type-desc-selling: "прадае прадметы гульцам"
+shop-type-desc-buying: "набывае прадметы ў гульцоў"
+shop-type-desc-trading: "прадае і набывае прадметы ў гульцоў"
+shop-type-desc-book: "прадае копіі кніг"
+
+shop-object-type-living: "{type}"
+shop-object-type-sign: "Шыльда"
+shop-object-type-hanging-sign: "Падвесная шыльда"
+shop-object-type-npc: "НПС"
+
+selected-shop-type: "&aАбраны тып крамы: &6{type} &7({description})"
+selected-shop-object-type: "&aАбраны тып гандляра: &6{type}"
+
+creation-item-selected: |-
+  &aСтварэнне крамы:
+  &e  Не меццеся ў любы блок. Потым:
+  &e  ЛКМ/ПКМ, каб абраць тып крамы.
+  &e  Красціся + ЛКМ/ПКМ, каб абраць тып гандляра.
+  &e  ПКМ па кантэйнеру, каб абраць яго.
+  &e  Потым ПКМ па блоку, каб размесціць гандляра.
+
+state-enabled: "&2Уключана"
+state-disabled: "&4Адключана"
+
+editor-title: "Рэдактар Shopkeeper"
+
+button-previous-page: "&6<- Мінулая старонка ({prev_page} з {max_page})"
+button-previous-page-lore: []
+button-next-page: "&6Наступная старонка ({next_page} з {max_page}) ->"
+button-next-page-lore: []
+button-current-page: "&6Старонка {page} з {max_page}"
+button-current-page-lore: []
+
+button-name: "&aЗадаць назву крамы"
+button-name-lore:
+- Задаць назву
+- гандляра і крамы
+button-equipment: "&aЭкіпіроўка"
+button-equipment-lore:
+- "Даручыць экіпіроўку."
+- "Заўвага: Падтрымліваюцца не ўсе існасці"
+- "на адпаведныя слаты экіпіроўкі."
+button-move: "&aПерамясціць гандляра"
+button-move-lore:
+- Перамясціць у іншае месца
+- вашага гандляра
+button-container: "&aПаглядзець інвентар крамы"
+button-container-lore:
+- Дазваляе паглядзець інвентар
+- крамы, якой вы карыстаецеся
+button-trade-notifications: "&aГандлёвыя паведамленні"
+button-trade-notifications-lore:
+- "Уключае паведамленні пра гандль"
+- "для гэтага гандляра."
+- "Бягучы статус: {state}"
+button-delete: "&4Выдаліць"
+button-delete-lore:
+- Закрывае краму
+- і выдаляе гандляра
+
+button-sign-variant: "&aВыбраць варянт шыльды"
+button-sign-variant-lore:
+- "Змяніць тып драўніны"
+- "ў шыльды"
+button-sign-glowing-text: "&aУключыць зіхатлівы тэкст"
+button-sign-glowing-text-lore:
+- "Уключыць зіхаценне тэксту"
+- "укл і выкл"
+button-baby: "&aПераключыць на дзіцё"
+button-baby-lore:
+- "Пераключае гандляра"
+- "паміж дарослым і дзіцячым варыянтам"
+button-sitting: "&aУключыць сядзячую позу"
+button-sitting-lore:
+- "Уключыць сядзячую позу"
+- "для гандляра"
+button-cat-variant: "&aАбраць выгляд ката"
+button-cat-variant-lore:
+- "Змяняе выгляд ката-гандляра"
+button-rabbit-variant: "&aАбраць выгляд труса"
+button-rabbit-variant-lore:
+- "Змяняе выгляд труса-гандляра"
+button-collar-color: "&aАбраць колер ашыйніка"
+button-collar-color-lore:
+- "Змяняе колер ашыйніка"
+- "у гандляра"
+button-wolf-angry: "&aУключыць злосць воўка"
+button-wolf-angry-lore:
+- "Уключыць злосць"
+- "ваўку-гандляру"
+button-carrying-chest: "&aУключыць куфар"
+button-carrying-chest-lore:
+- "Уключае куфры усім,"
+- "хто можа іх насіць"
+button-horse-color: "&aАбраць колер каню"
+button-horse-color-lore:
+- "Змяніць колер"
+- "каня-гандляра"
+button-horse-style: "&aАбраць пароду каню"
+button-horse-style-lore:
+- "Змяніць стыль плям"
+- "каня-гандляра"
+button-horse-saddle: "&aУключыць сядло"
+button-horse-saddle-lore:
+- "Уключыць сядло"
+- "каню-гандляру"
+button-horse-armor: "&aАбраць конскую браню"
+button-horse-armor-lore:
+- "Змяніць браню"
+- "каню-гандляру"
+button-llama-variant: "&aАбраць выгляд ламы"
+button-llama-variant-lore:
+- "Змяніць выгляд ламы-гандляра"
+button-llama-carpet-color: "&aАбраць колер дывану"
+button-llama-carpet-color-lore:
+- "Змяняе колер дывану"
+- "ламы-гандляра"
+button-creeper-charged: "&aУключыць зараджанасць"
+button-creeper-charged-lore:
+- "Уключае зараджанасць"
+- "крыперу-гандляру"
+button-fox-variant: "&aАбраць выгляд лісы"
+button-fox-variant-lore:
+- "Змяняе выгляд лісы-гандляра"
+button-fox-crouching: "&aУключыць прыпад да зямлі"
+button-fox-crouching-lore:
+- "Уключае позу падрыхтоўкі атакі"
+- "для лісы-гандляра"
+button-fox-sleeping: "&aУключыць позу сну"
+button-fox-sleeping-lore:
+- "Уключае позу сну"
+- "для лісы-гандляра"
+button-mooshroom-variant: "&aАбраць выгляд муушрума"
+button-mooshroom-variant-lore:
+- "Змяняе выгляд"
+- "муушрума-гандляра"
+button-panda-variant: "&aАбраць выгляд панды"
+button-panda-variant-lore:
+- "Змяняе выгляд панды"
+button-parrot-variant: "&aАбраць выгляд папугая"
+button-parrot-variant-lore:
+- "Змяняе выгляд папугая-гандляра"
+button-pig-saddle: "&aУключыць сядло свінні"
+button-pig-saddle-lore:
+- "Уключыць сядло свінні"
+button-sheep-color: "&aАбраць колер авечкі"
+button-sheep-color-lore:
+- "Змяніць колер"
+- "авечкі-гандляра"
+button-sheep-sheared: "&aУключыць стрыжаны выгляд"
+button-sheep-sheared-lore:
+- "Уключыць стрыжаны выгляд"
+- "для авечкі-гандляра"
+button-villager-profession: "&aАбраць прафесію вяскоўца"
+button-villager-profession-lore:
+- "Змяніць прафесію"
+- "вяскоўца-гандляра"
+button-villager-variant: "&aЗмяніць выгляд вяскоўца"
+button-villager-variant-lore:
+- "Змяніць выгляд"
+- "вяскоўца-гандляра"
+button-villager-level: "&aАбраць значок майстэрства"
+button-villager-level-lore:
+- "Змяніць значок майстэрства"
+- "вяскоўца-гандляра"
+button-zombie-villager-profession: "&aАбраць прафесію мярцвяка-вяскоўца"
+button-zombie-villager-profession-lore:
+- "Змяніць прафесію"
+- "гандляру мярцвяку-вяскоўцу"
+button-slime-size: "&aАбраць памер слімака"
+button-slime-size-lore:
+- "Змяніць памер слімака."
+- "Бягучы памер: &e{size}"
+button-magma-cube-size: "&aАбраць памер магмакуба"
+button-magma-cube-size-lore:
+- "Змяніць памер магмакуба."
+- "Бягучы памер: &e{size}"
+button-snowman-pumpkin-head: "&aУключыць выразаны гарбуз"
+button-snowman-pumpkin-head-lore:
+- "Уключыць выразаны гарбуз"
+- "у снегавіка-гандляра"
+button-shulker-color: "&aАбраць колер шалкера"
+button-shulker-color-lore:
+- "Змяніць колер"
+- "шалкера-гандляра"
+button-axolotl-variant: "&aАбраць выгляд аксалотля"
+button-axolotl-variant-lore:
+- "Змяніць выгляд аксалотля"
+button-glow-squid-dark: "&aУключыць зіхаценне"
+button-glow-squid-dark-lore:
+- "Уключыць зіхаценне"
+- "для спрутаў-гандляроў"
+button-goat-screaming: "&aУКлючыць крыклівую казу"
+button-goat-screaming-lore:
+- "Пераключаецца паміж звычайнай"
+- "і крыклівай казой"
+button-goat-left-horn: "&aУключыць левы рог"
+button-goat-left-horn-lore:
+- "Уключыць гандляру казіны"
+- "левы рог"
+button-goat-right-horn: "&aУключыць правы рог"
+button-goat-right-horn-lore:
+- "Уключыць гандляру казіны"
+- "правы рог"
+button-tropical-fish-pattern: "&aАбраць варыянт рыбы"
+button-tropical-fish-pattern-lore:
+- "Змяніць форму і колер"
+- "трапічнай рыбы."
+- "Бягучы: &e{pattern}"
+button-tropical-fish-body-color: "&aАбраць колер рыбы"
+button-tropical-fish-body-color-lore:
+- "Змяніць колер тулава"
+- "рыбы-гандляра"
+button-tropical-fish-pattern-color: "&aАбраць колер узору"
+button-tropical-fish-pattern-color-lore:
+- "Змяніць колер узору"
+- "рыбы-гандляра"
+button-puffer-fish-puff-state: "&aАбраць надзьмунасць"
+button-puffer-fish-puff-state-lore:
+- "Змяніць надзьмутасць"
+- "гандляра рыбы-фугу."
+- "Бягучы: &e{puffState}"
+button-frog-variant: "&aАбраць выгляд жабы"
+button-frog-variant-lore:
+- "Змяніць выгляд жабы-гандляра"
+button-wolf-variant: "&aабраць выгляд воўка"
+button-wolf-variant-lore:
+- "Змяніць выгляд воўка-гандляра"
+
+equipment-editor-title: "Рэдактар экіпіроўкі"
+equipment-slot-lore:
+- "Размясціце экіпіроўку ў слот, каб апрануць яе."
+- "ПКМ для ачысткі"
+- "слата экіпіроўкі."
+
+equipment-slot-mainhand: "&aГалоўная рука"
+equipment-slot-offhand: "&aДругая рука"
+equipment-slot-feet: "&aБоты"
+equipment-slot-legs: "&aНагавіцы"
+equipment-slot-chest: "&aКуртка"
+equipment-slot-head: "&aШапка"
+equipment-slot-body: "&aТулава"
+
+admin-sign-shop-line1: "&2[SHOP]"
+admin-sign-shop-line2: "&7{shopName}"
+admin-sign-shop-line3: ""
+admin-sign-shop-line4: "&eПКМ!"
+
+player-sign-shop-line1: "&2[SHOP]"
+player-sign-shop-line2: "&7{shopName}"
+player-sign-shop-line3: "&7{owner}"
+player-sign-shop-line4: "&eПКМ!"
+
+for-hire-title: "Для продажу"
+button-hire: "&aКупіць"
+button-hire-lore:
+- Купіць гэту краму
+
+trading-title-prefix: "&2"
+trading-title-default: "Гандляра"
+
+must-target-block: "&7Вы павінны глядзець на блок, каб паставіць гандляра."
+missing-spawn-location: "&7Вы павінны ўзказаць месца для з'яўлення."
+spawn-block-not-empty: "&7Месца з'яўлення павінна быць пустым."
+invalid-spawn-block-face: "&7Гандляр не можа быць размешчаны на гэтым баку блока."
+mob-cannot-spawn-on-peaceful-difficulty: "&7Абраны тып гандляра не можа быць размешчаны пры мірнай складанасці."
+restricted-area: "&7Вы не можаце размяшчаць гандляроў у гэтым месцы."
+location-already-in-use: "&7Гэтая лакацыя ўжо занята іншым гандляром."
+
+container-selected: "&aКантэйнер абраны! Націсніце ПКМ, каб размясціць гандляр."
+unsupported-container: "&7Гэты кантэйнер не можа выкарыстоўвацца для крам."
+must-select-container: "&7Вы папвінны націснуць на ПКМ па кантэйнеру перад размяшчэннем гандляра."
+must-target-container: "&7Вы павінны глядзець на кантэйнер пры выбары тыпу крамы."
+invalid-container: "&7Абраны блок гэта недапушчальны кантэйнер!"
+container-too-far-away: "&7Кантэнер гандляра занадта далёка!"
+container-not-placed: "&7Вы павінны абраць нядаўна размешчаны кантэйнер!"
+container-already-in-use: "&7Іншы гандляр ужо выкарыстоўвае гэты кантэйнер!"
+no-container-access: "&7Вы не маеце доступу да гэтага кантэйнера!"
+too-many-shops: "&7Вы дасягнулі максімальнага ліміту крам!"
+no-player-shops-via-command: "&7Крамы гульцоў могуць быць створаны толькі з дапамогай прадмета стварэння крам!"
+
+type-new-name: "&aКалі ласка, увядзіце нзаву крамы ў чат.\n  &aУвядзіце (-), каб наадварот прыбраць."
+name-set: "&aНазва крамы была зменена на '&e{name}&a'!"
+name-has-not-changed: "&aНазва крамы не змянілася."
+name-invalid: "&cНевернае назва крамы: '&e{name}&c'"
+nameplate-prefix: "&2"
+
+click-new-shop-location: "&aКалі ласка, націсніце ПКМ па новаму месцу.\n  &aНацісніце ЛКМ, каб скасаваць."
+shopkeeper-moved: "&aГандляр быў перанесены!"
+shopkeeper-move-aborted: "&7Перамяшчэнне гандляра было скасавана."
+
+shop-type-disabled: "&7Іып крам '&6{type}&7' быў адключаны."
+shop-object-type-disabled: "&7Тып прамдетаў у крамах '&6{type}&7' адключаны."
+
+must-target-shop: "&7Вы павінны абраць гандляра."
+must-target-admin-shop: "&7Вы павінны абраць гандляра адміністрацыі."
+must-target-player-shop: "&7Вы павінны абраць гандляра гульца."
+target-entity-is-no-shop: "&7Абраная існасць не з'яўляецца гандляром."
+target-shop-is-no-admin-shop: "&7браны гандляр не з'яўляецца гандляром адміністрацыі."
+target-shop-is-no-player-shop: "&7Абраны гандляр не з'яўляецца гандляром гульца."
+unused-container: "&7Ніякі гандляр не выкарыстоўвае гэта кантэйнер."
+not-owner: "&7Вы не ўладальнік гэтага гандляра."
+owner-set: "&aНовы ўалдальнік цяпер &e{owner}"
+shop-creation-items-given: "&aГулец &e{player}&aатрымаў &e{amount}&a прадметаў для стварэння крам!"
+shop-creation-items-received: "&aВы атрымалі &e{amount}&a прадметаў для стварэння крам!"
+unknown-currency: "&cНевядомая валюта: '&e{currency}&c'"
+currency-items-given: "&aГУлец &e{player}&a атырмаў &6{amount}x&a прадметаў валюты '&e{currency}&a'!"
+currency-items-received: "&aВы атрымалі &6{amount}x&a прамдетаў валюты '&e{currency}&a'!"
+must-hold-item-in-main-hand: "&7Вы павінны трымаць прадмет у руцэ."
+currency-item-set-to-main-hand-item: "&aTПрадмет валюты '&e{currencyId}&a' быў зададзены на &eпрадмет  у вашай аснознай руцэ&a!"
+items-converted: "&aКанвертавана &e{count}&a стосаў прамдетаў!"
+unknown-book-author: "Невядомы"
+
+trade-perm-set: "&aДазвол гэтай крамы на гандль быў зададзены на '&e{perm}&a'!"
+trade-perm-removed: "&aДазвол гэтай крамы на гандль '&e{perm}&a' быў прыбраны!"
+trade-perm-view: "&aДазвол гэтай крамы на гандль - '&e{perm}&a'."
+
+traded-command-set: "&aКаманда гандлю прадметам была зменена на '&e{command}&a'!"
+traded-command-removed: "&aКаманда для гандлю прадметам была выдалена!"
+traded-command-view: "&aКаманда для гандлю гэтым прадметам - '&e{command}&a'."
+traded-command-view-unset: "&aКаманда для гандлю прадметам не існуе."
+
+zombie-villager-curing-disabled: "&7Лячэнне мярцвякоў-вяскоўцаў адключана."
+must-hold-hire-item: "&7Вы павінны трымаць патрабуемыя прадметы ў руках."
+set-for-hire: "&aГэты гандляр можа быць наняты."
+hired: "&aВы нанялі гандляра!"
+missing-hire-perm: "&7У вас няма дазволу для наймання гандляроў."
+cannot-hire: "&7Вы не можаце пазволіць сабе найманне гэтага гандляра."
+cannot-hire-shop-type: "&7У вас няма дазволу для наймання гэтага тыпу гандляроў."
+villager-for-hire: "&aВясковец прапануе свае паслугі ў якасці гандялра за &6{costs}x {hire-item}&a."
+
+missing-trade-perm: "&7У вас няма дазволу прадаваць гэту краму."
+missing-custom-trade-perm: "&7У вас няма дазволу прадаваць гэту краму."
+cannot-trade-no-offers: "&7У гэтай крамы пакуль няма гандляроў, звярніцеся пазней!"
+no-offers-open-editor-description: "&eНацісніце ПКМ па краме калі крадзецеся, каб змяніць краму ці гандляра."
+cannot-trade-with-own-shop: "&7Вы не можаце прадаць сабе сваю ж краму."
+cannot-trade-while-owner-online: "&7Вы не можаце прадаць гэту краму, калі ягоны ўладальнік ('&e{owner}&7') анлайн."
+cannot-trade-with-shop-missing-container: "&7Вы не можаце прадаць гэту краму, бо адсутнічае кантэйнер."
+cannot-trade-unexpected-trade: "&7Гандль спынены: прадмет гандлю не супадае з прадметам гандляра."
+cannot-trade-items-not-strictly-matching: "&7Гандль спынены: прапануемы прадмет не супадае з патрабуемым."
+cannot-trade-insufficient-storage-space: "&7Гандль спынены: У гэтай краме не хапае месца."
+cannot-trade-insufficient-currency: "&7Гандль спынены: У гэтай краме не хапае валюты."
+cannot-trade-insufficient-stock: "&7Гандль спынены: У гэтай краме не хапае тавару."
+cannot-trade-insufficient-writable-books: "&7Гандль спынены: У краме недастаткова кніг для капіравання."
+
+trade-notification-one-item: "&7Гандль: &e{player}&7 [&6{item1Amount}x &a{item1}&7] \u279e [&6{resultItemAmount}x &a{resultItem}&7] {shop}{trade_count}"
+trade-notification-two-items: "&7Гандль: &e{player}&7 [&6{item1Amount}x &a{item1}&7] [&6{item2Amount}x &a{item2}&7] \u279e [&6{resultItemAmount}x &a{resultItem}&7] {shop}{trade_count}"
+buy-notification-one-item: "&7Гандль: &e{player}&7 [&6{item1Amount}x &a{item1}&7] \u279e [&6{resultItemAmount}x &a{resultItem}&7] {shop}{trade_count}"
+buy-notification-two-items: "&7Гандль: &e{player}&7 [&6{item1Amount}x &a{item1}&7] [&6{item2Amount}x &a{item2}&7] \u279e [&6{resultItemAmount}x &a{resultItem}&7] {shop}{trade_count}"
+trade-notification-player-shop: "&e{shop_owner_name}"
+trade-notification-named-player-shop: "&e{shop_owner_name}"
+trade-notification-admin-shop: "&eКрама адміністрацыі"
+trade-notification-named-admin-shop: '&e"{shop_name}"'
+trade-notification-trade-count: "&7 (&6{count}x&7)"
+
+owner-trade-notification-one-item: "&e{player}&7 купіў &6{resultItemAmount}x &a{resultItem}&7 у {shop}{trade_count}"
+owner-trade-notification-two-items: "&e{player}&7 купіў &6{resultItemAmount}x &a{resultItem}&7 у {shop}{trade_count}"
+owner-buy-notification-one-item: "&e{player}&7 прадаў &6{item1Amount}x &a{item1}&7 краме {shop}{trade_count}"
+owner-buy-notification-two-items: "&e{player}&7 прадаў &6{item1Amount}x &a{item1}&7 і &6{item2Amount}x &a{item2}&7 краме {shop}{trade_count}"
+owner-trade-notification-shop: "адна з вашых крам"
+owner-trade-notification-named-shop: 'ваша крама &e"{shop_name}"'
+owner-buy-notification-shop: "адна з вашых крам"
+owner-buy-notification-named-shop: 'ваша крама &e"{shop_name}"'
+owner-trade-notification-trade-count: "&7 (&6{count}x&7)"
+
+disable-trade-notifications-hint: "&7Вы можаце адключыць гэтыя паведамленні камандай &e{command}"
+disable-trade-notifications-hint-command: "/shopkeeper notify trades"
+trade-notifications-disabled: "&aВы больш не будзеце атрымліваць паведамленні падчас гэтай гульні."
+trade-notifications-enabled: "&aВы болей не будзеце атрымліваць паведамленні."
+
+shopkeeper-created: "&aГандляр створаны: &6{type} &7({description})\n{setupDesc}"
+
+shop-setup-desc-selling: |-
+  &e  Дадайце ў кантэйнер прадметы, якія вы хаціце прадаць, а потым
+  &e  націсніце ПКМ па краме калі крадзецеся, каб змяніць кошты.
+shop-setup-desc-buying: |-
+  &e  Дадайце ў кантэйнер прадметы, якія вы хаціце купіць, а потым
+  &e  націсніце ПКМ па краме калі крадзецеся, каб змяніць кошты.
+shop-setup-desc-trading: |-
+  &e  Дадайце ў кантэйнер прадметы, якія вы хаціце прадаць ці купіць, 
+  &e  а потым націсніце ПКМ па краме калі крадзецеся, каб змяніць кошты.
+shop-setup-desc-book: |-
+  &e  Дадайце падпісаную кнігу і кнігу з пяром у ваш кантэйнер, а потым
+  &e  націсніце ПКМ па краме калі крадзецеся, каб змяніць кошты.
+shop-setup-desc-admin-regular: |-
+  &e  Націсніце ПКМ па краме калі крадзецеся, каб змяніць прапановы.
+
+trade-setup-desc-header: '&6{shopType}'
+trade-setup-desc-admin-regular:
+- Мае непамерныя запасы.
+- Дадайце прадметы з свайго інвентара.
+- 'Верхні радок: Прадметы для продажу'
+- 'Ніжні радок: Кошт'
+trade-setup-desc-selling:
+- Прадае прадметы гульцам.
+- Пакладзіце прадмет для проаджу ў кантэйнер.
+- ЛКМ/ПКМ, каб змяніць колькасць.
+- 'Верхні радок: Прадметы для продажу'
+- 'Ніжні радок: Кошт'
+trade-setup-desc-buying:
+- Набывае прамдеты ў гульцоў.
+- Пакладзіце адзін прадмет,
+- які вы хаціце набываць і прадмет валюты
+- ў кантэйнер.
+- ЛКМ/ПКМ, каб змяніць колькасць.
+- 'Верхні радок: Кошт'
+- 'Ніжні радок: Прадметы, якія набываюцца'
+trade-setup-desc-trading:
+- Абменівае прадметы ў гульцоў.
+- Вазьміце прадмет з свайго інвентара
+- і націсніце на слот, каб размясціць яго.
+- ЛКМ/ПКМ, каб змяніць колькасць.
+- 'Верхні радок: Канчатковы прадмет'
+- 'Ніжні радок: Першы прадмет'
+trade-setup-desc-book:
+- Прадае копіі кніг.
+- Размясціце пустую і падпісаную кнігі
+- у кантэнер.
+- ЛКМ/ПКМ, каб змяніць кошты.
+- 'Верхні радок: Кнігі, якія прадаюцца'
+- 'Ніжні радок: Кошт'
+
+selling-shop.empty-trade.result-item: "&dПрадмет продажы"
+selling-shop.empty-trade.result-item-lore:
+- "Прадмет, які вы хаціце прадаць."
+- "Дадайце прадмет у кантэйнер крамы."
+- "ЛКМ/ПКМ, каб змяніць колькасць."
+selling-shop.empty-trade.item1: "&dПрадмет куплі"
+selling-shop.empty-trade.item1-lore:
+- "Прадмет, які вы хаціце набыць."
+- "ЛКМ/ПКМ, каб змяніць колькасць."
+selling-shop.empty-trade.item2: "&dПрадмет куплі 2"
+selling-shop.empty-trade.item2-lore:
+- "Другі прадмет, які вы хаціце набыць."
+- "ЛКМ/ПКМ, каб змяніць колькасць."
+selling-shop.empty-item1: "&dПрадмет куплі"
+selling-shop.empty-item1-lore:
+- "Прадмет, які вы хаціце купіць."
+- "ЛКМ/ПКМ, каб змяніць колькасць."
+selling-shop.empty-item2: "&dПрадмет куплі 2"
+selling-shop.empty-item2-lore:
+- "Прадмет, які вы хаціце купіць."
+- "ЛКМ/ПКМ, каб змяніць колькасць."
+
+buying-shop.empty-trade.result-item: "&dПрадмет продажы"
+buying-shop.empty-trade.result-item-lore:
+- "Прадмет, які вы хаціце прадаць."
+- "ЛКМ/ПКМ, каб змяніць колькасць."
+buying-shop.empty-trade.item1: "&dПрадмет куплі"
+buying-shop.empty-trade.item1-lore:
+- "Прадмет, які вы хаціце купіць."
+- "Дадайце прадмет у кантэйнер крамы."
+- "ЛКМ/ПКМ, каб змяніць колькасць."
+buying-shop.empty-result-item: "&dПрадмет продажы"
+buying-shop.empty-result-item-lore:
+- "Прадмет, які вы хаціце прадаць."
+- "ЛКМ/ПКМ, каб змяніць колькасць."
+
+trading-shop.empty-trade.result-item: "&dПрадмет продажы"
+trading-shop.empty-trade.result-item-lore:
+- "Прадмет, які вы хаціце прадаць."
+- "Дадайце прадмет у кантэйнер крамы,"
+- "ці размясціце яго з свайго інвентара."
+- "ЛКМ/ПКМ, каб змяніць колькасць."
+trading-shop.empty-trade.item1: "&dПрадмет куплі"
+trading-shop.empty-trade.item1-lore:
+- "Прадмет, які вы хаціце купіць."
+- "Размясціце яго з свайго інвентара."
+- "ЛКМ/ПКМ, каб змяніць колькасць."
+trading-shop.empty-trade.item2: "&dПрадмет куплі 2"
+trading-shop.empty-trade.item2-lore:
+- "Другі прадмет, як івы хаціце купіць."
+- "Размясціце яго з свайго інвентара."
+- "ЛКМ/ПКМ, каб змяніць колькасць."
+trading-shop.empty-result-item: "&dSell Item"
+trading-shop.empty-result-item-lore:
+- "Прадмет, які вы хаціце прадаць."
+- "Размясціце яго з свайго інвентара."
+- "ЛКМ/ПКМ, каб змяніць колькасць."
+trading-shop.empty-item1: "&dПрадмет куплі"
+trading-shop.empty-item1-lore:
+- "Прадмет, які вы хаціце купіць."
+- "Размясціце яго з свайго інвентара."
+- "ЛКМ/ПКМ, каб змяніць колькасць."
+trading-shop.empty-item2: "&dПрадмет куплі 2"
+trading-shop.empty-item2-lore:
+- "Прадмет, які вы хаціце купіць."
+- "Размясціце яго з свайго інвентара."
+- "ЛКМ/ПКМ, каб змяніць колькасць."
+
+book-shop.empty-trade.result-item: "&dПрадмет продажы"
+book-shop.empty-trade.result-item-lore:
+- "Прадмет, які вы хаціце прадаць."
+- "Падпісаныя кнігі з кантэйнера крамы."
+book-shop.empty-trade.item1: "&dПрадмет куплі"
+book-shop.empty-trade.item1-lore:
+- "Прадмет, які вы хаціце купіць."
+- "ЛКМ/ПКМ, каб змяніць колькасць."
+book-shop.empty-trade.item2: "&dПрадмет куплі 2"
+book-shop.empty-trade.item2-lore:
+- "Другі прадмет, які вы хаціце купіць."
+- "ЛКМ/ПКМ, каб змяніць колькасць."
+book-shop.empty-item1: "&dПрадмет куплі"
+book-shop.empty-item1-lore:
+- "Прадмет, які вы хаціце купіць."
+- "ЛКМ/ПКМ, каб змяніць колькасць."
+book-shop.empty-item2: "&dПрадмет куплі 2"
+book-shop.empty-item2-lore:
+- "Другі прадмет, які вы хаціце купіць."
+- "ЛКМ/ПКМ, каб змяніць колькасць."
+
+missing-edit-villagers-perm: "&7У вас няма дазволу змяняць вяскоўцаў."
+missing-edit-wandering-traders-perm: "&7У вас няма дазволу змяняць вандроўных гандляроў."
+must-target-entity: "&7Вы намецілі існасць."
+must-target-villager: "&7Вы намецілі вяскоўца."
+target-entity-is-no-villager: "&7Намечаны гандляр цяпер не звычайны вясковец."
+villager-no-longer-exists: "&7Вясковец не існуе."
+
+villager-editor-title: "&2Рэдактар вяскоўца: &e{villagerName}"
+villager-editor-description-header: "&6Рэдактар вяскоўцаў"
+villager-editor-description:
+- 'Верхні радок: Прадмет гандлю'
+- 'Ніжні радок: Прадмет валюты'
+- 'Змененыя прапановы маюць'
+- 'неабмежаваны запас і не даюць досведу.'
+
+button-delete-villager: "&4Выдаліць"
+button-delete-villager-lore:
+- Выдаляе гэтага вяскоўца
+button-name-villager: "&aЗадаць імя вяскоўца"
+button-name-villager-lore:
+- "Дазваляе вам пераназваць"
+- "вяскоўца"
+button-villager-inventory: "&aПаглядзець інвентар вяскоўца"
+button-villager-inventory-lore:
+- Дазваляе вам праглядзець копію
+- інвентара вяскоўца
+button-mob-ai: "&aУключыць ШІ мобаў"
+button-mob-ai-lore:
+- "Уключае ШІ мобаў"
+button-invulnerability: "&aУключыць неўміручасць"
+button-invulnerability-lore:
+- "Уключае істотам"
+- "неўміручасць."
+- "Гульцы ў крэатыве"
+- "усё яшчэ могуць нанесці ўрон."
+
+villager-inventory-title: "Інвентар вяскоўца (капіраваць)"
+set-villager-xp: "&aЗадаць узровень вяскоўцу у &e{xp}"
+no-villager-trades-changed: "&aПрапаноў не было зменена."
+villager-trades-changed: "&e{changedTrades}&a прапаноў было зменена."
+
+type-new-villager-name: "&aКалі ласка, увядзіце імя свайго гандляра.\n  &aНапішыце (-) каб наадварот прыбраць."
+villager-name-set: "&aІмя гандляра было задана!"
+villager-name-invalid: "&aГэта імя невернае!"
+
+no-shops-found: "&7Крам не знойдзена."
+
+list-admin-shops-header: "&9There are &e{shopsCount} &9admin shops: &e(Page {page} of {maxPage})"
+list-all-shops-header: "&9There are &e{shopsCount} &9shops in total: &e(Page {page} of {maxPage})"
+list-player-shops-header: "&9Player '&e{player}&9' has &e{shopsCount} &9shops: &e(Page {page} of {maxPage})"
+list-shops-entry: "  &e{shopId}) &7{shopName}&r&8at &7({location})&8, type: &7{shopType}&8, object: &7{objectType}"
+
+shop-removed: "&aКрама была выдалена."
+shop-already-removed: "&7Крама толькі што была выдалена."
+shop-no-longer-exists: "&Крама больш не існуе."
+shop-removal-cancelled: "&cПлагін прадухіліў знікненне крамы."
+
+shops-already-removed: "&e{shopsCount}&7 з крам было выдалена."
+shop-removals-cancelled: "&cПлагін прадухіліў знікненне &e{shopsCount}&c з крам."
+admin-shops-removed: "&e{shopsCount} &aкрама адміністрацыі была прыбрана."
+shops-of-player-removed: "&e{shopsCount} &aкрам гульца '&e{player}&a' было выдалена."
+player-shops-removed: "&e{shopsCount} &aкрам гульца было выдалена."
+
+confirm-remove-shop: "&cВы збіраецеся назаўсёды выдаліць краму (вельмі доўгі тэрмін!)"
+confirm-remove-all-admin-shops: "&cВы збіраецеся назаўсёды выдаліць крамы адміністрацыі (&6{shopsCount}&c)!"
+confirm-remove-all-own-shops: "&cВы збіраецеся назаўсёды выдаліць свае крамы (&6{shopsCount}&c)!"
+confirm-remove-all-shops-of-player: "&cВы збіраецеся назаўсёды выдаліць крамы гульца &6{player}&c (&6{shopsCount}&c)!"
+confirm-remove-all-player-shops: "&cВы збіраецеся назаўсёды выдаліць крамы усіх гульцоў (&6{shopsCount}&c)!"
+
+confirm-replace-all-shops-with-vanilla-villagers: |-
+  &cВы збіраецеся выдаліць усе крамы (&6{shopsCount}&c) і замяніць іх вяскоўцамі без ШІ!
+  Пераканайцеся ў тым, што ў вас ёсць рэзерваня копія свету.
+all-shops-replaced-with-vanilla-villagers: |-
+  &e{adminShopsCount}&a крам адміністрацыі і &e{playerShopsCount}&a крам гульцоў будуць заменены звычайнымі вяскоўцамі!
+  &e{skippedShopsCount}&a крамы прапушчаны.
+
+confirmation-required: "&7Калі ласка, пацвердзіце камандай &6/shopkeepers confirm"
+confirmation-expired: "&cДастасаванне скончылася."
+nothing-to-confirm: "&cЗараз няма патрэбы ў дастасаванні."
+
+confirmation-ui-delete-shop-title: "&cВы ўпэўнены, што хаціце выдаліць карму?"
+confirmation-ui-delete-shop-confirm-lore:
+- "Гэта беспаваротна"
+- "выдаліць гэту краму!"
+
+confirmation-ui-delete-villager-title: "&cВы ўпэўнены, што хаціце выдаліць вяскоўца-гандляра?"
+confirmation-ui-delete-villager-confirm-lore:
+- "Гэта беспаваротна"
+- "выдаліць гэтага вяскоўца-гандляра!"
+villager-removed: "&aВясковец быў выдалены."
+
+confirmation-ui-confirm: "&2Дастасаваць"
+confirmation-ui-cancel: "&4Скасаваць"
+confirmation-ui-cancel-lore:
+- "Гэта скасуе"
+- "бягучае дзеянне."
+confirmation-ui-aborted: "&7Дастасаванне скасавана."
+
+snapshot-list-header: "&9Крама &e{shop_id} &9мае &e{snapshotsCount} &9здымкаў: &e(Старонка {page} з {maxPage})"
+snapshot-list-entry: "  &e{id}) &2{name}&8 (&7{timestamp}&8)"
+invalid-snapshot-id: "&cНеверны id здымку: &e{argument}"
+invalid-snapshot-name: "&cЗдымак з назвай '&e{argument}&c' не знойдзена."
+snapshot-name-too-long: "&cНазва здымку павінна быць да &e{maxLength}&c сімвалаў: &e{name}"
+snapshot-name-invalid: "&cНеверная назва здымка: &e{name}"
+snapshot-name-already-exists: "&cУжо існуе здымак з такой жа назвай: &e{name}"
+snapshot-created: "&aНовы здымак зроблены: &e({id}) &2{name} &8(&7{timestamp}&8)"
+confirm-remove-snapshot: "&cYВы хаціце беспаваротна выдаліць асобны здымак!"
+confirm-remove-all-snapshots: "&cВы хаціце беспаваротна выдаліць (&6{snapshotsCount}&c) здымкаў!"
+action-aborted-snapshots-changed: "&cДзеянне скасавана! Здымак быў зменены. Паспрабуйце яшчэ."
+snapshot-removed: "&aЗдымак выдалены: &e({id}) &2{name} &8(&7{timestamp}&8)"
+snapshot-removed-all: "&aУсе &e{snapshotsCount} &здымкаў крамы &e{shop_id}&a былі выдалены."
+snapshot-restore-failed: "&cНе атрымалася аднавіць здымак: &e({id}) &2{name} &8(&7{timestamp}&8)"
+snapshot-restored: "&aЗдымак адноўлены: &e({id}) &2{name} &8(&7{timestamp}&8)"
+
+no-permission: "&cУ вас няма дазволу, каб рабіць гэта."
+
+command-unknown: "&cНевядомая каманда '&e{command}&c'!"
+command-argument-unexpected: "&cНечаканы аргумент '&e{argument}&c'."
+command-argument-requires-player: "&cАргумент '&e{argumentFormat}&c' патрабуе указанне гульца."
+command-argument-missing: "&cПрапушчаны аргумент '&e{argumentFormat}&c'."
+command-argument-invalid: "&cНеверны аргумент '&e{argument}&c'."
+command-player-argument-missing: "&cГулец '&e{argumentFormat}&c' не знойдзены."
+command-player-argument-invalid: "&cГулец '&e{argument}&c' не знойдзены."
+command-shop-type-argument-invalid: "&cUНевядомы тып краму '&e{argument}&c'."
+command-shop-object-type-argument-invalid: "&cНевядомы тып прадмета крамы '&e{argument}&c'."
+command-shopkeeper-argument-invalid: "&cНе знойдзена гандляроў для '&e{argument}&c'."
+command-shopkeeper-argument-no-admin-shop: "&cГандляр '&e{argument}&c' не з'яўляецца гандляром адміністрацыі."
+command-shopkeeper-argument-no-player-shop: "&cГандляр '&e{argument}&c' не з'яўляецца гандляром гульца."
+command-entity-argument-no-villager: "&cІснасць '&e{argument}&c' не звычайны вясковец."
+
+ambiguous-player-name: "&cІснуе некалькі вынікаў для назвы '&e{name}&c'!"
+ambiguous-player-name-entry: "&c  - '&e{name}&r&c' (&6{uuid}&c)"
+ambiguous-player-name-more: "&c  - ...."
+
+command-help-title: "&9***** &8[&6Shopkeepers v{version}&8] &9*****"
+command-help-usage-format: "&e{usage}"
+command-help-description-format: "&8 - &3{description}"
+
+command-description-shopkeeper: "Стварыць гандляра."
+command-description-help: "Паказаць старонку дапамогі."
+command-description-reload: "Перазагрузіць гэты плагін."
+command-description-debug: "Уключыць і адключае каманды адладкі."
+command-description-notify: "Уключыць ці адключае гандлёвыя паведамленні."
+command-description-list: "Паказаць спіс усіх крам па параметрах."
+command-description-remove: "Прыбраць краму."
+command-description-remove-all: "Выдаліць усе краму ад гульца, гульцоў ці адміністрацыі."
+command-description-give: "Даць прадмет(-ы) для стварэння крамы асобнаму гульцу."
+command-description-give-currency: "Даць прадмет(-ы) валюты асобнаму гульцу."
+command-description-set-currency: "Змяніць прадмет валюты на прадмет у руцэ."
+command-description-convert-items: "Канвертыраваць прадмет у руцэ (ці ўсе) у фармат даных Spigot."
+command-description-remote: "Выдалена адкрыць краму (Апцыянальна: для іншага гульца)."
+command-description-remote-edit: "Выдалена змяніць краму."
+command-description-transfer: "Перадаць права ўвалодання крамай."
+command-description-settradeperm: "Задаць, выдаліць (-) ці паказаць (?) дазвол на гандль."
+command-description-settradedcommand: "Задаць, выдаліць (-) ці паказаць (?) каманду для гандлю прадметам у руцэ."
+command-description-setforhire: "Выставіць сваю краму на продаж."
+command-description-snapshot-list: "Паказаць спіс здымкаў крамы."
+command-description-snapshot-create: "Стварыць новы здымак крамы."
+command-description-snapshot-remove: "Выдаліць спецыфічны ці ўсе здымкі крамы."
+command-description-snapshot-restore: "Аднавіць краму з спецыфічнага здымка."
+command-description-edit-villager: "Адкрыць рэдактар для абранага гандляра."
+command-description-replace-all-with-vanilla-villagers: "Замяняе усіх гандляроў на звычайных вяскоўцаў без ШІ."
