@@ -1,5 +1,11 @@
 # Changelog
 
+## v2.23.2
+
+### New messages
+
+* Added `command-shopkeeper-argument-no-access`.
+
 ## v2.23.1
 
 ### New messages

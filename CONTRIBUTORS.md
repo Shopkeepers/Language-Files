@@ -2,8 +2,9 @@
 
 This document lists the contributors of language files found in this repository.
 
-## [v2.23.1](https://github.com/Shopkeepers/Language-Files/blob/v2.23.1/CONTRIBUTORS.md)
+## [v2.23.2](https://github.com/Shopkeepers/Language-Files/blob/v2.23.2/CONTRIBUTORS.md)
 
+## [v2.23.1](https://github.com/Shopkeepers/Language-Files/blob/v2.23.1/CONTRIBUTORS.md)
 
 ## [v2.22.2](https://github.com/Shopkeepers/Language-Files/blob/v2.22.2/CONTRIBUTORS.md)
 
