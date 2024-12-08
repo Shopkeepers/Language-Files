@@ -583,6 +583,12 @@ villager-name-invalid: "&aDer Name ist ungültig!"
 
 no-shops-found: "&7Es wurden keine Shops gefunden."
 
+teleport-virtual-shopkeeper: "&7Es kann nicht zu einem virtuellen Shop teleportiert werden!"
+teleport-shopkeeper-world-not-loaded: "&7Es kann nicht zu einem Shop in einer nicht geladenen Welt teleportiert werden!"
+teleport-no-safe-location-found: "&7Es konnte kein sicherer Ort zum Teleportieren gefunden werden!"
+teleport-failed: "&7Der Teleport ist fehlgeschlagen!"
+teleport-success: "&aSpieler '&e{player}&a' wurde zu Shop '&e{shop}&a' teleportiert!"
+
 list-admin-shops-header: "&9Es gibt &e{shopsCount} &9Admin-Shops: &e(Seite {page} von {maxPage})"
 list-all-shops-header: "&9Es gibt insgesamt &e{shopsCount} &9Shops: &e(Seite {page} von {maxPage})"
 list-player-shops-header: "&9Spieler '&e{player}&9' hat &e{shopsCount} &9Shops: &e(Seite {page} von {maxPage})"
@@ -667,9 +673,17 @@ command-shopkeeper-argument-no-player-shop: "&cShop '&e{argument}&c' ist kein Sp
 command-shopkeeper-argument-no-access: "&cDu hast keinen Zugriff auf Shop '&e{argument}&c'."
 command-entity-argument-no-villager: "&cObjekt '&e{argument}&c' ist kein normaler Dorfbewohner."
 
-ambiguous-player-name: "&cEs gibt mehrere Treffer für den Namen '&e{name}&c'!"
+ambiguous-player-name: "&cEs gibt mehrere Spieler für den Namen '&e{name}&c'!"
 ambiguous-player-name-entry: "&c  - '&e{name}&r&c' (&6{uuid}&c)"
 ambiguous-player-name-more: "&c  - ...."
+
+ambiguous-shopkeeper-name: "&cEs gibt mehrere Shops für den Namen '&e{name}&c'!"
+ambiguous-shopkeeper-name-entry: "&c  - &e{id})&c '&e{name}&r&c' (&6{uuid}&c)"
+ambiguous-shopkeeper-name-more: "&c  - ...."
+
+ambiguous-target-shopkeeper: "&cEs werden mehrere Shops anvisiert!"
+ambiguous-target-shopkeeper-entry: "&c  - &e{id})&c '&e{name}&r&c' (&6{uuid}&c)"
+ambiguous-target-shopkeeper-more: "&c  - ...."
 
 command-help-title: "&9***** &8[&6Shopkeepers v{version}&8] &9*****"
 command-help-usage-format: "&e{usage}"
@@ -691,6 +705,7 @@ command-description-update-items: "Aktualisiert Gegenstände von Drittanbieter-P
 command-description-remote: "Öffnet einen Shop aus der Ferne (Optional: Für einen anderen Spieler)."
 command-description-remote-edit: "Editiert einen Shop aus der Ferne."
 command-description-transfer: "Ändert den Besitzer eines Shops."
+command-description-teleport: "Teleportiert zu einem Shop."
 command-description-settradeperm: "Setzt, entfernt (-) oder zeigt (?) die Handel-Permission an."
 command-description-settradedcommand: "Setzt, entfernt (-) oder zeigt (?) den gehandelten Befehl des gehaltenen Gegenstandes an."
 command-description-setforhire: "Gibt einen deiner Shops zum Verkauf frei."

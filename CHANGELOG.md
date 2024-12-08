@@ -1,5 +1,26 @@
 # Changelog
 
+## v2.23.3
+
+### New messages
+
+* Added `command-description-teleport`.
+* Added `teleport-virtual-shopkeeper`.
+* Added `teleport-shopkeeper-world-not-loaded`.
+* Added `teleport-no-safe-location-found`.
+* Added `teleport-failed`.
+* Added `teleport-success`.
+* Added `ambiguous-shopkeeper-name`.
+* Added `ambiguous-shopkeeper-name-entry`.
+* Added `ambiguous-shopkeeper-name-more`.
+* Added `ambiguous-target-shopkeeper`.
+* Added `ambiguous-target-shopkeeper-entry`.
+* Added `ambiguous-target-shopkeeper-more`.
+
+### Changed messages
+
+* Changed `ambiguous-player-name`.
+
 ## v2.23.2
 
 ### New messages
