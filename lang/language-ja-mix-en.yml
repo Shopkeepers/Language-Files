@@ -1,0 +1,707 @@
+# Language: ja-mix-en
+
+date-time-format: "yyyy-MM-dd HH:mm:ss"
+
+shop-type-admin-regular: "ADMINショップ Admin shop"
+shop-type-selling: "販売ショップ Selling shop"
+shop-type-buying: "買取ショップ Buying shop"
+shop-type-trading: "トレードショップ Trading shop"
+shop-type-book: "本ショップ Book shop"
+
+shop-type-desc-admin-regular: "在庫が無限 has unlimited stock"
+shop-type-desc-selling: "アイテムを売る sells items to players"
+shop-type-desc-buying: "プレイヤーからアイテムを買う buys items from players"
+shop-type-desc-trading: "アイテムを交換する trades items with players"
+shop-type-desc-book: "本を売る sells book copies"
+
+shop-object-type-living: "{type}"
+shop-object-type-sign: "看板 sign"
+shop-object-type-hanging-sign: "吊り下げ看板 hanging sign"
+shop-object-type-npc: "NPC npc"
+
+selected-shop-type: "&aショップのタイプ Selected shop type: &6{type} &7({description})"
+selected-shop-object-type: "&aショップ店員 Selected object type: &6{type}"
+
+creation-item-selected: |-
+  &aこのアイテムでショップを作れます Shop creation:
+  &e  まずチェストを置きましょう Do not aim at any block. Then:
+  &e  １、空中を左右クリックでショップのタイプを選ぶ Left/Right-click to select the shop type.
+  &e  ２、スニークしながら空中を左右クリックで店員を選ぶ Sneak + left/right-click to select the object type.
+  &e  ３、チェストを右クリックして在庫と売上を管理するチェストを指定 Right-click a container to select it.
+  &e  ４、地面を右クリックして店員を置く場所を決める Then right-click a block to place the shopkeeper.
+
+state-enabled: "&2オン Enabled"
+state-disabled: "&4オフ Disabled"
+
+editor-title: "ショップの設定 Shopkeeper Editor"
+
+button-previous-page: "&6<- 前のページ Previous page ({prev_page} of {max_page})"
+button-previous-page-lore: []
+button-next-page: "&6次のページ Next page ({next_page} of {max_page}) ->"
+button-next-page-lore: []
+button-current-page: "&6ページ Page {page} of {max_page}"
+button-current-page-lore: []
+
+button-name: "&aショップ名変更 Set shop name"
+button-name-lore:
+- ショップ名を決めよう
+- Lets you rename your shopkeeper
+button-equipment: "&a装備 Equipment"
+button-equipment-lore:
+- "装備させます アクセサリー Assign equipment."
+- "※モブの種類により装備できる部位は変わります"
+- "Note: Not all mobs support the same equipment slots."
+button-move: "&a店員の移動 Move shopkeeper"
+button-move-lore:
+- 店員を移動させます
+- Lets you move your shopkeeper
+button-container: "&a在庫と売上の管理 View shop inventory"
+button-container-lore:
+- 在庫と売上を管理します
+- Lets you view the inventory your shopkeeper is using
+button-trade-notifications: "&a取引通知 Trade Notifications"
+button-trade-notifications-lore:
+- "取引があったらあなたにお知らせ on/off"
+- "Toggles trade notifications for this shopkeeper on/off."
+- "今の設定 Currently: {state}"
+button-delete: "&4ショップを削除 Delete"
+button-delete-lore:
+- このショップを削除します
+- Closes and removes this shopkeeper
+
+button-sign-variant: "&a看板の素材 Choose sign variant"
+button-sign-variant-lore:
+- "Changes the sign's"
+- "wood type"
+button-sign-glowing-text: "&a光る文字 Toggle glowing text"
+button-sign-glowing-text-lore:
+- "Toggles glowing text"
+- "on and off"
+button-baby: "&a子どもにする Toggle baby variant"
+button-baby-lore:
+- "Toggles between the mob's"
+- "baby and adult variant"
+button-sitting: "&aおすわりさせる Toggle sitting pose"
+button-sitting-lore:
+- "Toggles the mob's"
+- "sitting pose"
+button-cat-variant: "&aネコの品種 Choose cat variant"
+button-cat-variant-lore:
+- "Changes the cat's look"
+button-rabbit-variant: "&aウサギの品種 Choose rabbit variant"
+button-rabbit-variant-lore:
+- "Changes the rabbit's look"
+button-collar-color: "&a首輪の色 Choose collar color"
+button-collar-color-lore:
+- "Changes the mob's"
+- "collar color"
+button-wolf-angry: "&a怒ったオオカミ Toggle angry wolf"
+button-wolf-angry-lore:
+- "Toggles the wolf's"
+- "angry state"
+button-carrying-chest: "&aチェストをつける Toggle carrying chest"
+button-carrying-chest-lore:
+- "Toggles whether the mob"
+- "is carrying a chest"
+button-horse-color: "&a馬の色 Choose horse color"
+button-horse-color-lore:
+- "Changes the color"
+- "of the horse"
+button-horse-style: "&a馬のスタイル Choose horse style"
+button-horse-style-lore:
+- "Changes the coat pattern"
+- "of the horse"
+button-horse-saddle: "&a馬の鞍 Toggle horse saddle"
+button-horse-saddle-lore:
+- "Toggles the saddle"
+- "of the horse"
+button-horse-armor: "&a馬の鎧 Choose horse armor"
+button-horse-armor-lore:
+- "Changes the armor"
+- "of the horse"
+button-llama-variant: "&aラマの品種 Choose llama variant"
+button-llama-variant-lore:
+- "Changes the llama's look"
+button-llama-carpet-color: "&aラマの服の色 Llama carpet color"
+button-llama-carpet-color-lore:
+- "Changes the llama's"
+- "carpet color"
+button-creeper-charged: "&a帯電クリーパー Toggle charged creeper"
+button-creeper-charged-lore:
+- "Toggles the creeper's"
+- "charged state"
+button-fox-variant: "&aキツネの品種 Choose fox variant"
+button-fox-variant-lore:
+- "Changes the fox's look"
+button-fox-crouching: "&aおすわり Toggle crouching pose"
+button-fox-crouching-lore:
+- "Toggles the fox's"
+- "crouching pose"
+button-fox-sleeping: "&a眠る Toggle sleeping pose"
+button-fox-sleeping-lore:
+- "Toggles the fox's"
+- "sleeping pose"
+button-mooshroom-variant: "&aムーシュルームの品種 Choose mooshroom variant"
+button-mooshroom-variant-lore:
+- "Changes the look"
+- "of the mooshroom"
+button-panda-variant: "&aパンダの表情 Choose panda variant"
+button-panda-variant-lore:
+- "Changes the panda's look"
+button-parrot-variant: "&aオウムの品種 Choose parrot variant"
+button-parrot-variant-lore:
+- "Changes the parrot's look"
+button-pig-saddle: "&aブタの鞍 Toggle pig saddle"
+button-pig-saddle-lore:
+- "Toggles the pig's saddle"
+button-sheep-color: "&aヒツジの色 Choose sheep color"
+button-sheep-color-lore:
+- "Changes the sheep's"
+- "wool color"
+button-sheep-sheared: "&a裸のヒツジ Toggle sheared sheep"
+button-sheep-sheared-lore:
+- "Toggles the sheep's"
+- "sheared state"
+button-villager-profession: "&a村人の職業※みかけだけ Choose villager profession"
+button-villager-profession-lore:
+- "Changes the profession"
+- "of the villager"
+button-villager-variant: "&a村人の服装 Choose villager variant"
+button-villager-variant-lore:
+- "Changes the look"
+- "of the villager"
+button-villager-level: "&a村人のバッヂ Choose villager badge color"
+button-villager-level-lore:
+- "Changes the badge color"
+- "of the villager"
+button-zombie-villager-profession: "&aゾンビ村人の職業 Choose villager profession"
+button-zombie-villager-profession-lore:
+- "Changes the profession"
+- "of the zombie villager"
+button-slime-size: "&aスライムのサイズ Choose slime size"
+button-slime-size-lore:
+- "Cycles the slime's size."
+- "Current size: &e{size}"
+button-magma-cube-size: "&aマグマキューブのサイズ Choose magma cube size"
+button-magma-cube-size-lore:
+- "Cycles the magma cube's size."
+- "Current size: &e{size}"
+button-snowman-pumpkin-head: "&aカボチャ頭 Toggle pumpkin head"
+button-snowman-pumpkin-head-lore:
+- "Toggles the snowman's"
+- "pumpkin head"
+button-shulker-color: "&aシュルカーの色Choose shulker color"
+button-shulker-color-lore:
+- "Changes the color"
+- "of the shulker"
+button-axolotl-variant: "&aウーパールーパーの色 Choose axolotl variant"
+button-axolotl-variant-lore:
+- "Changes the axolotl's look"
+button-glow-squid-dark: "&a光る Toggle glow"
+button-glow-squid-dark-lore:
+- "Toggles the glow squid's"
+- "glow on and off"
+button-goat-screaming: "&a叫ぶヤギ Toggle screaming goat"
+button-goat-screaming-lore:
+- "Toggles between a normal"
+- "and a screaming goat"
+button-goat-left-horn: "&a左のツノ Toggle left horn"
+button-goat-left-horn-lore:
+- "Toggles the goat's"
+- "left horn"
+button-goat-right-horn: "&a右のツノ Toggle right horn"
+button-goat-right-horn-lore:
+- "Toggles the goat's"
+- "right horn"
+button-tropical-fish-pattern: "&a熱帯魚の種 Choose variant"
+button-tropical-fish-pattern-lore:
+- "Changes the shape and pattern"
+- "of the tropical fish."
+- "今の設定 Currently: &e{pattern}"
+button-tropical-fish-body-color: "&a熱帯魚の色 Choose body color"
+button-tropical-fish-body-color-lore:
+- "Changes the body color"
+- "of the tropical fish"
+button-tropical-fish-pattern-color: "&a熱帯魚の色パターン Choose pattern color"
+button-tropical-fish-pattern-color-lore:
+- "Changes the pattern color"
+- "of the tropical fish"
+button-puffer-fish-puff-state: "&aふくらんだフグ Choose puff state"
+button-puffer-fish-puff-state-lore:
+- "Changes the puff state"
+- "of the puffer fish."
+- "今の設定 Currently: &e{puffState}"
+button-salmon-variant: "&aサケのサイズ Choose variant"
+button-salmon-variant-lore:
+- "Changes the size"
+- "of the salmon."
+button-frog-variant: "&aカエルの色 Choose frog variant"
+button-frog-variant-lore:
+- "Changes the frog's look"
+button-wolf-variant: "&aイヌの品種 Choose wolf variant"
+button-wolf-variant-lore:
+- "Changes the wolf's look"
+
+equipment-editor-title: "装備の設定 Equipment Editor"
+equipment-slot-lore:
+- "装備させたいアイテムを置く。右クリックでクリア"
+- "Place an item to equip it."
+- "Right-click to clear the equipment slot."
+
+equipment-slot-mainhand: "&aメインハンド Mainhand"
+equipment-slot-offhand: "&aオフハンド Offhand"
+equipment-slot-feet: "&aくつ Feet"
+equipment-slot-legs: "&aズボン Legs"
+equipment-slot-chest: "&a服 Chest"
+equipment-slot-head: "&a頭 Head"
+equipment-slot-body: "&a体 Body"
+
+admin-sign-shop-line1: "&2[SHOP]"
+admin-sign-shop-line2: "&7{shopName}"
+admin-sign-shop-line3: ""
+admin-sign-shop-line4: "&e右クリック Right click!"
+
+player-sign-shop-line1: "&2[SHOP]"
+player-sign-shop-line2: "&7{shopName}"
+player-sign-shop-line3: "&7{owner}"
+player-sign-shop-line4: "&e右クリック Right click!"
+
+for-hire-title: "雇う For Hire"
+button-hire: "&a雇う Hire"
+button-hire-lore:
+- この店員を雇う Buy this shopkeeper
+
+trading-title-prefix: "&2"
+trading-title-default: "Shopkeeper"
+
+must-target-block: "&7店員を置きたい場所にカーソルを合わせてください You must look at a block to place the shopkeeper."
+missing-spawn-location: "&7ここは店員を置けない場所です You must specify a spawn location for this type of shop."
+spawn-block-not-empty: "&7ここには何もないので店員を置けません The spawn location must be empty."
+invalid-spawn-block-face: "&7この面には置けません。床か地面に置きましょう The shopkeeper cannot be placed on this side of the block."
+mob-cannot-spawn-on-peaceful-difficulty: "&7ピースフルなのでこのモブは置けません The selected mob type cannot spawn here on peaceful difficulty."
+restricted-area: "&7このエリアには店員を置けません You cannot place a shopkeeper in this area."
+location-already-in-use: "&7この場所は別の店員が使っています This location is already used by another shopkeeper."
+
+container-selected: "&aコンテナを選びました。地面を右クリックして店員を置きましょう Container selected! Right-click a block to place your shopkeeper."
+unsupported-container: "&7このタイプのコンテナはショップには使えません This type of container cannot be used for shops."
+must-select-container: "&7店員を置く前に、店員が使用するチェスト・コンテナを右クリックで指定してください You must right-click a container before placing your shopkeeper."
+must-target-container: "&7このタイプのショップを設置するときはチェストにカーソルを合わせてください You must look at a container to place this type of shop."
+invalid-container: "&7このブロックは有効なコンテナではありません The selected block is not a valid container!"
+container-too-far-away: "&7コンテナが遠すぎます The shopkeeper's container is too far away!"
+container-not-placed: "&7さきほど置いたコンテナを指定してください You must select a container you have recently placed!"
+container-already-in-use: "&7すでに他の店員がこのコンテナを使っています Another shopkeeper is already using the selected container!"
+no-container-access: "&7あなたはこのコンテナにはアクセスできません You cannot access the selected container!"
+too-many-shops: "&7ショップ所持数の上限に達しました You have already reached the limit of how many shops you can own!"
+no-player-shops-via-command: "&7ショップはショップクリエイションアイテムでのみ設置することができます Player shops can only be created via the shop creation item!"
+
+type-new-name: "&aショップの新しい名前をabcでチャットに入れてください。日本語はムリみたいです… Please enter the shop's new name in chat.\n  &a今の名前を消す場合は「-」を入力してください Enter a dash (-) to remove the current name."
+name-set: "&aショップの名前は '&e{name}&a'になりました! The shop's name has been set to '&e{name}&a'!"
+name-has-not-changed: "&aショップ名は変わっていません The shop's name has not changed."
+name-invalid: "&c有効なショップ名ではありません。※アルファベットabcのみ使用可能 Invalid shop name: '&e{name}&c'"
+nameplate-prefix: "&2"
+
+click-new-shop-location: "&aショップの移動先を右クリックで指定してください。左クリックでキャンセル Please right-click the shop's new location.\n  &aLeft-click to abort."
+shopkeeper-moved: "&aショップは移動しました The shopkeeper has been moved!"
+shopkeeper-move-aborted: "&7ショップの移動がキャンセルされました Shopkeeper move aborted."
+
+shop-type-disabled: "&7ショップ'&6{type}&7'は設置できません The shop type '&6{type}&7' is disabled."
+shop-object-type-disabled: "&7店員'&6{type}&7'は設置できません The shop object type '&6{type}&7' is disabled."
+
+must-target-shop: "&7店員にカーソルを合わせてください You have to target a shopkeeper."
+must-target-admin-shop: "&7ADMIN店員にカーソルを合わせてください You have to target an admin shopkeeper."
+must-target-player-shop: "&7店員にカーソルを合わせてください You have to target a player shopkeeper."
+target-entity-is-no-shop: "&7このキャラは店員ではありません The targeted entity is no shopkeeper."
+target-shop-is-no-admin-shop: "&7この店員はADMIN店員ではありません The targeted shopkeeper is no admin shopkeeper."
+target-shop-is-no-player-shop: "&7この店員はプレイヤーの店員ではありません The targeted shopkeeper is no player shopkeeper."
+unused-container: "&7このコンテナを使っている店員はいません No shopkeeper is using this container."
+not-owner: "&7あなたはこのショップのオーナーではありません You are not the owner of this shopkeeper."
+owner-set: "&a新しいオーナーは&e{owner}です The new owner is now &e{owner}"
+shop-creation-items-given: "&a&e{player}&aはショップクリエイションアイテムを&e{amount}&a個手に入れました Player &e{player}&a has received &e{amount}&a shop creation item(s)!"
+shop-creation-items-received: "&aあなたはショップクリエイションアイテムを&e{amount}&a個手に入れました You have received &e{amount}&a shop creation item(s)!"
+unknown-currency: "&c不明な通貨 Unknown currency: '&e{currency}&c'"
+currency-items-given: "&aプレイヤー&e{player}&aさんは&6{amount}個&aの通貨アイテム'&e{currency}&a'を受け取りました　Player &e{player}&a has received &6{amount}x&a currency item '&e{currency}&a'!"
+currency-items-received: "&a&6{amount}個&aの通貨アイテム'&e{currency}&a'を受け取りました! You have received &6{amount}x&a currency item '&e{currency}&a'!"
+must-hold-item-in-main-hand: "&7メインハンドにアイテムをもってください You must hold an item in your main hand."
+currency-item-set-to-main-hand-item: "&a通貨'&e{currencyId}&a'が&eメインハンドのアイテム&aに設定されました The currency item '&e{currencyId}&a' has been set to the &eitem in your main hand&a!"
+items-converted: "&e{count}&a 個のアイテム スタックを変換しました! Converted &e{count}&a item stack(s)!"
+items-updated: "&e{count}&a 個のアイテムを更新しました! Updated &e{count}&a item(s)!"
+unknown-book-author: "Unknown"
+
+trade-perm-set: "&aこのショップの取引の権限は'&e{perm}&a'に設定されました The shop's trading permission has been set to '&e{perm}&a'!"
+trade-perm-removed: "&aこのショップの取引の権限'&e{perm}&a'は削除されました The shop's trading permission '&e{perm}&a' has been removed!"
+trade-perm-view: "&aこのショップの取引の権限は'&e{perm}&a'です he shop's current trading permission is '&e{perm}&a'."
+
+traded-command-set: "&aアイテムの取引コマンドは'&e{command}&a'に設定されました The item's traded command has been set to '&e{command}&a'!"
+traded-command-removed: "&aアイテムの取引コマンドは削除されました The item's traded command has been removed!"
+traded-command-view: "&aアイテムの取引のコマンドは'&e{command}&a'です The item's current traded command is '&e{command}&a'."
+traded-command-view-unset: "&aアイテムには取引コマンドは割り当てられていません The item has no traded command assigned."
+
+zombie-villager-curing-disabled: "&7村人ゾンビの治療はできません Curing of zombie villagers is disabled."
+must-hold-hire-item: "&7手に雇用するためのアイテムをもってください You have to hold the required hire item in your hand."
+set-for-hire: "&aこの店員を雇えるようになりました This shopkeeper can now be hired."
+hired: "&aこの店員を雇いました You have hired this shopkeeper!"
+missing-hire-perm: "&7店員を雇う権限がありません You do not have the permission to hire shopkeepers."
+cannot-hire: "&7店員を雇うことができません You cannot afford to hire this shopkeeper."
+cannot-hire-shop-type: "&7このタイプの店員を雇う権限がありません You do not have the permission to hire this type of shopkeeper."
+villager-for-hire: "&a村人は&6{costs}&a個の&6{hire-item}&aと引き換えに店員として働くことにしました The villager offered his services as a shopkeeper in exchange for &6{costs}x {hire-item}&a."
+
+missing-trade-perm: "&7あなたはこのショップで取引することができません You do not have the permission to trade with this shop."
+missing-custom-trade-perm: "&7あなたはこのショップで取引することができません You do not have the permission to trade with this shop."
+cannot-trade-no-offers: "&7このショップにはまだアイテムが登録されていません。またどうぞ！ bThis shop currently has no offers. Check again later!"
+no-offers-open-editor-description: "&e店員をスニークしながら右クリックしてショップの設定をしましょう You can edit this shop by right clicking it while sneaking."
+cannot-trade-with-own-shop: "&7あなたは自分のショップでは取引できません You cannot trade with your own shop."
+cannot-trade-while-owner-online: "&7あなたはショップのオーナー('&e{owner}&7')がオンラインの時は取引できません You cannot trade while the owner of this shop ('&e{owner}&7') is online."
+cannot-trade-with-shop-missing-container: "&7コンテナがないので、このショップでは取引できません You cannot trade with this shop, because its container is missing."
+cannot-trade-unexpected-trade: "&7取引キャンセル：取引に使われたアイテムが違います Trade aborted: The traded items do not match what this shopkeeper expected."
+cannot-trade-items-not-strictly-matching: "&7取引キャンセル：取引に使われたアイテムが違います Trade aborted: The offered items do not exactly match the required items."
+cannot-trade-insufficient-storage-space: "&7取引キャンセル：ショップのコンテナがいっぱいなので取引できません Trade aborted: This shop does not have enough storage space."
+cannot-trade-insufficient-currency: "&7取引キャンセル：ショップは十分な資金をもっていません Trade aborted: This shop does not have enough currency."
+cannot-trade-insufficient-stock: "&7取引キャンセル：ショップは在庫過多です Trade aborted: This shop does not have enough of the traded item."
+cannot-trade-insufficient-writable-books: "&7取引キャンセル：ショップの本の在庫が不足しています Trade aborted: This book shop lacks writable books to copy the book with."
+
+trade-notification-one-item: "&7取引通知：Trade: &e{player}&7 [&6{item1Amount}x &a{item1}&7] \u279e [&6{resultItemAmount}x &a{resultItem}&7] {shop}{trade_count}"
+trade-notification-two-items: "&7取引通知：Trade: &e{player}&7 [&6{item1Amount}x &a{item1}&7] [&6{item2Amount}x &a{item2}&7] \u279e [&6{resultItemAmount}x &a{resultItem}&7] {shop}{trade_count}"
+buy-notification-one-item: "&7取引通知：Trade: &e{player}&7 [&6{item1Amount}x &a{item1}&7] \u279e [&6{resultItemAmount}x &a{resultItem}&7] {shop}{trade_count}"
+buy-notification-two-items: "&7取引通知：Trade: &e{player}&7 [&6{item1Amount}x &a{item1}&7] [&6{item2Amount}x &a{item2}&7] \u279e [&6{resultItemAmount}x &a{resultItem}&7] {shop}{trade_count}"
+trade-notification-player-shop: "&e{shop_owner_name}"
+trade-notification-named-player-shop: "&e{shop_owner_name}"
+trade-notification-admin-shop: "&eADMINショップ Admin Shop"
+trade-notification-named-admin-shop: '&e"{shop_name}"'
+trade-notification-trade-count: "&7 (&6{count}x&7)"
+
+owner-trade-notification-one-item: "&e{player}&7さんが{shop}{trade_count}で&a{resultItem}&7を&6{resultItemAmount}&7個買いました &e{player}&7 bought &6{resultItemAmount}x &a{resultItem}&7 from {shop}{trade_count}"
+owner-trade-notification-two-items: "&e{player}&7さんが{shop}{trade_count}&7で&a{resultItem}&7を&6{resultItemAmount}&7個買いました &e{player}&7 bought &6{resultItemAmount}x &a{resultItem}&7 from {shop}{trade_count}"
+owner-buy-notification-one-item: "&e{player}&7さんが{shop}{trade_count}で&a{item1}&7を&6{item1Amount}個売りました&e{player}&7 sold &6{item1Amount}x &a{item1}&7 to {shop}{trade_count}"
+owner-buy-notification-two-items: "&e{player}&7さんがで&a{item1}&7を&6{item1Amount}個、&a{item2}&7を&6{item2Amount}個売りました &e{player}&7 sold &6{item1Amount}x &a{item1}&7 and &6{item2Amount}x &a{item2}&7 to {shop}{trade_count}"
+owner-trade-notification-shop: "あなたのショップ one of your shops"
+owner-trade-notification-named-shop: 'あなたのショップ your shop &e"{shop_name}"'
+owner-buy-notification-shop: "あなたのショップ one of your shops"
+owner-buy-notification-named-shop: 'あなたのショップ your shop &e"{shop_name}"'
+owner-trade-notification-trade-count: "&7 (&6{count}x&7)"
+
+disable-trade-notifications-hint: "&7取引通知は&e{command}&7でオフにできます You can disable these trade notifications with the command &e{command}"
+disable-trade-notifications-hint-command: "/shopkeeper notify trades"
+trade-notifications-disabled: "&a取引通知は届かなくなりました(次にログインしたら元に戻ります) You will no longer receive trade notifications during this game session."
+trade-notifications-enabled: "&a取引通知が届くようになりました You will now receive trade notifications again."
+
+shopkeeper-created: "&aショップが設置されました Shopkeeper created: &6{type} &7({description})\n{setupDesc}"
+
+shop-setup-desc-selling: |-
+  &e  売りたいものをコンテナに入れて、スニークしながら店員を右クリックして値段を設定しましょう
+  &e  Add items you want to sell to your container, then right-click the shop while sneaking to modify costs.
+shop-setup-desc-buying: |-
+  &e  あなたが買いたいものを１つコンテナに入れて、スニークしながら店員を右クリックして値段を設定しましょう
+  &e  Add one of each item you want to buy to your container, then right-click the shop while sneaking to modify costs.
+shop-setup-desc-trading: |-
+  &e  売りたいものをコンテナに入れて、スニークしながら店員を右クリックして値段を設定しましょう
+  &e  Add items you want to sell to your container, then right-click the shop while sneaking to modify costs.
+shop-setup-desc-book: |-
+  &e  本をコンテナに入れて、スニークしながら店員を右クリックして値段を設定しましょう
+  &e  Add written and blank books to your container, then right-click the shop while sneaking to modify costs.
+shop-setup-desc-admin-regular: |-
+  &e  スニークしながら店員を右クリックして値段を設定しましょう
+  &e  Right-click the shop while sneaking to modify trades.
+
+trade-setup-desc-header: '&6{shopType}'
+trade-setup-desc-admin-regular:
+- 在庫は無限です。インベントリからアイテムを入れてください
+- Has unlimited stock. Insert items from your inventory.
+- '１行目：売るアイテム Top row: Result items'
+- '下の行：値段 Bottom rows: Cost items'
+trade-setup-desc-selling:
+- プレイヤーにアイテムを売ります。コンテナに売るものを入れてください
+- Sells items to players. Insert items to sell into the container.
+- 左右クリックで数量を設定できます Left/Right click to adjust amounts.
+- '1行目：売るもの Top row: Items being sold'
+- '下の行：値段 Bottom rows: Cost items'
+trade-setup-desc-buying:
+- プレイヤーからアイテムを買い取ります。欲しいものを1つ、あげたいものをたくさん
+- コンテナに入れてください。左右クリックで数量を決めます。
+- Buys items from players. Insert one of each item you want to 
+- buy and plenty of currency items into the container.
+- Left/Right click to adjust amounts.
+- '１行目：あげるもの Top row: Cost items'
+- '下の行：欲しいもの Bottom row: Items being bought'
+trade-setup-desc-trading:
+- プレイヤーとアイテムを交換します。交換するアイテムをインベントリから取り、
+- スロットに置いてください。左右クリックで数量を決めます。
+- Trades items with players. Pickup an item from your inventory 
+- and then click a slot to place it. Left/Right click to adjust amounts.
+- '１行目：あげるもの Top row: Result items'
+- '下の行：もらうもの Bottom rows: Cost items'
+trade-setup-desc-book:
+- 本を売ります。書き込み済みの本と「本と羽根ペン」を
+- コンテナに入れます。左右クリックで数量を決めます。
+- Sells book copies. Insert written and blank books 
+- into the container. Left/Right click to adjust costs.
+- '１行目：売る本 Top row: Books being sold'
+- '下の行：値段 Bottom rows: Cost items'
+
+selling-shop.empty-trade.result-item: "&d売りたいもの Sell Item"
+selling-shop.empty-trade.result-item-lore:
+- "売りたいアイテム The item you want to sell."
+- "コンテナにアイテムを入れてください Add items to the shop container."
+- "左右クリックで数量を決めます Left/Right click to adjust the amount."
+selling-shop.empty-trade.item1: "&d値段 Buy Item"
+selling-shop.empty-trade.item1-lore:
+- "商品の値段です（エメラルド） The item you want to buy."
+- "左右クリックで数量を決めます Left/Right click to adjust the amount."
+selling-shop.empty-trade.item2: "&d値段２ Buy Item 2"
+selling-shop.empty-trade.item2-lore:
+- "商品の値段２です（エメラルドブロック） The second item you want to buy."
+- "左右クリックで数量を決めます Left/Right click to adjust the amount."
+selling-shop.empty-item1: "&d値段 Buy Item"
+selling-shop.empty-item1-lore:
+- "商品の値段です（エメラルド） The item you want to buy."
+- "左右クリックで数量を決めます Left/Right click to adjust the amount."
+selling-shop.empty-item2: "&d値段２ Buy Item 2"
+selling-shop.empty-item2-lore:
+- "商品の値段２です（エメラルドブロック） The second item you want to buy."
+- "左右クリックで数量を決めます Left/Right click to adjust the amount."
+
+buying-shop.empty-trade.result-item: "&d売りたいもの Sell Item"
+buying-shop.empty-trade.result-item-lore:
+- "売りたいアイテム The item you want to sell."
+- "左右クリックで数量を決めます Left/Right click to adjust the amount."
+buying-shop.empty-trade.item1: "&d買い取りたいもの Buy Item"
+buying-shop.empty-trade.item1-lore:
+- "買い取りたいもの The item you want to buy."
+- "買い取りたいアイテムをコンテナに入れてください Add items to the shop container."
+- "左右クリックで数量を決めます Left/Right click to adjust the amount."
+buying-shop.empty-result-item: "&d売りたいもの Sell Item"
+buying-shop.empty-result-item-lore:
+- "売りたいアイテム The item you want to sell."
+- "左右クリックで数量を決めます Left/Right click to adjust the amount."
+
+trading-shop.empty-trade.result-item: "&d売りたいアイテム Sell Item"
+trading-shop.empty-trade.result-item-lore:
+- "売りたいアイテム The item you want to sell."
+- "コンテナにアイテムを入れてください Add items to the shop container,"
+- "またはインベントリからここにアイテムを置いてください or place an item from your inventory."
+- "左右クリックで数量を決めます Left/Right click to adjust the amount."
+trading-shop.empty-trade.item1: "&d買いたいアイテム Buy Item"
+trading-shop.empty-trade.item1-lore:
+- "買いたいアイテム The item you want to buy."
+- "インベントリからアイテムを置いてください Place an item from your inventory."
+- "左右クリックで数量を決めます Left/Right click to adjust the amount."
+trading-shop.empty-trade.item2: "&d買いたいアイテム２ Buy Item 2"
+trading-shop.empty-trade.item2-lore:
+- "買いたいアイテム２つめThe second item you want to buy."
+- "インベントリからアイテムを置いてください Place an item from your inventory."
+- "左右クリックで数量を決めます Left/Right click to adjust the amount."
+trading-shop.empty-result-item: "&d売りたいアイテム Sell Item"
+trading-shop.empty-result-item-lore:
+- "売りたいアイテムThe item you want to sell."
+- "インベントリからアイテムを置いてください Place an item from your inventory."
+- "左右クリックで数量を決めます Left/Right click to adjust the amount."
+trading-shop.empty-item1: "&d買いたいもの Buy Item"
+trading-shop.empty-item1-lore:
+- "買いたいアイテム the item you want to buy."
+- "インベントリからアイテムを置いてください Place an item from your inventory."
+- "左右クリックで数量を決めます Left/Right click to adjust the amount."
+trading-shop.empty-item2: "&d買いたいアイテム２ Buy Item 2"
+trading-shop.empty-item2-lore:
+- "買いたいアイテム２つめ The second item you want to buy."
+- "インベントリからアイテムを置いてください Place an item from your inventory."
+- "左右クリックで数量を決めます Left/Right click to adjust the amount."
+
+book-shop.empty-trade.result-item: "&d売りたいアイテム Sell Item"
+book-shop.empty-trade.result-item-lore:
+- "売りたいアイテム The item you want to sell."
+- "コンテナに書き込み済みの本を入れてください Add written books to the shop container."
+book-shop.empty-trade.item1: "&d買いたいアイテム Buy Item"
+book-shop.empty-trade.item1-lore:
+- "買いたいアイテム The item you want to buy."
+- "左右クリックで数量を決めます Left/Right click to adjust the amount."
+book-shop.empty-trade.item2: "&d買いたいアイテム２ Buy Item 2"
+book-shop.empty-trade.item2-lore:
+- "２つめの買いたいアイテムです The second item you want to buy."
+- "左右クリックで数量を決めます Left/Right click to adjust the amount."
+book-shop.empty-item1: "&d買いたいアイテム Buy Item"
+book-shop.empty-item1-lore:
+- "買いたいアイテム The item you want to buy."
+- "左右クリックで数量を決めます Left/Right click to adjust the amount."
+book-shop.empty-item2: "&d買いたいアイテム２ Buy Item 2"
+book-shop.empty-item2-lore:
+- "２つめの買いたいアイテムです The second item you want to buy."
+- "左右クリックで数量を決めます Left/Right click to adjust the amount."
+
+missing-edit-villagers-perm: "&7あなたな村人を編集する権限がありません You do not have the permission to edit villagers."
+missing-edit-wandering-traders-perm: "&7あなたは行商人を編集する権限がありません You do not have the permission to edit wandering traders."
+must-target-entity: "&7ものにカーソルを合わせてください You have to target an entity."
+must-target-villager: "&7村人にカーソルを合わせてください You have to target a villager."
+target-entity-is-no-villager: "&7それは普通の村人ではありません The targeted entity is no regular villager."
+villager-no-longer-exists: "&7その村人はもう存在しません The villager no longer exists."
+
+villager-editor-title: "&2村人の設定 Villager Editor: &e{villagerName}"
+villager-editor-description-header: "&6Villager Editor"
+villager-editor-description:
+- '1行目：村人が売るアイテム Top row: Result items'
+- '下の行：値段 Bottom rows: Cost items'
+- '設定された取引は無限に使用でき、経験値はありません'
+- 'Edited trades have infinite uses and no XP rewards.'
+
+button-delete-villager: "&4削除 Delete"
+button-delete-villager-lore:
+- 村人を削除します Deletes the villager
+button-name-villager: "&a村人の名前 Set villager name"
+button-name-villager-lore:
+- "村人の名前を決めましょう "
+- "Lets you rename the villager"
+button-villager-inventory: "&a村人のインベントリを確認 View villager inventory"
+button-villager-inventory-lore:
+- 村人の在庫を確認できます
+- Lets you view a copy of the villager's inventory
+button-mob-ai: "&aモブのAIを切り替える Toggle mob AI"
+button-mob-ai-lore:
+- "モブのAIを切り替えます Toggles the mob's AI"
+button-invulnerability: "&a無敵にするかどうか Toggle invulnerability"
+button-invulnerability-lore:
+- "モブを無敵にするかどうかを切り替えます"
+- "Toggles the mob's invulnerability."
+- "クリエイティブモードのプレイヤーはモブにダメージを与えることができます"
+- "Players in creative mode can still damage the mob."
+
+villager-inventory-title: "村人の在庫確認 Villager inventory (copy)"
+set-villager-xp: "&a村人の経験値を&e{xp}&aに設定しました Set the villager's XP to &e{xp}"
+no-villager-trades-changed: "&a取引は何も変更されていません No trades have been changed."
+villager-trades-changed: "&e{changedTrades}&aの取引は変更されました &e{changedTrades}&a trades have been changed."
+
+type-new-villager-name: "&aチャットに村人の名前をローマ字abcで書いてください。日本語はムリみたいです... Please type the villager's name into the chat.\n  &a今の名前を消す場合は「-」を入力してください Type a dash (-) to remove the name."
+villager-name-set: "&a村人の名前が設定されました The villager's name has been set!"
+villager-name-invalid: "&a有効な名前ではありません That name is not valid!"
+
+no-shops-found: "&7店が見つかりません No shops were found."
+
+teleport-virtual-shopkeeper: "&7仮想の店員にテレポートすることはできません Cannot teleport to a virtual shopkeeper!"
+teleport-shopkeeper-world-not-loaded: "&7ロードされていないワールドに店員をテレポートさせることはできません Cannot teleport to a shopkeeper in an unloaded world!"
+teleport-no-safe-location-found: "&7テレポートするのに安全な場所が見つかりません Could not find a safe location to teleport to!"
+teleport-failed: "&7テレポートは失敗しました The teleport failed!"
+teleport-success: "&aプレイヤー'&e{player}&a'はショップ'&e{shop}&a'にテレポートしました! Player '&e{player}&a' was teleported to shopkeeper '&e{shop}&a'!"
+
+list-admin-shops-header: "&e{shopsCount} &9個のADMINショップがあります There are &e{shopsCount} &9admin shops: &e(Page {page} of {maxPage})"
+list-all-shops-header: "&9全部で&e{shopsCount} &9個のショップがあります &9There are &e{shopsCount} &9shops in total: &e(Page {page} of {maxPage})"
+list-player-shops-header: "&9プレイヤー'&e{player}&9'は&e{shopsCount} &9個のショップのオーナーです &9Player '&e{player}&9' has &e{shopsCount} &9shops: &e(Page {page} of {maxPage})"
+list-shops-entry: "  &e{shopId}) &7{shopName}&r&8座標at &7({location})&8, タイプtype: &7{shopType}&8, モブobject: &7{objectType}"
+
+shop-removed: "&aショップは削除されました The shopkeeper has been removed."
+shop-already-removed: "&7ショップはすでに削除されました The shopkeeper has already been removed."
+shop-no-longer-exists: "&7ショップはもう存在しません The shopkeeper no longer exists."
+shop-removal-cancelled: "&cショップの削除はキャンセルされました A plugin has prevented the removal of the shopkeeper."
+
+shops-already-removed: "&e{shopsCount}&7個のショップがすでに削除されました &e{shopsCount}&7 of the shops have already been removed."
+shop-removals-cancelled: "&cプラグインが&e{shopsCount}&c個のショップの削除をさまたげています Plugins have prevented the removal of &e{shopsCount}&c of the shops."
+admin-shops-removed: "&e{shopsCount} &a個のADMINショップが削除されました &e{shopsCount} &aadmin shops have been removed."
+shops-of-player-removed: "&e{shopsCount} &a個のプレイヤー'&e{player}&a'が所有するショップが削除されました &e{shopsCount} &ashops of player '&e{player}&a' have been removed."
+player-shops-removed: "&e{shopsCount} &a個のプレイヤーショップが削除されました &e{shopsCount} &aplayer shops have been removed."
+
+confirm-remove-shop: "&cショップの削除をしようとしています。この操作は取り消しできません You are about to irrevocably remove the specified shopkeeper!"
+confirm-remove-all-admin-shops: "&cあなたのショップをすべて(&6{shopsCount}&c個)削除しようとしています。この操作は取り消しできません You are about to irrevocably remove all admin shops (&6{shopsCount}&c)!"
+confirm-remove-all-own-shops: "&cあなたのショップをすべて(&6{shopsCount}&c個)削除しようとしています。この操作は取り消しできません You are about to irrevocably remove all your shops (&6{shopsCount}&c)!"
+confirm-remove-all-shops-of-player: "&cあなたのショップをすべて(&6{shopsCount}&c個)削除しようとしています。この操作は取り消しできません You are about to irrevocably remove all shops of player &6{player}&c (&6{shopsCount}&c)!"
+confirm-remove-all-player-shops: "&cみんなが持っているショップをすべて(&6{shopsCount}&c個)削除しようとしています。この操作は取り消しできません You are about to irrevocably remove all player shops of all players (&6{shopsCount}&c)!"
+
+confirm-replace-all-shops-with-vanilla-villagers: |-
+  &cすべてのショップ (&6{shopsCount}&c) を取り消し不能の操作で削除し、AIのないバニラの村人に置き換えようとしています。You are about to irrevocably delete all shops (&6{shopsCount}&c) and replace them with vanilla villagers without AI!
+  続行する前に、ワールドとショップのデータのバックアップを作成することをおすすめします Consider creating a backup of your world and shopkeeper data before you proceed.
+all-shops-replaced-with-vanilla-villagers: |-
+  &e{adminShopsCount}&a個の管理者ショップと&e{playerShopsCount}&a個のプレーヤーショップはバニラの村人に置き換えられました。&e{adminShopsCount}&a admin shops and &e{playerShopsCount}&a player shops have been replaced with vanilla villagers!
+  &e{skippedShopsCount}&a個のショップはスキップされました &e{skippedShopsCount}&a shops have been skipped.
+
+confirmation-required: "&6/shopkeepers confirm&7と入力してこの操作を承認してください Please confirm this action by typing &6/shopkeepers confirm"
+confirmation-expired: "&c承認の有効期限が切れました Confirmation expired."
+nothing-to-confirm: "&c現在承認できることはありません There is nothing to confirm currently."
+
+confirmation-ui-delete-shop-title: "&c本当にこのショップを削除しますか？ Really delete this shop?"
+confirmation-ui-delete-shop-confirm-lore:
+- "ショップを削除するこの操作は取り消しできません!"
+- "This will irrevocably remove this shop!"
+
+confirmation-ui-delete-villager-title: "&c本当にこの村人を削除しますか？ Really delete this villager?"
+confirmation-ui-delete-villager-confirm-lore:
+- "村人を削除するこの操作は取り消しできません!"
+- "This will irrevocably remove this villager!"
+villager-removed: "&aこの村人は削除されました The villager has been removed."
+
+confirmation-ui-confirm: "&2はい Confirm"
+confirmation-ui-cancel: "&4キャンセル Cancel"
+confirmation-ui-cancel-lore:
+- "これにより、現在の操作が中止されます"
+- "This will abort the current action."
+confirmation-ui-aborted: "&7確認中止 Confirmation aborted."
+
+snapshot-list-header: "&9ショップ&e{shop_id} &9には&e{snapshotsCount} &9個のスナップショットがあります Shop &e{shop_id} &9has &e{snapshotsCount} &9snapshots: &e(Page {page} of {maxPage})"
+snapshot-list-entry: "  &e{id}) &2{name}&8 (&7{timestamp}&8)"
+invalid-snapshot-id: "&c無効なスナップショットID Invalid snapshot id: &e{argument}"
+invalid-snapshot-name: "'&e{argument}&c'という名前のスナップショットは見つかりませんでした No snapshot found with name '&e{argument}&c'."
+snapshot-name-too-long: "&cスナップショットの名前は最大 &e{maxLength}&c文字までです The snapshot name can be a maximum of &e{maxLength}&c characters long: &e{name}"
+snapshot-name-invalid: "&c無効なスナップショットの名前 Invalid snapshot name: &e{name}"
+snapshot-name-already-exists: "&cすでにこの名前のスナップショットがあります There already exists another snapshot with this name: &e{name}"
+snapshot-created: "&a新しいスナップショットが作られました New snapshot created: &e({id}) &2{name} &8(&7{timestamp}&8)"
+confirm-remove-snapshot: "&c指定されたスナップショットを削除しようとしています。この操作は取り消しできません You are about to irrevocably delete the specified snapshot!"
+confirm-remove-all-snapshots: "&cこの店員(&6{snapshotsCount}&c)の全てのスナップショットを削除しようとしています。この操作は取り消しできません You are about to irrevocably delete all snapshots of the specified shopkeeper (&6{snapshotsCount}&c)!"
+action-aborted-snapshots-changed: "&c操作は中止されました。その間、スナップショットは変更されました。もう一度やり直してください Action aborted! The snapshots have changed in the meantime. Try again."
+snapshot-removed: "&aスナップショットは削除されました Snapshot deleted: &e({id}) &2{name} &8(&7{timestamp}&8)"
+snapshot-removed-all: "&aショップ&e{shop_id}&aの&e{snapshotsCount} &a個のスナップショットが全て削除されました All &e{snapshotsCount} &asnapshots of shop &e{shop_id}&a have been deleted."
+snapshot-restore-failed: "&cスナップショットの復元に失敗しました Failed to restore snapshot: &e({id}) &2{name} &8(&7{timestamp}&8)"
+snapshot-restored: "&aスナップショットは復元されました Snapshot restored: &e({id}) &2{name} &8(&7{timestamp}&8)"
+
+no-permission: "&cあなたはこの操作の権限がありません You don't have the permission to do that."
+
+command-unknown: "&c不明なコマンド Unknown command '&e{command}&c'!"
+command-argument-unexpected: "&c予期しない引数 Unexpected argument '&e{argument}&c'."
+command-argument-requires-player: "&c引数'&e{argumentFormat}&c'はプレイヤーのコマンド入力を必要とします Argument '&e{argumentFormat}&c' requires a player to execute the command."
+command-argument-missing: "&c引数がありません Missing argument '&e{argumentFormat}&c'."
+command-argument-invalid: "&c無効な引数 Invalid argument '&e{argument}&c'."
+command-player-argument-missing: "'&e{argumentFormat}&c'にプレイヤーが指定されていません No player specified for '&e{argumentFormat}&c'."
+command-player-argument-invalid: "&c'&e{argument}&c'のプレイヤーが見つかりません No player found for '&e{argument}&c'."
+command-shop-type-argument-invalid: "&c不明なショップのタイプ Unknown shop type '&e{argument}&c'."
+command-shop-object-type-argument-invalid: "&c不明なショップのオブジェクトタイプ Unknown shop object type '&e{argument}&c'."
+command-shopkeeper-argument-invalid: "&c'&e{argument}&c'の店員が見つかりません No shopkeeper found for '&e{argument}&c'."
+command-shopkeeper-argument-no-admin-shop: "&c店員'&e{argument}&c'はADMIN店員ではありません Shopkeeper '&e{argument}&c' is no admin shopkeeper."
+command-shopkeeper-argument-no-player-shop: "&c店員'&e{argument}&c'はプレイヤーのショップ店員ではありません Shopkeeper '&e{argument}&c' is no player shopkeeper."
+command-shopkeeper-argument-no-access: "&c店員'&e{argument}&c'へのアクセス権はありません You do not have access to shopkeeper '&e{argument}&c'."
+command-entity-argument-no-villager: "'&e{argument}&c'はバニラの村人ではありません Entity '&e{argument}&c' is no regular villager."
+
+ambiguous-player-name: "'&e{name}&c'という名前のプレイヤーが複数います There are multiple players for the name '&e{name}&c'!"
+ambiguous-player-name-entry: "&c  - '&e{name}&r&c' (&6{uuid}&c)"
+ambiguous-player-name-more: "&c  - ...."
+
+ambiguous-shopkeeper-name: "&c&e{name}&c'という名前の店員が複数います There are multiple shopkeepers for the name '&e{name}&c'!"
+ambiguous-shopkeeper-name-entry: "&c  - &e{id})&c '&e{name}&r&c' (&6{uuid}&c)"
+ambiguous-shopkeeper-name-more: "&c  - ...."
+
+ambiguous-target-shopkeeper: "&c複数の店員が指定されています There are multiple shopkeepers being targeted!"
+ambiguous-target-shopkeeper-entry: "&c  - &e{id})&c '&e{name}&r&c' (&6{uuid}&c)"
+ambiguous-target-shopkeeper-more: "&c  - ...."
+
+command-help-title: "&9***** &8[&6Shopkeepers v{version}&8] &9*****"
+command-help-usage-format: "&e{usage}"
+command-help-description-format: "&8 - &3{description}"
+
+command-description-shopkeeper: "ショップをつくる Creates a shopkeeper."
+command-description-help: "ヘルプ Shows this help page."
+command-description-reload: "プラグインをリロード Reloads this plugin."
+command-description-debug: "デバッグモードのon off Toggles debug mode on and off."
+command-description-notify: "取引通知のon off Turns trade notifications for you on or off."
+command-description-list: "特定のプレイヤーの所有するショップまたはADMINショップのリストを表示 Lists all shops of a specific player, or all admin shops."
+command-description-remove: "特定のショップを削除 Removes a specific shop."
+command-description-remove-all: "特定のプレイヤーのショップ、または全てのプレイヤー、またはADMINショップを全て削除 Removes all shops of a specific player, all players, or all admin shops."
+command-description-give: "指定したプレイヤーにショップクリエイションアイテムを与える Gives shop creation item(s) to the specified player."
+command-description-give-currency: "指定したプレイヤーに通貨アイテムを与える Gives currency item(s) to the specified player."
+command-description-set-currency: "手にもっているアイテムを通貨アイテムとして指定する Changes the currency item to the item held in hand."
+command-description-convert-items: "保持されている (またはすべての) アイテムを Spigot のデータ形式に準拠するように変換 Converts the held (or all) items to conform to Spigot's data format."
+command-description-update-items: "サードパーティのアイテムを更新（サポートされている場合）Updates third-party items (if they support it)."
+command-description-remote: "リモートでショップをオープン(オプション：別のプレイヤー用) Remotely opens a shop (Optionally: For another player)."
+command-description-remote-edit: "リモートでショップを設定 Remotely edits a shop."
+command-description-transfer: "ショップのオーナーを移動 Transfers the ownership of a shop."
+command-description-teleport: "ショップにテレポートTeleports to a shop."
+command-description-settradeperm: "取引権限を設定、削除(-)、または表示(?) Sets, removes (-) or displays (?) the trading permission."
+command-description-settradedcommand: "保有アイテムの取引コマンドを設定、削除(-)、表示(?) Sets, removes (-) or displays (?) the traded command of the held item."
+command-description-setforhire: "自分のショップを売りに出す Sets one of your shops for sale."
+command-description-snapshot-list: "スナップショットのリスト Lists the snapshots of a shop."
+command-description-snapshot-create: "新しいショップのスナップショットを作る Creates a new shop snapshot."
+command-description-snapshot-remove: "指定したまたはすべてのショップのスナップショットを削除 Removes a specific or all snapshots of a shop."
+command-description-snapshot-restore: "特定のショップのスナップショットを復元 Restores a specific shop snapshot."
+command-description-edit-villager: "この村人の設定を開く Opens the editor for the target villager."
+command-description-replace-all-with-vanilla-villagers: "全ての店員をAIがないバニラの村人に置き換える Replaces all shopkeepers with vanilla villagers without AI."
