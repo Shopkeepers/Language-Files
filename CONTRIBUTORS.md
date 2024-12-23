@@ -10,6 +10,7 @@ This document lists the contributors of language files found in this repository.
 * uk: dol4iua
 * ru: justpoteto
 * zh_CN: firesahc
+* tr: hhhhh-ckr
 
 ## [v2.19.0](https://github.com/Shopkeepers/Language-Files/blob/v2.19.0/CONTRIBUTORS.md)
 
