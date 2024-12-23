@@ -12,6 +12,7 @@ This document lists the contributors of language files found in this repository.
 * cs: Lemafor
 * pl: Lemafor
 * be: Gazmanovich
+* tr: hhhhh-ckr
 
 ## [v2.20.0](https://github.com/Shopkeepers/Language-Files/blob/v2.20.0/CONTRIBUTORS.md)
 
