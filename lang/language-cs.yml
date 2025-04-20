@@ -259,7 +259,7 @@ msg-trade-setup-desc-book:
 
 msg-list-admin-shops-header: "&9Počet správcovských kupců: &e(Strana {page} z {maxPage})"
 msg-list-player-shops-header: "&9Počet obchodů hráče '&e{player}&9': &e{shopsCount}&9: &e(Strana {page} z {maxPage})"
-msg-list-shops-entry: "  &"&e{shopId}) &7{shopName}&r&8na &7({location})&8, druh: &7{shopType}&8, kupec: &7{objectType}"
+msg-list-shops-entry: "  &e{shopId}) &7{shopName}&r&8na &7({location})&8, druh: &7{shopType}&8, kupec: &7{objectType}"
 
 msg-removed-admin-shops: "&aSprávcovské obchody byly odstraněny (&e{shopsCount}&a)."
 msg-removed-shops-of-player: "Hráčské obchody byly odstraněny (&e{shopsCount}&a)."
