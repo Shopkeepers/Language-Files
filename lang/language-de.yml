@@ -113,10 +113,6 @@ button-horse-style: "&aFellmuster ändern"
 button-horse-style-lore:
 - "Ändert das Fellmuster"
 - "des Pferdes"
-button-horse-saddle: "&aSattel umschalten"
-button-horse-saddle-lore:
-- "Schaltet den Sattel"
-- "an oder aus"
 button-horse-armor: "&aPferderüstung ändern"
 button-horse-armor-lore:
 - "Ändert die Pferderüstung"
@@ -144,6 +140,10 @@ button-fox-sleeping: "&aSchlafhaltung umschalten"
 button-fox-sleeping-lore:
 - "Wechselt zwischen normaler"
 - "und Schlafhaltung"
+button-cow-variant: "&aKuh-Variante ändern"
+button-cow-variant-lore:
+- "Ändert das Aussehen"
+- "der Kuh"
 button-mooshroom-variant: "&aMooshroom-Variante ändern"
 button-mooshroom-variant-lore:
 - "Ändert das Aussehen"
@@ -156,10 +156,14 @@ button-parrot-variant: "&aPapagei-Variante ändern"
 button-parrot-variant-lore:
 - "Ändert das Aussehen"
 - "des Papageis"
-button-pig-saddle: "&aSattel umschalten"
-button-pig-saddle-lore:
-- "Schaltet den Sattel"
-- "an oder aus"
+button-pig-variant: "&aSchwein-Variante ändern"
+button-pig-variant-lore:
+- "Ändert das Aussehen"
+- "des Schweins"
+button-chicken-variant: "&aHuhn-Variante ändern"
+button-chicken-variant-lore:
+- "Ändert das Aussehen"
+- "des Huhns"
 button-sheep-color: "&aWollfarbe ändern"
 button-sheep-color-lore:
 - "Ändert die Wollfarbe"
@@ -251,6 +255,10 @@ button-wolf-variant: "&aWolf-Variante ändern"
 button-wolf-variant-lore:
 - "Ändert das Aussehen"
 - "des Wolfes"
+button-saddle: "&aSattel umschalten"
+button-saddle-lore:
+- "Schaltet den Sattel"
+- "an oder aus"
 
 equipment-editor-title: "Ausrüstung Editor"
 equipment-slot-lore:
@@ -266,6 +274,7 @@ equipment-slot-legs: "&aBeine"
 equipment-slot-chest: "&aBrust"
 equipment-slot-head: "&aKopf"
 equipment-slot-body: "&aKörper"
+equipment-slot-saddle: "&aSattel"
 
 admin-sign-shop-line1: "&2[SHOP]"
 admin-sign-shop-line2: "&7{shopName}"

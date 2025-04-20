@@ -2,13 +2,9 @@
 
 This document lists the contributors of language files found in this repository.
 
-## [v2.23.3](https://github.com/Shopkeepers/Language-Files/blob/v2.23.3/CONTRIBUTORS.md)
+## [v2.23.4](https://github.com/Shopkeepers/Language-Files/blob/v2.23.4/CONTRIBUTORS.md)
 
-* zh-CN: yxc0915
-* ja-mix-en: metchja
-* tr: hhhhh-ckr
-* ja: nehatsu
-* es: Santyxs
+## [v2.23.3](https://github.com/Shopkeepers/Language-Files/blob/v2.23.3/CONTRIBUTORS.md)
 
 ## [v2.23.2](https://github.com/Shopkeepers/Language-Files/blob/v2.23.2/CONTRIBUTORS.md)
 

@@ -111,10 +111,6 @@ button-horse-style: "&aChoose horse style"
 button-horse-style-lore:
 - "Changes the coat pattern"
 - "of the horse"
-button-horse-saddle: "&aToggle horse saddle"
-button-horse-saddle-lore:
-- "Toggles the saddle"
-- "of the horse"
 button-horse-armor: "&aChoose horse armor"
 button-horse-armor-lore:
 - "Changes the armor"
@@ -141,6 +137,9 @@ button-fox-sleeping: "&aToggle sleeping pose"
 button-fox-sleeping-lore:
 - "Toggles the fox's"
 - "sleeping pose"
+button-cow-variant: "&aChoose cow variant"
+button-cow-variant-lore:
+- "Changes the cow's look"
 button-mooshroom-variant: "&aChoose mooshroom variant"
 button-mooshroom-variant-lore:
 - "Changes the look"
@@ -151,9 +150,12 @@ button-panda-variant-lore:
 button-parrot-variant: "&aChoose parrot variant"
 button-parrot-variant-lore:
 - "Changes the parrot's look"
-button-pig-saddle: "&aToggle pig saddle"
-button-pig-saddle-lore:
-- "Toggles the pig's saddle"
+button-pig-variant: "&aChoose pig variant"
+button-pig-variant-lore:
+- "Changes the pig's look"
+button-chicken-variant: "&aChoose chicken variant"
+button-chicken-variant-lore:
+- "Changes the chicken's look"
 button-sheep-color: "&aChoose sheep color"
 button-sheep-color-lore:
 - "Changes the sheep's"
@@ -241,6 +243,9 @@ button-frog-variant-lore:
 button-wolf-variant: "&aChoose wolf variant"
 button-wolf-variant-lore:
 - "Changes the wolf's look"
+button-saddle: "&aToggle saddle"
+button-saddle-lore:
+- "Toggles the mob's saddle"
 
 equipment-editor-title: "Equipment Editor"
 equipment-slot-lore:
@@ -255,6 +260,7 @@ equipment-slot-legs: "&aLegs"
 equipment-slot-chest: "&aChest"
 equipment-slot-head: "&aHead"
 equipment-slot-body: "&aBody"
+equipment-slot-saddle: "&aSaddle"
 
 admin-sign-shop-line1: "&2[SHOP]"
 admin-sign-shop-line2: "&7{shopName}"

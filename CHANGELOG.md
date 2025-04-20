@@ -1,5 +1,26 @@
 # Changelog
 
+## v2.23.4
+
+### New messages
+
+* Added `equipment-slot-saddle`.
+* Added `button-saddle`.
+* Added `button-saddle-lore`.
+* Added `button-cow-variant`.
+* Added `button-cow-variant-lore`.
+* Added `button-pig-variant`.
+* Added `button-pig-variant-lore`.
+* Added `button-chicken-variant`.
+* Added `button-chicken-variant-lore`.
+
+### Removed messages
+
+* Removed `button-pig-saddle`.
+* Removed `button-pig-saddle-lore`.
+* Removed `button-horse-saddle`.
+* Removed `button-horse-saddle-lore`.
+
 ## v2.23.3
 
 ### New messages
