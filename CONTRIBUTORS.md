@@ -9,6 +9,7 @@ This document lists the contributors of language files found in this repository.
 * tr: hhhhh-ckr
 * ja: nehatsu
 * es: Santyxs
+* vi: noobd3mon
 
 ## [v2.23.2](https://github.com/Shopkeepers/Language-Files/blob/v2.23.2/CONTRIBUTORS.md)
 
