@@ -1,0 +1,23 @@
+name: Update Summaries
+
+on:
+  push:
+  workflow_dispatch:
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+    - name: Check out repository
+      uses: actions/checkout@v4
+      with:
+        fetch-depth: 0  # Include the full history
+    - name: Set up python
+      uses: actions/setup-python@v5
+      with:
+        python-version: '3.13'
+        cache: 'pip'
+    - name: Install python requirements
+      run: pip install -r scripts/requirements.txt
+    - name: Run script
+      run: python scripts/update_summaries.py

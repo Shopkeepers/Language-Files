@@ -1,0 +1,4 @@
+# Normalize line endings of text files:
+
+*.yml text
+*.md text
