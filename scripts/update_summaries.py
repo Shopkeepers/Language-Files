@@ -54,14 +54,15 @@ def build_language_table():
     assert not repo.bare
 
     # Get all version branches sorted from highest to lowest
-    branches = [branch.name for branch in repo.heads if branch.name.startswith("v")]
+    # Note: repo.heads does not work in Github workflows.
+    branches = [branch.name.replace("origin/", "") for branch in repo.remotes.origin.refs if branch.name.startswith("origin/v")]
     versions = sorted(branches, key=parse_version, reverse=True)
 
     # Parse en-default
     en_files = {}
     for version in versions:
         try:
-            blob = repo.git.show(f"{version}:{LANG_DIR}/{EN_DEFAULT_FILE}")
+            blob = repo.git.show(f"origin/{version}:{LANG_DIR}/{EN_DEFAULT_FILE}")
             en_files[version] = flatten_yaml(yaml.safe_load(blob))
         except Exception:
             raise RuntimeError(f"Version {version}: Failed to load {EN_DEFAULT_FILE}!") from e
@@ -75,7 +76,7 @@ def build_language_table():
 
     for version in versions:
         try:
-            tree = repo.git.ls_tree("-r", f"{version}", f"{LANG_DIR}/")
+            tree = repo.git.ls_tree("-r", f"origin/{version}", f"{LANG_DIR}/")
             for line in tree.splitlines():
                 _, _, _, path = line.split()
                 if not path.endswith(".yml"):
@@ -89,7 +90,7 @@ def build_language_table():
                 lang_versions[lang_code].add(version)
 
                 try:
-                    blob = repo.git.show(f"{version}:{path}")
+                    blob = repo.git.show(f"origin/{version}:{path}")
                     lang_files[lang_code][version] = flatten_yaml(yaml.safe_load(blob))
                 except Exception as e:
                     raise RuntimeError(f"Version {version}: Failed to load language file {path}!") from e
