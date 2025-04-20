@@ -149,6 +149,8 @@ def update_readme(language_table):
     with open(os.path.join(REPO_ROOT, "README.md"), "w", encoding="utf-8") as f:
         f.write(readme_content)
 
+    print("Readme updated!")
+
 if __name__ == "__main__":
     language_table = build_language_table()
     update_readme(language_table)
