@@ -8,12 +8,28 @@ from git import Repo
 # === Configuration ===
 REPO_ROOT = os.path.abspath(os.path.join(os.path.dirname(__file__), '..'))
 LANG_DIR = "lang"
+TEMPLATES_DIR = "templates"
 EN_DEFAULT = "en-default"
 EN_DEFAULT_FILE = f"language-{EN_DEFAULT}.yml"
 LANGUAGE_FILE_URL = "https://github.com/Shopkeepers/Language-Files/blob/{version}/lang/language-{lang_code}.yml"
-README_TEMPLATE_FILE = os.path.join(REPO_ROOT, "templates", "README.md")
+CONTRIBUTORS_URL = "https://github.com/Shopkeepers/Language-Files/blob/{version}/CONTRIBUTORS.md"
+
+README_FILENAME = "README.md"
+README_TEMPLATE_FILE = os.path.join(REPO_ROOT, TEMPLATES_DIR, README_FILENAME)
+README_FILE = os.path.join(REPO_ROOT, README_FILENAME)
+
+CONTRIBUTORS_FILENAME = "CONTRIBUTORS.md"
+CONTRIBUTORS_TEMPLATE_FILE = os.path.join(REPO_ROOT, TEMPLATES_DIR, CONTRIBUTORS_FILENAME)
+CONTRIBUTORS_FILE = os.path.join(REPO_ROOT, CONTRIBUTORS_FILENAME)
 
 # === Helper Functions ===
+def get_versions(repo):
+    # Get all version branches sorted from highest to lowest
+    # Note: repo.heads does not work in Github workflows.
+    branches = [branch.name.replace("origin/", "") for branch in repo.remotes.origin.refs if branch.name.startswith("origin/v")]
+    versions = sorted(branches, key=parse_version, reverse=True)
+    return versions
+
 def extract_language_code(filename):
     match = re.match(r"language-(.+)\.yml", filename)
     return match.group(1) if match else None
@@ -48,15 +64,10 @@ def compare_language_files(old_dict, new_dict):
 
     return missing, outdated, obsolete
 
-# === Main Logic ===
-def build_language_table():
-    repo = Repo(REPO_ROOT)
-    assert not repo.bare
-
-    # Get all version branches sorted from highest to lowest
-    # Note: repo.heads does not work in Github workflows.
-    branches = [branch.name.replace("origin/", "") for branch in repo.remotes.origin.refs if branch.name.startswith("origin/v")]
-    versions = sorted(branches, key=parse_version, reverse=True)
+# === README ===
+def build_language_table(repo):
+    # Get all versions sorted from highest to lowest
+    versions = get_versions(repo)
 
     # Parse en-default
     en_files = {}
@@ -143,15 +154,68 @@ def update_readme(language_table):
         template = f.read()
 
     # Replace placeholder
-    readme_content = template.replace("{LANGUAGES}", language_table)
+    content = template.replace("{LANGUAGES}", language_table)
 
-    # Write the final README
+    # Write the final file
     with open(os.path.join(REPO_ROOT, "README.md"), "w", encoding="utf-8") as f:
-        f.write(readme_content)
+        f.write(content)
 
     print("Readme updated!")
 
+# === CONTRIBUTORS ===
+
+def build_contributors_list(repo):
+    # Get all versions sorted from highest to lowest
+    versions = get_versions(repo)
+
+    version_contributors = {}
+
+    for version in versions:
+        # Read version's contributors
+        try:
+            content = repo.git.show(f"origin/{version}:{CONTRIBUTORS_FILENAME}")
+        except Exception as e:
+            continue
+            #raise RuntimeError(f"Version {version}: Failed to read {CONTRIBUTORS_FILENAME}!") from e
+
+        version_contributor_lines = [line for line in content.splitlines() if line.startswith(("*", "-"))]
+
+        version_contributors[version] = "\n".join(version_contributor_lines)
+
+    lines = []
+
+    for version in versions:
+        file_url = CONTRIBUTORS_URL.format(version=version)
+        contributors = version_contributors.get(version, "")
+
+        lines.append(f"## [{version}]({file_url})")
+        lines.append("")
+        if contributors:
+            lines.append(contributors)
+            lines.append("")
+
+    return "\n".join(lines)
+
+def update_contributors(contributors_list):
+    # Read the template
+    with open(CONTRIBUTORS_TEMPLATE_FILE, "r", encoding="utf-8") as f:
+        template = f.read()
+
+    # Replace placeholder
+    content = template.replace("{CONTRIBUTORS}", contributors_list)
+
+    # Write the final file
+    with open(CONTRIBUTORS_FILE, "w", encoding="utf-8") as f:
+        f.write(content)
+
+    print("Contributors updated!")
+
 if __name__ == "__main__":
-    language_table = build_language_table()
+    repo = Repo(REPO_ROOT)
+    assert not repo.bare
+
+    language_table = build_language_table(repo)
     update_readme(language_table)
-    # TODO Automatically generate and update the contributors file
+
+    contributors_list = build_contributors_list(repo)
+    update_contributors(contributors_list)
