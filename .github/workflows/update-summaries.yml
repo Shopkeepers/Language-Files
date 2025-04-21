@@ -1,14 +1,15 @@
 name: Update Summaries
 
 on:
-  push:
+  push: # Note: Only triggers for pushes to the branch containing this workflow
+  workflow_call: # Called from version branches
   workflow_dispatch:
 
 permissions:
   contents: write
 
 jobs:
-  build:
+  update-summaries:
     runs-on: ubuntu-latest
     steps:
     - name: Check out repository main branch
