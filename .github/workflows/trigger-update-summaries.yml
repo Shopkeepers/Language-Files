@@ -1,0 +1,8 @@
+name: Trigger Update Summaries
+
+on:
+  push:
+
+jobs:
+  trigger-update-summaries:
+    uses: Shopkeepers/Language-Files/.github/workflows/update-summaries.yml@main
