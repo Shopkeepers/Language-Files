@@ -11,9 +11,10 @@ jobs:
   build:
     runs-on: ubuntu-latest
     steps:
-    - name: Check out repository
+    - name: Check out repository main branch
       uses: actions/checkout@v4
       with:
+        ref: main
         fetch-depth: 0  # Include the full history and all branches
     - name: Set up python
       uses: actions/setup-python@v5
