@@ -312,7 +312,6 @@ equipment-slot-lore:
 - "Clic droit pour vider"
 - "l'emplacement d'équipement."
 
-
 equipment-slot-mainhand: "&aMainhand"
 equipment-slot-offhand: "&aOffhand"
 equipment-slot-feet: "&aFeet"
@@ -435,7 +434,7 @@ trade-notification-admin-shop: "&eMagasin Administrateur"
 trade-notification-named-admin-shop: '&e"{shop_name}"'
 trade-notification-trade-count: "&7 (&6{count}x&7)"
 
-owner-trade-notification-one-item: "&e{player}&7 a acheté &6{resultItemAmount}x &a{resultItemDisplayName}&7 de {shop}{trade_count}"
+owner-trade-notification-one-item: "&e{player}&7 a acheté &6{resultItemAmount}x &a{resultItem}&7 de {shop}{trade_count}"
 owner-trade-notification-two-items: "&e{player}&7 a acheté &6{resultItemAmount}x &a{resultItem}&7 de {shop}{trade_count}"
 owner-buy-notification-one-item: "&e{player}&7 a vendu &6{item1Amount}x &a{item1}&7 à {shop}{trade_count}"
 owner-buy-notification-two-items: "&e{player}&7 a vendu &6{item1Amount}x &a{item1}&7 et &6{item2Amount}x &a{item2}&7 à {shop}{trade_count}"
@@ -501,7 +500,6 @@ trade-setup-desc-book:
 - Clic gauche/droit pour ajuster les coûts.
 - 'Ligne du haut : Livres vendus'
 - 'Lignes du bas : Articles coût'
-
 
 selling-shop.empty-trade.result-item: "&dObjet à vendre"
 selling-shop.empty-trade.result-item-lore:
