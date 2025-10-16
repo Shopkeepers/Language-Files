@@ -1,5 +1,34 @@
 # Changelog
 
+## v2.24.0
+
+### New messages
+
+* Added `button-copper-golem-weather-state`.
+* Added `button-copper-golem-weather-state-lore`.
+* Added `button-armor-stand-base-plate`.
+* Added `button-armor-stand-base-plate-lore`.
+* Added `button-armor-stand-show-arms`.
+* Added `button-armor-stand-show-arms-lore`.
+* Added `button-armor-stand-small`.
+* Added `button-armor-stand-small-lore`.
+* Added `button-mannequin-main-hand`.
+* Added `button-mannequin-main-hand-lore`.
+* Added `button-mannequin-pose`.
+* Added `button-mannequin-pose-lore`.
+* Added `button-mannequin-profile`.
+* Added `button-mannequin-profile-lore`.
+* Added `mannequin-enter-profile`.
+* Added `mannequin-enter-profile-canceled`.
+* Added `mannequin-profile-set`.
+* Added `mannequin-profile-cleared`.
+* Added `mannequin-profile-invalid`.
+
+### Removed messages
+
+* Removed `items-converted`.
+* Removed `command-description-convert-items`.
+
 ## v2.23.4
 
 ### New messages
