@@ -259,6 +259,43 @@ button-saddle: "&aSattel umschalten"
 button-saddle-lore:
 - "Schaltet den Sattel"
 - "an oder aus"
+button-copper-golem-weather-state: "&aOxidationsgrad ändern"
+button-copper-golem-weather-state-lore:
+- "Ändert den Oxidationsgrad"
+- "des Kupfergolems"
+button-armor-stand-base-plate: "&aBodenplatte umschalten"
+button-armor-stand-base-plate-lore:
+- "Schaltet die Bodenplatte"
+- "an oder aus"
+button-armor-stand-show-arms: "&aArme umschalten"
+button-armor-stand-show-arms-lore:
+- "Schaltet die Arme"
+- "an oder aus"
+button-armor-stand-small: "&aGröße umschalten"
+button-armor-stand-small-lore:
+- "Ändert die Größe"
+- "des Rüstungsständers"
+button-mannequin-main-hand: "&aHaupthand umschalten"
+button-mannequin-main-hand-lore:
+- "Wechselt die Haupthand"
+- "der Spielerpuppe"
+button-mannequin-pose: "&aPose ändern"
+button-mannequin-pose-lore:
+- "Ändert die Pose"
+- "der Spielerpuppe"
+button-mannequin-profile: "&aSkin ändern"
+button-mannequin-profile-lore:
+- "Ändert die Skin-Textur"
+- "der Spielerpuppe"
+
+mannequin-enter-profile: |-
+  &aBitte gib im Chat den Namen oder die Id des Spielers ein, dessen Profil du auf die Spielerpuppe anwenden möchtest.
+  &a  Ein Minus (-) entfernt das aktuelle Profil.
+  &a  Ein Ausrufezeichen (!) behält das aktuelle Profil bei.
+mannequin-enter-profile-canceled: "&7Abgebrochen: Das Profil der Spielerpuppe wurde nicht geändert."
+mannequin-profile-set: "&aDas Profil der Spielerpuppe wurde zu '&e{profileName}&a geändert'!"
+mannequin-profile-cleared: "&aDas Profil der Spielerpuppe wurde entfernt!"
+mannequin-profile-invalid: "&cDas Profil für '&e{input}&c' konnte nicht abgerufen werden!"
 
 equipment-editor-title: "Ausrüstung Editor"
 equipment-slot-lore:
@@ -343,7 +380,6 @@ currency-items-given: "&aSpieler &e{player}&a hat &6{amount}x &aWährungsgegenst
 currency-items-received: "&aDu hast &6{amount}x&a Währungsgegenstand '&e{currency}&a' bekommen!"
 must-hold-item-in-main-hand: "&7Du musst einen Gegenstand in deiner Haupthand halten."
 currency-item-set-to-main-hand-item: "&aDer Währungsgegenstand '&e{currencyId}&a' wurde zu dem &eGegenstand in deiner Haupthand&a geändert!"
-items-converted: "&aEs wurden &e{count}&a Gegenstände konvertiert!"
 items-updated: "&aEs wurden &e{count}&a Gegenstände aktualisiert!"
 unknown-book-author: "Unbekannt"
 
@@ -709,7 +745,6 @@ command-description-remove-all: "Entfernt alle Shops eines Spielers, aller Spiel
 command-description-give: "Gibt dem Spieler Gegenstände zum Erstellen von Shops."
 command-description-give-currency: "Gibt dem Spieler Geld Gegenstände."
 command-description-set-currency: "Ändert den Währungsgegenstand zu dem Gegenstand in deiner Hand."
-command-description-convert-items: "Konvertiert die gehaltenen (oder alle) Gegenstände, um dem Datenformat von Spigot zu entsprechen."
 command-description-update-items: "Aktualisiert Gegenstände von Drittanbieter-Plugins (sofern diese es unterstützen)."
 command-description-remote: "Öffnet einen Shop aus der Ferne (Optional: Für einen anderen Spieler)."
 command-description-remote-edit: "Editiert einen Shop aus der Ferne."

@@ -246,6 +246,43 @@ button-wolf-variant-lore:
 button-saddle: "&aToggle saddle"
 button-saddle-lore:
 - "Toggles the mob's saddle"
+button-copper-golem-weather-state: "&aChoose oxidation level"
+button-copper-golem-weather-state-lore:
+- "Changes the copper golem's"
+- "oxidation level"
+button-armor-stand-base-plate: "&aToggle base plate"
+button-armor-stand-base-plate-lore:
+- "Toggles the base plate"
+- "of the armor stand"
+button-armor-stand-show-arms: "&aToggle arms"
+button-armor-stand-show-arms-lore:
+- "Toggles the arms"
+- "of the armor stand"
+button-armor-stand-small: "&aToggle size"
+button-armor-stand-small-lore:
+- "Toggles the size"
+- "of the armor stand"
+button-mannequin-main-hand: "&aToggle main hand"
+button-mannequin-main-hand-lore:
+- "Toggles the main hand"
+- "of the mannequin"
+button-mannequin-pose: "&aToggle pose"
+button-mannequin-pose-lore:
+- "Toggles the pose"
+- "of the mannequin"
+button-mannequin-profile: "&aChange skin"
+button-mannequin-profile-lore:
+- "Changes the skin"
+- "of the mannequin"
+
+mannequin-enter-profile: |-
+  &aPlease enter in chat the name or id of the player whose profile you want to apply to the mannequin.
+  &a  Enter a dash (-) to clear the current profile.
+  &a  Enter an exclamation mark (!) to keep the current profile.
+mannequin-enter-profile-canceled: "&7Canceled: The mannequin's profile was not changed."
+mannequin-profile-set: "&aThe mannequin's profile has been set to '&e{profileName}&a'!"
+mannequin-profile-cleared: "&aThe mannequin's profile has been cleared!"
+mannequin-profile-invalid: "&cFailed to fetch the profile for '&e{input}&c'!"
 
 equipment-editor-title: "Equipment Editor"
 equipment-slot-lore:
@@ -329,7 +366,6 @@ currency-items-given: "&aPlayer &e{player}&a has received &6{amount}x&a currency
 currency-items-received: "&aYou have received &6{amount}x&a currency item '&e{currency}&a'!"
 must-hold-item-in-main-hand: "&7You must hold an item in your main hand."
 currency-item-set-to-main-hand-item: "&aThe currency item '&e{currencyId}&a' has been set to the &eitem in your main hand&a!"
-items-converted: "&aConverted &e{count}&a item stack(s)!"
 items-updated: "&aUpdated &e{count}&a item(s)!"
 unknown-book-author: "Unknown"
 
@@ -695,7 +731,6 @@ command-description-remove-all: "Removes all shops of a specific player, all pla
 command-description-give: "Gives shop creation item(s) to the specified player."
 command-description-give-currency: "Gives currency item(s) to the specified player."
 command-description-set-currency: "Changes the currency item to the item held in hand."
-command-description-convert-items: "Converts the held (or all) items to conform to Spigot's data format."
 command-description-update-items: "Updates third-party items (if they support it)."
 command-description-remote: "Remotely opens a shop (Optionally: For another player)."
 command-description-remote-edit: "Remotely edits a shop."
