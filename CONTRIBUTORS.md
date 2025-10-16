@@ -2,6 +2,8 @@
 
 Thank you to everyone who has contributed to the language files in this repository!
 
+## [v2.24.0](https://github.com/Shopkeepers/Language-Files/blob/v2.24.0/CONTRIBUTORS.md)
+
 ## [v2.23.4](https://github.com/Shopkeepers/Language-Files/blob/v2.23.4/CONTRIBUTORS.md)
 
 ## [v2.23.3](https://github.com/Shopkeepers/Language-Files/blob/v2.23.3/CONTRIBUTORS.md)
