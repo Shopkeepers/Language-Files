@@ -1,2 +1,3 @@
-# Contributors v2.23.4
+# Contributors v2.24.0
 
+* sk: takatalvi

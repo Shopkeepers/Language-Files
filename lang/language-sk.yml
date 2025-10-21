@@ -1,0 +1,720 @@
+# Language: sk
+
+date-time-format: "yyyy-MM-dd HH:mm:ss"
+
+shop-type-admin-regular: "Admin obchod"
+shop-type-selling: "Predajný obchod"
+shop-type-buying: "Nákupný obchod"
+shop-type-trading: "Výmenný obchod"
+shop-type-book: "Knižný obchod"
+
+shop-type-desc-admin-regular: "má neobmedzené zásoby"
+shop-type-desc-selling: "predáva tovar hráčom"
+shop-type-desc-buying: "kupuje tovar od hráčov"
+shop-type-desc-trading: "vymieňa tovar s hráčmi"
+shop-type-desc-book: "predáva kópie kníh"
+
+shop-object-type-living: "{type}"
+shop-object-type-sign: "ceduľa"
+shop-object-type-hanging-sign: "závesná ceduľa"
+shop-object-type-npc: "npc"
+
+selected-shop-type: "&aVybraný typ obchodu: &6{type} &7({description})"
+selected-shop-object-type: "&aVybraný typ objektu: &6{type}"
+
+creation-item-selected: |-
+  &aVytvorenie obchodníka:
+  &6  Bez mierenia na akýkoľvek blok použi:
+  &6  1. &ePravý/ľavý klik pre výber typu obchodu.
+  &6  2. &eZakrádanie (sneak) + pravý/ľavý klik pre výber typu objektu (predajcu).
+  &6  3. &ePravý klik na kontajner (napr. truhlica) pre označenie kontajnera.
+  &6  4. &ePravý klik na blok pre umiestnenie obchodníka.
+
+state-enabled: "&2Zapnuté"
+state-disabled: "&4Vypnuté"
+
+editor-title: "Úpravy obchodníka"
+
+button-previous-page: "&6<- predošlá strana ({prev_page} Z {max_page})"
+button-previous-page-lore: []
+button-next-page: "&6Ďalšia strana ({next_page} z {max_page}) ->"
+button-next-page-lore: []
+button-current-page: "&6Strana {page} z {max_page}"
+button-current-page-lore: []
+
+button-name: "&aNastaviť názov obchodu"
+button-name-lore:
+- Umožňuje premenovať
+- tvoj obchod
+button-equipment: "&aVybavenie"
+button-equipment-lore:
+- "Priradiť vybavenie."
+- "Pozor: Nie všetky tvory"
+- "podporujú tie isté pozície."
+button-move: "&aPremiestniť obchod"
+button-move-lore:
+- Umožňuje premiestniť
+- tvoj obchod
+button-container: "&aZobraziť inventár"
+button-container-lore:
+- Umožňuje zobraziť inventár kontajnera,
+- ktorý tvoj obchod používa
+button-trade-notifications: "&aOznámenia o obchodoch"
+button-trade-notifications-lore:
+- "Vypne/zapne oznámenia"
+- "o obchodoch tohto obchodu."
+- "Aktuálne: {state}"
+button-delete: "&4Odstrániť"
+button-delete-lore:
+- Uzavrie a odstráni
+- tento obchod
+
+button-sign-variant: "&aTyp cedule"
+button-sign-variant-lore:
+- "Zmení typ dreva"
+- "cedule"
+button-sign-glowing-text: "&aSvietiaci text"
+button-sign-glowing-text-lore:
+- "Nastavuje"
+- "svietiaci text"
+button-baby: "&aMláďa"
+button-baby-lore:
+- "Prepína medzi mladým"
+- "a dospelým variantom tvora"
+button-sitting: "&aSedenie"
+button-sitting-lore:
+- "Zmení pózu tvora"
+button-cat-variant: "&aVariant mačky"
+button-cat-variant-lore:
+- "Zmení farbu mačky"
+button-rabbit-variant: "&aVariant králika"
+button-rabbit-variant-lore:
+- "Zmení farbu králika"
+button-collar-color: "&aFarba obojka"
+button-collar-color-lore:
+- "Zmení farbu obojka"
+button-wolf-angry: "&aZlostný vlk"
+button-wolf-angry-lore:
+- "Zmení stav vlka"
+button-carrying-chest: "&aTruhlica na sedle"
+button-carrying-chest-lore:
+- "Zmení nosenie truhlice"
+button-horse-color: "&aFarba koňa"
+button-horse-color-lore:
+- "Zmení farbu srsto koňa"
+button-horse-style: "&aVzor koňa"
+button-horse-style-lore:
+- "Zmení vzor srsti koňa"
+button-saddle: "&aSedlo"
+button-saddle-lore:
+- "Zmení nosenie sedla"
+button-horse-armor: "&aKonské brnenie"
+button-horse-armor-lore:
+- "Zmení brnenie koňa"
+button-llama-variant: "&aVariant lamy"
+button-llama-variant-lore:
+- "Zmení vzhľad lamy"
+button-llama-carpet-color: "&aKoberec lamy"
+button-llama-carpet-color-lore:
+- "Zmení farbu koberca lamy"
+button-creeper-charged: "&aNabitie creepera"
+button-creeper-charged-lore:
+- "Zmení stav creepera"
+button-fox-variant: "&aVariant líšky"
+button-fox-variant-lore:
+- "Zmení vzhľad líšky"
+button-fox-crouching: "&aZakrádanie"
+button-fox-crouching-lore:
+- "Zmení pózu líšky"
+button-fox-sleeping: "&aSpanie"
+button-fox-sleeping-lore:
+- "Zmení spánok líšky"
+button-cow-variant: "&aVariant kravy"
+button-cow-variant-lore:
+- "Zmení vzhľad kravy"
+button-mooshroom-variant: "&aVariant mooshrooma"
+button-mooshroom-variant-lore:
+- "Zmení vzhľad mooshrooma"
+button-panda-variant: "&aVariant pandy"
+button-panda-variant-lore:
+- "Zmení vzhľad pandy"
+button-parrot-variant: "&aVariant papagája"
+button-parrot-variant-lore:
+- "Zmení vzhľad papagája"
+button-pig-variant: "&aVariant prasaťa"
+button-pig-variant-lore:
+- "Zmení vzhľad prasaťa"
+button-chicken-variant: "&aVariant sliepky"
+button-chicken-variant-lore:
+- "Zmení vzhľad sliepky"
+button-sheep-color: "&aFarba ovce"
+button-sheep-color-lore:
+- "Zmení farbu vlny ovce"
+button-sheep-sheared: "&aStrih ovce"
+button-sheep-sheared-lore:
+- "Zmení stav vlny ovce"
+button-villager-profession: "&aPovolanie osadníka"
+button-villager-profession-lore:
+- "Zmení povolanie osadníka"
+button-villager-variant: "&aVariant osadníka"
+button-villager-variant-lore:
+- "Zmení vzhľad osadníka"
+button-villager-level: "&aFarba odznaku osadníka"
+button-villager-level-lore:
+- "Zmení farbu odznaku osadníka"
+button-zombie-villager-profession: "&aPovolanie zombie osadníka"
+button-zombie-villager-profession-lore:
+- "Zmení povolanie zombie osadníka"
+button-slime-size: "&aVeľkosť slizáka"
+button-slime-size-lore:
+- "Zmení veľkosť slizáka"
+- "Aktuálna veľkosť: &e{size}"
+button-magma-cube-size: "&aVeľkosť magma slizáka"
+button-magma-cube-size-lore:
+- "Zmení veľkosť magma slizáka"
+- "Aktuálna veľkosť: &e{size}"
+button-snowman-pumpkin-head: "&aTekvicová hlava"
+button-snowman-pumpkin-head-lore:
+- "Zmení hlavu snehuliaka"
+button-shulker-color: "&aFarba shulkera"
+button-shulker-color-lore:
+- "Zmení farbu shulkera"
+button-axolotl-variant: "&aVariant axolotla"
+button-axolotl-variant-lore:
+- "Zmení vzhľad axolotla"
+button-glow-squid-dark: "&aŽiarenie"
+button-glow-squid-dark-lore:
+- "Zmení žiarenie chobotnice"
+button-goat-screaming: "&aRučanie kozy"
+button-goat-screaming-lore:
+- "Prepína medzi normálnou"
+- "a ručiacou kozou"
+button-goat-left-horn: "&aĽavý roh"
+button-goat-left-horn-lore:
+- "Zmení ľavý roh kozy"
+button-goat-right-horn: "&aPravý roh"
+button-goat-right-horn-lore:
+- "Zmení pravý roh"
+button-tropical-fish-pattern: "&aVariant"
+button-tropical-fish-pattern-lore:
+- "Zmení tvar a vzor ryby"
+- "Aktuálny variant: &e{pattern}"
+button-tropical-fish-body-color: "&aFarba tela"
+button-tropical-fish-body-color-lore:
+- "Zmení farbu tela ryby"
+button-tropical-fish-pattern-color: "&aFarba vzoru"
+button-tropical-fish-pattern-color-lore:
+- "Zmení farbu vzoru ryby"
+button-puffer-fish-puff-state: "&aNafúknutosť"
+button-puffer-fish-puff-state-lore:
+- "Zmení nafúknutosť ryby"
+- "Aktuálny stav: &e{puffState}"
+button-salmon-variant: "&aVariant"
+button-salmon-variant-lore:
+- "Zmení veľkosť lososa."
+button-frog-variant: "&aVariant žaby"
+button-frog-variant-lore:
+- "Zmení variant žaby"
+button-wolf-variant: "&aVariant vlka"
+button-wolf-variant-lore:
+- "Zmení farbu vlka"
+button-saddle: "&aPrepnúť sedlo"
+button-saddle-lore:
+- "Prepne sedlo tvora"
+button-copper-golem-weather-state: "&aVyber úroveň oxidácie"
+button-copper-golem-weather-state-lore:
+- "Zmení úroveň oxidácie"
+- "medeného golema"
+button-armor-stand-base-plate: "&aPrepnúť podstavec"
+button-armor-stand-base-plate-lore:
+- "Prepne podstavec"
+- "stojana na brnenie"
+button-armor-stand-show-arms: "&aPrepnúť ramená"
+button-armor-stand-show-arms-lore:
+- "Prepne ramená"
+- "stojana na brnenie"
+button-armor-stand-small: "&aPrepnúť veľkosť"
+button-armor-stand-small-lore:
+- "Prepne veľkosť"
+- "stojana na brnenie"
+button-mannequin-main-hand: "&aPrepnúť hlavnú ruku"
+button-mannequin-main-hand-lore:
+- "Prepne hlavnú ruku"
+- "figuríny"
+button-mannequin-pose: "&aPrepnúť pózu"
+button-mannequin-pose-lore:
+- "Prepne pózu figuríny"
+
+button-mannequin-profile: "&aZmeniť skin"
+button-mannequin-profile-lore:
+- "Zmení skin figuríny"
+
+mannequin-enter-profile: |-
+  &aZadaj do chatu meno alebo id hráča, ktorého profil chceš použiť na figurínu.
+  &a  Zadaj pomlčku (-) pre vymazanie aktuálneho profilu.
+  &a  Zadaj výkričník (!) pre zachovanie aktuálneho profilu.
+mannequin-enter-profile-canceled: "&7Zrušené: profil figuríny nebol zmenený."
+mannequin-profile-set: "&aProfil figuríny bol zmenený na '&e{profileName}&a'!"
+mannequin-profile-cleared: "&aProfil figuríny bol vymazaný!"
+mannequin-profile-invalid: "&cNepodarilo sa získať profil pre '&e{input}&c'!"
+
+equipment-editor-title: "Úprava vybavenia"
+equipment-slot-lore:
+- "Vlož predmet pre osadenie."
+- "Klikni pravým tlačidlom"
+- "pre uvoľnenie pozície."
+
+equipment-slot-mainhand: "&aHlavná ruka"
+equipment-slot-offhand: "&aVedľajšia ruka"
+equipment-slot-feet: "&aChodidlá"
+equipment-slot-legs: "&aNohy"
+equipment-slot-chest: "&aHruď"
+equipment-slot-head: "&aHlava"
+equipment-slot-body: "&aTelo"
+equipment-slot-saddle: "&aSedlo"
+
+admin-sign-shop-line1: "&2[SHOP]"
+admin-sign-shop-line2: "&7{shopName}"
+admin-sign-shop-line3: ""
+admin-sign-shop-line4: "&Klikni pravým tlačidlom!"
+
+player-sign-shop-line1: "&2[SHOP]"
+player-sign-shop-line2: "&7{shopName}"
+player-sign-shop-line3: "&7{owner}"
+player-sign-shop-line4: "&eKlikni pravým tlačidlom!"
+
+for-hire-title: "Na prenájom"
+button-hire: "&aNajať"
+button-hire-lore:
+- Kúpiť tohto obchodníka
+
+trading-title-prefix: "&2"
+trading-title-default: "Obchodník"
+
+must-target-block: "&7Pred umiestnením obchodníka musíš zamieriť na blok."
+missing-spawn-location: "&7Pre tento typ obchodu musíš zadať počiatočné umiestnenie."
+spawn-block-not-empty: "&7Počiatočné umiestnenie musí byť prázdne."
+invalid-spawn-block-face: "&7Obchodník nemôže byť umiestnený na túto stranu kocky."
+mob-cannot-spawn-on-peaceful-difficulty: "&7Tento typ tvora nemôže byť umiestnený na mierumilovnej obtiažnosti."
+restricted-area: "&7Na toto územie nemôžeš umiestniť obchodníka."
+location-already-in-use: "&7Toto miesto je už obsadené iným obchodníkom."
+
+container-selected: "&aKontajner zvolený! Pravým kliknutím teraz umiestni obchodníka."
+unsupported-container: "&7Tento typ kontajnera nemôže byť použitý pre obchod."
+must-select-container: "&7Pred umiestnením obchodníka si musíš zvoliť kontajner."
+must-target-container: "&7Pred umiestnením tohto typu obchodu musíš zamieriť na kontajner."
+invalid-container: "&7Zvolená kocka nie je platný kontajner!"
+container-too-far-away: "&7Obchodníkov kontajner je príliš ďaleko!"
+container-not-placed: "&7Musíš si zvoliť kontajner položený ako posledný!"
+container-already-in-use: "&7Zvolený kontajner už používa iný obchodník!"
+no-container-access: "&7Do zvoleného kontajnera nemáš prístup!"
+too-many-shops: "&7Viac obchodov už nemôžeš vlastniť!"
+no-player-shops-via-command: "&7Hráčske obchody je možné vytvoriť len predmetom na vytvorenie obchodu!"
+
+type-new-name: "&aNový názov obchodu zadaj do chatu.\n  &aPre zrušenie aktuálneho názvu napíš pomlčku (-)."
+name-set: "&aNázov obchodu bol zmenený na '&e{name}&a'!"
+name-has-not-changed: "&aNázov obchodu sa nezmenil."
+name-invalid: "&cNeplatný názov obchodu: '&e{name}&c'"
+nameplate-prefix: "&2"
+
+click-new-shop-location: "&aPravým kliknutím nastavíš nové umiestnenie obchodu.\n  &aĽavý klik pre zrušenie."
+shopkeeper-moved: "&aObchodník bol premiestnený!"
+shopkeeper-move-aborted: "&7Premiestnenie obchodníka bolo zrušené."
+
+shop-type-disabled: "&7Typ obchodu '&6{type}&7' je vypnutý."
+shop-object-type-disabled: "&7Typ objektu '&6{type}&7' je vypnutý."
+
+must-target-shop: "&7Musíš zamieriť na obchodníka."
+must-target-admin-shop: "&7Musíš zamieriť na admin obchodníka."
+must-target-player-shop: "&7Musíš zamieriť na hráčskeho obchodníka."
+target-entity-is-no-shop: "&7Zamierená entita nie je obchodník."
+target-shop-is-no-admin-shop: "&7Zamierená entita nie je admin obchodník."
+target-shop-is-no-player-shop: "&7Zamierená entita nie je hráčsky obchodník."
+unused-container: "&7Tento kontajner nepoužíva žiadny obchodník."
+not-owner: "&7Tohto obchodníka nevlastníš."
+owner-set: "&aNový majiteľ tohto obchodníka je &e{owner}"
+shop-creation-items-given: "&aHráč &e{player}&a dostal &e{amount}&a predmetov na vytvorenie obchodu!"
+shop-creation-items-received: "&aDostal si &e{amount}&a predmetov na vytvorenie obchodu!"
+unknown-currency: "&cNeznáma mena: '&e{currency}&c'"
+currency-items-given: "&Hráč &e{player}&a dostal &6{amount}x&a kusov meny '&e{currency}&a'!"
+currency-items-received: "&aDostal si &6{amount}x&a kusov meny '&e{currency}&a'!"
+must-hold-item-in-main-hand: "&7V hlavnej ruke musíš držať predmet."
+currency-item-set-to-main-hand-item: "&aMena '&e{currencyId}&a' bola nastavená na &epredmet v tvojej hlavnej ruke&a!"
+items-updated: "&e{count}&a predmetov bolo aktualizovaných!"
+unknown-book-author: "Neznámy"
+
+trade-perm-set: "&aPovolenie na obchodovanie bolo nastavené na '&e{perm}&a'!"
+trade-perm-removed: "&aPovolenie na obchodovanie '&e{perm}&a' bolo odstránené!"
+trade-perm-view: "&aAktuálne povolenie na obchodovanie je '&e{perm}&a'."
+
+traded-command-set: "&aObchodný príkaz tohto predmetu bol nastavený na '&e{command}&a'!"
+traded-command-removed: "&aObchodný príkaz tohto predmetu bol odstránený!"
+traded-command-view: "&aObchodný príkaz tohto predmetu je '&e{command}&a'."
+traded-command-view-unset: "&aTento predmet nemá nastavený obchodný príkaz."
+
+zombie-villager-curing-disabled: "&7Liečenie zombie osadníkov je vypnuté."
+must-hold-hire-item: "&7V ruke musíš držať požadovaný predmet."
+set-for-hire: "&aTohto obchodníka je možné si najať."
+hired: "&aNajal si si tohto obchodníka!"
+missing-hire-perm: "&7Nemáš povolenie na nájom obchodníkov."
+cannot-hire: "&7Nemôžeš si dovoliť najať tohto obchodníka."
+cannot-hire-shop-type: "&7Nemáš povolenie najať si tohto obchodníka."
+villager-for-hire: "&aTento osadník ponúka svoje služby predajcu výmenou za &6{costs}x {hire-item}&a."
+
+missing-trade-perm: "&7Nemáš povolenie obchodovať s týmto obchodom."
+missing-custom-trade-perm: "&7Nemáš povolenie obchodovať s týmto obchodom."
+cannot-trade-no-offers: "&7Tento obchod nemá nič na predaj. Skús to neskôr!"
+no-offers-open-editor-description: "&eTento obchod môžeš upraviť pravým kliknutím počas zakrádania."
+cannot-trade-with-own-shop: "&7Nemôžeš obchodovať s vlastným obchodom."
+cannot-trade-while-owner-online: "&7Nemôžeš obchodovať s týmto obchodom, kým je vlastník ('&e{owner}&7') online."
+cannot-trade-with-shop-missing-container: "&7Nemôžeš obchodovať s týmto obchodom, pretože chýba jeho kontajner."
+cannot-trade-unexpected-trade: "&7Obchod zrušený: Predmet obchodu nesúhlasí s tým, čo obchodník očakával."
+cannot-trade-items-not-strictly-matching: "&7Obchod zrušený: Ponúkané predmety presne nesúhlasia s požadovanými predmetmi."
+cannot-trade-insufficient-storage-space: "&7Obchod zrušený: Obchod nemá viac voľného miesta."
+cannot-trade-insufficient-currency: "&7Obchod zrušený: Obchod nemá dosť meny."
+cannot-trade-insufficient-stock: "&7Obchod zrušený: Obchod nemá dosť predávaného predmetu."
+cannot-trade-insufficient-writable-books: "&7Obchod zrušený: Obchod nemá dostatok čistých kníh na prepisovanie kníh."
+
+trade-notification-one-item: "&Obchod: &e{player}&7 [&6{item1Amount}x &a{item1}&7] \u279e [&6{resultItemAmount}x &a{resultItem}&7] {shop}{trade_count}"
+trade-notification-two-items: "&Obchod: &e{player}&7 [&6{item1Amount}x &a{item1}&7] [&6{item2Amount}x &a{item2}&7] \u279e [&6{resultItemAmount}x &a{resultItem}&7] {shop}{trade_count}"
+buy-notification-one-item: "&Obchod: &e{player}&7 [&6{item1Amount}x &a{item1}&7] \u279e [&6{resultItemAmount}x &a{resultItem}&7] {shop}{trade_count}"
+buy-notification-two-items: "&Obchod: &e{player}&7 [&6{item1Amount}x &a{item1}&7] [&6{item2Amount}x &a{item2}&7] \u279e [&6{resultItemAmount}x &a{resultItem}&7] {shop}{trade_count}"
+trade-notification-player-shop: "&e{shop_owner_name}"
+trade-notification-named-player-shop: "&e{shop_owner_name}"
+trade-notification-admin-shop: "&eAdmin obchod"
+trade-notification-named-admin-shop: '&e"{shop_name}"'
+trade-notification-trade-count: "&7 (&6{count}x&7)"
+
+owner-trade-notification-one-item: "&e{player}&7 kúpil &6{resultItemAmount}x &a{resultItem}&7 od {shop}{trade_count}"
+owner-trade-notification-two-items: "&e{player}&7 kúpil &6{resultItemAmount}x &a{resultItem}&7 od {shop}{trade_count}"
+owner-buy-notification-one-item: "&e{player}&7 predal &6{item1Amount}x &a{item1}&7 obchodu {shop}{trade_count}"
+owner-buy-notification-two-items: "&e{player}&7 predal &6{item1Amount}x &a{item1}&7 a &6{item2Amount}x &a{item2}&7 obchodu {shop}{trade_count}"
+owner-trade-notification-shop: "jedného z tvojich obchodov"
+owner-trade-notification-named-shop: 'tvojho obchodu &e"{shop_name}"'
+owner-buy-notification-shop: "jednému z tvojich obchodov"
+owner-buy-notification-named-shop: 'tvojmu obchodu &e"{shop_name}"'
+owner-trade-notification-trade-count: "&7 (&6{count}x&7)"
+
+disable-trade-notifications-hint: "&7Tieto oznámenia môžeš vypnúť príkazom &e{command}"
+disable-trade-notifications-hint-command: "/shopkeeper notify trades"
+trade-notifications-disabled: "&aPočas tejto hry nebudeš dostávať oznámenia o obchode."
+trade-notifications-enabled: "&aOdteraz budeš znova dostávať oznámenia o obchode."
+
+shopkeeper-created: "&aObchodník vytvorený: &6{type} &7({description})\n{setupDesc}"
+
+shop-setup-desc-selling: |-
+  &e  Pridaj predmety na predaj do tvojho kontajnera a následne
+  &e  počas zakrádania klikni pravým na obchod pre úpravu cien.
+shop-setup-desc-buying: |-
+  &e  Vlož do kontajnera jeden kus z každého predmetu na predaj,
+  &e  následne počas zakrádania klikni pravým na obchod pre úpravu cien.
+shop-setup-desc-trading: |-
+  &e  Vlož do kontajnera jeden kus z každého predmetu na predaj,
+  &e  následne počas zakrádania klikni pravým na obchod pre úpravu cien.
+shop-setup-desc-book: |-
+  &e  Pridaj napísané a čisté knihy do kontajnera a následne
+  &e  počas zakrádania klikni pravým na obchod pre úpravu cien.
+shop-setup-desc-admin-regular: |-
+  &e  Počas zakrádania klikni pravým na obchod pre úpravu obchodov.
+
+trade-setup-desc-header: '&6{shopType}'
+trade-setup-desc-admin-regular:
+- Má neobmedzené zásoby.
+- Vlož predmety z tvojho inventára.
+- 'Vrchný rad: Predmety na predaj'
+- 'Spodné rady: Ceny predmetov'
+trade-setup-desc-selling:
+- Predáva hráčom predmety.
+- Vlož predmety na predaj do kontajnera.
+- Pravým/ľavým klikom uprav ceny.
+- 'Vrchný rad: Predmety na predaj'
+- 'Spodné rady: Ceny predmetov'
+trade-setup-desc-buying:
+- Kupuje predmety od hráčov.
+- Vlož jeden predmet, ktorý chceš kupovať
+- a dostatok meny na výmenu do kontajnera.
+- Pravým/ľavým klikom uprav ceny.
+- 'Vrchný rad: Ceny predmetov'
+- 'Spodné rady: Predmety na kúpu'
+trade-setup-desc-trading:
+- Vymieňa predmety s hráčmi.
+- Vyber predmet zo svojho inventára
+- a klikni na slot pre umiestnenie.
+- Pravým/ľavým klikom uprav ceny.
+- 'Vrchný rad: Výsledné predmety'
+- 'Spodné rady: Ceny predmetov'
+trade-setup-desc-book:
+- Predáva kópie kníh.
+- Vlož napísané a čisté knihy
+- do kontajnera.
+- Pravým/ľavým klikom uprav ceny.
+- 'Vrchný rad: Knihy na predaj'
+- 'Spodné rady: Ceny predmetov'
+
+selling-shop.empty-trade.result-item: "&dPredmet na predaj"
+selling-shop.empty-trade.result-item-lore:
+- "Predmet, ktorý chceš predávať."
+- "Pridaj predmety do kontajnera obchodu."
+- "Pravým/ľavým klikom uprav množstvá."
+selling-shop.empty-trade.item1: "&dPredmet na kúpu"
+selling-shop.empty-trade.item1-lore:
+- "Predmet, ktorý chceš kupovať."
+- "Pravým/ľavým klikom uprav množstvá."
+selling-shop.empty-trade.item2: "&dPredmet na kúpu 2"
+selling-shop.empty-trade.item2-lore:
+- "Predmet, ktorý chceš predávať."
+- "Pravým/ľavým klikom uprav množstvá."
+selling-shop.empty-item1: "&dPredmet na kúpu"
+selling-shop.empty-item1-lore:
+- "Predmet, ktorý chceš kupovať."
+- "Pravým/ľavým klikom uprav množstvá."
+selling-shop.empty-item2: "&dPredmet na kúpu 2"
+selling-shop.empty-item2-lore:
+- "Druhý predmet, ktorý chceš kupovať."
+- "Pravým/ľavým klikom uprav množstvá."
+
+buying-shop.empty-trade.result-item: "&dPredmet na predaj"
+buying-shop.empty-trade.result-item-lore:
+- "Predmet, ktorý chceš predávať."
+- "Pravým/ľavým klikom uprav množstvá."
+buying-shop.empty-trade.item1: "&dPredmet na kúpu"
+buying-shop.empty-trade.item1-lore:
+- "Predmet, ktorý chceš kupovať."
+- "Pridaj predmety do kontajnera obchodu."
+- "Pravým/ľavým klikom uprav množstvá."
+buying-shop.empty-result-item: "&dPredmet na predaj"
+buying-shop.empty-result-item-lore:
+- "Predmet, ktorý chceš predávať."
+- "Pravým/ľavým klikom uprav množstvá."
+
+trading-shop.empty-trade.result-item: "&dPredmet na predaj"
+trading-shop.empty-trade.result-item-lore:
+- "Predmet, ktorý chceš predávať."
+- "Pridaj predmety do kontajnera obchodu"
+- "alebo vlož predmet zo svojho inventára."
+- "Pravým/ľavým klikom uprav množstvá."
+trading-shop.empty-trade.item1: "&dPredmet na kúpu"
+trading-shop.empty-trade.item1-lore:
+- "Predmet, ktorý chceš kupovať."
+- "Vlož predmet zo svojho inventára."
+- "Pravým/ľavým klikom uprav množstvá."
+trading-shop.empty-trade.item2: "&dPredmet na kúpu 2"
+trading-shop.empty-trade.item2-lore:
+- "Druhý predmet, ktorý chceš kupovať."
+- "Vlož predmet zo svojho inventára."
+- "Pravým/ľavým klikom uprav množstvá."
+trading-shop.empty-result-item: "&dPredmet na predaj"
+trading-shop.empty-result-item-lore:
+- "Predmet, ktorý chceš predávať."
+- "Vlož predmet zo svojho inventára."
+- "Pravým/ľavým klikom uprav množstvá."
+trading-shop.empty-item1: "&dPredmet na kúpu"
+trading-shop.empty-item1-lore:
+- "Predmet, ktorý chceš kupovať."
+- "Vlož predmet zo svojho inventára."
+- "Pravým/ľavým klikom uprav množstvá."
+trading-shop.empty-item2: "&dPredmet na kúpu 2"
+trading-shop.empty-item2-lore:
+- "Druhý predmet, ktorý chceš kupovať."
+- "Vlož predmet zo svojho inventára."
+- "Pravým/ľavým klikom uprav množstvá."
+
+book-shop.empty-trade.result-item: "&dPredmet na predaj"
+book-shop.empty-trade.result-item-lore:
+- "Predmet, ktorý chceš predávať."
+- "Pridaj napísané knihy do kontajnera."
+book-shop.empty-trade.item1: "&dPredmet na kúpu"
+book-shop.empty-trade.item1-lore:
+- "Predmet, ktorý chceš kupovať."
+- "Pravým/ľavým klikom uprav množstvá."
+book-shop.empty-trade.item2: "&dPredmet na kúpu 2"
+book-shop.empty-trade.item2-lore:
+- "Druhý predmet, ktorý chceš kupovať."
+- "Pravým/ľavým klikom uprav množstvá."
+book-shop.empty-item1: "&dPredmet na kúpu"
+book-shop.empty-item1-lore:
+- "Predmet, ktorý chceš kupovať."
+- "Pravým/ľavým klikom uprav množstvá."
+book-shop.empty-item2: "&dPredmet na kúpu 2"
+book-shop.empty-item2-lore:
+- "Druhý predmet, ktorý chceš kupovať."
+- "Pravým/ľavým klikom uprav množstvá."
+
+missing-edit-villagers-perm: "&7Nemáš povolenie upravovať osadníkov."
+missing-edit-wandering-traders-perm: "&7Nemáš povolenie upravovať potulných obchodníkov."
+must-target-entity: "&7Musíš zamieriť na entitu."
+must-target-villager: "&7Musíš zamieriť na osadníka."
+target-entity-is-no-villager: "&7Zameraná entita nie je obyčajný osadník."
+villager-no-longer-exists: "&7Tento osadník už neexistuje."
+
+villager-editor-title: "&2Úprava osadníka: &e{villagerName}"
+villager-editor-description-header: "&6Úprava osadníka"
+villager-editor-description:
+- 'Vrchný rad: Predmety na predaj'
+- 'Spodné rady: Ceny predmetov'
+- 'Upravené obchody majú neobmedzené'
+- 'zásoby a žiadne XP odmeny.'
+
+button-delete-villager: "&4Odstrániť"
+button-delete-villager-lore:
+- Odstráni osadníka
+button-name-villager: "&aNastaviť meno osadníka"
+button-name-villager-lore:
+- "Umožňuje ti"
+- "premenovať osadníka"
+button-villager-inventory: "&aZobraziť inventár osadníka"
+button-villager-inventory-lore:
+- Umožňuje zobraziť kópiu
+- osadníkovho inventára
+button-mob-ai: "&aVypnúť/zapnúť AI"
+button-mob-ai-lore:
+- "Vypne/zapne osadníkovu AI"
+button-invulnerability: "&aVypnúť/zapnúť nezraniteľnosť"
+button-invulnerability-lore:
+- "Vypne /zapne nezraniteľnosť"
+- "tvora. Hráči v režime tvorivej"
+- "hry mu však môžu spôsobiť zranenie."
+
+
+villager-inventory-title: "Inventár osadníka (kópia)"
+set-villager-xp: "&aNastaví XP osadníka na &e{xp}"
+no-villager-trades-changed: "&aŽiadne obchody neboli zmenené."
+villager-trades-changed: "&e{changedTrades}&a obchodov bolo zmenených."
+
+type-new-villager-name: "&aNové meno obchodika zadaj do chatu.\n  &aPre zrušenie aktuálneho mena napíš pomlčku (-)."
+villager-name-set: "&aMeno obchodníka bolo nastavené!"
+villager-name-invalid: "&aToto meno je neplatné!"
+
+no-shops-found: "&7Neboli nájdené žiadne obchody."
+
+teleport-virtual-shopkeeper: "&7Nie je možné sa teleportovať k virtuálnemu obchodníkovi!"
+teleport-shopkeeper-world-not-loaded: "&7Nie je možné sa teleportovať k obchodníkovi v nenačítanom svete!"
+teleport-no-safe-location-found: "&7Nenašla sa bezpečná poloha pre teleport!"
+teleport-failed: "&7Teleport zlyhal!"
+teleport-success: "&Hráč '&e{player}&a' bol teleportovaný k obchodníkovi '&e{shop}&a'!"
+
+list-admin-shops-header: "&9Existuje &e{shopsCount} &9admin obchodov: &e(Strana {page} z {maxPage})"
+list-all-shops-header: "&9Existuje &e{shopsCount} &9obchodov celkom: &e(Strana {page} z {maxPage})"
+list-player-shops-header: "&9Hráč '&e{player}&9' má &e{shopsCount} &9obchodov: &e(Strana {page} z {maxPage})"
+list-shops-entry: "  &e{shopId}) &7{shopName}&r&8na &7({location})&8, typ: &7{shopType}&8, objekt: &7{objectType}"
+
+shop-removed: "&aObchodník bol odstránený."
+shop-already-removed: "&7Obchodník už bol odstránený."
+shop-no-longer-exists: "&7Obchodník už neexistuje."
+shop-removal-cancelled: "&cIný plugin zabránil odstráneniu obchodníka."
+
+shops-already-removed: "&e{shopsCount}&7 obchodov už bolo odstránených."
+shop-removals-cancelled: "&cIný plugin zabránil odstráneniu &e{shopsCount}&c obchodov."
+admin-shops-removed: "&e{shopsCount} &aadmin obchodov bolo odstránených."
+shops-of-player-removed: "&e{shopsCount} &aobchodov hráča '&e{player}&a' bolo odstránených"
+player-shops-removed: "&e{shopsCount} &ahráčskych obchodov bolo odstránených."
+
+confirm-remove-shop: "&cTýmto neodvratne odstrániš tento obchod!"
+confirm-remove-all-admin-shops: "&cTýmto neodvratne odstrániš všetky admin obchody (&6{shopsCount}&c)!"
+confirm-remove-all-own-shops: "&cTýmto neodvratne odstrániš všetky svoje obchody (&6{shopsCount}&c)!"
+confirm-remove-all-shops-of-player: "&cTýmto neodvratne odstrániš všetky obchody hráča &6{player}&c (&6{shopsCount}&c)!"
+confirm-remove-all-player-shops: "&cTýmto neodvratne odstrániš všetky hráčske obchody (&6{shopsCount}&c)!"
+
+confirm-replace-all-shops-with-vanilla-villagers: |-
+  &cTýmto neodvratne odstrániš všetky obchody (&6{shopsCount}&c) a nahradíš ich vanilla osadníkmi bez AI!
+  Pred pokračovaním odporúčame vytvoriť zálohu sveta a dát pluginu Shopkeepers.
+all-shops-replaced-with-vanilla-villagers: |-
+  &e{adminShopsCount}&a admin obchodov a &e{playerShopsCount}&a hráčskych obchodov bolo nahradených vanilla osadníkmi!
+  &e{skippedShopsCount}&a obchodov bolo vynechaných.
+
+confirmation-required: "&7Toto rozhodnutie potvrď príkazom &6/shopkeepers confirm"
+confirmation-expired: "&cČas na potvrdenie vypršal."
+nothing-to-confirm: "&cMomentálne nie je čo potvrdiť."
+
+confirmation-ui-delete-shop-title: "&cSkutočne chceš odstrániť tento obchod?"
+confirmation-ui-delete-shop-confirm-lore:
+- "Toto neodvratne"
+- "odstráni tento obchod!"
+
+confirmation-ui-delete-villager-title: "&cSkutočne chceš odstrániť tohto osadníka?"
+confirmation-ui-delete-villager-confirm-lore:
+- "Toto neodvratne"
+- "odstráni tohto osadníka!"
+villager-removed: "&aOsadník bol odstránený."
+
+confirmation-ui-confirm: "&2Potvrdiť"
+confirmation-ui-cancel: "&4Zrušiť"
+confirmation-ui-cancel-lore:
+- "Toto zruší"
+- "aktuálny príkaz."
+confirmation-ui-aborted: "&7Potvrdenie zrušené."
+
+snapshot-list-header: "&9Obchod &e{shop_id} &9má &e{snapshotsCount} &9snímok: &e(Srana {page} z {maxPage})"
+snapshot-list-entry: "  &e{id}) &2{name}&8 (&7{timestamp}&8)"
+invalid-snapshot-id: "&cNeplatné ID snímky: &e{argument}"
+invalid-snapshot-name: "&cNenašla sa snímka s názvom '&e{argument}&c'."
+snapshot-name-too-long: "&cDĺžka názvu snímky môže byť maximálne &e{maxLength}&c znakov: &e{name}"
+snapshot-name-invalid: "&cNeplatný názov snímky: &e{name}"
+snapshot-name-already-exists: "&cSnímka s takýmto názvom už existuje: &e{name}"
+snapshot-created: "&aNová snímka vytvorená: &e({id}) &2{name} &8(&7{timestamp}&8)"
+confirm-remove-snapshot: "&cTýmto neodvratne odstrániš danú snímku!"
+confirm-remove-all-snapshots: "&cTýmto neodvratne odstrániš všetky snímky daného obchodníka (&6{snapshotsCount}&c)!"
+action-aborted-snapshots-changed: "&cZrušené! Snímky sa medzičasom zmenili. Skús to znova."
+snapshot-removed: "&aVymazané snímky: &e({id}) &2{name} &8(&7{timestamp}&8)"
+snapshot-removed-all: "&aVšetky &e{snapshotsCount} &asnímky obchodu &e{shop_id}&a boli vymazané."
+snapshot-restore-failed: "&cNepodarilo sa obnoviť snímku: &e({id}) &2{name} &8(&7{timestamp}&8)"
+snapshot-restored: "&aSnímka obnovená: &e({id}) &2{name} &8(&7{timestamp}&8)"
+
+no-permission: "&cNa toto nemáš povolenie."
+
+command-unknown: "&cNeznámy príkaz '&e{command}&c'!"
+command-argument-unexpected: "&cNeočakávaný argument '&e{argument}&c'."
+command-argument-requires-player: "&cArgument '&e{argumentFormat}&c' vyžaduje, aby príkaz zadával hráč."
+command-argument-missing: "&cChýbajúci argument '&e{argumentFormat}&c'."
+command-argument-invalid: "&cNeplatný argument '&e{argument}&c'."
+command-player-argument-missing: "&cPre '&e{argumentFormat}&c' nebol zadaný žiadny hráč."
+command-player-argument-invalid: "&cPre '&e{argument}&c' nebol zadaný platný hráč."
+command-shop-type-argument-invalid: "&cNeznámy typ obchodu '&e{argument}&c'."
+command-shop-object-type-argument-invalid: "&cNeznámy typ objektu '&e{argument}&c'."
+command-shopkeeper-argument-invalid: "&cPre '&e{argument}&c' sa nenašiel obchodník."
+command-shopkeeper-argument-no-admin-shop: "&cObchodník '&e{argument}&c' nie je admin obchodník."
+command-shopkeeper-argument-no-player-shop: "&cObchodník '&e{argument}&c' nie je hráčsky obchodník."
+command-shopkeeper-argument-no-access: "&cNemáš prístup k obchodníkovi '&e{argument}&c'."
+command-entity-argument-no-villager: "&Entita '&e{argument}&c' nie je bežný osadník."
+
+ambiguous-player-name: "&cPre meno '&e{name}&c' existuje viacero zhôd!"
+ambiguous-player-name-entry: "&c  - '&e{name}&r&c' (&6{uuid}&c)"
+ambiguous-player-name-more: "&c  - ...."
+
+ambiguous-shopkeeper-name: "&cPre meno '&e{name}&c' existuje viacero obchodníkov!"
+ambiguous-shopkeeper-name-entry: "&c  - &e{id})&c '&e{name}&r&c' (&6{uuid}&c)"
+ambiguous-shopkeeper-name-more: "&c  - ...."
+
+ambiguous-target-shopkeeper: "&cZameraných je viacero obchodníkov!"
+ambiguous-target-shopkeeper-entry: "&c  - &e{id})&c '&e{name}&r&c' (&6{uuid}&c)"
+ambiguous-target-shopkeeper-more: "&c  - ...."
+
+command-help-title: "&9***** &8[&6Shopkeepers v{version}&8] &9*****"
+command-help-usage-format: "&e{usage}"
+command-help-description-format: "&8 - &3{description}"
+
+command-description-shopkeeper: "Vytvorí obchodníka."
+command-description-help: "Zobrazí túto stránku pomoci."
+command-description-reload: "Opätovne načíta plugin."
+command-description-debug: "Zapne/vypne režim ladenia."
+command-description-notify: "Zapne tvoje oznámenia o obchodoch."
+command-description-list: "Vypíše zoznam všetkých obchodov daného hráča alebo admin obchody."
+command-description-remove: "Odstráni zadaný obchod."
+command-description-remove-all: "Odstráni všetky obchody daného hráča, všetkých hráčov alebo všetky admin obchody."
+command-description-give: "Dá danému hráčovi predmet(y) na vytvorenie obchodu."
+command-description-give-currency: "Dá danému hráčovi menu."
+command-description-set-currency: "Zmení menu na predmet držaný v ruke."
+command-description-update-items: "Aktualizuje predmety tretích strán (ak to podporujú)."
+command-description-remote: "Otvorí obchod na diaľku (Voliteľné: pre iného hráča)."
+command-description-remote-edit: "Upraví obchod na diaľku."
+command-description-transfer: "Prenesie vlastníctvo obchodu."
+command-description-teleport: "Teleportuje k obchodu."
+command-description-settradeperm: "Nastaví, odstráni (-), alebo zobrazí (?) povolenia na obchodovanie."
+command-description-settradedcommand: "Nastaví, odstráni (-) alebo zobrazí (?) obchodný príkaz držaného predmetu."
+command-description-setforhire: "Ponúkne tvoj obchod na predaj."
+command-description-snapshot-list: "Vypíše zoznam snímok obchodu."
+command-description-snapshot-create: "Vytvorí novú snímku obchodu."
+command-description-snapshot-remove: "Odstráni všetky, alebo danú snímku obchodu."
+command-description-snapshot-restore: "Obnoví danú snímku obchodu."
+command-description-edit-villager: "Otvorí úpravy pre daného osadníka."
+command-description-replace-all-with-vanilla-villagers: "Vymeni všetkých predajcov za vanilla osadníkov bez AI."
