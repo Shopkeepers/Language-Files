@@ -2,3 +2,4 @@
 
 * sk: takatalvi
 * tr: Arcdashckr
+* it: davideakc
