@@ -287,6 +287,14 @@ button-mannequin-profile: "&aSkin ändern"
 button-mannequin-profile-lore:
 - "Ändert die Skin-Textur"
 - "der Spielerpuppe"
+button-nautilus-armor: "&aRüstung ändern"
+button-nautilus-armor-lore:
+- "Ändert die Rüstung"
+- "des Nautilus"
+button-zombie-nautilus-variant: "&aVariante ändern"
+button-zombie-nautilus-variant-lore:
+- "Ändert das Aussehen"
+- "des Zombie-Nautilus"
 
 mannequin-enter-profile: |-
   &aBitte gib im Chat den Namen oder die Id des Spielers ein, dessen Profil du auf die Spielerpuppe anwenden möchtest.
@@ -701,6 +709,25 @@ snapshot-removed-all: "&aAlle &e{snapshotsCount} &aSnapshots von Shop &e{shop_id
 snapshot-restore-failed: "&cSnapshot konnte nicht wiederhergestellt werden: &e({id}) &2{name} &8(&7{timestamp}&8)"
 snapshot-restored: "&aSnapshot wiederhergestellt: &e({id}) &2{name} &8(&7{timestamp}&8)"
 
+history-header: "&9Handelsverlauf von {players}&9 mit {shops}&9: &e{tradesCount} &e(Seite {page} von {maxPage})"
+history-header-all-players: "&eallen Spielern"
+history-header-specific-player: "&e{player}"
+history-header-all-shops: "&eallen Shops"
+history-header-admin-shops: "allen &eAdmin-Shops"
+history-header-player-shops: "allen &eSpieler-Shops"
+history-header-all-owned-shops: "Shops im Besitz von &e{owner}"
+history-header-specific-shop: 'Shop &e"{shop}"'
+history-header-specific-owned-shop: 'Shop &e"{shop}"&9 im Besitz von &e{owner}'
+
+history-disabled: "&7Der Handelsverlauf ist deaktiviert."
+history-no-trades-found: "&7Es wurden keine Einträge gefunden."
+
+history-entry-one-item: "  &f{index}) &e{player}&7 [&6{item1Amount}x &a{item1}&7] \u279e [&6{resultItemAmount}x &a{resultItem}&7] {shop}{trade_count} &7(&fvor {timeAgo}&7)"
+history-entry-two-items: "  &f{index}) &e{player}&7 [&6{item1Amount}x &a{item1}&7] [&6{item2Amount}x &a{item2}&7] \u279e [&6{resultItemAmount}x &a{resultItem}&7] {shop}{trade_count} &7(&fvor {timeAgo}&7)"
+history-entry-player-shop: "&e{owner}"
+history-entry-admin-shop: "&eAdmin-Shop"
+history-entry-trade-count: "&7 (&6{count}x&7)"
+
 no-permission: "&cDafür hast du nicht die nötigen Berechtigungen."
 
 command-unknown: "&cUnbekannter Befehl '&e{command}&c'!"
@@ -740,6 +767,7 @@ command-description-reload: "Lädt das Plugin neu."
 command-description-debug: "Schaltet den Debug-Modus an und aus."
 command-description-notify: "Schaltet Handelsbenachrichtigungen für dich an oder aus."
 command-description-list: "Listet alle Shops eines Spielers, oder alle Admin-Shops auf."
+command-description-history: "Zeigt den Handelsverlauf."
 command-description-remove: "Entfernt einen bestimmten Shop."
 command-description-remove-all: "Entfernt alle Shops eines Spielers, aller Spieler, oder alle Admin-Shops."
 command-description-give: "Gibt dem Spieler Gegenstände zum Erstellen von Shops."

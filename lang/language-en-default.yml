@@ -274,6 +274,14 @@ button-mannequin-profile: "&aChange skin"
 button-mannequin-profile-lore:
 - "Changes the skin"
 - "of the mannequin"
+button-nautilus-armor: "&aChoose armor"
+button-nautilus-armor-lore:
+- "Changes the armor"
+- "of the nautilus"
+button-zombie-nautilus-variant: "&aChoose variant"
+button-zombie-nautilus-variant-lore:
+- "Changes the look of"
+- "the zombie nautilus."
 
 mannequin-enter-profile: |-
   &aPlease enter in chat the name or id of the player whose profile you want to apply to the mannequin.
@@ -687,6 +695,25 @@ snapshot-removed-all: "&aAll &e{snapshotsCount} &asnapshots of shop &e{shop_id}&
 snapshot-restore-failed: "&cFailed to restore snapshot: &e({id}) &2{name} &8(&7{timestamp}&8)"
 snapshot-restored: "&aSnapshot restored: &e({id}) &2{name} &8(&7{timestamp}&8)"
 
+history-header: "&9Trades of {players}&9 with {shops}&9: &e{tradesCount} &e(Page {page} of {maxPage})"
+history-header-all-players: "&eall players"
+history-header-specific-player: "&e{player}"
+history-header-all-shops: "&eall shops"
+history-header-admin-shops: "all &eadmin shops"
+history-header-player-shops: "all &eplayer shops"
+history-header-all-owned-shops: "shops owned by &e{owner}"
+history-header-specific-shop: 'shop &e"{shop}"'
+history-header-specific-owned-shop: 'shop &e"{shop}"&9 owned by &e{owner}'
+
+history-disabled: "&7The trading history is disabled."
+history-no-trades-found: "&7No trades found."
+
+history-entry-one-item: "  &f{index}) &e{player}&7 [&6{item1Amount}x &a{item1}&7] \u279e [&6{resultItemAmount}x &a{resultItem}&7] {shop}{trade_count} &7(&f{timeAgo} ago&7)"
+history-entry-two-items: "  &f{index}) &e{player}&7 [&6{item1Amount}x &a{item1}&7] [&6{item2Amount}x &a{item2}&7] \u279e [&6{resultItemAmount}x &a{resultItem}&7] {shop}{trade_count} &7(&f{timeAgo} ago&7)"
+history-entry-player-shop: "&e{owner}"
+history-entry-admin-shop: "&eAdmin Shop"
+history-entry-trade-count: "&7 (&6{count}x&7)"
+
 no-permission: "&cYou don't have the permission to do that."
 
 command-unknown: "&cUnknown command '&e{command}&c'!"
@@ -726,6 +753,7 @@ command-description-reload: "Reloads this plugin."
 command-description-debug: "Toggles debug mode on and off."
 command-description-notify: "Turns trade notifications for you on or off."
 command-description-list: "Lists all shops of a specific player, or all admin shops."
+command-description-history: "Shows the trading history."
 command-description-remove: "Removes a specific shop."
 command-description-remove-all: "Removes all shops of a specific player, all players, or all admin shops."
 command-description-give: "Gives shop creation item(s) to the specified player."
