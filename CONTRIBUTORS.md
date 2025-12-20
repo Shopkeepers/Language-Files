@@ -2,3 +2,4 @@
 
 * fr: Jok9er
 * tr: hhhhh-ckr
+* es: SparkCry
