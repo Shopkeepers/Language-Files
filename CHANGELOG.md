@@ -1,5 +1,31 @@
 # Changelog
 
+## v2.25.0
+
+### New messages
+
+* Added `button-nautilus-armor`.
+* Added `button-nautilus-armor-lore`.
+* Added `button-zombie-nautilus-variant`.
+* Added `button-zombie-nautilus-variant-lore`.
+* Added `history-header`.
+* Added `history-header-all-players`.
+* Added `history-header-specific-player`.
+* Added `history-header-all-shops`.
+* Added `history-header-admin-shops`.
+* Added `history-header-player-shops`.
+* Added `history-header-all-owned-shops`.
+* Added `history-header-specific-shop`.
+* Added `history-header-specific-owned-shop`.
+* Added `history-disabled`.
+* Added `history-no-trades-found`.
+* Added `history-entry-one-item`.
+* Added `history-entry-two-items`.
+* Added `history-entry-player-shop`.
+* Added `history-entry-admin-shop`.
+* Added `history-entry-trade-count`.
+* Added `command-description-history`.
+
 ## v2.24.0
 
 ### New messages
