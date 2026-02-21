@@ -1,5 +1,42 @@
 # Changelog
 
+## v2.26.0
+
+### New messages
+
+* Added `creation-item-shop-type-selection`.
+* Added `creation-item-object-type-selection`.
+* Added `command-shop-type-argument-no-admin-shop`.
+* Added `command-shop-type-argument-no-player-shop`.
+* Added `button-end-crystal-bottom-slab`.
+* Added `button-end-crystal-bottom-slab-lore`.
+* Added `end-crystal-disabled-in-the-end`.
+* Added `shop-information-header`.
+* Added `shop-information`.
+* Added `player-shop-information`.
+* Added `villager-editor-information-header`.
+* Added `villager-editor-information`.
+* Added `command-create-no-permission`.
+* Added `cannot-spawn-midair`.
+* Added `button-shop-open`.
+* Added `button-shop-open-lore`.
+* Added `button-shop-closed`.
+* Added `button-shop-closed-lore`.
+* Added `shop-currently-closed`.
+* Added `cannot-spawn`.
+
+### Removed messages
+
+* Removed `no-player-shops-via-command`.
+
+### Renamed messages
+
+* Renamed `shop-object-type-living` to `shop-object-type-entity`.
+
+### Changed messages
+
+* Changed `creation-item-selected`.
+
 ## v2.25.0
 
 ### New messages
