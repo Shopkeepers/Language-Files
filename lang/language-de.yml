@@ -14,7 +14,7 @@ shop-type-desc-buying: "kauft Gegenstände"
 shop-type-desc-trading: "tauscht Gegenstände für andere Gegenstände"
 shop-type-desc-book: "verkauft Kopien von Büchern"
 
-shop-object-type-living: "{type}"
+shop-object-type-entity: "{type}"
 shop-object-type-sign: "Schild"
 shop-object-type-hanging-sign: "Hängeschild"
 shop-object-type-npc: "NPC"
@@ -24,11 +24,12 @@ selected-shop-object-type: "&aAusgewählter Objekt-Typ: &6{type}"
 
 creation-item-selected: |-
   &aShop-Erstellung:
-  &e  Visiere keinen Block an. Dann:
-  &e  Links-/Rechtsklick, um den Shop-Typ auszuwählen.
-  &e  Shift + Links-/Rechtsklick, um den Objekt-Typ auszuwählen.
+  &e  Visiere keinen Block an. Dann:{shopTypeSelection}{objectTypeSelection}
   &e  Rechtsklick auf einen Behälter, um diesen auszuwählen.
   &e  Dann Rechtsklick auf einen Block, um dort den Händler zu erstellen.
+
+creation-item-shop-type-selection: "\n&e  Links-/Rechtsklick, um den Shop-Typ auszuwählen."
+creation-item-object-type-selection: "\n&e  Shift + Links-/Rechtsklick, um den Objekt-Typ auszuwählen."
 
 state-enabled: "&2Aktiviert"
 state-disabled: "&4Deaktiviert"
@@ -42,6 +43,16 @@ button-next-page-lore: []
 button-current-page: "&6Seite {page} von {max_page}"
 button-current-page-lore: []
 
+button-shop-open: "&aLaden schließen"
+button-shop-open-lore:
+- "Schließt den Laden vorübergehend."
+- "Aktuell: &2Offen"
+- "&2Spieler können handeln."
+button-shop-closed: "&aLaden öffnen"
+button-shop-closed-lore:
+- "Öffnet den Laden."
+- "Aktuell: &4Geschlossen"
+- "&4Spieler können nicht handeln."
 button-name: "&aShop Namen ändern"
 button-name-lore:
 - Gib deinem Shop
@@ -295,6 +306,10 @@ button-zombie-nautilus-variant: "&aVariante ändern"
 button-zombie-nautilus-variant-lore:
 - "Ändert das Aussehen"
 - "des Zombie-Nautilus"
+button-end-crystal-bottom-slab: "&aSockel umschalten"
+button-end-crystal-bottom-slab-lore:
+- "Schaltet den Sockel"
+- "an oder aus"
 
 mannequin-enter-profile: |-
   &aBitte gib im Chat den Namen oder die Id des Spielers ein, dessen Profil du auf die Spielerpuppe anwenden möchtest.
@@ -342,10 +357,13 @@ trading-title-default: "Händler"
 must-target-block: "&7Du musst einen Block anvisieren, um den Shop zu platzieren."
 missing-spawn-location: "&7Für diese Art von Shop musst du einen Spawn-Ort angeben."
 spawn-block-not-empty: "&7Der Spawn-Ort muss leer sein."
+cannot-spawn-midair: "&7Das gewählte Shop-Objekt kann nicht in der Luft platziert werden."
 invalid-spawn-block-face: "&7Der Shop kann nicht auf dieser Seite des Blocks platziert werden."
 mob-cannot-spawn-on-peaceful-difficulty: "&7Der gewählte Mob-Typ kann hier bei friedlichem Schwierigkeitsgrad nicht spawnen."
 restricted-area: "&7Du kannst in dieser Gegend keinen Shop platzieren."
 location-already-in-use: "&7An diesem Ort befindet sich bereits ein anderer Shop."
+end-crystal-disabled-in-the-end: "&7Enderkristall-Shops können nicht im Ende platziert werden."
+cannot-spawn: "&7Der Shop kann hier nicht gespawnt werden."
 
 container-selected:  "&aBehälter ausgewählt! Klicke mit rechts auf einen Block, um den Shop zu platzieren."
 unsupported-container: "&7Diese Art von Behälter kann nicht für Shops benutzt werden."
@@ -357,7 +375,6 @@ container-not-placed: "&7Du musst einen Behälter auswählen, den du kürzlich p
 container-already-in-use: "&7Ein anderer Shop benutzt bereits den ausgewählten Behälter!"
 no-container-access: "&7Du hast keinen Zugriff auf den ausgewählten Behälter!"
 too-many-shops: "&7Du hast bereits das Limit an Shops erreicht, die du besitzen kannst!"
-no-player-shops-via-command: "&7Spieler-Shops können nur mit dem Shop-Erstellungsgegenstand erzeugt werden!"
 
 type-new-name: "&aBitte gib den neuen Namen des Shops im Chat ein.\n  &aEin Minus (-) entfernt den aktuellen Namen."
 name-set: "&aDer Name des Shops wurde auf '&e{name}&a' gesetzt!"
@@ -411,6 +428,7 @@ villager-for-hire: "&aDieser Dorfbewohner bietet dir im Tausch für &6{costs}x {
 
 missing-trade-perm: "&7Du hast nicht die nötige Befugnis, um mit diesem Shop zu handeln."
 missing-custom-trade-perm: "&7Du hast nicht die nötige Befugnis, um mit diesem Shop zu handeln."
+shop-currently-closed: "&7Dieser Shop ist derzeit geschlossen. Schaue später nochmal vorbei!"
 cannot-trade-no-offers: "&7Dieser Shop hat derzeit keine Angebote. Schaue später nochmal vorbei!"
 no-offers-open-editor-description: "&eDu kannst diesen Shop mit Shift+Rechtsklick bearbeiten."
 cannot-trade-with-own-shop: "&7Du kannst nicht mit deinem eigenen Shop handeln."
@@ -587,6 +605,17 @@ book-shop.empty-item2-lore:
 - "Der zweite Gegenstand den du kaufen möchtest."
 - "Links-/Rechtsklick zum Ändern der Menge."
 
+shop-information-header: "&6Details"
+shop-information:
+- "Id: &e{shop_id}"
+- "Eindeutige Id: &e{shop_uuid}"
+- "Name: &e{shop_name}"
+- "Typ: &e{shop_type}"
+- "Objekt: &e{shop_object_type}"
+- "Standort: &e{shop_location}"
+player-shop-information:
+- "Besitzer: &e{shop_owner_name} &8({shop_owner_uuid})"
+
 missing-edit-villagers-perm: "&7Dir fehlt die nötige Berechtigung, um Dorfbewohner zu editieren."
 missing-edit-wandering-traders-perm: "&7Dir fehlt die nötige Berechtigung, um wandernde Händler zu editieren."
 must-target-entity: "&7Du musst ein Objekt anvisieren."
@@ -601,6 +630,13 @@ villager-editor-description:
 - 'Untere Reihen: Kosten'
 - 'Bearbeitete Angebote können unendlich oft'
 - 'genutzt werden und haben keine XP Belohnungen'
+
+villager-editor-information-header: "&6Details"
+villager-editor-information:
+- "Id: &e{entity_id}"
+- "Eindeutige Id: &e{entity_uuid}"
+- "Name: &e{entity_name}"
+- "Standort: &e{entity_location}"
 
 button-delete-villager: "&4Entfernen"
 button-delete-villager-lore:
@@ -728,7 +764,10 @@ history-entry-player-shop: "&e{owner}"
 history-entry-admin-shop: "&eAdmin-Shop"
 history-entry-trade-count: "&7 (&6{count}x&7)"
 
-no-permission: "&cDafür hast du nicht die nötigen Berechtigungen."
+no-permission: "&cDafür hast du nicht die nötige Berechtigung."
+command-create-no-permission: |-
+  &cDafür hast du nicht die nötige Berechtigung.
+  &eFalls du versuchst einen Spieler-Shop zu erstellen, benutze stattdessen den Shop-Erstellungsgegenstand.
 
 command-unknown: "&cUnbekannter Befehl '&e{command}&c'!"
 command-argument-unexpected: "&cUnerwartetes Argument '&e{argument}&c'."
@@ -738,6 +777,8 @@ command-argument-invalid: "&cUngültiges Argument '&e{argument}&c'."
 command-player-argument-missing: "&cEs wurde kein Spieler angegeben für '&e{argumentFormat}&c'."
 command-player-argument-invalid: "&cEs wurde kein Spieler gefunden für '&e{argument}&c'."
 command-shop-type-argument-invalid: "&cUnbekannter Shop-Typ '&e{argument}&c'."
+command-shop-type-argument-no-admin-shop: "&cShop-Typ '&e{argument}&c' ist kein Admin-Shop."
+command-shop-type-argument-no-player-shop: "&cShop-Typ '&e{argument}&c' ist kein Spieler-Shop."
 command-shop-object-type-argument-invalid: "&cUnbekannter Shop-Objekt-Typ '&e{argument}&c'."
 command-shopkeeper-argument-invalid: "&cEs wurde kein Shop gefunden für '&e{argument}&c'."
 command-shopkeeper-argument-no-admin-shop: "&cShop '&e{argument}&c' ist kein Admin-Shop."

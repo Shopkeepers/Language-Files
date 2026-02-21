@@ -1,3 +1,3 @@
-# Contributors v2.25.0
+# Contributors v2.26.0
 
-* tr: takatalvi
+

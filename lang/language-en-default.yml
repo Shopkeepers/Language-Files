@@ -14,7 +14,7 @@ shop-type-desc-buying: "buys items from players"
 shop-type-desc-trading: "trades items with players"
 shop-type-desc-book: "sells book copies"
 
-shop-object-type-living: "{type}"
+shop-object-type-entity: "{type}"
 shop-object-type-sign: "sign"
 shop-object-type-hanging-sign: "hanging sign"
 shop-object-type-npc: "npc"
@@ -24,11 +24,12 @@ selected-shop-object-type: "&aSelected object type: &6{type}"
 
 creation-item-selected: |-
   &aShop creation:
-  &e  Do not aim at any block. Then:
-  &e  Left/Right-click to select the shop type.
-  &e  Sneak + left/right-click to select the object type.
+  &e  Do not aim at any block. Then:{shopTypeSelection}{objectTypeSelection}
   &e  Right-click a container to select it.
   &e  Then right-click a block to place the shopkeeper.
+
+creation-item-shop-type-selection: "\n&e  Left/Right-click to select the shop type."
+creation-item-object-type-selection: "\n&e  Sneak + left/right-click to select the object type."
 
 state-enabled: "&2Enabled"
 state-disabled: "&4Disabled"
@@ -42,6 +43,16 @@ button-next-page-lore: []
 button-current-page: "&6Page {page} of {max_page}"
 button-current-page-lore: []
 
+button-shop-open: "&aClose shop"
+button-shop-open-lore:
+- "Temporarily closes the shop."
+- "Currently: &2Open"
+- "&2Players can trade."
+button-shop-closed: "&aOpen shop"
+button-shop-closed-lore:
+- "Re-opens the shop."
+- "Currently: &4Closed"
+- "&4Players cannot trade."
 button-name: "&aSet shop name"
 button-name-lore:
 - Lets you rename
@@ -282,6 +293,10 @@ button-zombie-nautilus-variant: "&aChoose variant"
 button-zombie-nautilus-variant-lore:
 - "Changes the look of"
 - "the zombie nautilus."
+button-end-crystal-bottom-slab: "&aToggle bottom slab"
+button-end-crystal-bottom-slab-lore:
+- "Toggles the bottom slab"
+- "of the end crystal"
 
 mannequin-enter-profile: |-
   &aPlease enter in chat the name or id of the player whose profile you want to apply to the mannequin.
@@ -328,10 +343,13 @@ trading-title-default: "Shopkeeper"
 must-target-block: "&7You must look at a block to place the shopkeeper."
 missing-spawn-location: "&7You must specify a spawn location for this type of shop."
 spawn-block-not-empty: "&7The spawn location must be empty."
+cannot-spawn-midair: "&7The selected shop object cannot be placed in midair."
 invalid-spawn-block-face: "&7The shopkeeper cannot be placed on this side of the block."
 mob-cannot-spawn-on-peaceful-difficulty: "&7The selected mob type cannot spawn here on peaceful difficulty."
 restricted-area: "&7You cannot place a shopkeeper in this area."
 location-already-in-use: "&7This location is already used by another shopkeeper."
+end-crystal-disabled-in-the-end: "&7End crystal shops cannot be placed in the end."
+cannot-spawn: "&7The shopkeeper cannot spawn here."
 
 container-selected: "&aContainer selected! Right-click a block to place your shopkeeper."
 unsupported-container: "&7This type of container cannot be used for shops."
@@ -343,7 +361,6 @@ container-not-placed: "&7You must select a container you have recently placed!"
 container-already-in-use: "&7Another shopkeeper is already using the selected container!"
 no-container-access: "&7You cannot access the selected container!"
 too-many-shops: "&7You have already reached the limit of how many shops you can own!"
-no-player-shops-via-command: "&7Player shops can only be created via the shop creation item!"
 
 type-new-name: "&aPlease enter the shop's new name in chat.\n  &aEnter a dash (-) to remove the current name."
 name-set: "&aThe shop's name has been set to '&e{name}&a'!"
@@ -397,6 +414,7 @@ villager-for-hire: "&aThe villager offered his services as a shopkeeper in excha
 
 missing-trade-perm: "&7You do not have the permission to trade with this shop."
 missing-custom-trade-perm: "&7You do not have the permission to trade with this shop."
+shop-currently-closed: "&7This shop is currently closed. Check again later!"
 cannot-trade-no-offers: "&7This shop currently has no offers. Check again later!"
 no-offers-open-editor-description: "&eYou can edit this shop by right clicking it while sneaking."
 cannot-trade-with-own-shop: "&7You cannot trade with your own shop."
@@ -575,6 +593,17 @@ book-shop.empty-item2-lore:
 - "The second item you want to buy."
 - "Left/Right click to adjust the amount."
 
+shop-information-header: "&6Details"
+shop-information:
+- "Id: &e{shop_id}"
+- "Unique id: &e{shop_uuid}"
+- "Name: &e{shop_name}"
+- "Type: &e{shop_type}"
+- "Object: &e{shop_object_type}"
+- "Location: &e{shop_location}"
+player-shop-information:
+- "Owner: &e{shop_owner_name} &8({shop_owner_uuid})"
+
 missing-edit-villagers-perm: "&7You do not have the permission to edit villagers."
 missing-edit-wandering-traders-perm: "&7You do not have the permission to edit wandering traders."
 must-target-entity: "&7You have to target an entity."
@@ -589,6 +618,13 @@ villager-editor-description:
 - 'Bottom rows: Cost items'
 - 'Edited trades have infinite'
 - 'uses and no XP rewards.'
+
+villager-editor-information-header: "&6Details"
+villager-editor-information:
+- "Id: &e{entity_id}"
+- "Unique id: &e{entity_uuid}"
+- "Name: &e{entity_name}"
+- "Location: &e{entity_location}"
 
 button-delete-villager: "&4Delete"
 button-delete-villager-lore:
@@ -715,6 +751,9 @@ history-entry-admin-shop: "&eAdmin Shop"
 history-entry-trade-count: "&7 (&6{count}x&7)"
 
 no-permission: "&cYou don't have the permission to do that."
+command-create-no-permission: |-
+  &cYou don't have the permission to do that.
+  &eIf you are trying to create a player shop, use the shop creation item instead.
 
 command-unknown: "&cUnknown command '&e{command}&c'!"
 command-argument-unexpected: "&cUnexpected argument '&e{argument}&c'."
@@ -724,6 +763,8 @@ command-argument-invalid: "&cInvalid argument '&e{argument}&c'."
 command-player-argument-missing: "&cNo player specified for '&e{argumentFormat}&c'."
 command-player-argument-invalid: "&cNo player found for '&e{argument}&c'."
 command-shop-type-argument-invalid: "&cUnknown shop type '&e{argument}&c'."
+command-shop-type-argument-no-admin-shop: "&cShop type '&e{argument}&c' is no admin shop."
+command-shop-type-argument-no-player-shop: "&cShop type '&e{argument}&c' is no player shop."
 command-shop-object-type-argument-invalid: "&cUnknown shop object type '&e{argument}&c'."
 command-shopkeeper-argument-invalid: "&cNo shopkeeper found for '&e{argument}&c'."
 command-shopkeeper-argument-no-admin-shop: "&cShopkeeper '&e{argument}&c' is no admin shopkeeper."
