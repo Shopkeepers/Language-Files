@@ -3,3 +3,4 @@
 * fr: Jok9er
 * tr: hhhhh-ckr
 * es: SparkCry
+* pt-BR: luizinhoh2o1
