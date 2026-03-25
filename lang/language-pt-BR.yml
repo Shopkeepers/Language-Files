@@ -161,8 +161,7 @@ button-villager-profession: "&aEscolha a profissão do aldeão"
 button-villager-profession-lore:
 - "Muda a profissão"
 - "do aldeão"
-button-villager-variant:
-- "&aEscolha variante de aldeão"
+button-villager-variant: "&aEscolha variante de aldeão"
 button-villager-variant-lore:
 - "Muda o visual"
 - "do aldeão"
@@ -213,7 +212,7 @@ button-tropical-fish-pattern: "&aEscolher variante de peixes"
 button-tropical-fish-pattern-lore:
 - "Muda a forma e o padrão"
 - "dos peixes tropicais."
-- "Atualmente: &e{default}"
+- "Atualmente: &e{pattern}"
 button-tropical-fish-body-color: "&aEscolha a cor do corpo do peixe"
 button-tropical-fish-body-color-lore:
 - "Muda a cor do corpo"
@@ -290,7 +289,7 @@ target-shop-is-no-admin-shop: "&7O lojista alvo não é um lojista administrador
 target-shop-is-no-player-shop: "&7O lojista alvo não é um lojista administrador."
 unused-container: "&7Nenhum lojista está usando este contêiner."
 not-owner: "&7Você não é o dono deste lojista."
-owner-set: "&aO novo proprietário agora é &e{proprietário}"
+owner-set: "&aO novo proprietário agora é &e{owner}"
 shop-creation-items-given: "&aJogador &e{player}&a recebeu &e{amount}&a item(ns) de criação de loja!"
 shop-creation-items-received: "&aVocê recebeu &e{amount}&a(s) item(ns) de criação de loja!"
 unknown-currency: "&cMoeda desconhecida: '&e{currency}&c'"
@@ -329,9 +328,9 @@ cannot-trade-insufficient-stock: "&7Troca abortada: Esta loja não tem o suficie
 cannot-trade-insufficient-writable-books: "&7Comércio abortado: esta livraria não tem livros graváveis para copiar o livro."
 
 trade-notification-one-item: "&7Comércio: &e{player}&7 [&6{item1Amount}x &a{item1}&7] \u279e [&6{resultItemAmount}x &a{resultItem}&7] {shop}{trade_count}"
-trade-notification-two-items: "&7Comércio: &e{player}&7 [&6{item1Amount}x &a{item1}&7] [&6{item2Amount}x &a{item2}&7] \u279e [&6{resultItemAmount}x &a{resultItem}&7] {shop}{trade_count }"
+trade-notification-two-items: "&7Comércio: &e{player}&7 [&6{item1Amount}x &a{item1}&7] [&6{item2Amount}x &a{item2}&7] \u279e [&6{resultItemAmount}x &a{resultItem}&7] {shop}{trade_count}"
 buy-notification-one-item: "&7Comércio: &e{player}&7 [&6{item1Amount}x &a{item1}&7] \u279e [&6{resultItemAmount}x &a{resultItem}&7] {shop}{trade_count}"
-buy-notification-two-items: "&7Comércio: &e{player}&7 [&6{item1Amount}x &a{item1}&7] [&6{item2Amount}x &a{item2}&7] \u279e [&6{resultItemAmount}x &a{resultItem}&7] {shop}{trade_count }"
+buy-notification-two-items: "&7Comércio: &e{player}&7 [&6{item1Amount}x &a{item1}&7] [&6{item2Amount}x &a{item2}&7] \u279e [&6{resultItemAmount}x &a{resultItem}&7] {shop}{trade_count}"
 trade-notification-player-shop: "&e{shop_owner_name}"
 trade-notification-named-player-shop: "&e{shop_owner_name}"
 trade-notification-admin-shop: "&eLoja Admin"
@@ -509,7 +508,7 @@ villager-editor-description:
 - 'Negociações editadas têm infinitos'
 - 'usos sem recompensas de XP.'
 
-button-delete-villager: "&4Exluir"
+button-delete-villager: "&4Excluir"
 button-delete-villager-lore:
 - Exclui o aldeão
 button-name-villager: "&aDefinir nome do aldeão"
@@ -618,7 +617,7 @@ ambiguous-player-name: "&cExistem várias correspondências para o nome '&e{name
 ambiguous-player-name-entry: "&c - '&e{name}&r&c' (&6{uuid}&c)"
 ambiguous-player-name-more: "&c - ...."
 
-command-help-title: "&9***** &8[&6Lojistas v{versão}&8] &9*****"
+command-help-title: "&9***** &8[&6Lojistas v{version}&8] &9*****"
 command-help-usage-format: "&e{usage}"
 command-help-description-format: "&8 - &3{description}"
 
