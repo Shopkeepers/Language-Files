@@ -7,3 +7,4 @@
 * ru: justpoteto
 * zh-CN: firesahc
 * tr: hhhhh-ckr
+* pt-BR: luizinhoh2o1
