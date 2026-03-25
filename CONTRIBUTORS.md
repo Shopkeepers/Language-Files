@@ -3,3 +3,4 @@
 * sk: takatalvi
 * tr: Arcdashckr
 * it: davideakc
+* pt-BR: luizinhoh2o1
