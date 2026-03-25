@@ -50,6 +50,7 @@ Thank you to everyone who has contributed to the language files in this reposito
 * pl: Lemafor
 * be: Gazmanovich
 * tr: hhhhh-ckr
+* pt-BR: luizinhoh2o1
 
 ## [v2.20.0](https://github.com/Shopkeepers/Language-Files/blob/v2.20.0/CONTRIBUTORS.md)
 
