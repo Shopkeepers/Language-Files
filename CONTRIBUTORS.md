@@ -60,6 +60,7 @@ Thank you to everyone who has contributed to the language files in this reposito
 * ru: justpoteto
 * zh-CN: firesahc
 * tr: hhhhh-ckr
+* pt-BR: luizinhoh2o1
 
 ## [v2.19.0](https://github.com/Shopkeepers/Language-Files/blob/v2.19.0/CONTRIBUTORS.md)
 
