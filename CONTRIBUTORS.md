@@ -19,6 +19,7 @@ Thank you to everyone who has contributed to the language files in this reposito
 * fr: Jok9er
 * tr: hhhhh-ckr
 * es: SparkCry
+* pt-BR: luizinhoh2o1
 
 ## [v2.23.3](https://github.com/Shopkeepers/Language-Files/blob/v2.23.3/CONTRIBUTORS.md)
 
