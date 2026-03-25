@@ -7,6 +7,7 @@ Thank you to everyone who has contributed to the language files in this reposito
 ## [v2.25.0](https://github.com/Shopkeepers/Language-Files/blob/v2.25.0/CONTRIBUTORS.md)
 
 * tr: takatalvi
+* pt-BR: luizinhoh2o1
 
 ## [v2.24.0](https://github.com/Shopkeepers/Language-Files/blob/v2.24.0/CONTRIBUTORS.md)
 
