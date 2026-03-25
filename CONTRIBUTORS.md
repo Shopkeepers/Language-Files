@@ -9,3 +9,4 @@
 * pl: Lemafor
 * be: Gazmanovich
 * tr: hhhhh-ckr
+* pt-BR: luizinhoh2o1
