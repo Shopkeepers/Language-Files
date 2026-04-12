@@ -1,0 +1,817 @@
+# Language: es
+
+date-time-format: "dd-MM-yyyy HH:mm:ss"
+
+shop-type-admin-regular: "Tienda Admin"
+shop-type-selling: "Tienda de Venta"
+shop-type-buying: "Tienda de Compra"
+shop-type-trading: "Tienda de Intercambio"
+shop-type-book: "Tienda de Libros"
+
+shop-type-desc-admin-regular: "Tiene stock ilimitado"
+shop-type-desc-selling: "Vende ítems a los jugadores"
+shop-type-desc-buying: "Compra ítems a los jugadores"
+shop-type-desc-trading: "Intercambia ítems con los jugadores"
+shop-type-desc-book: "Vende copias de libros"
+
+shop-object-type-entity: "{type}"
+shop-object-type-sign: "Cartel"
+shop-object-type-hanging-sign: "Cartel colgante"
+shop-object-type-npc: "NPC"
+
+selected-shop-type: "&aTipo de tienda seleccionado: &6{type} &7({description})"
+selected-shop-object-type: "&aTipo de ítem seleccionado: &6{type}"
+
+creation-item-selected: |-
+  &aCreación de tienda:
+  &e  No apuntes a ningún bloque. Luego:{shopTypeSelection}{objectTypeSelection}
+  &e  Click derecho a un contenedor para seleccionarlo.
+  &e  Luego click derecho a un bloque para colocar al comerciante.
+
+creation-item-shop-type-selection: "\n&e  Click Izquierdo/Derecho para seleccionar el tipo de tienda."
+creation-item-object-type-selection: "\n&e  Agacharse + click izquierdo/derecho para seleccionar el tipo de ítem."
+
+state-enabled: "&2Habilitado"
+state-disabled: "&4Deshabilitado"
+
+editor-title: "Editor de Tienda"
+
+button-previous-page: "&6<- Página anterior ({prev_page} de {max_page})"
+button-previous-page-lore: []
+button-next-page: "&6Siguiente página ({next_page} de {max_page}) ->"
+button-next-page-lore: []
+button-current-page: "&6Página {page} de {max_page}"
+button-current-page-lore: []
+
+button-shop-open: "&aTienda Abierta"
+button-shop-open-lore:
+- "La tienda cierra temporalmente."
+- "Actualmente: &2Abierta"
+- "&2Los jugadores pueden comerciar."
+button-shop-closed: "&aTienda Cerrada"
+button-shop-closed-lore:
+- "La tienda vuelve a abrir."
+- "Actualmente: &4Cerrada"
+- "&4Los jugadores no pueden comerciar."
+button-name: "&aNombre de la tienda"
+button-name-lore:
+- Te permite cambiar el nombre
+- de tu Comerciante
+button-equipment: "&aEquipo"
+button-equipment-lore:
+- "Asigna equipamiento."
+- "Nota: No todos los monstruos admiten"
+- "las mismas ranuras de equipamiento."
+button-move: "&aMover Comerciante"
+button-move-lore:
+- Te permite mover
+- a tu Comerciante
+button-container: "&aVer inventario de la tienda"
+button-container-lore:
+- Te permite ver el inventario
+- que usa tu tendero
+button-trade-notifications: "&aNotificaciones de transacciones."
+button-trade-notifications-lore:
+- "Activa/desactiva las notificaciones"
+- "para este comerciante."
+- "Estado actual: {state}"
+button-delete: "&4Borrar"
+button-delete-lore:
+- Cierra y retira
+- este comerciante
+
+button-sign-variant: "&aSeleccione la variante de Cartel"
+button-sign-variant-lore:
+- "Cambia el tipo de madera"
+- "del letrero"
+button-sign-glowing-text: "&aMostrar/ocultar texto brillante"
+button-sign-glowing-text-lore:
+- "Activa/desactiva el texto"
+- "brillante"
+button-baby: "&aAlternar variante bebé"
+button-baby-lore:
+- "Alterna entre la versión"
+- "infantil y la adulta"
+button-sitting: "&aAlternar postura sentada"
+button-sitting-lore:
+- "Cambia la postura"
+- "del mob"
+button-cat-variant: "&aElige la variante de gato"
+button-cat-variant-lore:
+- "Cambia el aspecto del gato"
+button-rabbit-variant: "&aElige la variante de conejo"
+button-rabbit-variant-lore:
+- "Cambia el aspecto del conejo"
+button-collar-color: "&aElige el color del collar"
+button-collar-color-lore:
+- "Cambia el color"
+- "del collar"
+button-wolf-angry: "&aAlternar lobo agresivo"
+button-wolf-angry-lore:
+- "Alterna el estado"
+- "agresivo del lobo"
+button-carrying-chest: "&aAlternar cofre equipado"
+button-carrying-chest-lore:
+- "Alterna si el mob"
+- "lleva un cofre"
+button-horse-color: "&aElegir color del caballo"
+button-horse-color-lore:
+- "Cambia el color"
+- "del caballo"
+button-horse-style: "&aElegir estilo del caballo"
+button-horse-style-lore:
+- "Cambia el patrón del pelaje"
+- "del caballo"
+button-horse-armor: "&aElegir armadura de caballo"
+button-horse-armor-lore:
+- "Cambia la armadura"
+- "del caballo"
+button-llama-variant: "&aElegir variante de llama"
+button-llama-variant-lore:
+- "Cambia el aspecto de la llama"
+button-llama-carpet-color: "&aColor de la alfombra"
+button-llama-carpet-color-lore:
+- "Cambia el color de la"
+- "alfombra de la llama"
+button-creeper-charged: "&aAlternar creeper cargado"
+button-creeper-charged-lore:
+- "Alterna el estado"
+- "cargado del creeper"
+button-fox-variant: "&aElegir variante de zorro"
+button-fox-variant-lore:
+- "Cambia el aspecto del zorro"
+button-fox-crouching: "&aAlternar postura agachada"
+button-fox-crouching-lore:
+- "Alterna la postura"
+- "agachada del zorro"
+button-fox-sleeping: "&aAlternar postura dormida"
+button-fox-sleeping-lore:
+- "Alterna la postura"
+- "de dormir del zorro"
+button-cow-variant: "&aElegir variante de vaca"
+button-cow-variant-lore:
+- "Cambia el aspecto de la vaca"
+button-mooshroom-variant: "&aElegir variante de champiñaca"
+button-mooshroom-variant-lore:
+- "Cambia el aspecto"
+- "de la champiñaca"
+button-panda-variant: "&aElegir variante de panda"
+button-panda-variant-lore:
+- "Cambia el aspecto del panda"
+button-parrot-variant: "&aElegir variante de loro"
+button-parrot-variant-lore:
+- "Cambia el aspecto del loro"
+button-pig-variant: "&aElegir variante de cerdo"
+button-pig-variant-lore:
+- "Cambia el aspecto del cerdo"
+button-chicken-variant: "&aElegir variante de gallina"
+button-chicken-variant-lore:
+- "Cambia el aspecto de la gallina"
+button-sheep-color: "&aElegir color de la oveja"
+button-sheep-color-lore:
+- "Cambia el color de la"
+- "lana de la oveja"
+button-sheep-sheared: "&aAlternar oveja esquilada"
+button-sheep-sheared-lore:
+- "Alterna el estado"
+- "esquilado de la oveja"
+button-villager-profession: "&aElegir profesión del aldeano"
+button-villager-profession-lore:
+- "Cambia la profesión"
+- "del aldeano"
+button-villager-variant: "&aElegir variante de aldeano"
+button-villager-variant-lore:
+- "Cambia el aspecto"
+- "del aldeano"
+button-villager-level: "&aElegir color de medalla"
+button-villager-level-lore:
+- "Cambia el color de la"
+- "medalla del aldeano"
+button-zombie-villager-profession: "&aElegir profesión de aldeano"
+button-zombie-villager-profession-lore:
+- "Cambia la profesión"
+- "del aldeano zombi"
+button-slime-size: "&aElegir tamaño del slime"
+button-slime-size-lore:
+- "Alterna el tamaño del slime."
+- "Tamaño actual: &e{size}"
+button-magma-cube-size: "&aElegir tamaño del cubo de magma"
+button-magma-cube-size-lore:
+- "Alterna el tamaño del cubo de magma."
+- "Tamaño actual: &e{size}"
+button-snowman-pumpkin-head: "&aAlternar cabeza de calabaza"
+button-snowman-pumpkin-head-lore:
+- "Alterna la calabaza en la"
+- "cabeza del hombre de nieve"
+button-shulker-color: "&aElegir color del shulker"
+button-shulker-color-lore:
+- "Cambia el color"
+- "del shulker"
+button-axolotl-variant: "&aElegir variante de ajolote"
+button-axolotl-variant-lore:
+- "Cambia el aspecto del ajolote"
+button-glow-squid-dark: "&aAlternar brillo"
+button-glow-squid-dark-lore:
+- "Activa o desactiva el"
+- "brillo del calamar brillante"
+button-goat-screaming: "&aAlternar cabra gritona"
+button-goat-screaming-lore:
+- "Alterna entre una cabra"
+- "normal y una gritona"
+button-goat-left-horn: "&aAlternar cuerno izquierdo"
+button-goat-left-horn-lore:
+- "Alterna el cuerno"
+- "izquierdo de la cabra"
+button-goat-right-horn: "&aAlternar cuerno derecho"
+button-goat-right-horn-lore:
+- "Alterna el cuerno"
+- "derecho de la cabra"
+button-tropical-fish-pattern: "&aElegir variante"
+button-tropical-fish-pattern-lore:
+- "Cambia la forma y el patrón"
+- "del pez tropical."
+- "Actual: &e{pattern}"
+button-tropical-fish-body-color: "&aElegir color del cuerpo"
+button-tropical-fish-body-color-lore:
+- "Cambia el color del cuerpo"
+- "del pez tropical"
+button-tropical-fish-pattern-color: "&aElegir color del patrón"
+button-tropical-fish-pattern-color-lore:
+- "Cambia el color del patrón"
+- "del pez tropical"
+button-puffer-fish-puff-state: "&aElegir estado de inflado"
+button-puffer-fish-puff-state-lore:
+- "Cambia el nivel de inflado"
+- "del pez globo."
+- "Actual: &e{puffState}"
+button-salmon-variant: "&aElegir variante"
+button-salmon-variant-lore:
+- "Cambia el tamaño"
+- "del salmón"
+button-frog-variant: "&aElegir variante de rana"
+button-frog-variant-lore:
+- "Cambia el aspecto de la rana"
+button-wolf-variant: "&aElegir variante de lobo"
+button-wolf-variant-lore:
+- "Cambia el aspecto del lobo"
+button-saddle: "&aAlternar montura"
+button-saddle-lore:
+- "Pon o quita la montura"
+- "de la criatura"
+button-copper-golem-weather-state: "&aElegir nivel de oxidación"
+button-copper-golem-weather-state-lore:
+- "Cambia el nivel de"
+- "oxidación del gólem de cobre"
+button-armor-stand-base-plate: "&aAlternar placa base"
+button-armor-stand-base-plate-lore:
+- "Alterna la placa base"
+- "del soporte para armaduras"
+button-armor-stand-show-arms: "&aAlternar brazos"
+button-armor-stand-show-arms-lore:
+- "Alterna los brazos"
+- "del soporte para armaduras"
+button-armor-stand-small: "&aAlternar tamaño"
+button-armor-stand-small-lore:
+- "Alterna el tamaño"
+- "del soporte para armaduras"
+button-mannequin-main-hand: "&aAlternar mano principal"
+button-mannequin-main-hand-lore:
+- "Alterna la mano principal"
+- "del maniquí"
+button-mannequin-pose: "&aAlternar pose"
+button-mannequin-pose-lore:
+- "Alterna la pose"
+- "del maniquí"
+button-mannequin-profile: "&aCambiar skin"
+button-mannequin-profile-lore:
+- "Cambia la skin"
+- "del maniquí"
+button-nautilus-armor: "&aElegir armadura"
+button-nautilus-armor-lore:
+- "Cambia la armadura"
+- "del nautilus"
+button-zombie-nautilus-variant: "&aElegir variante"
+button-zombie-nautilus-variant-lore:
+- "Cambia el aspecto del"
+- "nautilus zombi"
+button-end-crystal-bottom-slab: "&aAlternar base inferior"
+button-end-crystal-bottom-slab-lore:
+- "Alterna la base inferior"
+- "del cristal del End"
+
+mannequin-enter-profile: |-
+  &aPor favor, escribe en el chat el nombre o ID del jugador cuyo perfil quieras aplicar al maniquí.
+  &a  Escribe un guion (-) para limpiar el perfil actual.
+  &a  Escribe un signo de exclamación (!) para mantener el perfil actual.
+mannequin-enter-profile-canceled: "&7Cancelado: El perfil del maniquí no ha sido cambiado."
+mannequin-profile-set: "&a¡El perfil del maniquí se ha establecido como '&e{profileName}&a'!"
+mannequin-profile-cleared: "&a¡Se ha limpiado el perfil del maniquí!"
+mannequin-profile-invalid: "&c¡Error al obtener el perfil de '&e{input}&c'!"
+
+equipment-editor-title: "Editor de equipamiento"
+equipment-slot-lore:
+- "Coloca un objeto para equiparlo."
+- "Click derecho para vaciar"
+- "la ranura de equipo."
+
+equipment-slot-mainhand: "&aMano principal"
+equipment-slot-offhand: "&aMano secundaria"
+equipment-slot-feet: "&aPies"
+equipment-slot-legs: "&aPiernas"
+equipment-slot-chest: "&aPecho"
+equipment-slot-head: "&aCabeza"
+equipment-slot-body: "&aCuerpo"
+equipment-slot-saddle: "&aMontura"
+
+admin-sign-shop-line1: "&2[TIENDA]"
+admin-sign-shop-line2: "&7{shopName}"
+admin-sign-shop-line3: ""
+admin-sign-shop-line4: "&e¡Click derecho!"
+
+player-sign-shop-line1: "&2[TIENDA]"
+player-sign-shop-line2: "&7{shopName}"
+player-sign-shop-line3: "&7{owner}"
+player-sign-shop-line4: "&e¡Click derecho!"
+
+for-hire-title: "En venta"
+button-hire: "&aContratar"
+button-hire-lore:
+- Compra este comerciante
+
+trading-title-prefix: "&2"
+trading-title-default: "Comerciante"
+
+must-target-block: "&7Debes mirar a un bloque para colocar al comerciante."
+missing-spawn-location: "&7Debes especificar un lugar de aparición para este tipo de tienda."
+spawn-block-not-empty: "&7El lugar de aparición debe estar vacío."
+cannot-spawn-midair: "&7El objeto de tienda seleccionado no puede colocarse en el aire."
+invalid-spawn-block-face: "&7El comerciante no puede colocarse en este lado del bloque."
+mob-cannot-spawn-on-peaceful-difficulty: "&7Este tipo de criatura no puede aparecer aquí en dificultad pacífica."
+restricted-area: "&7No puedes colocar un comerciante en esta zona."
+location-already-in-use: "&7Esta ubicación ya está siendo usada por otro comerciante."
+end-crystal-disabled-in-the-end: "&7Las tiendas de cristales del End no pueden colocarse en el End."
+cannot-spawn: "&7El comerciante no puede aparecer aquí."
+
+container-selected: "&a¡Contenedor seleccionado! Haz clic derecho en un bloque para colocar a tu comerciante."
+unsupported-container: "&7Este tipo de contenedor no puede usarse para tiendas."
+must-select-container: "&7Debes hacer clic derecho en un contenedor antes de colocar a tu comerciante."
+must-target-container: "&7Debes mirar a un contenedor para colocar este tipo de tienda."
+invalid-container: "&7¡El bloque seleccionado no es un contenedor válido!"
+container-too-far-away: "&7¡El contenedor del comerciante está demasiado lejos!"
+container-not-placed: "&7¡Debes seleccionar un contenedor que hayas colocado recientemente!"
+container-already-in-use: "&7¡Otro comerciante ya está usando el contenedor seleccionado!"
+no-container-access: "&7¡No tienes acceso al contenedor seleccionado!"
+too-many-shops: "&7¡Ya has alcanzado el límite de tiendas que puedes tener!"
+
+type-new-name: "&aEscribe en el chat el nuevo nombre de la tienda.\n  &aEscribe un guion (-) para eliminar el nombre actual."
+name-set: "&a¡El nombre de la tienda se ha establecido como '&e{name}&a'!"
+name-has-not-changed: "&aEl nombre de la tienda no ha cambiado."
+name-invalid: "&cNombre de tienda no válido: '&e{name}&c'"
+nameplate-prefix: "&2"
+
+click-new-shop-location: "&aHaz clic derecho en la nueva ubicación de la tienda.\n  &aHaz clic izquierdo para cancelar."
+shopkeeper-moved: "&a¡El comerciante ha sido movido!"
+shopkeeper-move-aborted: "&7Movimiento del comerciante cancelado."
+
+shop-type-disabled: "&7El tipo de tienda '&6{type}&7' está desactivado."
+shop-object-type-disabled: "&7El tipo de objeto de tienda '&6{type}&7' está desactivado."
+
+must-target-shop: "&7Debes apuntar a un comerciante."
+must-target-admin-shop: "&7Debes apuntar a un comerciante administrativo."
+must-target-player-shop: "&7Debes apuntar a un comerciante de jugador."
+target-entity-is-no-shop: "&7La entidad a la que apuntas no es un comerciante."
+target-shop-is-no-admin-shop: "&7El comerciante seleccionado no es administrativo."
+target-shop-is-no-player-shop: "&7El comerciante seleccionado no es de un jugador."
+unused-container: "&7Ningún comerciante está usando este contenedor."
+not-owner: "&7No eres el dueño de este comerciante."
+owner-set: "&aEl nuevo dueño es ahora &e{owner}"
+shop-creation-items-given: "&a¡El jugador &e{player}&a ha recibido &e{amount}&a objeto(s) de creación de tienda!"
+shop-creation-items-received: "&a¡Has recibido &e{amount}&a objeto(s) de creación de tienda!"
+unknown-currency: "&cDivisa desconocida: '&e{currency}&c'"
+currency-items-given: "&a¡El jugador &e{player}&a ha recibido &6{amount}x&a objeto(s) de divisa '&e{currency}&a'!"
+currency-items-received: "&a¡Has recibido &6{amount}x&a objeto(s) de divisa '&e{currency}&a'!"
+must-hold-item-in-main-hand: "&7Debes sostener un objeto en tu mano principal."
+currency-item-set-to-main-hand-item: "&a¡El objeto de divisa '&e{currencyId}&a' se ha vinculado al &eobjeto de tu mano principal&a!"
+items-updated: "&a¡Se han actualizado &e{count}&a objeto(s)!"
+unknown-book-author: "Desconocido"
+
+trade-perm-set: "&a¡El permiso de comercio de la tienda se ha establecido como '&e{perm}&a'!"
+trade-perm-removed: "&a¡El permiso de comercio '&e{perm}&a' ha sido eliminado!"
+trade-perm-view: "&aEl permiso de comercio actual de la tienda es '&e{perm}&a'."
+
+traded-command-set: "&a¡El comando al comerciar el objeto se ha establecido como '&e{command}&a'!"
+traded-command-removed: "&a¡El comando al comerciar el objeto ha sido eliminado!"
+traded-command-view: "&aEl comando de comercio actual del objeto es '&e{command}&a'."
+traded-command-view-unset: "&aEl objeto no tiene ningún comando de comercio asignado."
+
+zombie-villager-curing-disabled: "&7La curación de aldeanos zombis está desactivada."
+must-hold-hire-item: "&7Debes sostener el objeto requerido para la contratación en tu mano."
+set-for-hire: "&aEste comerciante ahora puede ser contratado."
+hired: "&a¡Has contratado a este comerciante!"
+missing-hire-perm: "&7No tienes permiso para contratar comerciantes."
+cannot-hire: "&7No tienes suficiente dinero para contratar a este comerciante."
+cannot-hire-shop-type: "&7No tienes permiso para contratar este tipo de comerciante."
+villager-for-hire: "&aEl aldeano ofrece sus servicios como comerciante a cambio de &6{costs}x {hire-item}&a."
+
+missing-trade-perm: "&7No tienes permiso para comerciar con esta tienda."
+missing-custom-trade-perm: "&7No tienes permiso para comerciar con esta tienda."
+shop-currently-closed: "&7Esta tienda está cerrada actualmente. ¡Vuelve más tarde!"
+cannot-trade-no-offers: "&7Esta tienda no tiene ofertas en este momento. ¡Vuelve más tarde!"
+no-offers-open-editor-description: "&ePuedes editar esta tienda haciendo clic derecho mientras estás agachado."
+cannot-trade-with-own-shop: "&7No puedes comerciar con tu propia tienda."
+cannot-trade-while-owner-online: "&7No puedes comerciar mientras el dueño de esta tienda ('&e{owner}&7') esté conectado."
+cannot-trade-with-shop-missing-container: "&7No puedes comerciar con esta tienda porque falta su contenedor."
+cannot-trade-unexpected-trade: "&7Intercambio cancelado: Los objetos no coinciden con lo que el comerciante esperaba."
+cannot-trade-items-not-strictly-matching: "&7Intercambio cancelado: Los objetos ofrecidos no coinciden exactamente con los requeridos."
+cannot-trade-insufficient-storage-space: "&7Intercambio cancelado: Esta tienda no tiene suficiente espacio de almacenamiento."
+cannot-trade-insufficient-currency: "&7Intercambio cancelado: Esta tienda no tiene suficiente divisa para el cambio."
+cannot-trade-insufficient-stock: "&7Intercambio cancelado: Esta tienda no tiene suficientes existencias de ese objeto."
+cannot-trade-insufficient-writable-books: "&7Intercambio cancelado: Esta librería no tiene libros pluma para copiar el libro."
+
+trade-notification-one-item: "&7Intercambio: &e{player}&7 [&6{item1Amount}x &a{item1}&7] \u279e [&6{resultItemAmount}x &a{resultItem}&7] {shop}{trade_count}"
+trade-notification-two-items: "&7Intercambio: &e{player}&7 [&6{item1Amount}x &a{item1}&7] [&6{item2Amount}x &a{item2}&7] \u279e [&6{resultItemAmount}x &a{resultItem}&7] {shop}{trade_count}"
+buy-notification-one-item: "&7Compra: &e{player}&7 [&6{item1Amount}x &a{item1}&7] \u279e [&6{resultItemAmount}x &a{resultItem}&7] {shop}{trade_count}"
+buy-notification-two-items: "&7Compra: &e{player}&7 [&6{item1Amount}x &a{item1}&7] [&6{item2Amount}x &a{item2}&7] \u279e [&6{resultItemAmount}x &a{resultItem}&7] {shop}{trade_count}"
+trade-notification-player-shop: "&e{shop_owner_name}"
+trade-notification-named-player-shop: "&e{shop_owner_name}"
+trade-notification-admin-shop: "&eTienda Admin"
+trade-notification-named-admin-shop: '&e"{shop_name}"'
+trade-notification-trade-count: "&7 (&6{count}x&7)"
+
+owner-trade-notification-one-item: "&e{player}&7 compró &6{resultItemAmount}x &a{resultItem}&7 en {shop}{trade_count}"
+owner-trade-notification-two-items: "&e{player}&7 compró &6{resultItemAmount}x &a{resultItem}&7 en {shop}{trade_count}"
+owner-buy-notification-one-item: "&e{player}&7 vendió &6{item1Amount}x &a{item1}&7 a {shop}{trade_count}"
+owner-buy-notification-two-items: "&e{player}&7 vendió &6{item1Amount}x &a{item1}&7 y &6{item2Amount}x &a{item2}&7 a {shop}{trade_count}"
+owner-trade-notification-shop: "una de tus tiendas"
+owner-trade-notification-named-shop: 'tu tienda &e"{shop_name}"'
+owner-buy-notification-shop: "una de tus tiendas"
+owner-buy-notification-named-shop: 'tu tienda &e"{shop_name}"'
+owner-trade-notification-trade-count: "&7 (&6{count}x&7)"
+
+disable-trade-notifications-hint: "&7Puedes desactivar estas notificaciones con el comando &e{command}"
+disable-trade-notifications-hint-command: "/shopkeeper notify trades"
+trade-notifications-disabled: "&aYa no recibirás notificaciones de comercio durante esta sesión de juego."
+trade-notifications-enabled: "&aAhora volverás a recibir notificaciones de comercio."
+
+shopkeeper-created: "&aComerciante creado: &6{type} &7({description})\n{setupDesc}"
+
+shop-setup-desc-selling: |-
+  &e  Añade los objetos que quieras vender a tu contenedor y luego
+  &e  haz clic derecho en la tienda mientras estás agachado para modificar los costes.
+shop-setup-desc-buying: |-
+  &e  Añade una unidad de cada objeto que quieras comprar a tu contenedor y
+  &e  luego haz clic derecho en la tienda mientras estás agachado para modificar los costes.
+shop-setup-desc-trading: |-
+  &e  Añade los objetos que quieras vender a tu contenedor y luego
+  &e  haz clic derecho en la tienda mientras estás agachado para modificar los costes.
+shop-setup-desc-book: |-
+  &e  Añade libros escritos y libros pluma a tu contenedor y luego
+  &e  haz clic derecho en la tienda mientras estás agachado para modificar los costes.
+shop-setup-desc-admin-regular: |-
+  &e  Haz clic derecho en la tienda mientras estás agachado para modificar los intercambios.
+
+trade-setup-desc-header: '&6{shopType}'
+trade-setup-desc-admin-regular:
+- Tiene stock ilimitado.
+- Inserta objetos desde tu inventario.
+- 'Fila superior: Objetos resultantes'
+- 'Filas inferiores: Objetos de coste'
+trade-setup-desc-selling:
+- Vende objetos a los jugadores.
+- Inserta en el contenedor los objetos a vender.
+- Click izquierdo/derecho para ajustar cantidades.
+- 'Fila superior: Objetos en venta'
+- 'Filas inferiores: Objetos de coste'
+trade-setup-desc-buying:
+- Compra objetos a los jugadores.
+- Inserta en el contenedor una unidad de cada
+- objeto que quieras comprar y suficiente divisa.
+- Click izquierdo/derecho para ajustar cantidades.
+- 'Fila superior: Objetos de coste'
+- 'Fila inferior: Objetos que se compran'
+trade-setup-desc-trading:
+- Intercambia objetos con los jugadores.
+- Recoge un objeto de tu inventario y
+- haz clic en una ranura para colocarlo.
+- Click izquierdo/derecho para ajustar cantidades.
+- 'Fila superior: Objetos resultantes'
+- 'Filas inferiores: Objetos de coste'
+trade-setup-desc-book:
+- Vende copias de libros.
+- Inserta libros escritos y libros pluma
+- en el contenedor.
+- Click izquierdo/derecho para ajustar costes.
+- 'Fila superior: Libros en venta'
+- 'Filas inferiores: Objetos de coste'
+
+selling-shop.empty-trade.result-item: "&dObjeto a vender"
+selling-shop.empty-trade.result-item-lore:
+- "El objeto que quieres vender."
+- "Añade objetos al contenedor de la tienda."
+- "Click izquierdo/derecho para ajustar la cantidad."
+selling-shop.empty-trade.item1: "&dObjeto de pago"
+selling-shop.empty-trade.item1-lore:
+- "El objeto que quieres recibir a cambio."
+- "Click izquierdo/derecho para ajustar la cantidad."
+selling-shop.empty-trade.item2: "&dObjeto de pago 2"
+selling-shop.empty-trade.item2-lore:
+- "El segundo objeto que quieres recibir."
+- "Click izquierdo/derecho para ajustar la cantidad."
+selling-shop.empty-item1: "&dObjeto de pago"
+selling-shop.empty-item1-lore:
+- "El objeto que quieres recibir a cambio."
+- "Click izquierdo/derecho para ajustar la cantidad."
+selling-shop.empty-item2: "&dObjeto de pago 2"
+selling-shop.empty-item2-lore:
+- "El segundo objeto que quieres recibir."
+- "Click izquierdo/derecho para ajustar la cantidad."
+
+buying-shop.empty-trade.result-item: "&dObjeto de pago"
+buying-shop.empty-trade.result-item-lore:
+- "El objeto que pagarás al cliente."
+- "Click izquierdo/derecho para ajustar la cantidad."
+buying-shop.empty-trade.item1: "&dObjeto a comprar"
+buying-shop.empty-trade.item1-lore:
+- "El objeto que quieres recibir."
+- "Añade este objeto al contenedor de la tienda."
+- "Click izquierdo/derecho para ajustar la cantidad."
+buying-shop.empty-result-item: "&dObjeto de pago"
+buying-shop.empty-result-item-lore:
+- "El objeto que pagarás al cliente."
+- "Click izquierdo/derecho para ajustar la cantidad."
+
+trading-shop.empty-trade.result-item: "&dObjeto a vender"
+trading-shop.empty-trade.result-item-lore:
+- "El objeto que quieres vender."
+- "Añade objetos al contenedor de la tienda,"
+- "o coloca un objeto de tu inventario."
+- "Click izquierdo/derecho para ajustar la cantidad."
+trading-shop.empty-trade.item1: "&dObjeto de pago"
+trading-shop.empty-trade.item1-lore:
+- "El objeto que quieres recibir."
+- "Coloca un objeto de tu inventario."
+- "Click izquierdo/derecho para ajustar la cantidad."
+trading-shop.empty-trade.item2: "&dObjeto de pago 2"
+trading-shop.empty-trade.item2-lore:
+- "El segundo objeto que quieres recibir."
+- "Coloca un objeto de tu inventario."
+- "Click izquierdo/derecho para ajustar la cantidad."
+trading-shop.empty-result-item: "&dObjeto a vender"
+trading-shop.empty-result-item-lore:
+- "El objeto que quieres vender."
+- "Coloca un objeto de tu inventario."
+- "Click izquierdo/derecho para ajustar la cantidad."
+trading-shop.empty-item1: "&dObjeto de pago"
+trading-shop.empty-item1-lore:
+- "El objeto que quieres recibir."
+- "Coloca un objeto de tu inventario."
+- "Click izquierdo/derecho para ajustar la cantidad."
+trading-shop.empty-item2: "&dObjeto de pago 2"
+trading-shop.empty-item2-lore:
+- "El segundo objeto que quieres recibir."
+- "Coloca un objeto de tu inventario."
+- "Click izquierdo/derecho para ajustar la cantidad."
+
+book-shop.empty-trade.result-item: "&dObjeto a vender"
+book-shop.empty-trade.result-item-lore:
+- "El libro que quieres vender."
+- "Añade libros escritos al contenedor de la tienda."
+book-shop.empty-trade.item1: "&dObjeto de pago"
+book-shop.empty-trade.item1-lore:
+- "El objeto que quieres recibir a cambio."
+- "Click izquierdo/derecho para ajustar la cantidad."
+book-shop.empty-trade.item2: "&dObjeto de pago 2"
+book-shop.empty-trade.item2-lore:
+- "El segundo objeto que quieres recibir."
+- "Click izquierdo/derecho para ajustar la cantidad."
+book-shop.empty-item1: "&dObjeto de pago"
+book-shop.empty-item1-lore:
+- "El objeto que quieres recibir a cambio."
+- "Click izquierdo/derecho para ajustar la cantidad."
+book-shop.empty-item2: "&dObjeto de pago 2"
+book-shop.empty-item2-lore:
+- "El segundo objeto que quieres recibir."
+- "Click izquierdo/derecho para ajustar la cantidad."
+
+shop-information-header: "&6Detalles"
+shop-information:
+- "Id: &e{shop_id}"
+- "Id único: &e{shop_uuid}"
+- "Nombre: &e{shop_name}"
+- "Tipo: &e{shop_type}"
+- "Objeto: &e{shop_object_type}"
+- "Ubicación: &e{shop_location}"
+player-shop-information:
+- "Dueño: &e{shop_owner_name} &8({shop_owner_uuid})"
+
+missing-edit-villagers-perm: "&7No tienes permiso para editar aldeanos."
+missing-edit-wandering-traders-perm: "&7No tienes permiso para editar comerciantes ambulantes."
+must-target-entity: "&7Debes apuntar a una entidad."
+must-target-villager: "&7Debes apuntar a un aldeano."
+target-entity-is-no-villager: "&7La entidad seleccionada no es un aldeano normal."
+villager-no-longer-exists: "&7El aldeano ya no existe."
+
+villager-editor-title: "&2Editor de Aldeanos: &e{villagerName}"
+villager-editor-description-header: "&6Editor de Aldeanos"
+villager-editor-description:
+- 'Fila superior: Objetos resultantes'
+- 'Filas inferiores: Objetos de coste'
+- 'Los intercambios editados tienen'
+- 'usos infinitos y no dan experiencia.'
+
+villager-editor-information-header: "&6Detalles"
+villager-editor-information:
+- "Id: &e{entity_id}"
+- "Id único: &e{entity_uuid}"
+- "Nombre: &e{entity_name}"
+- "Ubicación: &e{entity_location}"
+
+button-delete-villager: "&4Eliminar"
+button-delete-villager-lore:
+- Elimina al aldeano
+button-name-villager: "&aCambiar nombre"
+button-name-villager-lore:
+- "Te permite renombrar"
+- "al aldeano"
+button-villager-inventory: "&aVer inventario"
+button-villager-inventory-lore:
+- Te permite ver una copia del
+- inventario del aldeano
+button-mob-ai: "&aAlternar IA"
+button-mob-ai-lore:
+- "Activa o desactiva la"
+- "inteligencia artificial (IA)"
+button-invulnerability: "&aAlternar invulnerabilidad"
+button-invulnerability-lore:
+- "Alterna la invulnerabilidad"
+- "de la criatura."
+- "Los jugadores en creativo"
+- "aún pueden dañarla."
+
+villager-inventory-title: "Inventario del aldeano (copia)"
+set-villager-xp: "&aSe ha establecido la XP del aldeano en &e{xp}"
+no-villager-trades-changed: "&aNo se ha modificado ningún intercambio."
+villager-trades-changed: "&aSe han modificado &e{changedTrades}&a intercambios."
+
+type-new-villager-name: "&aEscribe el nombre del aldeano en el chat.\n  &aEscribe un guion (-) para eliminar el nombre."
+villager-name-set: "&a¡El nombre del aldeano ha sido establecido!"
+villager-name-invalid: "&a¡Ese nombre no es válido!"
+
+no-shops-found: "&7No se han encontrado tiendas."
+
+teleport-virtual-shopkeeper: "&7¡No se puede teletransportar a un comerciante virtual!"
+teleport-shopkeeper-world-not-loaded: "&7¡No se puede teletransportar a un comerciante en un mundo no cargado!"
+teleport-no-safe-location-found: "&7¡No se ha encontrado una ubicación segura para el teletransporte!"
+teleport-failed: "&7¡El teletransporte ha fallado!"
+teleport-success: "&a¡El jugador '&e{player}&a' ha sido teletransportado al comerciante '&e{shop}&a'!"
+
+list-admin-shops-header: "&9Hay &e{shopsCount} &9tiendas administrativas: &e(Página {page} de {maxPage})"
+list-all-shops-header: "&9Hay &e{shopsCount} &9tiendas en total: &e(Página {page} de {maxPage})"
+list-player-shops-header: "&9El jugador '&e{player}&9' tiene &e{shopsCount} &9tiendas: &e(Página {page} de {maxPage})"
+list-shops-entry: "  &e{shopId}) &7{shopName}&r&8 en &7({location})&8, tipo: &7{shopType}&8, objeto: &7{objectType}"
+
+shop-removed: "&aEl comerciante ha sido eliminado."
+shop-already-removed: "&7El comerciante ya había sido eliminado."
+shop-no-longer-exists: "&7El comerciante ya no existe."
+shop-removal-cancelled: "&cUn plugin ha evitado la eliminación del comerciante."
+
+shops-already-removed: "&e{shopsCount}&7 de las tiendas ya habían sido eliminadas."
+shop-removals-cancelled: "&cVarios plugins han evitado la eliminación de &e{shopsCount}&c tiendas."
+admin-shops-removed: "&aSe han eliminado &e{shopsCount} &atiendas administrativas."
+shops-of-player-removed: "&aSe han eliminado &e{shopsCount} &atiendas del jugador '&e{player}&a'."
+player-shops-removed: "&aSe han eliminado &e{shopsCount} &atiendas de jugadores."
+
+confirm-remove-shop: "&c¡Estás a punto de eliminar de forma irrevocable al comerciante especificado!"
+confirm-remove-all-admin-shops: "&c¡Estás a punto de eliminar de forma irrevocable todas las tiendas administrativas (&6{shopsCount}&c)!"
+confirm-remove-all-own-shops: "&c¡Estás a punto de eliminar de forma irrevocable todas tus tiendas (&6{shopsCount}&c)!"
+confirm-remove-all-shops-of-player: "&c¡Estás a punto de eliminar de forma irrevocable todas las tiendas del jugador &6{player}&c (&6{shopsCount}&c)!"
+confirm-remove-all-player-shops: "&c¡Estás a punto de eliminar de forma irrevocable todas las tiendas de todos los jugadores (&6{shopsCount}&c)!"
+
+confirm-replace-all-shops-with-vanilla-villagers: |-
+  &c¡Estás a punto de eliminar de forma irrevocable todas las tiendas (&6{shopsCount}&c) y reemplazarlas por aldeanos vanilla sin IA!
+  &cConsidera crear una copia de seguridad de tu mundo y de los datos de Shopkeepers antes de continuar.
+all-shops-replaced-with-vanilla-villagers: |-
+  &e{adminShopsCount}&a tiendas administrativas y &e{playerShopsCount}&a tiendas de jugadores han sido reemplazadas por aldeanos vanilla.
+  &e{skippedShopsCount}&a tiendas han sido omitidas.
+
+confirmation-required: "&7Por favor, confirma esta acción escribiendo &6/shopkeepers confirm"
+confirmation-expired: "&cLa confirmación ha caducado."
+nothing-to-confirm: "&cNo hay nada que confirmar en este momento."
+
+confirmation-ui-delete-shop-title: "&c¿Realmente quieres borrar esta tienda?"
+confirmation-ui-delete-shop-confirm-lore:
+- "¡Esto eliminará esta"
+- "tienda de forma irrevocable!"
+
+confirmation-ui-delete-villager-title: "&c¿Realmente quieres borrar este aldeano?"
+confirmation-ui-delete-villager-confirm-lore:
+- "¡Esto eliminará este"
+- "aldeano de forma irrevocable!"
+villager-removed: "&aEl aldeano ha sido eliminado."
+
+confirmation-ui-confirm: "&2Confirmar"
+confirmation-ui-cancel: "&4Cancelar"
+confirmation-ui-cancel-lore:
+- "Esto abortará la"
+- "acción actual."
+confirmation-ui-aborted: "&7Confirmación abortada."
+
+snapshot-list-header: "&9La tienda &e{shop_id} &9tiene &e{snapshotsCount} &9capturas: &e(Página {page} de {maxPage})"
+snapshot-list-entry: "  &e{id}) &2{name}&8 (&7{timestamp}&8)"
+invalid-snapshot-id: "&cID de captura inválido: &e{argument}"
+invalid-snapshot-name: "&cNo se encontró ninguna captura con el nombre '&e{argument}&c'."
+snapshot-name-too-long: "&cEl nombre de la captura puede tener un máximo de &e{maxLength}&c caracteres: &e{name}"
+snapshot-name-invalid: "&cNombre de captura inválido: &e{name}"
+snapshot-name-already-exists: "&cYa existe otra captura con este nombre: &e{name}"
+snapshot-created: "&aNueva captura creada: &e({id}) &2{name} &8(&7{timestamp}&8)"
+confirm-remove-snapshot: "&c¡Estás a punto de eliminar de forma irrevocable la captura especificada!"
+confirm-remove-all-snapshots: "&c¡Estás a punto de eliminar de forma irrevocable todas las capturas del comerciante especificado (&6{snapshotsCount}&c)!"
+action-aborted-snapshots-changed: "&c¡Acción abortada! Las capturas han cambiado en el entretanto. Inténtalo de nuevo."
+snapshot-removed: "&aCaptura eliminada: &e({id}) &2{name} &8(&7{timestamp}&8)"
+snapshot-removed-all: "&aSe han eliminado las &e{snapshotsCount} &acapturas de la tienda &e{shop_id}&a."
+snapshot-restore-failed: "&cError al restaurar la captura: &e({id}) &2{name} &8(&7{timestamp}&8)"
+snapshot-restored: "&aCaptura restaurada: &e({id}) &2{name} &8(&7{timestamp}&8)"
+
+history-header: "&9Intercambios de {players}&9 con {shops}&9: &e{tradesCount} &e(Página {page} de {maxPage})"
+history-header-all-players: "&etodos los jugadores"
+history-header-specific-player: "&e{player}"
+history-header-all-shops: "&etodas las tiendas"
+history-header-admin-shops: "todas las &etiendas administrativas"
+history-header-player-shops: "todas las &etiendas de jugadores"
+history-header-all-owned-shops: "las tiendas de &e{owner}"
+history-header-specific-shop: 'la tienda &e"{shop}"'
+history-header-specific-owned-shop: 'la tienda &e"{shop}"&9 de &e{owner}'
+
+history-disabled: "&7El historial de intercambios está desactivado."
+history-no-trades-found: "&7No se han encontrado intercambios."
+
+history-entry-one-item: "  &f{index}) &e{player}&7 [&6{item1Amount}x &a{item1}&7] \u279e [&6{resultItemAmount}x &a{resultItem}&7] {shop}{trade_count} &7(hace &f{timeAgo}&7)"
+history-entry-two-items: "  &f{index}) &e{player}&7 [&6{item1Amount}x &a{item1}&7] [&6{item2Amount}x &a{item2}&7] \u279e [&6{resultItemAmount}x &a{resultItem}&7] {shop}{trade_count} &7(hace &f{timeAgo}&7)"
+history-entry-player-shop: "&e{owner}"
+history-entry-admin-shop: "&eTienda Admin"
+history-entry-trade-count: "&7 (&6{count}x&7)"
+
+no-permission: "&cNo tienes permiso para hacer eso."
+command-create-no-permission: |-
+  &cNo tienes permiso para hacer eso.
+  &eSi estás intentando crear una tienda de jugador, usa el objeto de creación de tiendas en su lugar.
+
+command-unknown: "&cComando desconocido: '&e{command}&c'!"
+command-argument-unexpected: "&cArgumento inesperado: '&e{argument}&c'."
+command-argument-requires-player: "&cEl argumento '&e{argumentFormat}&c' requiere que un jugador ejecute el comando."
+command-argument-missing: "&cFalta el argumento '&e{argumentFormat}&c'."
+command-argument-invalid: "&cArgumento inválido: '&e{argument}&c'."
+command-player-argument-missing: "&cNo se ha especificado un jugador para '&e{argumentFormat}&c'."
+command-player-argument-invalid: "&cNo se ha encontrado al jugador '&e{argument}&c'."
+command-shop-type-argument-invalid: "&cTipo de tienda desconocido: '&e{argument}&c'."
+command-shop-type-argument-no-admin-shop: "&cEl tipo de tienda '&e{argument}&c' no es una tienda administrativa."
+command-shop-type-argument-no-player-shop: "&cEl tipo de tienda '&e{argument}&c' no es una tienda de jugador."
+command-shop-object-type-argument-invalid: "&cTipo de objeto de tienda desconocido: '&e{argument}&c'."
+command-shopkeeper-argument-invalid: "&cNo se ha encontrado un comerciante para '&e{argument}&c'."
+command-shopkeeper-argument-no-admin-shop: "&cEl comerciante '&e{argument}&c' no es administrativo."
+command-shopkeeper-argument-no-player-shop: "&cEl comerciante '&e{argument}&c' no pertenece a un jugador."
+command-shopkeeper-argument-no-access: "&cNo tienes acceso al comerciante '&e{argument}&c'."
+command-entity-argument-no-villager: "&cLa entidad '&e{argument}&c' no es un aldeano normal."
+
+ambiguous-player-name: "&c¡Existen varios jugadores con el nombre '&e{name}&c'!"
+ambiguous-player-name-entry: "&c  - '&e{name}&r&c' (&6{uuid}&c)"
+ambiguous-player-name-more: "&c  - ...."
+
+ambiguous-shopkeeper-name: "&c¡Existen varios comerciantes con el nombre '&e{name}&c'!"
+ambiguous-shopkeeper-name-entry: "&c  - &e{id})&c '&e{name}&r&c' (&6{uuid}&c)"
+ambiguous-shopkeeper-name-more: "&c  - ...."
+
+ambiguous-target-shopkeeper: "&c¡Hay varios comerciantes en tu punto de mira!"
+ambiguous-target-shopkeeper-entry: "&c  - &e{id})&c '&e{name}&r&c' (&6{uuid}&c)"
+ambiguous-target-shopkeeper-more: "&c  - ...."
+
+command-help-title: "&9***** &8[&6Shopkeepers v{version}&8] &9*****"
+command-help-usage-format: "&e{usage}"
+command-help-description-format: "&8 - &3{description}"
+
+command-description-shopkeeper: "Crea un comerciante."
+command-description-help: "Muestra esta página de ayuda."
+command-description-reload: "Recarga este plugin."
+command-description-debug: "Activa o desactiva el modo de depuración (debug)."
+command-description-notify: "Activa o desactiva tus notificaciones de intercambio."
+command-description-list: "Lista las tiendas de un jugador o todas las tiendas administrativas."
+command-description-history: "Muestra el historial de intercambios."
+command-description-remove: "Elimina una tienda específica."
+command-description-remove-all: "Elimina todas las tiendas de un jugador, de todos, o las administrativas."
+command-description-give: "Entrega objeto(s) de creación de tiendas al jugador especificado."
+command-description-give-currency: "Entrega objeto(s) de divisa al jugador especificado."
+command-description-set-currency: "Cambia la divisa al objeto que tienes en la mano."
+command-description-update-items: "Actualiza objetos de terceros (si son compatibles)."
+command-description-remote: "Abre una tienda remotamente (Opcional: Para otro jugador)."
+command-description-remote-edit: "Edita una tienda remotamente."
+command-description-transfer: "Transfiere la propiedad de una tienda."
+command-description-teleport: "Te teletransporta a una tienda."
+command-description-settradeperm: "Establece, elimina (-) o muestra (?) el permiso de intercambio."
+command-description-settradedcommand: "Establece, elimina (-) o muestra (?) el comando ejecutado al intercambiar el objeto en mano."
+command-description-setforhire: "Pone una de tus tiendas a la venta."
+command-description-snapshot-list: "Lista las capturas (snapshots) de una tienda."
+command-description-snapshot-create: "Crea una nueva captura de la tienda."
+command-description-snapshot-remove: "Elimina una o todas las capturas de una tienda."
+command-description-snapshot-restore: "Restaura una captura específica de la tienda."
+command-description-edit-villager: "Abre el editor para el aldeano al que apuntas."
+command-description-replace-all-with-vanilla-villagers: "Reemplaza todos los comerciantes por aldeanos vanilla sin IA."
