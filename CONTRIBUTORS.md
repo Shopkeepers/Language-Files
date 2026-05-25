@@ -7,6 +7,7 @@ Thank you to everyone who has contributed to the language files in this reposito
 * pt-BR: luizinhoh2o1
 * es: horniyor45
 * tr: Arcdashckr
+* ru: Daniil10295
 
 ## [v2.25.0](https://github.com/Shopkeepers/Language-Files/blob/v2.25.0/CONTRIBUTORS.md)
 
