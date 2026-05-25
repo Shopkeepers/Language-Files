@@ -2,4 +2,5 @@
 
 * pt-BR: luizinhoh2o1
 * es: horniyor45
+* tr: Arcdashckr
 * ru: Daniil10295
