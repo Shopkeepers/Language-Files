@@ -2,4 +2,4 @@
 
 * sk: takatalvi
 * pt-BR: luizinhoh2o1
-* tk: Arcdashckr
+* tr: Arcdashckr
