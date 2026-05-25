@@ -2,3 +2,4 @@
 
 * pt-BR: luizinhoh2o1
 * es: horniyor45
+* ru: Daniil10295
