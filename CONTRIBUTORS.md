@@ -1,4 +1,2 @@
-# Contributors v2.26.0
+# Contributors v2.27.0
 
-* pt-BR: luizinhoh2o1
-* es: horniyor45
