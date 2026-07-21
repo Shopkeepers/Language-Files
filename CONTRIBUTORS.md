@@ -6,6 +6,7 @@ Thank you to everyone who has contributed to the language files in this reposito
 
 * ru: AllFiRE0
 * sk: takatalvi
+* es: Santyxs
 
 ## [v2.26.0](https://github.com/Shopkeepers/Language-Files/blob/v2.26.0/CONTRIBUTORS.md)
 
