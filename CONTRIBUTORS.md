@@ -3,3 +3,4 @@
 * ru: AllFiRE0
 * sk: takatalvi
 * es: Santyxs
+* zh-CN: handy
