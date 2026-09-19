@@ -1,6 +1,2 @@
-# Contributors v2.27.0
+# Contributors v2.28.0
 
-* ru: AllFiRE0
-* sk: takatalvi
-* es: Santyxs
-* zh-CN: handy
