@@ -4,6 +4,8 @@ Thank you to everyone who has contributed to the language files in this reposito
 
 ## [v2.28.0](https://github.com/Shopkeepers/Language-Files/blob/v2.28.0/CONTRIBUTORS.md)
 
+* zh-CN: handy
+
 ## [v2.27.0](https://github.com/Shopkeepers/Language-Files/blob/v2.27.0/CONTRIBUTORS.md)
 
 * ru: AllFiRE0
