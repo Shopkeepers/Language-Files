@@ -1,5 +1,121 @@
 # Changelog
 
+## v2.28.0
+
+### New messages
+
+* `button-containers`
+* `button-containers-lore`
+* `button-add-shop-container`
+* `button-add-shop-container-lore`
+* `shop-containers-editor-title`
+* `shop-container-title`
+* `shop-container-none-lore`
+* `shop-container-lore`
+* `single-shop-container-lore`
+* `shop-container-action-change-type`
+* `shop-container-action-open`
+* `single-shop-container-action-open`
+* `shop-container-action-remove`
+* `shop-container-state-missing`
+* `shop-container-state-double-chest`
+* `shop-container-type-stock`
+* `shop-container-type-earnings`
+* `shop-container-type-stock-and-earnings`
+* `shop-container-type-description-stock`
+* `shop-container-type-description-earnings`
+* `shop-container-type-description-stock-and-earnings`
+* `shop-container-missing`
+* `click-shop-container-to-add`
+* `container-selection-aborted`
+* `shop-container-added`
+* `shop-container-removed`
+* `confirmation-ui-remove-shop-container-title`
+* `confirmation-ui-remove-shop-container-lore`
+* `shop-received`
+* `list-shops-entry-expiration`
+* `list-expiring-shops-header`
+* `no-expiring-shops`
+* `shop-expiration-notification-header`
+* `shop-expiration-notification-entry`
+* `shop-expiration-notification-more`
+* `shop-expiration-notification-hint`
+* `shop-expired`
+* `shop-expiration-info`
+* `set-not-for-hire`
+* `cannot-trade-shop-for-hire`
+* `cannot-delete-hired-shop`
+* `cannot-move-hired-shop`
+* `shop-restored-for-hire`
+* `shop-already-for-hire`
+* `set-not-for-hire-to-delete-hint`
+* `cannot-interact-shop-container`
+* `cannot-break-shop-container`
+* `cannot-break-hired-shop-container`
+* `cannot-place-block-near-shop-container`
+* `cannot-place-block-near-hired-shop-container`
+* `button-restore-for-hire`
+* `button-restore-for-hire-lore`
+* `confirmation-ui-restore-shop-for-hire-title`
+* `confirmation-ui-restore-shop-for-hire-confirm-lore`
+* `hired-shops-not-removed`
+* `command-description-setnotforhire`
+* `command-description-expiration`
+
+### Removed messages
+
+* `button-container`
+* `button-container-lore`
+* `cannot-trade-with-shop-missing-container`
+
+### Changed messages
+
+* `list-shops-entry`: Added the `{expiration}` placeholder.
+* `button-hire-lore`: Consistently use the "hire" instead of "sale" wording.
+* `command-description-setforhire`: Consistently use the "hire" instead of "sale" wording.
+
+## v2.27.0
+
+### New messages
+
+* Added `missing-access-level`.
+* Added `button-members`.
+* Added `button-members-lore`.
+* Added `shop-members-editor-title`.
+* Added `shop-member-title`.
+* Added `shop-member-lore`.
+* Added `button-add-shop-member`.
+* Added `button-add-shop-member-lore`.
+* Added `enter-new-shop-member`.
+* Added `cannot-add-shop-member-already-owner`.
+* Added `cannot-add-shop-member-already-member`.
+* Added `shop-member-added`.
+* Added `cannot-edit-shop-member-self`.
+* Added `cannot-edit-shop-member-no-longer-a-member`.
+* Added `your-shop-membership-has-changed`.
+* Added `confirmation-ui-remove-shop-member-title`.
+* Added `confirmation-ui-remove-shop-member-lore`.
+* Added `shop-member-removed`.
+* Added `player-shop-access-level-none`.
+* Added `player-shop-access-level-container`.
+* Added `player-shop-access-level-edit`.
+* Added `player-shop-access-level-full`.
+* Added `player-shop-access-level-description-none`.
+* Added `player-shop-access-level-description-container`.
+* Added `player-shop-access-level-description-edit`.
+* Added `player-shop-access-level-description-full`.
+* Added `text-input-aborted`.
+* Added `button-sulfur-cube-size`.
+* Added `button-sulfur-cube-size-lore`.
+
+### Removed messages
+
+* `not-owner`
+
+### Changed messages
+
+* Renamed and changed `cannot-trade-while-owner-online` to `cannot-trade-while-member-online`
+
 ## v2.26.0
 
 ### New messages
