@@ -6,6 +6,7 @@ Thank you to everyone who has contributed to the language files in this reposito
 
 * zh-CN: handy
 * ru: AllF1RE
+* sk: takatalvi
 
 ## [v2.27.0](https://github.com/Shopkeepers/Language-Files/blob/v2.27.0/CONTRIBUTORS.md)
 
