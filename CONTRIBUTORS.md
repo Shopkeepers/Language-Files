@@ -2,3 +2,4 @@
 
 * zh-CN: handy
 * ru: AllF1RE
+* sk: takatalvi
